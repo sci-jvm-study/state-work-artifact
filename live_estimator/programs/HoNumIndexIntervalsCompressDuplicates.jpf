@@ -1,0 +1,7 @@
+target = HoNumIndexIntervalsCompressDuplicates
+classpath = bin
+sourcepath = .
+symbolic.method = HoNumIndexIntervalsCompressDuplicates.classify(sym#sym#sym#sym#sym)
+symbolic.min_int = -6
+symbolic.max_int = 6
+symbolic.dp = z3

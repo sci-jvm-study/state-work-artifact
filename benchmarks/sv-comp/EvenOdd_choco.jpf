@@ -1,0 +1,8 @@
+target = EvenOdd
+classpath = bin
+sourcepath = .
+symbolic.method = EvenOdd.classify(sym)
+symbolic.min_int = 0
+symbolic.max_int = 15
+symbolic.dp = choco
+listener = gov.nasa.jpf.symbc.StateWorkListener

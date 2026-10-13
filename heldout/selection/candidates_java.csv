@@ -1,0 +1,46 @@
+library,file,method,signature,returns,loc,failed_stage
+java,algorithms/backtracking/CrosswordPuzzle.java,display,String[][] arr,void,6,P
+java,algorithms/backtracking/CrosswordPuzzle.java,puzzleSolved,"String[][] grid, String[] words, String word, int row, int col",boolean,53,P
+java,algorithms/backtracking/CrosswordPuzzle.java,placeHorizontal,"String[][] grid, int row, int col, String word",boolean,14,P
+java,algorithms/backtracking/CrosswordPuzzle.java,placeVertical,"String[][] grid, int row, int col, String word",boolean,14,P
+java,algorithms/backtracking/CrosswordPuzzle.java,clearHorizontal,"String[][] grid, int row, int col, String word",void,5,P
+java,algorithms/backtracking/CrosswordPuzzle.java,clearVertical,"String[][] grid, int row, int col, String word",void,5,P
+java,algorithms/ciphers/Ceasercipher.java,encrypt,"String plainText, int shiftKey",String,9,P
+java,algorithms/ciphers/Ceasercipher.java,decrypt,"String cipherText, int shiftKey",String,12,P
+java,algorithms/dynamic-programming/EDIST.java,min,"int x, int y, int z",int,6,-
+java,algorithms/dynamic-programming/EDIST.java,editDist,"String str1, String str2, int m, int n",int,10,P
+java,algorithms/dynamic-programming/fibonacci.java,fib,int n,int,8,-
+java,algorithms/dynamic-programming/Kadane.java,maximumSubArraySum,int[] arr,int,13,-
+java,algorithms/dynamic-programming/Kadane.java,kadaneSum,int[] arr,int,13,-
+java,algorithms/dynamic-programming/Knapsack.java,max,"int a, int b",int,1,B
+java,algorithms/dynamic-programming/Knapsack.java,knapSack,"int W, int wt[], int val[], int n",int,13,P
+java,algorithms/dynamic-programming/MinCoinChange.java,minCoins,"int coins[], int m, int V",int,16,P
+java,algorithms/math/MatrixMultiply.java,matrixMultiply2D,"double[][] mat_a, double[][] mat_b",double[][],20,P
+java,algorithms/searches/InterpolationSearch.java,interpolationSearch,"int x, int arr[]",int,11,P
+java,algorithms/sorting/CountingSort.java,countingSort,"int[] nums, int maxNumber",int[],13,-
+java,algorithms/sorting/CountingSort.java,printArray,int[] nums,void,3,C
+java,algorithms/sorting/InsertionSort.java,printArray,int arr[],void,4,P
+java,algorithms/sorting/SelectionSort.java,selection,"int[] a, int left, int right",void,9,-
+java,algorithms/sorting/ShellSort.java,shell,int[] a,void,12,-
+java,BinaryTrees-traversals/BinaryTree.java,mirrorTree,TreeNode node,TreeNode,7,P
+java,BinaryTrees-traversals/TreeNode.java,insert,"TreeNode root,TreeNode n",boolean,17,P
+java,BinaryTrees-traversals/TreeTraversal.java,getInorder,"TreeNode node,StringBuffer buf",void,5,P
+java,BinaryTrees-traversals/TreeTraversal.java,getPreorder,"TreeNode node,StringBuffer buf",void,5,P
+java,BinaryTrees-traversals/TreeTraversal.java,getPostorder,"TreeNode node,StringBuffer buf",void,5,P
+java,BinaryTrees-traversals/TreeWithNoSiblings.java,printOnlyLeaves,TreeNode node,void,8,P
+java,data-structures/LinearSearch.java,searchForKey,"int[] arr, int key",int,6,-
+java,dynamic-programming/MatrixChainMultiplication.java,MatrixChainOrder,"int p[], int n",int,17,P
+java,graph/AStarPathfinding.java,infinite,,Distance,1,P
+java,graph/AStarPathfinding.java,real,double distance,Distance,1,P
+java,greedy-algorithms/HuffmanCoding.java,printCode,"HuffmanNode root, String s",void,6,P
+java,Hashing/Isograms.java,Check,String s,boolean,10,P
+java,math/Nth_fibonacci_using_goldenratio.java,fib,int n,int,9,C
+java,math/NumberOfDivisorDigits.java,getNumberOfDivisorDigits,final int number,int,10,-
+java,searches/BinarySearchRecursive.java,binarySearch,"int[] arr, int toSearch, int start, int end",int,10,P
+java,searches/exponential_search.java,Exponential,"int arr[], int n, int x",int,7,P
+java,sorting/Cyclesort.java,cycleSort,"int arr[], int n",void,36,P
+java,sorting/QuickSort.java,printArray,int arr[],void,4,P
+java,sorting/SelectionSort.java,SelectionSorting,int array[],void,17,P
+java,sorting/ShellSort.java,printArray,int arr[],void,4,P
+java,strings/LevenshteinDistance.java,minimum,"int a, int b, int c",int,1,B
+java,strings/LevenshteinDistance.java,computeLevenshteinDistance,"CharSequence lhs, CharSequence rhs",int,12,P

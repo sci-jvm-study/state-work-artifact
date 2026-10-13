@@ -1,0 +1,15 @@
+M6-RF vs Group C: n=29 macro 0.656 vs 0.674, median diff -0.038, wins/losses(|d|>0.05) 5/12, Wilcoxon p=0.0502, rank-biserial r=-0.42
+  sorted per-group diffs: [-0.4  -0.32 -0.21 -0.13 -0.13 -0.1  -0.09 -0.08 -0.08 -0.08 -0.07 -0.07
+ -0.04 -0.04 -0.04 -0.04 -0.03 -0.    0.    0.02  0.02  0.02  0.03  0.03
+  0.05  0.06  0.1   0.16  0.97]
+  mean per-group difference -0.018, 95% bootstrap interval over groups [-0.09, +0.08]
+M6 linear vs Group C: n=29 macro 0.683 vs 0.674, median diff -0.016, wins/losses(|d|>0.05) 7/8, Wilcoxon p=0.7916, rank-biserial r=-0.06
+  sorted per-group diffs: [-0.45 -0.21 -0.1  -0.1  -0.09 -0.08 -0.07 -0.06 -0.05 -0.04 -0.03 -0.02
+ -0.02 -0.02 -0.02  0.    0.    0.02  0.02  0.02  0.03  0.05  0.05  0.06
+  0.1   0.11  0.17  0.17  0.83]
+  mean per-group difference +0.010, 95% bootstrap interval over groups [-0.06, +0.09]
+Knuth 30-probe vs Group C: n=29 macro 0.886 vs 0.674, median diff +0.137, wins/losses(|d|>0.05) 17/5, Wilcoxon p=0.0044, rank-biserial r=+0.62
+  sorted per-group diffs: [-0.34 -0.24 -0.12 -0.1  -0.07 -0.03 -0.01 -0.    0.    0.    0.    0.04
+  0.08  0.12  0.14  0.15  0.2   0.22  0.24  0.24  0.24  0.25  0.3   0.31
+  0.55  0.62  0.82  1.28  1.3 ]
+  mean per-group difference +0.213, 95% bootstrap interval over groups [+0.09, +0.36]

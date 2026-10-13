@@ -1,0 +1,8 @@
+target = TaRandomizedQuickSort
+classpath = bin
+sourcepath = .
+symbolic.method = TaRandomizedQuickSort.classify(sym#sym#sym#sym#sym#sym)
+symbolic.min_int = -4
+symbolic.max_int = 4
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

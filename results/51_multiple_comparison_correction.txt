@@ -1,0 +1,112 @@
+
+Family 1: RQ3, Group C comparisons (results/29) (3 tests)
+test                                                 raw p    Holm p   significant at 0.05
+M6-RF                                               0.0502    0.1004                 False
+M6 linear                                           0.7916    0.7916                 False
+Knuth 30-probe                                      0.0044    0.0132                  True
+  0 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+Family 2a: Table 7, weights vs count, K=4 (results/39) (5 tests)
+test                                                 raw p    Holm p   significant at 0.05
+M5 RF vs count                                       0.875         1                 False
+M5 linear vs count                                    0.79         1                 False
+Knuth 30 vs count                                  0.00506    0.0253                  True
+hindsight size vs count                            0.00506    0.0253                  True
+random vs count                                      0.121     0.363                 False
+  0 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+Family 2b: Table 7, weights vs count, K=8 (results/39) (5 tests)
+test                                                 raw p    Holm p   significant at 0.05
+M5 RF vs count                                       0.195     0.585                 False
+M5 linear vs count                                   0.641     0.914                 False
+Knuth 30 vs count                                  0.00391   0.01955                  True
+hindsight size vs count                            0.00391   0.01955                  True
+random vs count                                      0.457     0.914                 False
+  0 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+Family 2a: Table 7, weights vs count, K=4 (results/39) (5 tests)
+test                                                 raw p    Holm p   significant at 0.05
+M5 RF vs count                                       0.723         1                 False
+M5 linear vs count                                   0.877         1                 False
+Knuth 30 vs count                                   0.0298    0.0894                 False  <-- changes
+hindsight size vs count                           0.000214  0.000856                  True
+random vs count                                   0.000119  0.000595                  True
+  1 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+Family 2b: Table 7, weights vs count, K=8 (results/39) (5 tests)
+test                                                 raw p    Holm p   significant at 0.05
+M5 RF vs count                                       0.859         1                 False
+M5 linear vs count                                   0.859         1                 False
+Knuth 30 vs count                                  0.00506    0.0253                  True
+hindsight size vs count                            0.00506    0.0253                  True
+random vs count                                     0.0339    0.1017                 False  <-- changes
+  1 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+Family 2a: Table 7, weights vs count, K=4 (results/39) (5 tests)
+test                                                 raw p    Holm p   significant at 0.05
+M5 RF vs count                                       0.742         1                 False
+M5 linear vs count                                   0.461         1                 False
+Knuth 30 vs count                                  0.00781   0.03905                  True
+hindsight size vs count                            0.00781   0.03905                  True
+random vs count                                      0.505         1                 False
+  0 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+Family 2b: Table 7, weights vs count, K=8 (results/39) (5 tests)
+test                                                 raw p    Holm p   significant at 0.05
+M5 RF vs count                                      0.0625      0.25                 False
+M5 linear vs count                                   0.156     0.468                 False
+Knuth 30 vs count                                    0.312     0.624                 False
+hindsight size vs count                             0.0312     0.156                 False  <-- changes
+random vs count                                      0.469     0.624                 False
+  1 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+Family 3: RQ3/RQ4, probing-charged Knuth vs count (results/45) (6 tests)
+test                                                 raw p    Holm p   significant at 0.05
+Knuth charged (30 probes) vs count, K=4           0.000428  0.002568                  True
+Knuth charged (30 probes) vs count, K=8           0.000488  0.002568                  True
+Knuth charged (5 probes) vs count, K=4            0.000428  0.002568                  True
+Knuth charged (5 probes) vs count, K=8            0.000488  0.002568                  True
+Knuth charged (1 probes) vs count, K=4            0.000529  0.002568                  True
+Knuth charged (1 probes) vs count, K=8              0.0122    0.0122                  True
+  0 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+Family 4a: external validity, baseline estimators (results/18) (14 tests)
+test                                                 raw p    Holm p   significant at 0.05
+floor JPF vs COASTAL-DFS                             0.136     0.816                 False
+floor JPF vs COASTAL-BFS                                 0         0                  True
+hindsight JPF vs COASTAL-DFS                         0.156     0.816                 False
+hindsight JPF vs COASTAL-BFS                         0.156     0.816                 False
+jpfbuiltin JPF vs COASTAL-DFS                        0.019     0.209                 False  <-- changes
+jpfbuiltin JPF vs COASTAL-BFS                            0         0                  True
+jpfbar JPF vs COASTAL-DFS                            0.062      0.62                 False
+jpfbar JPF vs COASTAL-BFS                            0.137     0.816                 False
+kilby JPF vs COASTAL-DFS                             0.243     0.816                 False
+kilby JPF vs COASTAL-BFS                             0.005      0.06                 False  <-- changes
+groupC JPF vs COASTAL-DFS                            0.064      0.62                 False
+groupC JPF vs COASTAL-BFS                            0.064      0.62                 False
+knuth30 JPF vs COASTAL-DFS                           0.111     0.777                 False
+knuth30 JPF vs COASTAL-BFS                           0.429     0.816                 False
+  2 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+Family 4b: external validity, learned models (results/19, 20) (16 tests)
+test                                                 raw p    Holm p   significant at 0.05
+M1 depth JPF vs COASTAL-DFS                          0.455         1                 False
+M2 static JPF vs COASTAL-DFS                         0.701         1                 False
+M3 dynamic JPF vs COASTAL-DFS                        0.003     0.045                  True
+M5 static+dynamic JPF vs COASTAL-DFS                     1         1                 False
+M5-RF JPF vs COASTAL-DFS                             0.429         1                 False
+M6 linear JPF vs COASTAL-DFS                         0.075     0.832                 False
+M6-RF JPF vs COASTAL-DFS                             0.087     0.832                 False
+Gated M6-RF/M5-RF JPF vs COASTAL-DFS                 0.041     0.574                 False  <-- changes
+M1 depth JPF vs COASTAL-BFS                          0.434         1                 False
+M2 static JPF vs COASTAL-BFS                         0.807         1                 False
+M3 dynamic JPF vs COASTAL-BFS                        0.002     0.032                  True
+M5 static+dynamic JPF vs COASTAL-BFS                 0.954         1                 False
+M5-RF JPF vs COASTAL-BFS                             0.522         1                 False
+M6 linear JPF vs COASTAL-BFS                         0.075     0.832                 False
+M6-RF JPF vs COASTAL-BFS                             0.064     0.832                 False
+Gated M6-RF/M5-RF JPF vs COASTAL-BFS                 0.064     0.832                 False
+  1 test(s) significant at raw p<0.05 lose significance after Holm correction.
+
+============================================================================================
+TOTAL across all families: 6 test(s) significant at raw p<0.05 lose significance after Holm-Bonferroni correction.

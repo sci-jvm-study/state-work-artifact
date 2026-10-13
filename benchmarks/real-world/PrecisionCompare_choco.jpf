@@ -1,0 +1,8 @@
+target = PrecisionCompare
+classpath = bin
+sourcepath = .
+symbolic.method = PrecisionCompare.classify(sym#sym)
+symbolic.min_int = -2
+symbolic.max_int = 2
+symbolic.dp = choco
+listener = gov.nasa.jpf.symbc.StateWorkListener

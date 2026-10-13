@@ -1,0 +1,7 @@
+[main analysis (pruned choices are leaves)] depth rule, the 49 groups before the selection screens, scored groups = 38: macro rho = +0.742 [+0.672, +0.808]
+negative in 0 of 38 groups
+same, pruned choices left out of the scoring: macro rho = +0.742 (38 groups; negative in 0)
+
+[all-rows analysis (pruned choices kept as rows)] depth rule, the 49 groups before the selection screens, scored groups = 38: macro rho = +0.707 [+0.627, +0.784]
+negative in 0 of 38 groups
+same, pruned choices left out of the scoring: macro rho = +0.742 (38 groups; negative in 0)

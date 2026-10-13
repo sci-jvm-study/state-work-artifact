@@ -1,0 +1,7 @@
+target = HoAllSelectionSortSelection
+classpath = bin
+sourcepath = .
+symbolic.method = HoAllSelectionSortSelection.classify(sym#sym#sym#sym#sym#sym)
+symbolic.min_int = -2
+symbolic.max_int = 2
+symbolic.dp = z3

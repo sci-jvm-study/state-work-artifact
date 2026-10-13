@@ -1,0 +1,5 @@
+Group C (P29)                    all rows: +0.674 (29 groups)   without zero-work childless rows: +0.674 (29 groups)
+M6 Random Forest (P29)           all rows: +0.656 (29 groups)   without zero-work childless rows: +0.656 (29 groups)
+M6 RF, imputed history (P55)     all rows: +0.441 (55 groups)   without zero-work childless rows: +0.441 (55 groups)
+M5 Random Forest (P55)           all rows: +0.448 (55 groups)   without zero-work childless rows: +0.448 (55 groups)
+Gated M6-RF / M5-RF (P55)        all rows: +0.578 (55 groups)   without zero-work childless rows: +0.578 (55 groups)

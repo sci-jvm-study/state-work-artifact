@@ -1,0 +1,6 @@
+69 programs whose COASTAL tree has JPF's node count
+
+pc=pcInstrChain  back_if=False identical multisets: 69/69 programs; non-leaf states matched 2956/2956 = 1.0000
+pc=pcInstrChain  back_if=True  identical multisets: 69/69 programs; non-leaf states matched 2956/2956 = 1.0000
+pc=pcInstrNext   back_if=False identical multisets: 56/69 programs; non-leaf states matched 2807/2956 = 0.9496
+pc=pcInstrNext   back_if=True  identical multisets: 56/69 programs; non-leaf states matched 2807/2956 = 0.9496

@@ -1,0 +1,5 @@
+Extrapolation of the overhead to longer searches. Derived by overhead_addendum.py from results/timing_raw.csv, results/h2_overhead_per_program.csv and results/forest_bench.txt; not a measurement of longer searches.
+One slope for all nine programs; JPF's cost per state differs between programs. Largest program: NumSortingSort. Features were not timed after warm-up.
+  slope 0.279 ms/state: prediction+capping as measured 15.2% | at 17.5 us (warm loop) 5.9% | features as measured 4.3%
+  lower end 0.224 ms/state: prediction+capping as measured 18.9% | at 17.5 us (warm loop) 7.3% | features as measured 5.3%
+  upper end 0.334 ms/state: prediction+capping as measured 12.7% | at 17.5 us (warm loop) 4.9% | features as measured 3.6%

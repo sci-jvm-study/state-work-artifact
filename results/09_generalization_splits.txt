@@ -1,0 +1,20 @@
+11 families covering 66 program groups (2 single-program families, where LOFO==LOPO for that family's one fold): ['graph_algo', 'sorting_search']
+
+Model                     Within-program      LOPO      LOFO   LOPO->LOFO drop
+================================================================================
+M1_depth_only                      0.681     0.682     0.682             0.000
+M2_static_only                     0.508     0.350     0.396            -0.046
+M3_dynamic_only                    0.678    -0.143     0.050            -0.193
+M5_static_plus_dynamic             0.723     0.553     0.587            -0.034
+
+=== Per-family LOFO macro rho (M5, the strongest linear model) -- which families generalize worst? ===
+  stateful_sequence        mean_rho=  0.304  (2 program group(s) in this family)
+  tree_ds                  mean_rho=  0.369  (2 program group(s) in this family)
+  linear_scan              mean_rho=  0.448  (17 program group(s) in this family)
+  sorting                  mean_rho=  0.466  (3 program group(s) in this family)
+  graph_algo               mean_rho=  0.553  (1 program group(s) in this family)
+  recursive_magnitude      mean_rho=  0.639  (14 program group(s) in this family)
+  arithmetic_branchy       mean_rho=  0.707  (8 program group(s) in this family)
+  sorting_search           mean_rho=  0.712  (1 program group(s) in this family)
+  synthetic_branch         mean_rho=  0.717  (6 program group(s) in this family)
+  early_exit               mean_rho=  0.773  (6 program group(s) in this family)

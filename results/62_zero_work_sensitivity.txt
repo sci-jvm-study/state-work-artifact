@@ -1,0 +1,4 @@
+live count (creation order)    all rows: -0.431 (55 groups)   without zero-work childless rows: -0.449 (55 groups)
+-depth                         all rows: +0.683 (55 groups)   without zero-work childless rows: +0.744 (55 groups)
+M5-RF raw                      all rows: +0.494 (55 groups)   without zero-work childless rows: +0.431 (55 groups)
+M5-RF capped                   all rows: +0.627 (52 groups)   without zero-work childless rows: +0.574 (52 groups)

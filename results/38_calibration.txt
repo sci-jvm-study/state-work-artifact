@@ -1,0 +1,27 @@
+Non-leaf states: 6567; groups 66; eligible for Group C / M6: 29
+
+==============================================================================================================
+29 eligible groups (population of Group C and M6)
+estimator                      groups   median |err|mean factor      bias within 2xwithin 10x      rho
+(rho column = mean of group rhos)
+constant (training median)         29           0.64       4.5x     +0.02       29%      84%     +nan
+Group C (sibling mean)             29           1.24      23.9x     -1.38        1%      31%    +0.67
+M5 linear                          29           0.59       4.7x     +0.11       23%      81%    +0.41
+M5 random forest                   29           0.51       4.0x     +0.14       31%      80%    +0.41
+M6 linear                          29           0.30       2.1x     +0.03       54%      96%    +0.68
+M6 random forest                   29           0.31       2.3x     +0.05       50%      95%    +0.66
+Gated M6-RF + M5-RF                29           0.31       2.3x     +0.05       50%      95%    +0.66
+==============================================================================================================
+all groups each model can score
+estimator                      groups   median |err|mean factor      bias within 2xwithin 10x      rho
+(rho column = mean of group rhos)
+constant (training median)         55           0.42       3.7x     +0.02       33%      89%     +nan
+Group C (sibling mean)             29           1.24      23.9x     -1.38        1%      31%    +0.67
+M5 linear                          55           0.42       4.1x     +0.04       34%      82%    +0.55
+M5 random forest                   55           0.51       4.1x     +0.19       28%      81%    +0.45
+M6 linear                          29           0.30       2.1x     +0.03       54%      96%    +0.68
+M6 random forest                   29           0.31       2.3x     +0.05       50%      95%    +0.66
+Gated M6-RF + M5-RF                55           0.41       3.1x     +0.14       38%      88%    +0.58
+
+median |err|: median over groups of the group's median absolute error in log10 units (0.30 = a factor of 2);
+mean factor: 10^(mean over groups of that median absolute error); bias: mean over groups of the median signed log10 error.

@@ -1,0 +1,8 @@
+target = StringUtilsIsAlpha
+classpath = bin
+sourcepath = .
+symbolic.method = StringUtilsIsAlpha.classify(sym)
+symbolic.min_int = 95
+symbolic.max_int = 100
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

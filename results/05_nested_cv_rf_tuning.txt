@@ -1,0 +1,39 @@
+Nested CV over 29 Group-C-eligible outer folds, inner LOPO selecting max_features in ['sqrt', 1.0, 'log2']
+
+  outer=ArithmeticUtilsMulAndCheck inner-selected max_features=sqrt   outer test rho=0.530  (inner scores: sqrt=0.661, 1.0=0.632, log2=0.661)
+  outer=ArrayUtilsIsSorted         inner-selected max_features=sqrt   outer test rho=0.918  (inner scores: sqrt=0.656, 1.0=0.631, log2=0.656)
+  outer=ArrayUtilsReverse          inner-selected max_features=sqrt   outer test rho=0.522  (inner scores: sqrt=0.659, 1.0=0.619, log2=0.659)
+  outer=BankAccount                inner-selected max_features=sqrt   outer test rho=0.875  (inner scores: sqrt=0.645, 1.0=0.611, log2=0.645)
+  outer=BellmanFord                inner-selected max_features=sqrt   outer test rho=0.837  (inner scores: sqrt=0.654, 1.0=0.598, log2=0.654)
+  outer=BinaryTreeInsert           inner-selected max_features=sqrt   outer test rho=0.654  (inner scores: sqrt=0.636, 1.0=0.609, log2=0.636)
+  outer=BranchTree                 inner-selected max_features=sqrt   outer test rho=0.922  (inner scores: sqrt=0.635, 1.0=0.624, log2=0.635)
+  outer=CombinedWork               inner-selected max_features=sqrt   outer test rho=0.776  (inner scores: sqrt=0.654, 1.0=0.630, log2=0.654)
+  outer=EuclideanGcd               inner-selected max_features=sqrt   outer test rho=0.322  (inner scores: sqrt=0.677, 1.0=0.654, log2=0.677)
+  outer=HasDupes                   inner-selected max_features=sqrt   outer test rho=0.676  (inner scores: sqrt=0.653, 1.0=0.619, log2=0.653)
+  outer=HeapWork                   inner-selected max_features=sqrt   outer test rho=0.697  (inner scores: sqrt=0.646, 1.0=0.626, log2=0.646)
+  outer=InsertionSort              inner-selected max_features=1.0    outer test rho=0.613  (inner scores: sqrt=0.657, 1.0=0.659, log2=0.657)
+  outer=NumberUtilsMaxArray        inner-selected max_features=sqrt   outer test rho=0.952  (inner scores: sqrt=0.645, 1.0=0.619, log2=0.645)
+  outer=RbTreeInsert               inner-selected max_features=sqrt   outer test rho=0.563  (inner scores: sqrt=0.639, 1.0=0.625, log2=0.639)
+  outer=SortedListInsert           inner-selected max_features=sqrt   outer test rho=0.606  (inner scores: sqrt=0.651, 1.0=0.609, log2=0.651)
+  outer=TaBFPRT                    inner-selected max_features=sqrt   outer test rho=0.737  (inner scores: sqrt=0.656, 1.0=0.629, log2=0.656)
+  outer=TaBoardPath                inner-selected max_features=sqrt   outer test rho=0.107  (inner scores: sqrt=0.673, 1.0=0.632, log2=0.673)
+  outer=TaBoyerMoore               inner-selected max_features=sqrt   outer test rho=1.000  (inner scores: sqrt=0.639, 1.0=0.597, log2=0.639)
+  outer=TaKadaneAlgorithm          inner-selected max_features=sqrt   outer test rho=0.775  (inner scores: sqrt=0.634, 1.0=0.634, log2=0.634)
+  outer=TaLongestSubarrayWithSumLessOrEqualToK inner-selected max_features=sqrt   outer test rho=0.818  (inner scores: sqrt=0.649, 1.0=0.615, log2=0.649)
+  outer=TaMaxSumKSizeSubarray      inner-selected max_features=sqrt   outer test rho=0.860  (inner scores: sqrt=0.646, 1.0=0.626, log2=0.646)
+  outer=TaMemoryManagementAlgorithms inner-selected max_features=sqrt   outer test rho=0.652  (inner scores: sqrt=0.658, 1.0=0.586, log2=0.658)
+  outer=TaRandomizedQuickSort      inner-selected max_features=sqrt   outer test rho=0.791  (inner scores: sqrt=0.651, 1.0=0.607, log2=0.651)
+  outer=TaSumOfSubset              inner-selected max_features=sqrt   outer test rho=0.653  (inner scores: sqrt=0.654, 1.0=0.628, log2=0.654)
+  outer=TaTrappingRainwater        inner-selected max_features=sqrt   outer test rho=0.926  (inner scores: sqrt=0.647, 1.0=0.613, log2=0.647)
+  outer=TaTrinomialTriangle        inner-selected max_features=sqrt   outer test rho=-0.775  (inner scores: sqrt=0.705, 1.0=0.677, log2=0.705)
+  outer=Tsp                        inner-selected max_features=sqrt   outer test rho=0.455  (inner scores: sqrt=0.670, 1.0=0.620, log2=0.670)
+  outer=UnequalWork                inner-selected max_features=sqrt   outer test rho=0.860  (inner scores: sqrt=0.646, 1.0=0.627, log2=0.646)
+  outer=UnevenTree                 inner-selected max_features=sqrt   outer test rho=0.682  (inner scores: sqrt=0.622, 1.0=0.557, log2=0.622)
+
+=== NESTED CV RESULT (leakage-free hyperparameter selection) ===
+Macro rho = 0.655 [0.522,0.760]  groups=29
+
+Hyperparameter chosen per outer fold: {'sqrt': 28, 1.0: 1}
+(The value of each outer fold is selected without using the data of that fold.)
+
+For comparison, the same LOPO protocol with one global max_features='sqrt' (the configuration used elsewhere): macro rho = 0.656  groups=29

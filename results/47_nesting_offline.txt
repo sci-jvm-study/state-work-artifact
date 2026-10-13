@@ -1,0 +1,14 @@
+Mechanical check: 6451 parent-child pairs, 0 violate offline-projected parent >= child (must be 0)
+
+variant      groups  macro rho   95% CI
+raw              55     +0.452   [+0.373, +0.525]
+online           53     +0.598   [+0.532, +0.664]
+offline          55     +0.758   [+0.699, +0.808]
+
+On the 53 groups all three score: online gain over raw +0.121, offline gain over raw +0.280, online captures 43.4% of the offline gain.
+
+By tree size, POST HOC (bands as in nesting_decomposition.py, not predeclared):
+  non-leaf states in [0, 15): 14 groups, raw +0.563, online +0.757, offline +0.851
+  non-leaf states in [15, 60): 23 groups, raw +0.498, online +0.633, offline +0.723
+  non-leaf states in [60, 300):  8 groups, raw +0.419, online +0.484, offline +0.747
+  non-leaf states in [300, inf):  8 groups, raw +0.323, online +0.336, offline +0.701

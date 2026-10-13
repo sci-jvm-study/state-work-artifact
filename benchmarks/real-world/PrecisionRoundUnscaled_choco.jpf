@@ -1,0 +1,8 @@
+target = PrecisionRoundUnscaled
+classpath = bin
+sourcepath = .
+symbolic.method = PrecisionRoundUnscaled.classify(sym#sym#sym)
+symbolic.min_int = 0
+symbolic.max_int = 8
+symbolic.dp = choco
+listener = gov.nasa.jpf.symbc.StateWorkListener

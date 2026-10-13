@@ -1,0 +1,22 @@
+ENGINE = jpf, 4 programs (exact node-count match with JPF on both COASTAL and GDart)
+
+                            program  states  nonleaf  floor  hindsight  JPF built-in  JPFBar  Kilby WBE  Group C  Knuth 30  M3 linear  M3 RF  M5 linear  M5 RF  M6 linear  M6 RF
+                 AllKadaneKadaneSum      71       35  -0.27        1.0         -0.22   -0.12       0.01     0.68      0.99      -0.45   0.76      -0.02   0.69       0.42  -0.14
+                  AllShellSortShell      47       23  -0.40        1.0         -0.32   -0.19       0.19     0.75      0.97      -0.54   0.95       0.89   0.81       0.75   0.75
+NumIndexIntervalsCompressDuplicates      45       22  -0.53        1.0         -0.77   -0.72      -0.30     1.00      0.99      -0.66   0.98       0.19   0.72       1.00   1.00
+ NumSortingSortIndicesInsertionSort     333      166  -0.17        1.0         -0.28   -0.26      -0.23     0.21      0.99      -0.63   0.42      -0.13   0.44       0.19   0.43
+
+Macro rho over these programs (group-bootstrap 95% interval; n is tiny, informal only):
+  floor          groups=4   macro rho = -0.344  [-0.467, -0.221]
+  hindsight      groups=4   macro rho = +0.999  [+0.998, +1.000]
+  JPF built-in   groups=4   macro rho = -0.398  [-0.649, -0.243]
+  JPFBar         groups=4   macro rho = -0.325  [-0.589, -0.157]
+  Kilby WBE      groups=4   macro rho = -0.083  [-0.267, +0.101]
+  Group C        groups=4   macro rho = +0.659  [+0.340, +0.921]
+  Knuth 30       groups=4   macro rho = +0.986  [+0.977, +0.993]
+  M3 linear      groups=4   macro rho = -0.571  [-0.645, -0.496]
+  M3 RF          groups=4   macro rho = +0.776  [+0.548, +0.963]
+  M5 linear      groups=4   macro rho = +0.231  [-0.077, +0.665]
+  M5 RF          groups=4   macro rho = +0.665  [+0.511, +0.779]
+  M6 linear      groups=4   macro rho = +0.590  [+0.306, +0.873]
+  M6 RF          groups=4   macro rho = +0.510  [+0.083, +0.873]

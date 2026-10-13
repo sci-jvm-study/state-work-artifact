@@ -1,0 +1,8 @@
+target = LinkedListFind
+classpath = bin
+sourcepath = .
+symbolic.method = LinkedListFind.classify(sym#sym#sym#sym)
+symbolic.min_int = -3
+symbolic.max_int = 3
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

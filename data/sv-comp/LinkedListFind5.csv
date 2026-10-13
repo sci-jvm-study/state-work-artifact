@@ -1,0 +1,12 @@
+stateId,parentId,depth,entryInstructionCount,exitInstructionCount,actualSubtreeWork,entryAllocCount,exitAllocCount,actualAllocWork,entryGcCycles,exitGcCycles,actualGcWork,entrySolverCalls,exitSolverCalls,actualSolverCalls,entrySolverNanos,exitSolverNanos,actualSolverNanos,entryWallClockNanos,exitWallClockNanos,actualWallClockNanos,isEndStateAtEntry,choiceGeneratorType,choiceGeneratorTotal,choiceGeneratorProcessed,pathConditionSize,threadCount,remainingBytecodesInMethod,reachableBranchCount,reachableLoopBackEdgeCount,reachableVirtualCallCount,reachableAllocSiteCount,reachableAthrowCount
+5,4,6,9391,9391,0,510,510,0,6,6,0,10,10,0,1567000,1567000,0,100521692674000,100521692884100,210100,true,PCChoiceGenerator,2,1,5,0,-1,-1,-1,-1,-1,-1
+6,4,6,9401,9401,0,510,510,0,7,7,0,10,10,0,1567000,1567000,0,100521726938000,100521727075000,137000,true,PCChoiceGenerator,2,2,5,0,-1,-1,-1,-1,-1,-1
+4,3,5,9376,9401,25,510,510,0,5,7,2,10,10,0,1567000,1567000,0,100521692011400,100521727275700,35264300,false,PCChoiceGenerator,2,1,4,1,13,5,1,0,0,0
+7,3,5,9411,9411,0,510,510,0,8,8,0,10,10,0,1567000,1567000,0,100521727582600,100521727666600,84000,true,PCChoiceGenerator,2,2,4,0,-1,-1,-1,-1,-1,-1
+3,2,4,9365,9411,46,510,510,0,4,8,4,8,10,2,1247200,1567000,319800,100521690118700,100521727761500,37642800,false,PCChoiceGenerator,2,1,3,1,13,5,1,0,0,0
+8,2,4,9421,9421,0,510,510,0,9,9,0,10,10,0,1567000,1567000,0,100521728035900,100521728098800,62900,true,PCChoiceGenerator,2,2,3,0,-1,-1,-1,-1,-1,-1
+2,1,3,9354,9421,67,510,510,0,3,9,6,6,10,4,996400,1567000,570600,100521689121000,100521728172400,39051400,false,PCChoiceGenerator,2,1,2,1,13,5,1,0,0,0
+9,1,3,9431,9431,0,510,510,0,10,10,0,10,10,0,1567000,1567000,0,100521728477700,100521728532500,54800,true,PCChoiceGenerator,2,2,2,0,-1,-1,-1,-1,-1,-1
+1,0,2,9343,9431,88,510,510,0,2,10,8,4,10,6,747700,1567000,819300,100521687503000,100521728662300,41159300,false,PCChoiceGenerator,2,1,1,1,13,5,1,0,0,0
+10,0,2,9441,9441,0,510,510,0,11,11,0,10,10,0,1567000,1567000,0,100521728986300,100521729070100,83800,true,PCChoiceGenerator,2,2,1,0,-1,-1,-1,-1,-1,-1
+0,-1,1,9332,9441,109,510,510,0,1,11,10,2,10,8,563300,1567000,1003700,100521686447700,100521729160300,42712600,false,ThreadChoiceFromSet,1,1,-1,1,13,5,1,0,0,0

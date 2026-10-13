@@ -1,0 +1,93 @@
+scoreable groups: 55
+
+                                 group  nonleaf  share_nested  tie_in_nested  tau_all  tau_nested  tau_other  h_tau_nested  h_tau_other  rho_paper
+                     ArrayUtilsIndexOf       36          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -0.51
+                 ArrayUtilsLastIndexOf       24          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -0.82
+                           DelimSearch       27          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -1.00
+                                 Learn        5          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -0.81
+                        LinkedListFind        8          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -0.74
+                            HanoiSteps        7          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -1.00
+                             Fibonacci        5          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -1.00
+                               EvenOdd       15          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -1.00
+                            Mccarthy91       11          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -1.00
+               RecursiveAddition_choco       83          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -1.00
+                      TaClimbingStairs       21          1.00            0.0    -1.00        -1.0        NaN           1.0          NaN      -1.00
+                   BinomialCoefficient       16          0.79            0.0    -0.83        -1.0      -0.20           1.0         0.80      -0.91
+                              HeapWork       56          0.24            0.0    -0.82        -1.0      -0.77           1.0         0.23      -0.66
+                           UnequalWork       56          0.24            0.0    -0.82        -1.0      -0.77           1.0         0.23      -0.62
+                       TaPerfectNumber       20          0.57            0.0    -0.69        -1.0      -0.28           1.0         0.36      -0.81
+                       NumberUtilsMax3        6          0.67            0.0    -0.67        -1.0       0.00           1.0         0.00      -0.87
+                     RecursiveAddition       10          0.64            0.0    -0.64        -1.0       0.00           1.0         0.75      -0.74
+                            UnevenTree       23          0.69            0.0    -0.64        -1.0       0.17           1.0         0.28      -0.62
+                                Primes       10          0.71            0.0    -0.62        -1.0       0.31           1.0         0.69      -0.72
+                          CombinedWork       56          0.24            0.0    -0.56        -1.0      -0.41           1.0         0.44      -0.39
+              ValidateInclusiveBetween        8          0.50            0.0    -0.50        -1.0       0.00           1.0         0.00      -0.77
+     TaMaximumSumOfNonAdjacentElements        7          0.48            0.0    -0.48        -1.0       0.00           1.0         0.36      -0.66
+                             Ackermann        6          0.73            0.0    -0.47        -1.0       1.00           1.0         0.25      -0.60
+                      PrecisionCompare        7          0.43            0.0    -0.43        -1.0       0.00           1.0         0.50      -0.58
+               TaStockProfitCalculator       13          0.38            0.0    -0.36        -1.0       0.04           1.0         0.62      -0.48
+                       MultCommutative       13          0.59            0.0    -0.33        -1.0       0.62           1.0         0.88      -0.26
+                          TaBoyerMoore       15          0.32            0.0    -0.32        -1.0       0.00           1.0         0.51      -0.46
+                           BellmanFord       80          0.17            0.0    -0.32        -1.0      -0.18           1.0         0.60      -0.33
+                               TaBFPRT      276          0.16            0.0    -0.30        -1.0      -0.17           1.0         0.95      -0.39
+                 TaMaxSumKSizeSubarray       46          0.30            0.0    -0.30        -1.0      -0.01           1.0         0.77      -0.39
+                  ArithmeticUtilsCheck       14          0.41            0.0    -0.30        -1.0       0.19           1.0         0.74      -0.38
+                   TaTrinomialTriangle       52          0.32            0.0    -0.29        -1.0       0.03           1.0         0.24      -0.26
+                       ArrayUtilsShift       55          0.30            0.0    -0.29        -1.0       0.02           1.0         0.76      -0.32
+   TaLongestIncreasingSubsequenceNLogN       16          0.42            0.0    -0.28        -1.0       0.26           1.0         0.75      -0.34
+                          RbTreeInsert       34          0.24            0.0    -0.24        -1.0       0.00           1.0         0.72      -0.27
+                 TaRandomizedQuickSort       30          0.21            0.0    -0.21        -1.0       0.00           1.0         0.60      -0.31
+                   TaTrappingRainwater       45          0.17            0.0    -0.17        -1.0       0.00           1.0         0.74      -0.24
+                     ArrayUtilsReverse       43          0.25            0.0    -0.16        -1.0       0.11           1.0         0.79      -0.20
+                            BranchTree      116          0.16            0.0    -0.16        -1.0       0.00           1.0         0.60      -0.18
+                           TaBoardPath      173          0.15            0.0    -0.15        -1.0      -0.01           1.0         0.82      -0.20
+TaLongestSubarrayWithSumLessOrEqualToK       56          0.15            0.0    -0.14        -1.0       0.01           1.0         0.75      -0.21
+            ArithmeticUtilsMulAndCheck       30          0.18            0.0    -0.14        -1.0       0.05           1.0         0.51      -0.15
+                           BankAccount       77          0.14            0.0    -0.14        -1.0       0.00           1.0         0.61      -0.14
+                     TaKadaneAlgorithm      107          0.10            0.0    -0.11        -1.0      -0.02           1.0         0.66      -0.17
+                             PassCheck       15          0.53            0.0    -0.10        -1.0       0.92           1.0         0.08       0.14
+                          EuclideanGcd      460          0.08            0.0    -0.08        -1.0       0.00           1.0         0.89      -0.04
+                              HasDupes      112          0.08            0.0    -0.07        -1.0       0.01           1.0         0.42      -0.12
+                         TaSumOfSubset      118          0.19            0.0    -0.05        -1.0       0.17           1.0         0.73      -0.09
+                   NumberUtilsMaxArray      636          0.03            0.0    -0.05        -1.0      -0.02           1.0         0.70      -0.05
+                    ArrayUtilsIsSorted      329          0.07            0.0    -0.05        -1.0       0.02           1.0         0.82      -0.04
+          TaMemoryManagementAlgorithms      325          0.04            0.0    -0.05        -1.0      -0.00           1.0         0.70      -0.07
+                                   Tsp      303          0.05            0.0    -0.04        -1.0       0.01           1.0         0.78      -0.03
+                         InsertionSort      884          0.03            0.0    -0.03        -1.0      -0.01           1.0         0.85       0.02
+                      SortedListInsert      843          0.03            0.0    -0.03        -1.0      -0.01           1.0         0.85       0.04
+                      BinaryTreeInsert      700          0.04            0.0    -0.00        -1.0       0.04           1.0         0.84       0.05
+
+Macro over groups (mean of the group values):
+  share_nested     +0.441   (median +0.315)
+  tie_in_nested    +0.000   (median +0.000)
+  tau_all          -0.445   (median -0.319)
+  contrib_nested   -0.441   (median -0.315)
+  contrib_other    -0.004   (median +0.000)
+  tau_nested       -1.000   (median -1.000)
+  tau_other        +0.026   (median +0.000)
+  h_tau_nested     +1.000   (median +1.000)
+  h_tau_other      +0.595   (median +0.697)
+  rho_paper        -0.449   (median -0.385)
+
+Live count against work (rho_paper), per group: negative in 51 of 55 groups, at or below -0.5 in 23, highest value +0.136
+
+Hypotheses (predeclared):
+  H1 concordant nested pairs for (state id, work): 0 -> holds
+  H2 Spearman(share of nested pairs, -tau_all) = +0.91 -> holds (>= 0.6)
+  H3 macro tau-a of non-nested pairs = +0.026 -> holds (within +-0.15)
+  H4 discordant nested pairs for (hindsight size, work): 0; macro tau-a on non-nested pairs +0.595 -> holds
+  H5 Spearman(tau_all, paper group rho) = +0.960 -> holds (>= 0.9)
+
+By tree size, POST HOC (bands chosen after seeing the data, not predeclared): macro over groups by number of non-leaf states
+  Spearman(non-leaf states, tau_all) = +0.69; Spearman(non-leaf states, share of nested pairs) = -0.81
+  non-leaf states in [0, 15): groups 15, macro tau_all -0.653, macro rho of the count -0.707
+  non-leaf states in [15, 60): groups 23, macro tau_all -0.523, macro rho of the count -0.495
+  non-leaf states in [60, 300): groups  9, macro tau_all -0.256, macro rho of the count -0.291
+  non-leaf states in [300, inf): groups  8, macro tau_all -0.042, macro rho of the count -0.015
+  10 largest groups: tau_all from -0.304 to -0.001, macro rho -0.071
+
+Groups where non-nested pairs alone are clearly positive (tau_other > 0.15) or negative (< -0.15):
+  positive: UnevenTree (+0.17), Primes (+0.31), Ackermann (+1.00), MultCommutative (+0.62), ArithmeticUtilsCheck (+0.19), TaLongestIncreasingSubsequenceNLogN (+0.26), PassCheck (+0.92), TaSumOfSubset (+0.17)
+  negative: BinomialCoefficient (-0.20), HeapWork (-0.77), UnequalWork (-0.77), TaPerfectNumber (-0.28), CombinedWork (-0.41), BellmanFord (-0.18), TaBFPRT (-0.17)
+
+Groups with tau_all > 0 (live count positive): 0 of 55; with positive tau_other: 18

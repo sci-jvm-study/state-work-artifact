@@ -1,0 +1,8 @@
+target = EuclideanGcd
+classpath = bin
+sourcepath = .
+symbolic.method = EuclideanGcd.classify(sym#sym)
+symbolic.min_int = 1
+symbolic.max_int = 10
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

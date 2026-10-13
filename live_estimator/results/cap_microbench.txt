@@ -1,0 +1,2 @@
+capNsPerOp=1.986655
+capNsPerOp=2.07998

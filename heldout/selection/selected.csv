@@ -1,0 +1,10 @@
+program,k,states,nonleaf,source
+HoNumSortingSort,5,1183,1105,commons-numbers-arrays/src/main/java/org/apache/commons/numbers/arrays/Sorting.java
+HoAllSelectionSortSelection,2,477,463,algorithms/sorting/SelectionSort.java
+HoNumPartitionCountIndices,5,481,449,commons-numbers-examples/examples-jmh/src/main/java/org/apache/commons/numbers/examples/jmh/arrays/Partition.java
+HoNumSortingSortIndicesInsertionSort,6,333,166,commons-numbers-examples/examples-jmh/src/main/java/org/apache/commons/numbers/examples/jmh/arrays/Sorting.java
+HoRngAliasMethodDiscreteSamplerFillRemainingIndices,5,89,72,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSampler.java
+HoJaiLowerBoundLowerBound,5,57,43,src/com/jwetherell/algorithms/search/LowerBound.java
+HoAllKadaneKadaneSum,4,71,35,algorithms/dynamic-programming/Kadane.java
+HoAllShellSortShell,3,47,23,algorithms/sorting/ShellSort.java
+HoNumIndexIntervalsCompressDuplicates,6,45,22,commons-numbers-examples/examples-jmh/src/main/java/org/apache/commons/numbers/examples/jmh/arrays/IndexIntervals.java

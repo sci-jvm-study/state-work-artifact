@@ -1,0 +1,25 @@
+Computing per-group rho for all six baselines...
+
+=== Per-family mean rho, all six baselines side by side ===
+(NOT a generalization test -- these are parameter-free formulas with no cross-program
+ training; this shows whether each baseline's OWN accuracy varies by program family.)
+
+family                      1      2      3      4      6      5  n_groups
+arithmetic_branchy      -0.58  -0.42   0.87   0.18  -0.67   0.50  8
+early_exit              -0.26   0.19   0.74   0.40  -0.41   1.00  6
+graph_algo               0.05   0.08   0.88   0.13  -0.33   0.74  1
+linear_scan             -0.17   0.00   0.92   0.14  -0.36   0.81  17
+recursive_magnitude     -0.17   0.03   0.81   0.22  -0.61   0.10  14
+sorting                 -0.07  -0.06   0.78  -0.01  -0.11   0.73  3
+sorting_search           0.06   0.06   0.98   0.09  -0.03   0.85  1
+stateful_sequence       -0.05   0.06   1.00   0.12  -0.14   1.00  2
+synthetic_branch         0.10   0.38   0.83   0.55  -0.55   0.63  6
+tree_ds                  0.01   0.11   0.96   0.24  -0.11   0.69  2
+
+=== Summary: best/worst family per baseline ===
+1 JPF built-in           best=synthetic_branch (0.096)   worst=arithmetic_branchy (-0.583)   spread=0.678
+2 JPFBar                 best=synthetic_branch (0.385)   worst=arithmetic_branchy (-0.423)   spread=0.808
+3 Knuth probing          best=stateful_sequence (0.999)   worst=early_exit (0.741)   spread=0.258
+4 Kilby WBE              best=synthetic_branch (0.554)   worst=sorting (-0.006)   spread=0.561
+6 State-count floor      best=sorting_search (-0.027)   worst=arithmetic_branchy (-0.671)   spread=0.644
+5 Group C                best=stateful_sequence (1.000)   worst=recursive_magnitude (0.095)   spread=0.905

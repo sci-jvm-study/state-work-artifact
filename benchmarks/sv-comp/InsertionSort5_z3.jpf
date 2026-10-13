@@ -1,0 +1,8 @@
+target = InsertionSort5
+classpath = bin
+sourcepath = .
+symbolic.method = InsertionSort5.classify(sym#sym#sym#sym#sym)
+symbolic.min_int = -3
+symbolic.max_int = 3
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

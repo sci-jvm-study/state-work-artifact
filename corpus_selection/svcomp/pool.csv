@@ -1,0 +1,55 @@
+task,decision,detail,note
+algorithms/BellmanFord-FunSat01,in_corpus,BellmanFord,
+algorithms/BellmanFord-MemSat01,variant,algorithms/BellmanFord-FunSat01,0.97
+algorithms/BellmanFord-MemSat02,variant,algorithms/BellmanFord-FunSat01,0.95
+algorithms/InsertionSort-FunSat01,in_corpus,InsertionSort,
+algorithms/InsertionSort-FunSat02,variant,algorithms/InsertionSort-FunSat01,0.88
+algorithms/InsertionSort-MemSat01,variant,algorithms/InsertionSort-FunSat01,0.94
+algorithms/MergeSortIterative-FunSat01,license,,
+algorithms/MergeSortIterative-FunSat02,license,,
+algorithms/SortedListInsert-FunSat01,in_corpus,SortedListInsert,
+algorithms/SortedListInsert-FunSat02,variant,algorithms/SortedListInsert-FunSat01,0.95
+algorithms/SortedListInsert-MemSat01,variant,algorithms/SortedListInsert-FunSat01,0.93
+argv-tasks/StrictLineReader,run: not adapted,StrictLineReader,"inputs are static field initializers, one of them the length of a byte[] (symbolic array length)"
+jayhorn-recursive/Addition,variant,jayhorn-recursive/SatAddition01,0.91
+jayhorn-recursive/SatAckermann01,in_corpus,Ackermann,
+jayhorn-recursive/SatAckermann02,variant,jayhorn-recursive/SatAckermann01,0.99
+jayhorn-recursive/SatAckermann03,variant,jayhorn-recursive/SatAckermann01,0.99
+jayhorn-recursive/SatAddition01,in_corpus,RecursiveAddition,
+jayhorn-recursive/SatEvenOdd01,in_corpus,EvenOdd,
+jayhorn-recursive/SatFibonacci01,in_corpus,Fibonacci,
+jayhorn-recursive/SatFibonacci03,variant,jayhorn-recursive/SatFibonacci01,0.96
+jayhorn-recursive/SatGcd,in_corpus,EuclideanGcd,
+jayhorn-recursive/SatHanoi01,in_corpus,"ApplyHanoi, HanoiSteps",
+jayhorn-recursive/SatMccarthy91,in_corpus,Mccarthy91,
+jayhorn-recursive/SatMultCommutative01,in_corpus,MultCommutative,
+jayhorn-recursive/SatPrimes01,in_corpus,Primes,
+jbmc-regression/aastore_aaload1,run: below floor,JbmcAastoreAaload1,2 non-leaf states (k=2)
+jbmc-regression/array1,run: not adapted,JbmcArray1,two source files
+jbmc-regression/array2,run: below floor,JbmcArray2,1 non-leaf states (k=2)
+jbmc-regression/arraylength1,run: no result,JbmcArraylength1,"adapted, JPF wrote no output (error or timeout)"
+jbmc-regression/arrayread1,run: below floor,JbmcArrayread1,1 non-leaf states (k=2)
+jbmc-regression/assert1,run: below floor,JbmcAssert1,0 non-leaf states (k=2)
+jbmc-regression/assert5,run: below floor,JbmcAssert5,0 non-leaf states (k=2)
+jbmc-regression/assert6,run: below floor,JbmcAssert6,0 non-leaf states (k=2)
+jbmc-regression/if_expr1,run: below floor,JbmcIfExpr1,0 non-leaf states (k=2)
+jbmc-regression/if_icmp1,run: below floor,JbmcIfIcmp1,1 non-leaf states (k=3)
+jbmc-regression/list1,run: not adapted,JbmcList1,nondet input read in a helper class
+jbmc-regression/lookupswitch1,run: bytecode unit test (excluded),JbmcLookupswitch1,6 non-leaf states (k=2)
+jbmc-regression/tableswitch1,run: bytecode unit test (excluded),JbmcTableswitch1,10 non-leaf states (k=2)
+jdart-regression/list2,run: not adapted,JdartList2,nondet input read in a helper class
+jpf-regression/ExDarko_true,run: below floor,ExDarko,1 non-leaf states (k=2)
+jpf-regression/ExGenSymExe_true,run: below floor,ExGenSymExe,0 non-leaf states (k=2)
+jpf-regression/ExLazy_true,run: below floor,ExLazy,2 non-leaf states (k=2)
+jpf-regression/ExSymExe10_true,run: below floor,ExSymExe10,1 non-leaf states (k=3)
+jpf-regression/ExSymExe11_true,run: below floor,ExSymExe11,1 non-leaf states (k=2)
+jpf-regression/ExSymExe13_true,run: below floor,ExSymExe13,1 non-leaf states (k=2)
+jpf-regression/ExSymExe19_true,run: below floor,ExSymExe19,1 non-leaf states (k=2)
+jpf-regression/ExSymExe7_true,run: below floor,ExSymExe7,1 non-leaf states (k=2)
+jpf-regression/ExSymExeResearch_true,in_corpus,ExSymExeResearch,
+jpf-regression/ExSymExeSimple_true,in_corpus,ExSymExeSimple,
+jpf-regression/ExSymExeSuzette_true,in_corpus,ExSymExeSuzette,
+jpf-regression/ExSymExeSwitch_true,run: below floor,ExSymExeSwitch,4 non-leaf states (k=2)
+jpf-regression/ExSymExeTestAssignments_true,run: below floor,ExSymExeTestAssignments,1 non-leaf states (k=2)
+jpf-regression/ExSymExeTestClassFields_true,run: below floor,ExSymExeTestClassFields,1 non-leaf states (k=3)
+jpf-regression/TestLazy_true,run: below floor,TestLazy,1 non-leaf states (k=2)

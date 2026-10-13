@@ -1,0 +1,936 @@
+library,file,method,signature,returns,loc,failed_stage
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateStreamSize,long size,void,3,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateJumpDistance,double distance,void,3,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateUpperBound,int bound,void,3,C
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateUpperBound,long bound,void,3,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateUpperBound,float bound,void,3,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateUpperBound,double bound,void,3,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateRange,"int origin, int bound",void,3,T
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateRange,"long origin, long bound",void,3,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateRange,"double origin, double bound",void,3,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,validateFromIndexSize,"int fromIndex, int size, int length",void,5,T
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,nextBytes,"UniformRandomProvider source, byte[] bytes, int start, int len",void,24,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,nextInt,"UniformRandomProvider source, int n",int,10,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,nextInt,"UniformRandomProvider source, int origin, int bound",int,9,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,nextLong,"UniformRandomProvider source, long n",long,7,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,nextLong,"UniformRandomProvider source, long origin, long bound",long,9,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,nextFloat,"UniformRandomProvider source, float bound",float,5,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,nextFloat,"UniformRandomProvider source, float origin, float bound",float,6,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,nextDouble,"UniformRandomProvider source, double bound",double,5,P
+commons-rng,commons-rng-client-api/src/main/java/org/apache/commons/rng/UniformRandomProviderSupport.java,nextDouble,"UniformRandomProvider source, double origin, double bound",double,6,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/ArbitrarilyJumpableUniformRandomProviderTest.java,jumpArguments,,Stream<Arguments>,5,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/ArbitrarilyJumpableUniformRandomProviderTest.java,assertJumps,"int size, long seed, double distance, JumpsFunction streamFunction",void,18,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/ArbitrarilyJumpableUniformRandomProviderTest.java,addAndReturn,"Set<UniformRandomProvider> set, UniformRandomProvider x",UniformRandomProvider,2,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/BaseRandomProviderStreamTest.java,invalidNextIntOriginBound,,Stream<Arguments>,1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/BaseRandomProviderStreamTest.java,invalidNextLongOriginBound,,Stream<Arguments>,1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/BaseRandomProviderStreamTest.java,invalidNextDoubleOriginBound,,Stream<Arguments>,1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/BaseRandomProviderStreamTest.java,streamSizes,,long[],1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/BaseRandomProviderStreamTest.java,assertSpliterator,"Spliterator<?> spliterator, long expectedSize, int characteristics, String msg",void,6,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/LongJumpableUniformRandomProviderTest.java,jumpArguments,,Stream<Arguments>,5,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/LongJumpableUniformRandomProviderTest.java,assertJumps,"int size, long seed, Function<? super LongJumpableUniformRandomProvider, ? extends UniformRandomProvider> jumpFunction, BiFunction<? super LongJumpableUniformRandomProvider, Long, Stream<? extends UniformRandomProvider>> streamFunction",void,18,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/LongJumpableUniformRandomProviderTest.java,addAndReturn,"Set<UniformRandomProvider> set, UniformRandomProvider x",UniformRandomProvider,2,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/SplittableUniformRandomProviderTest.java,threadAndStreamSizes,,Stream<Arguments>,8,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/SplittableUniformRandomProviderTest.java,execute,"int parallelism, Callable<T> task",<T> T,6,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/SplittableUniformRandomProviderTest.java,failSpliteratorShouldBeEmpty,,void,1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/SplittableUniformRandomProviderTest.java,assertUnlimitedSpliterator,"Spliterator<?> spliterator, String msg",void,1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,invalidNextIntBound,,int[],1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,invalidNextIntOriginBound,,Stream<Arguments>,6,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,invalidNextLongBound,,long[],1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,invalidNextLongOriginBound,,Stream<Arguments>,6,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,invalidNextFloatBound,,float[],1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,invalidNextFloatOriginBound,,Stream<Arguments>,10,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,invalidNextDoubleBound,,double[],1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,invalidNextDoubleOriginBound,,Stream<Arguments>,10,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,createRNG,long seed,UniformRandomProvider,1,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,assertMonobit,"int bitCount, int numberOfBits",void,6,T
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,isUniformNextBytes,"byte[] buffer, int first, int last, Runnable nextMethod",boolean,17,P
+commons-rng,commons-rng-client-api/src/test/java/org/apache/commons/rng/UniformRandomProviderTest.java,checkNextInRange,"String method, long origin, long bound, LongSupplier nextMethod",void,66,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java,scramble,"long n, long mult, int shift, int add",long,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java,scrambleWell,"long n, int add",long,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java,extendSeed,"long[] seed, int length",long[],10,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java,extendSeed,"int[] seed, int length",int[],10,C
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java,stafford13,long x,long,3,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java,murmur3,int x,int,3,T
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/AbstractPcgMcg6432.java,bump,long input,long,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/AbstractWell.java,calculateBlockCount,final int k,int,1,B
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/IntJumpDistances.java,validateJump,"double distance, double period",void,4,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/IntJumpDistances.java,validateJumpPowerOfTwo,"int logDistance, int logPeriod",void,4,T
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/IntJumpDistances.java,writeUnsignedInteger,"double value, int[] result",void,30,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/IntProvider.java,nextBytesFill,"RandomIntSource source, byte[] bytes, int start, int len",void,21,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/IntProvider.java,checkFromIndexSize,"int fromIndex, int size, int length",int,6,T
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/KISSRandom.java,computeNew,"int mult, int previous",int,1,T
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/L32X64Mix.java,create,"long seed, UniformRandomProvider source",SplittableUniformRandomProvider,9,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/LXMSupport.java,lea32,int x,int,3,T
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MersenneTwister.java,fillStateMersenneTwister,"int[] state, int[] inputSeed",void,5,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MersenneTwister.java,initializeState,int[] state,void,6,T
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MersenneTwister.java,mixSeedAndState,"int[] state, final int[] seed",int,19,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MersenneTwister.java,mixState,"int[] state, int startIndex",void,13,T
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/Philox4x32.java,singleRound,"int[] counter, int key0, int key1",void,10,T
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/Philox4x32.java,getBufferPositionIncrement,double distance,int,3,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/Philox4x32.java,getCounterIncrement,double distance,int[],5,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/L128X1024Mix.java,create,"long seed, UniformRandomProvider source",SplittableUniformRandomProvider,18,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/L128X128Mix.java,create,"long seed, UniformRandomProvider source",SplittableUniformRandomProvider,12,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/L128X256Mix.java,create,"long seed, UniformRandomProvider source",SplittableUniformRandomProvider,16,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/L64X1024Mix.java,create,"long seed, UniformRandomProvider source",SplittableUniformRandomProvider,16,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/L64X128Mix.java,create,"long seed, UniformRandomProvider source",SplittableUniformRandomProvider,9,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/L64X128StarStar.java,create,"long seed, UniformRandomProvider source",SplittableUniformRandomProvider,9,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/L64X256Mix.java,create,"long seed, UniformRandomProvider source",SplittableUniformRandomProvider,14,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/LongJumpDistances.java,validateJump,"double distance, double period",void,4,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/LongJumpDistances.java,validateJumpPowerOfTwo,"int logDistance, int logPeriod",void,4,T
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/LongJumpDistances.java,writeUnsignedInteger,"double value, long[] result",void,22,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/LXMSupport.java,lea64,long x,long,3,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/LXMSupport.java,unsignedMultiplyHigh,"long value1, long value2",long,12,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/LXMSupport.java,unsignedAddHigh,"long left, long right",long,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/Philox4x64.java,singleRound,"long[] counter, long key0, long key1",void,8,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/Philox4x64.java,getBufferPositionIncrement,double distance,int,3,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/Philox4x64.java,getCounterIncrement,double distance,long[],5,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/PhiloxSupport.java,getMathUnsignedMultiplyHigh,,LongBinaryOperator,12,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/PhiloxSupport.java,getMathMultiplyHigh,,LongBinaryOperator,12,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/PhiloxSupport.java,getMathMethod,String methodName,MethodHandle,4,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/PhiloxSupport.java,testUnsignedMultiplyHigh,LongBinaryOperator op,boolean,5,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/PhiloxSupport.java,unsignedMultiplyHigh,"long value1, long value2",long,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/TwoCmres.java,numberOfSubcycleGenerators,,int,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/TwoCmres.java,add,"long multiply, int rotate, int start",void,2,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/TwoCmres.java,checkUnique,"List<Cmres> table, long multiply",void,5,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeBoolean,int v,boolean,1,B
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeBoolean,long v,boolean,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeDouble,long v,double,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeDouble,"int v, int w",double,3,R
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeFloat,int v,float,1,R
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeLong,"int v, int w",long,1,R
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeInt,long v,int,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,extractHi,long v,int,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,extractLo,long v,int,1,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeByteArray,long v,byte[],3,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,putLong,"long v, byte[] buffer, int index",void,8,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeLong,byte[] input,long,2,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,getLong,"byte[] input, int index",long,8,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeByteArray,long[] input,byte[],6,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeLongArray,byte[] input,long[],8,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeByteArray,int v,byte[],3,R
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,putInt,"int v, byte[] buffer, int index",void,4,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeInt,byte[] input,int,2,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,getInt,"byte[] input, int index",int,4,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeByteArray,int[] input,byte[],6,R
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,makeIntArray,byte[] input,int[],8,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java,checkSize,"int expected, int actual",void,4,C
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/RandomStreams.java,generateWithSeed,"long streamSize, SplittableUniformRandomProvider source, SeededObjectFactory<T> factory",<T> Stream<T>,8,P
+commons-rng,commons-rng-core/src/main/java/org/apache/commons/rng/core/util/RandomStreams.java,createSeed,UniformRandomProvider rng,long,12,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ArbitrarilyJumpableProvidersParametricTest.java,getArbitrarilyJumpableProviders,,Iterable<ArbitrarilyJumpableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ArbitrarilyJumpableProvidersParametricTest.java,assertZeroJump,"UnaryOperator<ArbitrarilyJumpableUniformRandomProvider> jumpFunction, ArbitrarilyJumpableUniformRandomProvider generator",void,2,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ArbitrarilyJumpableProvidersParametricTest.java,testSmallJump,,Stream<Arguments>,7,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ArbitrarilyJumpableProvidersParametricTest.java,assertSmallJump,"UnaryOperator<ArbitrarilyJumpableUniformRandomProvider> jumpFunction, int distance, ArbitrarilyJumpableUniformRandomProvider generator",void,19,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ArbitrarilyJumpableProvidersParametricTest.java,testPowerOfTwoJumps,,Stream<Arguments>,12,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ArbitrarilyJumpableProvidersParametricTest.java,jumpArguments,,Stream<Arguments>,9,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ArbitrarilyJumpableProvidersParametricTest.java,assertJumps,"ArbitrarilyJumpableUniformRandomProvider generator, int size, double distance, JumpsFunction streamFunction",void,17,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ArbitrarilyJumpableProvidersParametricTest.java,addAndReturn,"Set<UniformRandomProvider> set, UniformRandomProvider x",UniformRandomProvider,2,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ArbitrarilyJumpableProvidersParametricTest.java,copy,ArbitrarilyJumpableUniformRandomProvider generator,ArbitrarilyJumpableUniformRandomProvider,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/BaseProviderTest.java,expandSeed,"int length, long... seed",long[],9,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/JumpableProvidersParametricTest.java,getJumpableProviders,,Iterable<JumpableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/JumpableProvidersParametricTest.java,getArbitrarilyJumpableProviders,,Iterable<ArbitrarilyJumpableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/JumpableProvidersParametricTest.java,getLongJumpFunction,JumpableUniformRandomProvider generator,TestJumpFunction,3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/JumpableProvidersParametricTest.java,assertJumpReturnsACopy,"TestJumpFunction jumpFunction, UniformRandomProvider generator",void,3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/JumpableProvidersParametricTest.java,assertCopyMatchesPreJumpState,"TestJumpFunction jumpFunction, UniformRandomProvider generator",void,13,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/JumpableProvidersParametricTest.java,assertJumpResetsDefaultState,"TestJumpFunction jumpFunction, UniformRandomProvider generator",void,20,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/Providers32ParametricTest.java,getList,,Iterable<RestorableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/Providers64ParametricTest.java,getList,,Iterable<RestorableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,getList,,Iterable<RestorableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,makeList,"int n, UniformRandomProvider generator",List<Number>,15,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,isUniformNextBytes,"byte[] buffer, int first, int last, Runnable nextMethod",boolean,21,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,checkRandomWalk,"UniformRandomProvider generator, int sampleSize, Callable<Boolean> nextMethod",void,17,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,checkNextIntegerInRange,"final UniformRandomProvider generator, final int max, int sampleSize",void,2,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,checkNextLongInRange,"final UniformRandomProvider generator, long max, int sampleSize",void,2,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,checkNextFloat,"final UniformRandomProvider generator, int sampleSize",void,3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,checkNextDouble,"final UniformRandomProvider generator, int sampleSize",void,3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,checkNextInRange,"final UniformRandomProvider generator, long n, int sampleSize, LongSupplier nextMethod",void,55,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersCommonParametricTest.java,checkNextBytesChunks,"RestorableUniformRandomProvider generator, int chunkSize, int numChunks",void,12,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersList.java,list,,Iterable<RestorableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersList.java,list32,,Iterable<RestorableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersList.java,list64,,Iterable<RestorableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersList.java,listJumpable,,Iterable<JumpableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersList.java,listSplittable,,Iterable<SplittableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/ProvidersList.java,listArbitrarilyJumpable,,Iterable<ArbitrarilyJumpableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertEquals,"int[] expected, UniformRandomProvider rng",void,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertEquals,"long[] expected, UniformRandomProvider rng",void,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertEquals,"int[] expected, UniformRandomProvider rng, String messagePrefix",void,4,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertEquals,"long[] expected, UniformRandomProvider rng, String messagePrefix",void,4,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNotEquals,"long[] expected, UniformRandomProvider rng",void,6,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertJumpEquals,"int[] expectedBefore, int[] expectedAfter, JumpableUniformRandomProvider rng",void,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertJumpEquals,"long[] expectedBefore, long[] expectedAfter, JumpableUniformRandomProvider rng",void,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertLongJumpEquals,"int[] expectedBefore, int[] expectedAfter, LongJumpableUniformRandomProvider rng",void,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertLongJumpEquals,"long[] expectedBefore, long[] expectedAfter, LongJumpableUniformRandomProvider rng",void,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextIntEquals,"int cycles, UniformRandomProvider rng1, UniformRandomProvider rng2",void,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextIntEquals,"int cycles, UniformRandomProvider rng1, UniformRandomProvider rng2, Supplier<String> message",void,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextLongEquals,"int cycles, UniformRandomProvider rng1, UniformRandomProvider rng2",void,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextLongEquals,"int cycles, UniformRandomProvider rng1, UniformRandomProvider rng2, Supplier<String> message",void,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextIntNotEquals,"int cycles, UniformRandomProvider rng1, UniformRandomProvider rng2",void,7,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextLongNotEquals,"int cycles, UniformRandomProvider rng1, UniformRandomProvider rng2",void,7,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextIntZeroOutput,"UniformRandomProvider rng, int cycles",void,3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextLongZeroOutput,"UniformRandomProvider rng, int cycles",void,3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextIntNonZeroOutput,"UniformRandomProvider rng, int warmupCycles, int testCycles",void,9,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextLongNonZeroOutput,"UniformRandomProvider rng, int warmupCycles, int testCycles",void,9,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertNextLongNonZeroOutputFromSingleBitSeed," UniformRandomProvider rng, int warmupCycles, int testCycles, int seedElement, int bit",void,6,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertIntArrayConstructorWithSingleBitSeedIsFunctional,"Class<T> type, int size",<T extends UniformRandomProvider> void,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertIntArrayConstructorWithSingleBitInPoolIsFunctional,"Class<T> type, int k",<T extends UniformRandomProvider> void,21,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertLongArrayConstructorWithSingleBitSeedIsFunctional,"Class<T> type, int size",<T extends UniformRandomProvider> void,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/RandomAssert.java,assertLongArrayConstructorWithSingleBitInPoolIsFunctional,"Class<T> type, int k",<T extends UniformRandomProvider> void,21,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/SplittableProvidersParametricTest.java,getSplittableProviders,,Iterable<SplittableUniformRandomProvider>,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/SplittableProvidersParametricTest.java,assertSplitReturnsANewInstance,"UnaryOperator<SplittableUniformRandomProvider> splitFunction, SplittableUniformRandomProvider generator",void,4,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/SplittableProvidersParametricTest.java,assertSplits,"SplittableUniformRandomProvider generator, boolean parallel",void,35,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/SplittableProvidersParametricTest.java,failSpliteratorShouldBeEmpty,SplittableUniformRandomProvider rng,void,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/SplittableProvidersParametricTest.java,assertUnlimitedSpliterator,"SplittableUniformRandomProvider rng, Spliterator<?> spliterator, String msg",void,6,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/AbstractLXMTest.java,mixLea32,"int a, int b",int,1,C
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/AbstractLXMTest.java,assertJumpAndCycle,"long testSeed, int seedSize, Function<int[], SubGen> factory, UnaryOperator<SubGen> jump",void,21,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/AbstractLXMTest.java,createSteps,"SplittableRandom rng, int seedSize",int[],8,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/IntJumpDistancesTest.java,testWriteUnsignedInteger,,DoubleStream,23,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/IntJumpDistancesTest.java,toIntArray,double value,int[],1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/IntJumpDistancesTest.java,toIntArray,BigInteger value,int[],8,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/IntJumpDistancesTest.java,toBigInteger,int[] value,BigInteger,6,R
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/LXMSupportTest.java,lcgAdvancePow2,"int m, int c, int k, int[] out",void,13,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/LXMSupportTest.java,lcgAdvancePow2,"int s, int m, int c, int k",int,5,B
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/Philox4x32Test.java,testReferenceCode,,Stream<Arguments>,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/Philox4x32Test.java,skip,"Philox4x32 rng, int n",Philox4x32,4,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/Philox4x32Test.java,testJump,,Stream<Arguments>,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/Philox4x32Test.java,testLongJump,,Stream<Arguments>,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/Philox4x32Test.java,testInternalCounter,,Stream<Arguments>,14,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/Philox4x32Test.java,testArbitraryJumpCounter,,Stream<Arguments>,29,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/Philox4x32Test.java,testArbitraryJumpPowerOfTwoCounter,,Stream<Arguments>,34,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/Philox4x32Test.java,testArbitraryJumpCounterWithSkip,,Stream<Arguments>,14,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source32/Philox4x32Test.java,add,"int[] counter, BigInteger jump",int[],3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/AbstractLXMTest.java,mixStarStar,"long a, long b",long,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/AbstractLXMTest.java,mixLea64,"long a, long b",long,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/AbstractLXMTest.java,toUnsignedBigInteger,long v,BigInteger,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/AbstractLXMTest.java,assertJumpAndCycle,"long testSeed, int seedSize, Function<long[], SubGen> factory, UnaryOperator<SubGen> jump",void,21,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/AbstractLXMTest.java,createSteps,"SplittableRandom rng, int seedSize",int[],8,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LongJumpDistancesTest.java,testWriteUnsignedInteger,,DoubleStream,26,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LongJumpDistancesTest.java,toLongArray,double value,long[],1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LongJumpDistancesTest.java,toLongArray,BigInteger value,long[],8,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LongJumpDistancesTest.java,toBigInteger,long[] value,BigInteger,14,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LXMSupportTest.java,assertMultiplyHigh,"long v1, long v2, long hi",void,6,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LXMSupportTest.java,toUnsignedBigInteger,long v,BigInteger,3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LXMSupportTest.java,toUnsignedBigInteger,"long hi, long lo",BigInteger,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LXMSupportTest.java,assertAddHigh,"long a, long b",void,4,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LXMSupportTest.java,lcgAdvancePow2,"long m, long c, int k, long[] out",void,13,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LXMSupportTest.java,lcgAdvancePow2,"long s, long m, long c, int k",long,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LXMSupportTest.java,lcgAdvancePow2,"final long mh, final long ml, final long ch, final long cl, int k, long[] out",void,21,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/LXMSupportTest.java,lcgAdvancePow2High,"long sh, long sl, long mh, long ml, long ch, long cl, int k",long,12,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/Philox4x64Test.java,testReferenceCode,,Stream<Arguments>,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/Philox4x64Test.java,skip,"Philox4x64 rng, int n",Philox4x64,4,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/Philox4x64Test.java,testJump,,Stream<Arguments>,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/Philox4x64Test.java,testLongJump,,Stream<Arguments>,5,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/Philox4x64Test.java,testInternalCounter,,Stream<Arguments>,14,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/Philox4x64Test.java,testArbitraryJumpCounter,,Stream<Arguments>,31,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/Philox4x64Test.java,testArbitraryJumpPowerOfTwoCounter,,Stream<Arguments>,44,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/Philox4x64Test.java,testArbitraryJumpCounterWithSkip,,Stream<Arguments>,14,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/source64/Philox4x64Test.java,add,"long[] counter, BigInteger jump",long[],3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/util/NumberFactoryTest.java,longTestValues,,LongStream,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/util/NumberFactoryTest.java,intTestValues,,IntStream,1,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/util/NumberFactoryTest.java,assertCloseToNotAbove1,"float value, int maxUlps",void,3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/util/NumberFactoryTest.java,assertCloseToNotAbove1,"double value, int maxUlps",void,3,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/util/RandomStreamsTest.java,assertChiSquare,"long[] obs, Supplier<String> msg",void,6,P
+commons-rng,commons-rng-core/src/test/java/org/apache/commons/rng/core/util/RandomStreamsTestHelper.java,createSeed,UniformRandomProvider rng,long,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/BaselineUtils.java,getNextBytes,,UniformRandomProvider,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/BaselineUtils.java,getNextInt,,UniformRandomProvider,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/BaselineUtils.java,getNextLong,,UniformRandomProvider,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/BaselineUtils.java,getNextBoolean,,UniformRandomProvider,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/BaselineUtils.java,getNextFloat,,UniformRandomProvider,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/BaselineUtils.java,getNextDouble,,UniformRandomProvider,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,mathMultiplyHigh,"long a, long b",long,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,mathUnsignedMultiplyHigh,"long a, long b",long,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,unsignedMultiplyHigh,"long value1, long value2",long,12,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,unsignedMultiplyHigh,"long value1, long value2, long[] low",long,13,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,unsignedMultiplyHighML,long value,long,10,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,mhMultiplyHigh,"long a, long b",long,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,mhUnsignedMultiplyHigh,"long a, long b",long,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,mhDynamicMultiplyHigh,"long a, long b",long,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,unsignedMultiply128,"long value1h, long value1l, long value2h, long value2l, long[] low",long,14,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,unsignedSquareHigh,long value,long,9,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,unsignedSquare128,"long valueh, long valuel, long[] low",long,11,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,unsignedAddHigh,"long left, long right",long,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,unsignedAddHigh,"long left, long right",long,2,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmark.java,lea64,long x,long,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMGenerationPerformance.java,longSeed,int size,long[],1,R
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMGenerationPerformance.java,lea64,long x,long,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/LXMGenerationPerformance.java,unsignedAddHigh,"long left, long right",long,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/PhiloxGenerationPerformance.java,intSeed,,int[],1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/PhiloxGenerationPerformance.java,longSeed,,long[],1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/PhiloxGenerationPerformance.java,singleRound,"int[] counter, int key0, int key1",void,8,T
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/PhiloxGenerationPerformance.java,singleRoundL,"int[] counter, int key0, int key1",void,8,T
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/PhiloxGenerationPerformance.java,singleRound,"long[] counter, long key0, long key1",void,8,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/PhiloxGenerationPerformance.java,singleRound,"long[] counter, long key0, long key1",void,8,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/PhiloxGenerationPerformance.java,singleRound,"long[] counter, long key0, long key1",void,8,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/core/RngNextIntInRangeBenchmark.java,shuffle,"int[] array, UniformRandomProvider rng",void,6,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,swap,"int[] array, int i, int j",void,3,B
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,shuffle1,"UniformRandomProvider rng, int[] array",int[],4,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,nextInt,"UniformRandomProvider source, int n",int,10,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,shuffle1a,"UniformRandomProvider rng, int[] array",int[],4,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,randomBounded2,"int range1, int range2, int[] productBound, UniformRandomProvider rng",int[],20,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,shuffle2,"UniformRandomProvider rng, int[] array",int[],13,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,shuffle2,"UniformRandomProvider rng, int[] array, int from, int to",int[],13,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,randomBounded2a,"int range1, int range2, int bound, UniformRandomProvider rng, int[] indices",int,21,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,shuffle2a,"UniformRandomProvider rng, int[] array",int[],12,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,randomBounded2L,"int range1, int range2, long[] productBound, UniformRandomProvider rng",int[],26,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,createBound,"int range1, int range2",long,1,R
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,remainderUnsigned,"long dividend, long divisor",long,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,shuffle2L,"UniformRandomProvider rng, int[] array",int[],13,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,randomBounded3,"int range1, int range2, int range3, int[] productBound, UniformRandomProvider rng",int[],24,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,shuffle3,"UniformRandomProvider rng, int[] array",int[],26,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,randomBounded4,"int range1, int range2, int range3, int range4, int[] productBound, UniformRandomProvider rng",int[],28,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmark.java,shuffle4,"UniformRandomProvider rng, int[] array",int[],38,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ListShuffleBenchmark.java,shuffleUsingPermutationSampler,"UniformRandomProvider rng, List<T> list, int start, boolean towardHead",<T> void,7,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ListShuffleBenchmark.java,shuffleUsingPermutationSamplerRandomAccess,"UniformRandomProvider rng, List<T> list, int start, boolean towardHead",<T> void,17,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ListShuffleBenchmark.java,shuffleDirectRandomAccess,"UniformRandomProvider rng, List<?> list",void,15,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ListShuffleBenchmark.java,shuffleDirect,"UniformRandomProvider rng, List<?> list",void,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ListShuffleBenchmark.java,shuffleIterator,"UniformRandomProvider rng, List<?> list",void,9,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ListShuffleBenchmark.java,shuffleDirectRandomAccessDirectional,"UniformRandomProvider rng, List<?> list, int start, boolean towardHead",void,33,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ListShuffleBenchmark.java,shuffleDirectRandomAccessSubList,"UniformRandomProvider rng, List<?> list, int start, boolean towardHead",void,5,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ListShuffleBenchmark.java,swap,"List<?> list, int i, int j",void,2,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/ListShuffleBenchmark.java,swap,"Object[] array, int i, int j",void,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/UnitSphereSamplerBenchmark.java,runSampler,"Blackhole bh, SamplerData data",void,4,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/AliasMethodDiscreteSamplerPerformance.java,createProbabilities,int size,double[],5,R
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/EnumeratedDistributionSamplersPerformance.java,createPoissonDistribution,double mean,IntegerDistribution,2,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/EnumeratedDistributionSamplersPerformance.java,createProbabilities,"IntegerDistribution dist, int lower, int upper",double[],6,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/PoissonSamplerCachePerformance.java,runSample,"DoubleFunction<DiscreteSampler> factory, MeanRange range, Blackhole bh",void,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,of,"UniformRandomProvider rng, double alpha, double beta, boolean weron",ContinuousSampler,16,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,clipToSupport,"double x, double lower, double upper",double,4,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,tan4283,double x,double,12,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,tan4288,double x,double,18,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,tan4288b,double x,double,21,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,tan4288c,double x,double,20,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,d2,double x,double,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,expm1,double x,double,8,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,expm1b,double x,double,7,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,exp,double x,double,8,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/StableSamplerPerformance.java,hybrid,double x,double,10,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,updateLCG,long state,long,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,createSampler,"String type, UniformRandomProvider rng",ContinuousSampler,57,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,createSequentialSampler,"int size, ContinuousSampler s",ContinuousSampler,14,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,makeNonZeroDouble,long v,double,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,pdf,double x,double,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,pdf,double x,double,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,getX,,double[],1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,interpolateSample,"double[] x, int j, long u",double,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,sampleX,"double[] x, int j, long u1",double,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,sampleY,"double[] y, int j, long u2",double,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerPerformance.java,throwIllegalStateException,String parameter,void,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/shape/TriangleSamplerBenchmark.java,runSampler,"Blackhole bh, SamplerData data",void,4,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/shape/UnitBallSamplerBenchmark.java,makeSignedDouble,long bits,double,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/shape/UnitBallSamplerBenchmark.java,makeSignedDouble2,long bits,double,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/sampling/shape/UnitBallSamplerBenchmark.java,runSampler,"Blackhole bh, SamplerData data",void,4,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/ConstructionPerformance.java,copy,"Object object, int length",Object,7,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/ConstructionPerformance.java,findNativeSeeds,RandomSource randomSource,Object[],37,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/ConstructionPerformance.java,findNativeSeedLength,RandomSource randomSource,int,50,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/ConstructionPerformance.java,findNativeSeedElementByteSize,RandomSource randomSource,int,35,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/ConstructionPerformance.java,getRandomSourceInternal,RandomSource randomSource,RandomSourceInternal,33,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedArrayGenerationPerformance.java,nextInt,UniformRandomProvider rng,int,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedArrayGenerationPerformance.java,nextLong,UniformRandomProvider rng,long,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedArrayGenerationPerformance.java,nextInt,"UniformRandomProvider rng, int[] array, int start, int end",void,5,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedArrayGenerationPerformance.java,nextLong,"UniformRandomProvider rng, long[] array, int start, int end",void,5,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedArrayGenerationPerformance.java,nextInt,"Lock lock, UniformRandomProvider rng",int,6,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedArrayGenerationPerformance.java,nextLong,"Lock lock, UniformRandomProvider rng",long,6,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedArrayGenerationPerformance.java,nextInt,"Lock lock, UniformRandomProvider rng, int[] array, int start, int end",void,8,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedArrayGenerationPerformance.java,nextLong,"Lock lock, UniformRandomProvider rng, long[] array, int start, int end",void,8,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedGenerationPerformance.java,current,,UniformRandomProvider,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedGenerationPerformance.java,current,,SplitMix64,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedGenerationPerformance.java,next,,long,2,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedGenerationPerformance.java,nextInt,UniformRandomProvider rng,int,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedGenerationPerformance.java,nextLong,UniformRandomProvider rng,long,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedGenerationPerformance.java,nextInt,"Lock lock, UniformRandomProvider rng",int,6,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedGenerationPerformance.java,nextLong,"Lock lock, UniformRandomProvider rng",long,6,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedGenerationPerformance.java,mixLong,long z,long,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/simple/SeedGenerationPerformance.java,mixInt,long z,int,2,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmarkTest.java,assertUnsignedMultiply,"LongLongFunction fun, long[] lo",void,10,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmarkTest.java,assertUnsignedMultiply128,"LongLongLongLongFunction fun, long[] lo",void,12,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmarkTest.java,unsignedMultiplyHigh,"long a, long b",long,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmarkTest.java,unsignedMultiplyHigh,"long ah, long al, long bh, long bl",long,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmarkTest.java,toUnsignedBigInteger,long v,BigInteger,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/core/LXMBenchmarkTest.java,toUnsignedBigInteger,"long hi, long lo",BigInteger,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/sampling/ArrayShuffleBenchmarkTest.java,assertShuffle,"int length, BiConsumer<UniformRandomProvider, int[]> fun",void,14,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerTest.java,args,String name,Arguments,3,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerTest.java,gaussianSamplers,,Stream<Arguments>,13,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerTest.java,exponentialSamplers,,Stream<Arguments>,14,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerTest.java,createGaussianDistribution,,AbstractRealDistribution,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerTest.java,createExponentialDistribution,,AbstractRealDistribution,1,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerTest.java,testSamples,"double[] values, Function<UniformRandomProvider, ContinuousSampler> factory, Supplier<AbstractRealDistribution> distribution, double[]... ranges",void,38,P
+commons-rng,commons-rng-examples/examples-jmh/src/test/java/org/apache/commons/rng/examples/jmh/sampling/distribution/ZigguratSamplerTest.java,findIndex,"double[] data, double x",int,16,P
+commons-rng,commons-rng-examples/examples-jpms/jpms-app/src/main/java/org/apache/commons/rng/examples/jpms/app/DiceGameApplication.java,display,int[] scores,String,13,R
+commons-rng,commons-rng-examples/examples-sampling/src/main/java/org/apache/commons/rng/examples/sampling/ManifestVersionProvider.java,isApplicableManifest,Manifest manifest,boolean,2,P
+commons-rng,commons-rng-examples/examples-sampling/src/main/java/org/apache/commons/rng/examples/sampling/ManifestVersionProvider.java,get,"Attributes attributes, String key",Object,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/AlphaNumericComparator.java,nextSubSequenceEnd,"CharSequence seq, int start, int length",int,6,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/AlphaNumericComparator.java,isDigit,char ch,boolean,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/AlphaNumericComparator.java,compareNumerically,"CharSequence seq1, int start1, int end1, CharSequence seq2, int start2, int end2",int,13,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/AlphaNumericComparator.java,advancePastLeadingZeros,"CharSequence seq, int start, int end",int,5,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/AlphaNumericComparator.java,compareLexicographically,"CharSequence seq1, int start1, int end1, CharSequence seq2, int start2, int end2",int,11,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/BridgeTestCommand.java,writeInt,"Writer textOutput, IntBuffer buffer, int value",void,2,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/Hex.java,encodeHex,final byte[] data,char[],7,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/Hex.java,decodeHex,final CharSequence data,byte[],11,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/Hex.java,toDigit,"final CharSequence data, final int index",int,7,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ListCommand.java,writePlainData,"Appendable appendable, Iterable<StressTestData> testData",void,9,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ListCommand.java,writeStressTestData,"Appendable appendable, Iterable<StressTestData> testData",void,26,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ListCommand.java,readStressTestData,Readable readable,Iterable<StressTestData>,27,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ListCommand.java,parseArguments,"RandomSource randomSource, String arguments",Object[],13,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,setLogLevel,LogLevel logLevel,void,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,isLoggable,LogLevel level,boolean,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,debug,String message,void,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,debug,"String format, Object... args",void,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,info,String message,void,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,info,"String format, Object... args",void,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,error,String message,void,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,error,"String format, Object... args",void,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,error,"Throwable thrown, String message",void,8,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,error,"Throwable thrown, String format, Object... args",void,8,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,createErrorPrintWriter,StringWriter sw,PrintWriter,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,addStackTrace,"PrintWriter pw, Throwable thrown",void,2,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,println,"PrintStream out, String message",void,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/LogUtils.java,printf,"PrintStream out, String format, Object... args",void,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ManifestVersionProvider.java,isApplicableManifest,Manifest manifest,boolean,2,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ManifestVersionProvider.java,get,"Attributes attributes, String key",Object,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/OutputCommand.java,stripArrayFormatting,List<String> arguments,void,17,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/OutputCommand.java,checkCount,"long count, OutputFormat format",void,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/OutputCommand.java,writeHeaderLine,Writer output,void,2,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/OutputCommand.java,writeLong,"Writer out, long value",void,16,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/OutputCommand.java,writeInt,"Writer out, int value",void,8,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/OutputCommand.java,writeByte,"Writer out, int value",void,2,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ProcessUtils.java,checkExecutable,File executable,void,4,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ProcessUtils.java,checkOutputDirectory,File fileOutputPrefix,void,6,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ProcessUtils.java,buildSubProcessCommand,"File executable, List<String> executableArguments",List<String>,8,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ProcessUtils.java,getExitValue,Process process,Integer,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ProcessUtils.java,getExitValue,"Process process, long timeoutMillis",Integer,18,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,readFileContents,File resultFile,List<String>,9,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,splitContents,List<String> contents,List<List<String>>,14,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,createTestResult,"File resultFile, RandomSource randomSource, boolean bitReversed, TestFormat testFormat",TestResult,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getRandomSource,"File resultFile, Iterator<String> iter",RandomSource,7,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getBitReversed,"File resultFile, Iterator<String> iter",boolean,7,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,findExitCode,"TestResult testResult, String line",boolean,6,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,setTestU01ApplicationName,"TestResult testResult, String testSuiteName",void,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,updateTestU01ApplicationName,"Iterator<String> iter, TestResult testResult",void,4,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,findMatcherGroup1,"Iterator<String> iter, Pattern pattern",String,8,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,readPractRand,"Iterator<String> iter, PractRandTestResult testResult",void,16,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,deleteIfIncomplete,List<TestResult> results,void,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,deleteIfIncomplete,TestResult result,void,8,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getRandomSources,List<TestResult> results,List<RandomSource>,7,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getBitReversed,List<TestResult> results,List<Boolean>,15,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getTestNames,List<TestResult> results,List<String>,5,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,findCommonPathPrefixLength,List<TestResult> results,int,14,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getPathPrefix,TestResult testResult,String,2,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,createAPTHeader,"boolean showBitReversedColumn, List<String> testNames",String,8,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,createAPTSeparator,String header,String,13,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,writeAPTColumn,"Appendable output, String text, boolean highlight",void,9,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getTestResults,"List<TestResult> results, RandomSource randomSource, boolean bitReversed, String testName",List<TestResult>,9,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getSystematicFailures,List<TestResult> results,List<String>,21,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getMaxLengthExponent,List<TestResult> results,int,16,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getFailuresSummary,List<TestResult> results,String,9,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,writeTXT,"OutputStream out, List<TestResult> results",void,23,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,createTXTColumns,"final List<String> testNames, final boolean showBitReversedColumn",List<List<String>>,10,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,createColumn,String columnName,List<String>,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,createTextFormatFromColumnWidths,final List<List<String>> columns,String,11,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,getColumnWidth,List<String> column,int,5,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,writeColumns,"OutputStream out, List<List<String>> columns",void,12,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,writeFailures,"OutputStream out, List<TestResult> results",void,29,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,createFailuresColumns,"final List<String> testNames, final boolean showBitReversedColumn",List<List<String>>,8,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/ResultsCommand.java,bytesToString,int exponent,String,3,R
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RngDataOutput.java,ofInt,"OutputStream out, int size, ByteOrder byteOrder",RngDataOutput,4,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RngDataOutput.java,ofLong,"OutputStream out, int size, ByteOrder byteOrder",RngDataOutput,4,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RngDataOutput.java,ofLongAsHLInt,"OutputStream out, int size, ByteOrder byteOrder",RngDataOutput,4,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RngDataOutput.java,ofLongAsLHInt,"OutputStream out, int size, ByteOrder byteOrder",RngDataOutput,4,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,getSource64Default,,Source64Mode,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createReverseBytesProvider,final UniformRandomProvider rng,UniformRandomProvider,25,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createReverseBitsProvider,final UniformRandomProvider rng,UniformRandomProvider,25,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createIntProvider,final UniformRandomProvider rng,UniformRandomProvider,13,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createLongLowerUpperBitsIntProvider,final RandomLongSource rng,UniformRandomProvider,19,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createLongUpperLowerBitsIntProvider,final RandomLongSource rng,UniformRandomProvider,19,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createLongUpperBitsIntProvider,final RandomLongSource rng,UniformRandomProvider,10,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createLongLowerBitsIntProvider,final RandomLongSource rng,UniformRandomProvider,10,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createHashCodeProvider,final UniformRandomProvider rng,UniformRandomProvider,27,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createThreadLocalRandomProvider,final UniformRandomProvider rng,UniformRandomProvider,25,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createXorProvider,"final UniformRandomProvider rng1, final UniformRandomProvider rng2",UniformRandomProvider,25,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,createDataOutput,"final UniformRandomProvider rng, Source64Mode source64, OutputStream out, int byteSize, ByteOrder byteOrder",RngDataOutput,19,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RNGUtils.java,parseArgument,String argument,Object,5,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,printStressTestData,Iterable<StressTestData> stressTestData,void,10,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,createExistingFileMessage,File output,String,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,submitTasks,"ExecutorService service, List<Runnable> tasks",List<Future<?>>,3,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,createStringBuilderWithTimestamp,"long current, int pending, int running, int completed",StringBuilder,10,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,getTimeRemaining,"long taskTime, long current, long startTime",long,2,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,hms,"StringBuilder sb, final long millis",StringBuilder,8,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,append00,"StringBuilder sb, long ticks",StringBuilder,9,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,write,"StringBuilder sb, File output, boolean append",void,5,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,appendNameAndVersion,"StringBuilder sb, String prefix, String nameKey, String versionKey, String... infoKeys",StringBuilder,11,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,appendDate,"StringBuilder sb, String prefix",StringBuilder,2,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,appendPrefix,"StringBuilder sb, String prefix",StringBuilder,1,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,bytesToString,long bytes,String,6,P
+commons-rng,commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/StressTestCommand.java,log2,long x,int,1,P
+commons-rng,commons-rng-examples/examples-stress/src/test/java/org/apache/commons/rng/examples/stress/HexTest.java,assertHexEncodeAndDecode,byte[] bytes,void,4,P
+commons-rng,commons-rng-examples/examples-stress/src/test/java/org/apache/commons/rng/examples/stress/HexTest.java,assertHexDecodeAndEncode,char[] chars,void,3,P
+commons-rng,commons-rng-examples/examples-stress/src/test/java/org/apache/commons/rng/examples/stress/RngDataOutputTest.java,writeInt,"DataOutputStream sink, UniformRandomProvider rng",void,5,P
+commons-rng,commons-rng-examples/examples-stress/src/test/java/org/apache/commons/rng/examples/stress/RngDataOutputTest.java,writeLong,"DataOutputStream sink, UniformRandomProvider rng",void,5,P
+commons-rng,commons-rng-examples/examples-stress/src/test/java/org/apache/commons/rng/examples/stress/RngDataOutputTest.java,assertRngOutput,"RandomSource source, UnaryOperator<UniformRandomProvider> rngConverter, BiConsumer<DataOutputStream, UniformRandomProvider> pipe, RngDataOutputFactory factory, ByteOrder byteOrder",void,9,P
+commons-rng,commons-rng-examples/examples-stress/src/test/java/org/apache/commons/rng/examples/stress/RngDataOutputTest.java,createBytes,"UniformRandomProvider rng, int size, int repeats, UnaryOperator<UniformRandomProvider> rngConverter, BiConsumer<DataOutputStream, UniformRandomProvider> pipe",byte[],13,P
+commons-rng,commons-rng-examples/examples-stress/src/test/java/org/apache/commons/rng/examples/stress/RngDataOutputTest.java,writeRngOutput,"UniformRandomProvider rng, int size, int repeats, ByteOrder byteOrder, RngDataOutputFactory factory",byte[],7,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, boolean[] array",boolean[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, byte[] array",byte[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, char[] array",char[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, double[] array",double[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, float[] array",float[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, int[] array",int[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, long[] array",long[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, short[] array",short[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, T[] array",<T> T[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, List<T> array",<T> void,12,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, boolean[] array, int from, int to",boolean[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, byte[] array, int from, int to",byte[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, char[] array, int from, int to",char[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, double[] array, int from, int to",double[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, float[] array, int from, int to",float[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, int[] array, int from, int to",int[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, long[] array, int from, int to",long[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, short[] array, int from, int to",short[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,shuffle,"UniformRandomProvider rng, T[] array, int from, int to",<T> T[],13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"boolean[] array, int i, int j",void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"byte[] array, int i, int j",void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"char[] array, int i, int j",void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"double[] array, int i, int j",void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"float[] array, int i, int j",void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"int[] array, int i, int j",void,3,B
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"long[] array, int i, int j",void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"short[] array, int i, int j",void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"Object[] array, int i, int j",void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,swap,"List<T> list, int i, int j",<T> void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,randomBounded2,"int range1, int range2, int[] productBound, UniformRandomProvider rng",int[],20,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ArraySampler.java,checkFromToIndex,"int fromIndex, int toIndex, int length",int,5,T
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CollectionSampler.java,toList,Collection<T> collection,<T> List<T>,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,requirePositiveFinite,"double value, String message",double,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,uniform,double[] values,boolean,7,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,sum,double[] values,double,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,mean,double[] values,double,8,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,instance,,<T> ObjectSamplerFactory<T>,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,instance,,<T> SharedStateObjectSamplerFactory<T>,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,newObjectSamplerBuilder,,<T> Builder<ObjectSampler<T>>,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,newSharedStateObjectSamplerBuilder,,<T> Builder<SharedStateObjectSampler<T>>,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,newDiscreteSamplerBuilder,,Builder<DiscreteSampler>,2,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,newSharedStateDiscreteSamplerBuilder,,Builder<SharedStateDiscreteSampler>,2,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,newContinuousSamplerBuilder,,Builder<ContinuousSampler>,2,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,newSharedStateContinuousSamplerBuilder,,Builder<SharedStateContinuousSampler>,2,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,newLongSamplerBuilder,,Builder<LongSampler>,2,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,newSharedStateLongSamplerBuilder,,Builder<SharedStateLongSampler>,2,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CompositeSamplers.java,copy,"List<T> samplers, UniformRandomProvider rng",<T extends SharedStateSampler<T>> List<T>,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/DiscreteProbabilityCollectionSampler.java,createSampler,"UniformRandomProvider rng, double[] probabilities",SharedStateDiscreteSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/DiscreteProbabilityCollectionSampler.java,createSampler,"UniformRandomProvider rng, List<T> collection, double[] probabilities",<T> SharedStateDiscreteSampler,6,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/DiscreteProbabilityCollectionSampler.java,toList,"Map<T, Double> collection",<T> List<T>,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/DiscreteProbabilityCollectionSampler.java,toProbabilities,"Map<T, Double> collection",<T> double[],14,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/DiscreteProbabilityCollectionSampler.java,copyList,List<T> collection,<T> List<T>,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ListSampler.java,sample,"UniformRandomProvider rng, List<T> collection, int k",<T> List<T>,8,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ListSampler.java,shuffle,"UniformRandomProvider rng, List<T> list",<T> void,11,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/ListSampler.java,shuffle,"UniformRandomProvider rng, List<T> list, int start, boolean towardHead",<T> void,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java,shuffle,"UniformRandomProvider rng, int[] list",void,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java,shuffle,"UniformRandomProvider rng, int[] list, int start, boolean towardHead",void,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java,natural,int n,int[],5,-
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/SubsetSamplerUtils.java,checkSubset,"int n, int k",void,9,C
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/SubsetSamplerUtils.java,partialSample,"int[] domain, int steps, UniformRandomProvider rng, boolean upper",int[],9,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/SubsetSamplerUtils.java,swap,"int[] array, int i, int j",void,3,B
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/UnitSphereSampler.java,of,"UniformRandomProvider rng, int dimension",UnitSphereSampler,10,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AhrensDieterExponentialSampler.java,of,"UniformRandomProvider rng, double mean",SharedStateContinuousSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AhrensDieterMarsagliaTsangGammaSampler.java,of,"UniformRandomProvider rng, double alpha, double theta",SharedStateContinuousSampler,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSampler.java,of,"final UniformRandomProvider rng, final double[] probabilities",SharedStateDiscreteSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSampler.java,of,"final UniformRandomProvider rng, final double[] probabilities, int alpha",SharedStateDiscreteSampler,40,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSampler.java,fillRemainingIndices,"final int length, final int[] indices, int small",int,5,-
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSampler.java,findLastNonZeroIndex,final double[] probabilities,int,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSampler.java,computeSize,"int length, int alpha",int,6,T
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSampler.java,fillTable,"long[] probability, int[] alias, int[] indices, int start, int end",void,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSampler.java,isSmallPowerOf2,int n,boolean,1,T
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ChengBetaSampler.java,of,"UniformRandomProvider rng, double alpha, double beta",SharedStateContinuousSampler,8,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ContinuousUniformSampler.java,of,"UniformRandomProvider rng, double lo, double hi",SharedStateContinuousSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ContinuousUniformSampler.java,of,"UniformRandomProvider rng, double lo, double hi, boolean excludeBounds",SharedStateContinuousSampler,13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ContinuousUniformSampler.java,validateOpenInterval,"double lo, double hi",boolean,8,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ContinuousUniformSampler.java,lessThanUnsigned,"long x, long y",boolean,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/DirichletSampler.java,of,"UniformRandomProvider rng, double... alpha",DirichletSampler,6,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/DirichletSampler.java,symmetric,"UniformRandomProvider rng, int k, double alpha",DirichletSampler,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/DirichletSampler.java,validateNumberOfCategories,int k,void,3,C
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/DirichletSampler.java,createSampler,"UniformRandomProvider rng, double alpha",SharedStateContinuousSampler,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/DirichletSampler.java,isNonZeroPositiveFinite,double x,boolean,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/DiscreteUniformSampler.java,of,"UniformRandomProvider rng, int lower, int upper",SharedStateDiscreteSampler,19,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/DiscreteUniformSampler.java,createZeroBoundedSampler,"UniformRandomProvider rng, int upper",AbstractDiscreteUniformSampler,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/DiscreteUniformSampler.java,isPowerOf2,final int value,boolean,1,T
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,of,"UniformRandomProvider rng, long[] frequencies",FastLoadedDiceRollerDiscreteSampler,6,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,of,"UniformRandomProvider rng, double[] weights",FastLoadedDiceRollerDiscreteSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,of,"UniformRandomProvider rng, double[] weights, int alpha",FastLoadedDiceRollerDiscreteSampler,16,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,sum,long[] frequencies,long,21,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,convertToIntegers,"double[] weights, long[] values, int[] exponents, int alpha",void,29,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,filterWeights,"long[] values, int[] exponents, int alpha, int maxExponent",void,7,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,scaleWeights,"long[] values, int[] exponents",void,18,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,sum,"long[] values, int[] exponents, int[] indices",BigInteger,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,toBigInteger,"long value, int offset",BigInteger,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,createSampler,"UniformRandomProvider rng, long[] frequencies, int[] indices, long m",FastLoadedDiceRollerDiscreteSampler,24,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,createSampler,"UniformRandomProvider rng, long[] frequencies, int[] offsets, int[] indices, BigInteger m",FastLoadedDiceRollerDiscreteSampler,23,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,testBit,"long value, int offset, int n",boolean,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,checkWeightsNonZeroLength,double[] weights,int,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,indicesOfNonZero,long[] values,int[],8,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,indexOfNonZero,long[] frequencies,int,6,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSampler.java,checkArraySize,long size,int,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/GaussianSampler.java,of,"NormalizedGaussianSampler normalized, double mean, double standardDeviation",SharedStateContinuousSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/GeometricSampler.java,of,"UniformRandomProvider rng, double probabilityOfSuccess",SharedStateDiscreteSampler,13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/GuideTableDiscreteSampler.java,of,"UniformRandomProvider rng, double[] probabilities",SharedStateDiscreteSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/GuideTableDiscreteSampler.java,of,"UniformRandomProvider rng, double[] probabilities, double alpha",SharedStateDiscreteSampler,24,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/GuideTableDiscreteSampler.java,validateParameters,"double[] probabilities, double alpha",void,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/GuideTableDiscreteSampler.java,getGuideTableIndex,"double p, int tableLength",int,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalGamma.java,logGamma,double x,double,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalGamma.java,lanczos,final double x,double,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,validateProbabilities,double[] probabilities,double,8,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,requireFinite,"double x, String name",double,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,requirePositiveFinite,"double x, String name",double,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,requireStrictlyPositiveFinite,"double x, String name",double,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,requireStrictlyPositive,"double x, String name",double,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,requireRange,"double min, double max, double x, String name",double,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,requireRangeClosed,"double min, double max, double x, String name",double,5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,newNormalizedGaussianSampler," NormalizedGaussianSampler sampler, UniformRandomProvider rng",NormalizedGaussianSampler,9,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,makeDouble,long v,double,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,makeNonZeroDouble,long v,double,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InternalUtils.java,create,,FactorialLog,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InverseTransformContinuousSampler.java,of,"UniformRandomProvider rng, ContinuousInverseCumulativeProbabilityFunction function",SharedStateContinuousSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InverseTransformDiscreteSampler.java,of,"UniformRandomProvider rng, DiscreteInverseCumulativeProbabilityFunction function",SharedStateDiscreteSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/InverseTransformParetoSampler.java,of,"UniformRandomProvider rng, double scale, double shape",SharedStateContinuousSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/KempSmallMeanPoissonSampler.java,of,"UniformRandomProvider rng, double mean",SharedStateDiscreteSampler,6,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java,of,"UniformRandomProvider rng, double mean",SharedStateDiscreteSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LevySampler.java,of,"UniformRandomProvider rng, double location, double scale",LevySampler,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LogNormalSampler.java,of,"NormalizedGaussianSampler gaussian, double mu, double sigma",SharedStateContinuousSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,fill,"byte[] table, int from, int to, byte value",int,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,fill,"short[] table, int from, int to, short value",int,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,fill,"int[] table, int from, int to, int value",int,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,getBase64Digit,"int m, int k",int,1,T
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,toUnsignedInt30,double p,int,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,createSampler,"UniformRandomProvider rng, String distributionName, int[] prob, int offset",SharedStateDiscreteSampler,8,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,of,"UniformRandomProvider rng, double[] probabilities",SharedStateDiscreteSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,normaliseProbabilities,double[] probabilities,int[],17,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,of,"UniformRandomProvider rng, double mean",SharedStateDiscreteSampler,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,validatePoissonDistributionParameters,double mean,void,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,createPoissonDistributionFromX0," UniformRandomProvider rng, double mean",SharedStateDiscreteSampler,18,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,createPoissonDistributionFromXMode," UniformRandomProvider rng, double mean",SharedStateDiscreteSampler,40,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,of,"UniformRandomProvider rng, int trials, double probabilityOfSuccess",SharedStateDiscreteSampler,11,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,validateBinomialDistributionParameters,"int trials, double probabilityOfSuccess",void,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,createBinomialDistributionSampler," UniformRandomProvider rng, int trials, double probabilityOfSuccess",SharedStateDiscreteSampler,28,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSampler.java,createBinomialDistributionSamplerFromRange," UniformRandomProvider rng, int trials, double p, boolean useInversion, double p0, int begin, int end",SharedStateDiscreteSampler,20,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java,of,"UniformRandomProvider rng, double mean",SharedStateDiscreteSampler,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSamplerCache.java,checkMeanRange,"double minMean, double maxMean",double,7,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSamplerCache.java,getMinimumCachedMean,,double,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/RejectionInversionZipfSampler.java,helper1,final double x,double,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/RejectionInversionZipfSampler.java,helper2,final double x,double,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/RejectionInversionZipfSampler.java,of,"UniformRandomProvider rng, int numberOfElements, double exponent",SharedStateDiscreteSampler,7,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/SmallMeanPoissonSampler.java,of,"UniformRandomProvider rng, double mean",SharedStateDiscreteSampler,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/SmallMeanPoissonSampler.java,computeP0,double mean,double,6,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/StableSampler.java,getTau,"double alpha, double beta",double,13,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/StableSampler.java,d2,double x,double,10,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/StableSampler.java,tan2,double x,double,10,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/StableSampler.java,of,"UniformRandomProvider rng, double alpha, double beta",StableSampler,2,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/StableSampler.java,of,"UniformRandomProvider rng, double alpha, double beta, double gamma, double delta",StableSampler,12,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/StableSampler.java,create,"UniformRandomProvider rng, double alpha, double beta",StableSampler,23,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/StableSampler.java,validateParameters,"double alpha, double beta",void,7,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/StableSampler.java,validateParameters,"double alpha, double beta, double gamma, double delta",void,3,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/TSampler.java,makeSignedDouble,long bits,double,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/TSampler.java,of,"UniformRandomProvider rng, double degreesOfFreedom",TSampler,8,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/UniformLongSampler.java,of,"UniformRandomProvider rng, long lower, long upper",UniformLongSampler,19,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/UniformLongSampler.java,createZeroBoundedSampler,"UniformRandomProvider rng, long upper",UniformLongSampler,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/UniformLongSampler.java,isPowerOf2,final long value,boolean,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZetaSampler.java,of,"UniformRandomProvider rng, double exponent",SharedStateDiscreteSampler,4,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java,pdf,double x,double,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratSampler.java,of,UniformRandomProvider rng,Exponential,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratSampler.java,of,"UniformRandomProvider rng, double mean",Exponential,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratSampler.java,of,UniformRandomProvider rng,NormalizedGaussian,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratSampler.java,interpolate,"double[] v, int j, long u",double,1,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/shape/BoxSampler.java,of,"UniformRandomProvider rng, double[] a, double[] b",BoxSampler,16,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/shape/Coordinates.java,requireFinite,"double[] values, String message",double[],6,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/shape/Coordinates.java,requireLength,"double[] values, int length, String message",double[],5,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/shape/LineSampler.java,of,"UniformRandomProvider rng, double[] a, double[] b",LineSampler,18,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/shape/TetrahedronSampler.java,of,"UniformRandomProvider rng, double[] a, double[] b, double[] c, double[] d",TetrahedronSampler,9,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/shape/TriangleSampler.java,of,"UniformRandomProvider rng, double[] a, double[] b, double[] c",TriangleSampler,19,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/shape/UnitBallSampler.java,of,"UniformRandomProvider rng, int dimension",UnitBallSampler,10,P
+commons-rng,commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/shape/UnitBallSampler.java,makeSignedDouble,long bits,double,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,aboveBatchLimit,,Stream<Arguments>,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,natural,"int from, int to, int length",int[],11,-
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,randomBitsAsBytes,int length,byte[],6,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,randomBitsAsInts,int length,int[],6,C
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,booleans,byte[] in,boolean[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,bytes,boolean[] in,byte[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,bytes,int[] in,byte[],5,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,chars,int[] in,char[],5,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,doubles,int[] in,double[],5,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,floats,int[] in,float[],5,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,longs,int[] in,long[],5,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,shorts,int[] in,short[],5,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,ints,byte[] in,int[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,ints,char[] in,int[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,ints,double[] in,int[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,ints,float[] in,int[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,ints,long[] in,int[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,ints,short[] in,int[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,boxed,int[] in,Integer[],1,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ArraySamplerTest.java,ints,Integer[] in,int[],1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CombinationSamplerTest.java,assertIsInDomain,"int n, int value",void,3,C
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CombinationSamplerTest.java,findCode,"int[] codeLookup, int[] sample",int,12,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,addObjectSamplers,"Builder<? super SharedStateObjectSampler<Integer>> builder, int n, int min, int max, UniformRandomProvider rng",void,15,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,assertObjectSamplerSamples,"ObjectSampler<Integer> sampler, int min, int max",void,9,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,addDiscreteSamplers,"Builder<? super SharedStateDiscreteSampler> builder, int n, int min, int max, UniformRandomProvider rng",void,15,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,assertDiscreteSamplerSamples,"DiscreteSampler sampler, int min, int max",void,9,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,addContinuousSamplers,"Builder<? super SharedStateContinuousSampler> builder, int n, double min, double max, UniformRandomProvider rng",void,14,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,assertContinuousSamplerSamples,"ContinuousSampler sampler, double min, double max",void,11,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,addLongSamplers,"Builder<? super SharedStateLongSampler> builder, int n, long min, long max, UniformRandomProvider rng",void,14,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,assertLongSamplerSamples,"LongSampler sampler, long min, long max",void,11,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,testSharedStateObjectSampler,boolean customFactory,void,15,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,testSharedStateDiscreteSampler,boolean customFactory,void,14,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,testSharedStateContinuousSampler,boolean customFactory,void,15,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,addFactoryWithNoSharedStateSupport,Builder<?> builder,void,13,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/CompositeSamplersTest.java,testSharedStateLongSampler,boolean customFactory,void,14,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ListSamplerTest.java,compare,"List<T> orig, List<T> list, int start, int end, boolean same",<T> boolean,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ListSamplerTest.java,findSample,"List<T> u, Collection<String> sampList",<T extends Set<String>> int,13,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ListSamplerTest.java,assertShuffleMatchesPermutationSamplerShuffle,List<Integer> list,void,14,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ListSamplerTest.java,assertShuffleMatchesPermutationSamplerShuffle,"List<Integer> list, int start, boolean towardHead",void,15,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/ObjectSamplerTest.java,createSamples,"ObjectSampler<Double> sampler, int count",Double[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java,findPerm,"int[][] p, int[] samp",int,7,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/RandomAssert.java,assertProduceSameSequence,"ContinuousSampler sampler1, ContinuousSampler sampler2",void,3,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/RandomAssert.java,assertProduceSameSequence,"DiscreteSampler sampler1, DiscreteSampler sampler2",void,3,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/RandomAssert.java,assertProduceSameSequence,"LongSampler sampler1, LongSampler sampler2",void,3,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/RandomAssert.java,assertProduceSameSequence,"ObjectSampler<T> sampler1, ObjectSampler<T> sampler2",<T> void,9,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/RandomAssert.java,isArray,Object object,boolean,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/RandomAssert.java,createRNG,,UniformRandomProvider,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/RandomAssert.java,createRNG,int count,UniformRandomProvider[],5,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/RandomAssert.java,seededRNG,,UniformRandomProvider,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,testDistribution1D,boolean factoryConstructor,void,16,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,assertMonobit,"int bitCount, int numberOfBits",void,6,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,testDistribution2D,boolean factoryConstructor,void,16,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,testDistribution3D,boolean factoryConstructor,void,18,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,testDistribution4D,boolean factoryConstructor,void,26,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,circleBin,"int angleBins, double[] r, double x, double y",int,3,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,angleBin,"int angleBins, double x, double y",int,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,radiusBin,"double[] r, double x, double y",int,7,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,testBadProvider,final int dimension,void,7,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,testInvalidInverseNormalisationND,final int dimension,void,10,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,testSharedStateSampler,"int dimension, boolean factoryConstructor",void,5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,createUnitSphereSampler,"int dimension, UniformRandomProvider rng, boolean factoryConstructor",UnitSphereSampler,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/UnitSphereSamplerTest.java,length,double[] vector,double,5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/AhrensDieterMarsagliaTsangGammaSamplerTest.java,testSharedStateSampler,"double alpha, double theta",void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSamplerTest.java,createSampler,double[] probabilities,SharedStateDiscreteSampler,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSamplerTest.java,checkSamples,double[] probabilities,void,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSamplerTest.java,checkSamples,"SharedStateDiscreteSampler sampler, double[] probabilities",void,24,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/AliasMethodDiscreteSamplerTest.java,testSharedStateSampler,double[] probabilities,void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ChengBetaSamplerTest.java,testSharedStateSampler,"double alpha, double beta",void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ContinuousSamplerParametricTest.java,getSamplerTestData,,Iterable<ContinuousSamplerTestData>,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ContinuousSamplerParametricTest.java,check,"long sampleSize, ContinuousSampler sampler, double[] deciles",void,42,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ContinuousSamplersList.java,add,"List<ContinuousSamplerTestData> list, final org.apache.commons.math3.distribution.RealDistribution dist, UniformRandomProvider rng",void,14,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ContinuousSamplersList.java,add,"List<ContinuousSamplerTestData> list, final org.apache.commons.math3.distribution.RealDistribution dist, final ContinuousSampler sampler",void,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ContinuousSamplersList.java,add,"List<ContinuousSamplerTestData> list, final double[] deciles, final ContinuousSampler sampler",void,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ContinuousSamplersList.java,list,,Iterable<ContinuousSamplerTestData>,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ContinuousSamplersList.java,getDeciles,org.apache.commons.math3.distribution.RealDistribution dist,double[],7,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ContinuousSamplerTest.java,createSamples,"ContinuousSampler sampler, int count",double[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ContinuousUniformSamplerTest.java,testSampleInRange,"UniformRandomProvider rng, double low, double high",void,7,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DirichletSamplerTest.java,assertSamples,double... alpha,void,29,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DirichletSamplerTest.java,assertSample,"int k, double[] x",void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DirichletSamplerTest.java,getColumnMeans,double[][] data,double[],7,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DirichletSamplerTest.java,getCovariance,double[][] data,double[][],2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteSamplerParametricTest.java,getSamplerTestData,,Iterable<DiscreteSamplerTestData>,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteSamplerParametricTest.java,check,"long sampleSize, DiscreteSampler sampler, int[] points, double[] expected, boolean range",void,37,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteSamplersList.java,add,"List<DiscreteSamplerTestData> list, final org.apache.commons.math3.distribution.IntegerDistribution dist, int[] points, UniformRandomProvider rng",void,16,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteSamplersList.java,add,"List<DiscreteSamplerTestData> list, final org.apache.commons.math3.distribution.IntegerDistribution dist, int[] points, final DiscreteSampler sampler",void,4,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteSamplersList.java,add,"List<DiscreteSamplerTestData> list, int[] points, final double[] probabilities, boolean range, final DiscreteSampler sampler",void,4,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteSamplersList.java,list,,Iterable<DiscreteSamplerTestData>,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteSamplersList.java,getProbabilities,"org.apache.commons.math3.distribution.IntegerDistribution dist, int[] points",double[],11,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteSamplersList.java,getProbability,org.apache.commons.math3.distribution.UniformIntegerDistribution dist,double,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteSamplerTest.java,createSamples,"DiscreteSampler sampler, int count",int[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteUniformSamplerTest.java,assertOffsetSamples,int range,void,17,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteUniformSamplerTest.java,testSharedStateSampler,"int lower, int upper",void,6,C
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/DiscreteUniformSamplerTest.java,assertToString,"int lower, int upper",void,3,C
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSamplerTest.java,createSampler,long... frequencies,SharedStateDiscreteSampler,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSamplerTest.java,createSampler,double... weights,SharedStateDiscreteSampler,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSamplerTest.java,testFactoryConstructorFrequencies,,Stream<long[]>,12,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSamplerTest.java,testFactoryConstructorWeights,,Stream<double[]>,15,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSamplerTest.java,testSamplesFrequencies,,Stream<long[]>,8,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSamplerTest.java,testSamplesWeights,,Stream<double[]>,13,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSamplerTest.java,testSamplesWeightsMatchesFrequencies,,Stream<long[]>,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/FastLoadedDiceRollerDiscreteSamplerTest.java,testSharedStateSampler,,Stream<long[]>,4,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/GeometricSamplerTest.java,testSharedStateSampler,double probabilityOfSuccess,void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/GuideTableDiscreteSamplerTest.java,assertConstructorThrows,"double[] probabilities, double alpha",void,3,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/GuideTableDiscreteSamplerTest.java,checkSamples,"double[] probabilies, double alpha",void,26,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/InverseTransformParetoSamplerTest.java,assertSampler,"double scale, double shape, double expected",void,10,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/InverseTransformParetoSamplerTest.java,createRNG,long... values,UniformRandomProvider,11,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/KempSmallMeanPoissonSamplerTest.java,testSample,"FixedRNG rng, SharedStateDiscreteSampler sampler, double cumulativeProbability, int lower, int upper",void,4,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSamplerTest.java,testPoissonSamples," final UniformRandomProvider rng1, final UniformRandomProvider rng2, double mean",void,9,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSamplerTest.java,testSharedStateSampler,double mean,void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/LongSamplerTest.java,createSamples,"LongSampler sampler, int count",long[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSamplerTest.java,assertEnumeratedSamplerConstructorThrows,double[] probabilities,void,3,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSamplerTest.java,createProbabilities,"int offset, int[] prob",double[],5,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSamplerTest.java,checkStorageRequirements,"int k, double expectedLimitMB",void,22,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSamplerTest.java,getBase64Digit,"int m, int k",int,1,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSamplerTest.java,getBinomialP0,"int trials, double probabilityOfSuccess",double,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSamplerTest.java,testSharedStateSampler,"int offset, int[] prob",void,7,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/MarsagliaTsangWangDiscreteSamplerTest.java,testSharedStateSampler,"int trials, double probabilityOfSuccess",void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/NonFiniteParameterValidationTest.java,assertThrowsIAE,Executable executable,void,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/PoissonSamplerCacheTest.java,supportedMinMean,,DoubleStream,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/PoissonSamplerCacheTest.java,unsupportedMaxMean,,DoubleStream,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/PoissonSamplerCacheTest.java,createPoissonSamplerCache,"double minMean, double maxMean",PoissonSamplerCache,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/PoissonSamplerCacheTest.java,createPoissonSamplerCache,,PoissonSamplerCache,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/PoissonSamplerCacheTest.java,testPoissonSamples," final RestorableUniformRandomProvider rng1, final RestorableUniformRandomProvider rng2, PoissonSamplerCache cache, double mean",void,5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/PoissonSamplerTest.java,testSharedStateSampler,double mean,void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/RejectionInversionZipfSamplerTest.java,testSharedStateSampler,"int numberOfElements, double exponent",void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,assertConstructorThrows,"double alpha, double beta, double gamma, double delta",void,3,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,getTauOriginal,"double alpha, double beta",double,11,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,computeNumerator,"double alpha, double beta, long x",double,8,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,computeD,"double alpha, double z",double,4,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,assertCosPhiMinusAlphaPhiXi,"double alpha, long x",void,22,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,d2,double x,double,8,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,d2b,double x,double,8,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,sampleCMS,"double alpha, double beta, double w, double u",double,19,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,sampleWeron,"double alpha, double beta, double w, double u",double,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,sampleWeronAlphaNot1,"double alpha, double beta, double w, double u",double,23,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,sampleWeronAlpha1,"double beta, double w, double u",double,4,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,testSamplesWithDInfinite,double beta,void,23,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,testSupport,"double gamma, double delta",void,5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,testSupport,"double alpha, double beta, double gamma, double delta",void,55,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,getSupport,"double alpha, double beta",double[],22,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,getU,UniformRandomProvider rng,double,5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,getU,long x,double,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,createRngWithSequence,final long... longs,UniformRandomProvider,11,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,assertUWSequence,"double[] expected, long[] longs",void,9,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,testSamplerOutputIsContinuousFunction,"double alpha1, double beta1, double alpha2, double beta2, double alpha3, double beta3, int ulp",void,26,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,testSharedStateSampler,"double alpha, double beta",void,8,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,testTransformedSampler,,Stream<Arguments>,10,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/StableSamplerTest.java,createTransformedSampler,"UniformRandomProvider rng, double alpha, double beta, final double gamma, final double delta",ContinuousSampler,7,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/UniformLongSamplerTest.java,createRngWithFullBitsOnFirstCall,long m,UniformRandomProvider,13,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/UniformLongSamplerTest.java,assertOffsetSamples,long range,void,17,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/UniformLongSamplerTest.java,assertSharedStateSampler,"long lower, long upper",void,5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/UniformLongSamplerTest.java,assertToString,"long lower, long upper",void,3,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ZetaSamplerTest.java,createRNG,long... values,UniformRandomProvider,11,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ZigguratSamplerTest.java,expSample,"long seed, final long... longs",double,11,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ZigguratSamplerTest.java,gaussianSamplers,,Stream<Arguments>,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ZigguratSamplerTest.java,exponentialSamplers,,Stream<Arguments>,2,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ZigguratSamplerTest.java,createGaussianDistribution,,AbstractRealDistribution,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ZigguratSamplerTest.java,createExponentialDistribution,,AbstractRealDistribution,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ZigguratSamplerTest.java,testSamples,"double[] values, Function<UniformRandomProvider, ContinuousSampler> factory, Supplier<AbstractRealDistribution> distribution, double[]... ranges",void,38,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/ZigguratSamplerTest.java,findIndex,"double[] data, double x",int,16,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/BoxSamplerTest.java,testExtremeValueCoordinates,int dimension,void,24,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/BoxSamplerTest.java,testDistributionND,int dimension,void,33,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/BoxSamplerTest.java,testSharedStateSampler,int dimension,void,7,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/BoxSamplerTest.java,testChangedInputCoordinates,int dimension,void,21,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/BoxSamplerTest.java,createCoordinate,"double x, int dimension",double[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/LineSamplerTest.java,testExtremeValueCoordinates,int dimension,void,24,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/LineSamplerTest.java,testDistributionND,int dimension,void,38,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/LineSamplerTest.java,testSharedStateSampler,int dimension,void,7,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/LineSamplerTest.java,testChangedInputCoordinates,int dimension,void,21,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/LineSamplerTest.java,createCoordinate,"double x, int dimension",double[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TetrahedronSamplerTest.java,addObservation,"double[] v, long[] observed, int binsX, int binsXy, double lx, double ly, double lz, double sx, double sy, double sz, Tetrahedron tetrahedron",void,9,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TetrahedronSamplerTest.java,createCoordinate,double x,double[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TetrahedronSamplerTest.java,centre,"double[] a, double[] b, double[] c",double[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TetrahedronSamplerTest.java,normal,"double[] a, double[] b, double[] c",double[],12,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TetrahedronSamplerTest.java,dot,"double[] a, double[] b",double,1,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TetrahedronSamplerTest.java,subtract,"double[] a, double[] b",double[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TriangleSamplerTest.java,testExtremeValueCoordinates,int dimension,void,33,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TriangleSamplerTest.java,testDistributionND,int dimension,void,43,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TriangleSamplerTest.java,addObservation,"double[] v, long[] observed, int bins, double sx, double sy, Triangle triangle",void,6,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TriangleSamplerTest.java,testSharedStateSampler,int dimension,void,8,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TriangleSamplerTest.java,testChangedInputCoordinates,int dimension,void,23,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TriangleSamplerTest.java,createCoordinate,"double x, int dimension",double[],5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TriangleSamplerTest.java,testTransformND,int dimension,void,29,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TriangleSamplerTest.java,multiply,"double[][] matrix, double[] v",double[],11,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/TriangleSamplerTest.java,length,double[] vector,double,5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/UnitBallSamplerTest.java,testDistributionND,int dimension,void,33,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/UnitBallSamplerTest.java,testInvalidInverseNormalisationND,final int dimension,void,10,T
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/UnitBallSamplerTest.java,testSharedStateSampler,int dimension,void,5,C
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/UnitBallSamplerTest.java,length,double[] vector,double,5,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/UnitBallSamplerTest.java,orthant,double[] vector,int,7,P
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/UnitBallSamplerTest.java,createVolumeFunction,final int dimension,DoubleUnaryOperator,18,R
+commons-rng,commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/shape/UnitBallSamplerTest.java,createRadiusFunction,final int dimension,DoubleUnaryOperator,18,R
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/RandomSource.java,create,RandomSource source,RestorableUniformRandomProvider,1,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/RandomSource.java,create,"RandomSource source, Object seed, Object... data",RestorableUniformRandomProvider,1,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/RandomSource.java,createInt,,int,1,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/RandomSource.java,createLong,,long,1,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/RandomSource.java,createIntArray,int n,int[],1,C
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/RandomSource.java,createLongArray,int n,long[],1,R
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/RandomSource.java,unrestorable,final UniformRandomProvider delegate,UniformRandomProvider,116,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/ThreadLocalRandomSource.java,current,RandomSource source,UniformRandomProvider,13,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,intSizeFromByteSize,int size,int,1,T
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,longSizeFromByteSize,int size,int,1,T
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,intSizeFromLongSize,int size,int,2,T
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,longSizeFromIntSize,int size,int,1,T
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,int2Long,int input,long,1,R
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,int2IntArray,"int input, int length",int[],1,C
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,int2LongArray,"int input, int length",long[],1,R
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,long2Int,long input,int,1,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,long2IntArray,"long input, int length",int[],13,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,long2LongArray,"long input, int length",long[],7,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,intArray2Int,int[] input,int,5,T
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,intArray2Long,int[] input,long,6,R
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,intArray2LongArray,"int[] input, int length",long[],6,R
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,longArray2Int,long[] input,int,1,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,longArray2Long,long[] input,long,5,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,longArray2IntArray,"long[] input, int length",int[],6,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,byteArray2Int,byte[] input,int,6,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,byteArray2IntArray,"byte[] input, int length",int[],6,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,byteArray2Long,byte[] input,long,6,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/Conversions.java,byteArray2LongArray,"byte[] input, int length",long[],6,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/MixFunctions.java,stafford13,long x,long,3,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/MixFunctions.java,murmur3,int x,int,3,T
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/NativeSeedType.java,convertSeedToBytes,Object seed,byte[],12,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/NativeSeedType.java,unrecognizedSeedMessage,Object seed,String,1,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/ProviderBuilder.java,create,RandomSourceInternal source,RestorableUniformRandomProvider,1,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/ProviderBuilder.java,create,"RandomSourceInternal source, Object seed, Object[] args",RestorableUniformRandomProvider,6,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/ProviderBuilder.java,create,"Constructor<?> rng, Object[] args",RestorableUniformRandomProvider,5,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,createInt,,int,6,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,createLong,,long,6,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,createIntArray,int n,int[],1,B
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,createIntArray,"int n, int from, int to",int[],13,C
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,createLongArray,int n,long[],1,R
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,createLongArray,"int n, int from, int to",long[],13,R
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,fillIntArray,"int[] array, int start, int end",void,8,C
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,fillLongArray,"long[] array, int start, int end",void,8,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,createByteArray,"UniformRandomProvider source, int n, int from, int to",byte[],4,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,ensureNonZero,"int[] seed, int from, int to",void,13,T
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,ensureNonZero,"long[] seed, int from, int to",void,13,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,ensureNonZero,"byte[] seed, int from, int to, UniformRandomProvider source",void,30,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedFactory.java,ensureNonZero,"RandomLongSource source, long value",long,5,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedUtils.java,createIntHexPermutation,UniformRandomProvider rng,int,2,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedUtils.java,createLongHexPermutation,UniformRandomProvider rng,long,3,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedUtils.java,createUpperBitsHexPermutation,UnsignedByteProvider provider,int,10,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedUtils.java,nextUnsignedByteInRange,"UnsignedByteProvider provider, int threshold, int n",int,5,P
+commons-rng,commons-rng-simple/src/main/java/org/apache/commons/rng/simple/internal/SeedUtils.java,copyToOutput,"byte[] digits, int bits, int upper, int lower",int,3,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/JDKRandomBridgeTest.java,unsupportedRandomSource,,Stream<RandomSource>,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/JDKRandomBridgeTest.java,supportedRandomSource,,Stream<RandomSource>,3,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/JDKRandomBridgeTest.java,testDeserializationWithBadStateSizeThrows,,Stream<RandomSource>,3,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/JDKRandomBridgeTest.java,assertDeserializationThrows,byte[] data,void,5,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/JDKRandomBridgeTest.java,readInt,"byte[] data, int offset",int,4,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/JDKRandomBridgeTest.java,writeInt,"byte[] data, int offset, int value",void,4,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/JDKRandomWrapperTest.java,checkSameSequence,"Random rng1, UniformRandomProvider rng2",void,34,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ProvidersCommonParametricTest.java,makeList,"int n, UniformRandomProvider generator",List<Number>,15,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ProvidersCommonParametricTest.java,checkNextIntegerInRange,"final UniformRandomProvider rng, final int max, int sampleSize",void,2,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ProvidersCommonParametricTest.java,checkNextInRange,"UniformRandomProvider generator, long n, int sampleSize, LongSupplier nextMethod",void,55,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ProvidersCommonParametricTest.java,createsNonZeroLongOutput,"UniformRandomProvider rng, int cycles",boolean,7,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ProvidersList.java,add,"List<Data> list, RandomSource source, Object... data",void,4,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ProvidersList.java,list,,Iterable<Data>,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ProvidersList.java,list32,,Iterable<Data>,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ProvidersList.java,list64,,Iterable<Data>,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/RandomAssert.java,assertProduceSameSequence,"UniformRandomProvider rng1, UniformRandomProvider rng2",void,62,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/RandomSourceTest.java,assertNoDefaultMethods,Class<?> cls,void,6,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ThreadLocalRandomSourceTest.java,createToIgnoreSet,,void,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/ThreadLocalRandomSourceTest.java,getCurrent,RandomSource source,UniformRandomProvider,5,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/ArrayConverterEndianTest.java,getLengths,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/ByteArray2IntArrayTest.java,getLengths,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/ByteArray2IntArrayTest.java,getOutputLength,int bytes,int,1,T
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/ByteArray2LongArrayTest.java,getLengths,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/ByteArray2LongArrayTest.java,getOutputLength,int bytes,int,1,T
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/ConversionsTest.java,getByteLengths,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/ConversionsTest.java,getIntLengths,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/ConversionsTest.java,getLongLengths,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/IntArray2LongArrayTest.java,getLengths,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/IntArray2LongArrayTest.java,getOutputLength,int ints,int,1,T
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/Long2IntArrayTest.java,testFixedLengthConversion,int length,void,6,T
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/LongArray2IntArrayTest.java,getLengths,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/LongArray2IntArrayTest.java,getInputLength,int ints,int,1,T
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/MixFunctionsTest.java,unmixStafford13,long x,long,11,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/NativeSeedTypeTest.java,int2long,int v,long,1,R
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/NativeSeedTypeTest.java,long2intArray,"long v, int length",int[],18,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/NativeSeedTypeTest.java,long2longArray,"long v, int length",long[],1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/NativeSeedTypeTest.java,getByteLengths,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/NativeSeedTypeTest.java,getIntSeeds,,IntStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/NativeSeedTypeTest.java,getLongSeeds,,LongStream,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/NativeSeedTypeTest.java,testConvertSeedToBytesUsingUnsupportedSeedThrows,,Object[],11,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/RandomSourceInternalParametricTest.java,getType,RandomSourceInternal randomSourceInternal,Class<?>,1,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/SeedFactoryTest.java,assertDifferentValues,"Map<T, Integer> map",<T> void,15,P
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/SeedFactoryTest.java,assertCreateIntArray,int n,void,8,C
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/SeedFactoryTest.java,assertCreateLongArray,int n,void,8,T
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/SeedFactoryTest.java,assertMonobit,"int bitCount, int numberOfBits",void,7,T
+commons-rng,commons-rng-simple/src/test/java/org/apache/commons/rng/simple/internal/SeedFactoryTest.java,assertCreateByteArray,final byte[] expected,void,13,P

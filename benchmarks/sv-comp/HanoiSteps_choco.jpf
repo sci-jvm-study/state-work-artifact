@@ -1,0 +1,8 @@
+target = HanoiSteps
+classpath = bin
+sourcepath = .
+symbolic.method = HanoiSteps.classify(sym)
+symbolic.min_int = 1
+symbolic.max_int = 8
+symbolic.dp = choco
+listener = gov.nasa.jpf.symbc.StateWorkListener

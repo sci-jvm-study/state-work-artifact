@@ -1,0 +1,123 @@
+##### units per worker = 4 (cut level needs >= 4*K non-leaf states)
+====================================================================================================
+K = 4 workers: 22 configurations in 16 program groups have a level with >= 16 non-leaf states (median 16 units)
+weights           macro imbalance  median over groups  share of groups <= 1.25
+count                       1.280               1.310                      44%
+random                      1.339               1.340                      25%
+M5 linear                   1.271               1.273                      44%
+M5 RF                       1.280               1.272                      38%
+Knuth 30                    1.127               1.134                      88%
+hindsight size              1.078               1.013                      94%
+oracle                      1.033               1.010                     100%
+
+Paired comparison (imbalance, lower is better; difference = first minus second), groups better/worse for the first:
+  M5 RF           vs count      mean difference -0.001, better 7 / worse 5, p = 0.875, rank-biserial r = -0.05
+  M5 linear       vs count      mean difference -0.009, better 6 / worse 5, p = 0.79, rank-biserial r = -0.09
+  Knuth 30        vs count      mean difference -0.153, better 10 / worse 0, p = 0.00506, rank-biserial r = -1.00
+  hindsight size  vs count      mean difference -0.202, better 10 / worse 0, p = 0.00506, rank-biserial r = -1.00
+  random          vs count      mean difference +0.058, better 7 / worse 9, p = 0.121, rank-biserial r = +0.44
+  M5 RF           vs M5 linear  mean difference +0.008, better 2 / worse 3, p = 0.5, rank-biserial r = +0.33
+  oracle          vs M5 RF      mean difference -0.246, better 13 / worse 0, p = 0.00147, rank-biserial r = -1.00
+====================================================================================================
+K = 8 workers: 13 configurations in 12 program groups have a level with >= 32 non-leaf states (median 32 units)
+weights           macro imbalance  median over groups  share of groups <= 1.25
+count                       1.516               1.535                      33%
+random                      1.446               1.473                      33%
+M5 linear                   1.490               1.312                      42%
+M5 RF                       1.462               1.334                      33%
+Knuth 30                    1.133               1.130                      75%
+hindsight size              1.065               1.019                      92%
+oracle                      1.048               1.008                      92%
+
+Paired comparison (imbalance, lower is better; difference = first minus second), groups better/worse for the first:
+  M5 RF           vs count      mean difference -0.054, better 7 / worse 1, p = 0.195, rank-biserial r = -0.56
+  M5 linear       vs count      mean difference -0.026, better 6 / worse 2, p = 0.641, rank-biserial r = -0.22
+  Knuth 30        vs count      mean difference -0.383, better 9 / worse 0, p = 0.00391, rank-biserial r = -1.00
+  hindsight size  vs count      mean difference -0.452, better 9 / worse 0, p = 0.00391, rank-biserial r = -1.00
+  random          vs count      mean difference -0.070, better 5 / worse 7, p = 0.457, rank-biserial r = -0.26
+  M5 RF           vs M5 linear  mean difference -0.028, better 3 / worse 3, p = 1, rank-biserial r = -0.05
+  oracle          vs M5 RF      mean difference -0.414, better 9 / worse 0, p = 0.00391, rank-biserial r = -1.00
+
+(imbalance = largest true worker load / perfectly balanced load; 1.000 is perfect)
+##### units per worker = 2 (cut level needs >= 2*K non-leaf states)
+====================================================================================================
+K = 4 workers: 39 configurations in 26 program groups have a level with >= 8 non-leaf states (median 8 units)
+weights           macro imbalance  median over groups  share of groups <= 1.25
+count                       1.404               1.305                      42%
+random                      1.606               1.501                       4%
+M5 linear                   1.403               1.346                      38%
+M5 RF                       1.426               1.343                      35%
+Knuth 30                    1.328               1.254                      50%
+hindsight size              1.248               1.155                      69%
+oracle                      1.203               1.085                      81%
+
+Paired comparison (imbalance, lower is better; difference = first minus second), groups better/worse for the first:
+  M5 RF           vs count      mean difference +0.022, better 9 / worse 8, p = 0.723, rank-biserial r = +0.10
+  M5 linear       vs count      mean difference -0.002, better 8 / worse 8, p = 0.877, rank-biserial r = -0.04
+  Knuth 30        vs count      mean difference -0.076, better 16 / worse 3, p = 0.0298, rank-biserial r = -0.57
+  hindsight size  vs count      mean difference -0.156, better 17 / worse 2, p = 0.000214, rank-biserial r = -0.97
+  random          vs count      mean difference +0.202, better 3 / worse 23, p = 0.000119, rank-biserial r = +0.86
+  M5 RF           vs M5 linear  mean difference +0.023, better 3 / worse 6, p = 0.374, rank-biserial r = +0.33
+  oracle          vs M5 RF      mean difference -0.223, better 20 / worse 0, p = 8.86e-05, rank-biserial r = -1.00
+====================================================================================================
+K = 8 workers: 22 configurations in 16 program groups have a level with >= 16 non-leaf states (median 16 units)
+weights           macro imbalance  median over groups  share of groups <= 1.25
+count                       1.574               1.508                      25%
+random                      1.731               1.769                      19%
+M5 linear                   1.563               1.498                      25%
+M5 RF                       1.565               1.516                      25%
+Knuth 30                    1.312               1.270                      38%
+hindsight size              1.240               1.082                      69%
+oracle                      1.157               1.053                      88%
+
+Paired comparison (imbalance, lower is better; difference = first minus second), groups better/worse for the first:
+  M5 RF           vs count      mean difference -0.009, better 7 / worse 4, p = 0.859, rank-biserial r = -0.06
+  M5 linear       vs count      mean difference -0.011, better 7 / worse 4, p = 0.859, rank-biserial r = -0.06
+  Knuth 30        vs count      mean difference -0.262, better 10 / worse 0, p = 0.00506, rank-biserial r = -1.00
+  hindsight size  vs count      mean difference -0.334, better 10 / worse 0, p = 0.00506, rank-biserial r = -1.00
+  random          vs count      mean difference +0.158, better 3 / worse 13, p = 0.0339, rank-biserial r = +0.60
+  M5 RF           vs M5 linear  mean difference +0.002, better 1 / worse 2, p = 0.593, rank-biserial r = +0.33
+  oracle          vs M5 RF      mean difference -0.408, better 12 / worse 0, p = 0.00222, rank-biserial r = -1.00
+
+(imbalance = largest true worker load / perfectly balanced load; 1.000 is perfect)
+##### units per worker = 8 (cut level needs >= 8*K non-leaf states)
+====================================================================================================
+K = 4 workers: 13 configurations in 12 program groups have a level with >= 32 non-leaf states (median 32 units)
+weights           macro imbalance  median over groups  share of groups <= 1.25
+count                       1.200               1.138                      58%
+random                      1.217               1.207                      58%
+M5 linear                   1.224               1.137                      58%
+M5 RF                       1.232               1.166                      67%
+Knuth 30                    1.073               1.078                      92%
+hindsight size              1.012               1.003                     100%
+oracle                      1.005               1.002                     100%
+
+Paired comparison (imbalance, lower is better; difference = first minus second), groups better/worse for the first:
+  M5 RF           vs count      mean difference +0.031, better 4 / worse 4, p = 0.742, rank-biserial r = +0.17
+  M5 linear       vs count      mean difference +0.023, better 3 / worse 5, p = 0.461, rank-biserial r = +0.33
+  Knuth 30        vs count      mean difference -0.127, better 8 / worse 1, p = 0.00781, rank-biserial r = -0.96
+  hindsight size  vs count      mean difference -0.189, better 8 / worse 1, p = 0.00781, rank-biserial r = -0.96
+  random          vs count      mean difference +0.017, better 4 / worse 8, p = 0.505, rank-biserial r = +0.23
+  M5 RF           vs M5 linear  mean difference +0.008, better 2 / worse 3, p = 0.625, rank-biserial r = +0.33
+  oracle          vs M5 RF      mean difference -0.227, better 9 / worse 0, p = 0.00391, rank-biserial r = -1.00
+====================================================================================================
+K = 8 workers: 7 configurations in 7 program groups have a level with >= 64 non-leaf states (median 72 units)
+weights           macro imbalance  median over groups  share of groups <= 1.25
+count                       1.293               1.089                      57%
+random                      1.343               1.365                      29%
+M5 linear                   1.477               1.581                      43%
+M5 RF                       1.505               1.622                      29%
+Knuth 30                    1.091               1.084                     100%
+hindsight size              1.020               1.004                     100%
+oracle                      1.005               1.004                     100%
+
+Paired comparison (imbalance, lower is better; difference = first minus second), groups better/worse for the first:
+  M5 RF           vs count      mean difference +0.212, better 0 / worse 5, p = 0.0625, rank-biserial r = +1.00
+  M5 linear       vs count      mean difference +0.184, better 1 / worse 5, p = 0.156, rank-biserial r = +0.71
+  Knuth 30        vs count      mean difference -0.202, better 4 / worse 2, p = 0.312, rank-biserial r = -0.52
+  hindsight size  vs count      mean difference -0.273, better 6 / worse 0, p = 0.0312, rank-biserial r = -1.00
+  random          vs count      mean difference +0.050, better 2 / worse 5, p = 0.469, rank-biserial r = +0.36
+  M5 RF           vs M5 linear  mean difference +0.028, better 1 / worse 3, p = 0.25, rank-biserial r = +0.80
+  oracle          vs M5 RF      mean difference -0.500, better 6 / worse 0, p = 0.0312, rank-biserial r = -1.00
+
+(imbalance = largest true worker load / perfectly balanced load; 1.000 is perfect)

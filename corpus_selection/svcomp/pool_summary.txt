@@ -1,0 +1,8 @@
+54 pool tasks
+   20  run: below floor
+   15  in_corpus
+   10  variant
+    4  run: not adapted
+    2  license
+    2  run: bytecode unit test (excluded)
+    1  run: no result

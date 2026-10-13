@@ -1,0 +1,6 @@
+stateId,parentId,depth,entryInstructionCount,exitInstructionCount,actualSubtreeWork,entryAllocCount,exitAllocCount,actualAllocWork,entryGcCycles,exitGcCycles,actualGcWork,entrySolverCalls,exitSolverCalls,actualSolverCalls,entrySolverNanos,exitSolverNanos,actualSolverNanos,entryWallClockNanos,exitWallClockNanos,actualWallClockNanos,isEndStateAtEntry,choiceGeneratorType,choiceGeneratorTotal,choiceGeneratorProcessed,pathConditionSize,threadCount,remainingBytecodesInMethod,reachableBranchCount,reachableLoopBackEdgeCount,reachableVirtualCallCount,reachableAllocSiteCount,reachableAthrowCount
+1,0,2,9234,9234,0,503,503,0,2,2,0,2,2,0,1283400,1283400,0,185153841688500,185153842055700,367200,True,PCChoiceGenerator,2,1,1,0,-1,-1,-1,-1,-1,-1
+3,2,3,9247,9247,0,503,503,0,3,3,0,4,4,0,1673000,1673000,0,185153895994200,185153896124200,130000,True,PCChoiceGenerator,2,1,2,0,-1,-1,-1,-1,-1,-1
+4,2,3,9255,9255,0,503,503,0,4,4,0,4,4,0,1673000,1673000,0,185153896936200,185153897085200,149000,True,PCChoiceGenerator,2,2,2,0,-1,-1,-1,-1,-1,-1
+2,0,2,9238,9255,17,503,503,0,2,4,2,4,4,0,1673000,1673000,0,185153895192000,185153897271300,2079300,False,PCChoiceGenerator,2,2,1,1,5,2,0,0,0,0
+0,-1,1,9225,9255,30,503,503,0,1,4,3,2,4,2,1283400,1673000,389600,185153839636000,185153897356700,57720700,False,ThreadChoiceFromSet,1,1,-1,1,10,4,0,0,0,0

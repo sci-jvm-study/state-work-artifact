@@ -1,0 +1,8 @@
+target = ArrayUtilsIndexOf
+classpath = bin
+sourcepath = .
+symbolic.method = ArrayUtilsIndexOf.classify(sym#sym#sym#sym#sym)
+symbolic.min_int = -3
+symbolic.max_int = 3
+symbolic.dp = choco
+listener = gov.nasa.jpf.symbc.StateWorkListener

@@ -1,0 +1,7 @@
+target = HoRngAliasMethodDiscreteSamplerFillRemainingIndices
+classpath = bin
+sourcepath = .
+symbolic.method = HoRngAliasMethodDiscreteSamplerFillRemainingIndices.classify(sym#sym#sym#sym#sym#sym)
+symbolic.min_int = -5
+symbolic.max_int = 5
+symbolic.dp = z3

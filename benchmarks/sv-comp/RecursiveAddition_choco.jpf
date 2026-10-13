@@ -1,0 +1,8 @@
+target = RecursiveAddition
+classpath = bin
+sourcepath = .
+symbolic.method = RecursiveAddition.classify(sym#sym)
+symbolic.min_int = -5
+symbolic.max_int = 5
+symbolic.dp = choco
+listener = gov.nasa.jpf.symbc.StateWorkListener

@@ -1,0 +1,5 @@
+M6-RF standalone (native, history feature actually defined): macro=0.656  groups=29
+Imputing missing groupC_pred with the corpus-wide median (5.165) -- a neutral 'no information' filler, not a leak (computed from logWork's own overall scale only, never from any test row's actual target).
+M6-RF + imputed history (extended to full scoreable population): macro=0.441  [0.359,0.514]  groups=55
+M5-RF alone, same population (no history at all): macro=0.448  groups=55
+Gated M6-RF+M5-RF (M6-RF on the eligible groups, M5-RF elsewhere) on this same population: macro=0.578  [0.487,0.663]  groups=55

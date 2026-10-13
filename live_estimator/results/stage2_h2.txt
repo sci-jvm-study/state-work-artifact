@@ -1,0 +1,32 @@
+time-weighted MAE, percentage points (primary)
+                                          program  states  tw_model_capped  tw_model_raw  tw_oracle_sibling  tw_JPF_builtin  tw_JPFBar
+                               AllKadaneKadaneSum      71            25.17         30.25               3.71            6.28       5.42
+                        AllSelectionSortSelection     477            44.78         46.23              42.38           41.28      48.31
+                                AllShellSortShell      47            29.25         29.41               6.66           17.05      13.45
+                          JaiLowerBoundLowerBound      57            34.17         34.86              33.59           37.10      38.94
+              NumIndexIntervalsCompressDuplicates      45            35.11         36.41              28.23           34.56      32.57
+                         NumPartitionCountIndices     481            41.81         43.39              37.60           27.12      40.92
+                                   NumSortingSort    1183            39.36         42.18              42.15           39.21      48.41
+               NumSortingSortIndicesInsertionSort     333            28.11         30.93              29.94           28.91      28.57
+RngAliasMethodDiscreteSamplerFillRemainingIndices      89            35.20         41.64              30.41           40.04      43.69
+
+macro: {'model_capped': np.float64(34.77), 'model_raw': np.float64(37.26), 'oracle_sibling': np.float64(28.3), 'JPF_builtin': np.float64(30.17), 'JPFBar': np.float64(33.36)}
+capped model vs JPF_builtin: macro gain -4.60 points, better in 3/9, Wilcoxon p = 0.301
+capped model vs JPFBar: macro gain -1.41 points, better in 5/9, Wilcoxon p = 1
+H2 holds: False
+
+event-weighted MAE: {'model_capped': np.float64(36.44), 'model_raw': np.float64(38.97), 'oracle_sibling': np.float64(29.65), 'JPF_builtin': np.float64(31.11), 'JPFBar': np.float64(35.01)}
+max error: {'model_capped': np.float64(66.34), 'model_raw': np.float64(72.4), 'oracle_sibling': np.float64(54.54), 'JPF_builtin': np.float64(100.0), 'JPFBar': np.float64(67.03)}
+wall-clock target, time-weighted MAE: {'model_capped': np.float64(51.65), 'model_raw': np.float64(54.13), 'oracle_sibling': np.float64(44.54), 'JPF_builtin': np.float64(46.69), 'JPFBar': np.float64(50.04)}
+
+error at checkpoints, mean over programs (points):
+     model_capped  model_raw  oracle_sibling  JPF_builtin  JPFBar
+10%           7.8        8.4             5.7          6.4     8.1
+20%          15.8       16.8            12.8         13.1    15.7
+30%          22.2       24.3            18.3         19.2    22.5
+40%          28.4       30.9            22.7         25.4    29.8
+50%          35.7       39.2            29.6         27.2    32.0
+60%          44.8       48.2            39.0         34.6    39.5
+70%          51.7       54.0            42.7         41.9    47.1
+80%          57.9       60.9            47.3         47.4    54.6
+90%          61.7       65.4            47.4         50.8    59.8

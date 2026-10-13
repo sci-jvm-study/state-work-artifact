@@ -1,0 +1,9 @@
+Non-leaf states: 6567 across 66 program groups.
+
+measure                  groups   live count (stateId)        hindsight subtree size
+bytecode instructions        55   -0.449 [-0.541,-0.361]   +0.952 [+0.924,+0.978]
+allocations                  15   -0.242 [-0.363,-0.107]   +0.654 [+0.541,+0.772]
+GC cycles                    55   -0.440 [-0.530,-0.353]   +0.990 [+0.973,+1.000]
+solver calls                 54   -0.441 [-0.532,-0.355]   +0.979 [+0.959,+0.993]
+solver time                  54   -0.469 [-0.554,-0.384]   +0.950 [+0.929,+0.969]
+wall-clock time              54   -0.629 [-0.695,-0.562]   +0.838 [+0.802,+0.870]

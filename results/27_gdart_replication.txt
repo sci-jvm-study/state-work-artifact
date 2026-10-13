@@ -1,0 +1,56 @@
+GDart runs: 89 programs; clean = 71; excluded = 18
+   excluded CombinedWork5: abnormal-run
+   excluded ArrayUtilsIsSorted8: abnormal-run
+   excluded TaBoyerMoore: abnormal-run
+   excluded TaKadaneAlgorithm: abnormal-run
+   excluded TaLongestSubarrayWithSumLessOrEqualToK: abnormal-run
+   excluded TaMaximumSumOfNonAdjacentElements: abnormal-run
+   excluded TaMemoryManagementAlgorithms: abnormal-run
+   excluded TaPerfectNumber: abnormal-run
+   excluded TaRandomizedQuickSort: abnormal-run
+   excluded TaStockProfitCalculator: abnormal-run
+   excluded TaSumOfSubset: abnormal-run
+   excluded TaTrappingRainwater: abnormal-run
+   excluded TaTrinomialTriangle: abnormal-run
+   excluded ValidateInclusiveBetween: gdart-error
+   excluded InsertionSort6: abnormal-run
+   excluded Primes: abnormal-run
+   excluded SortedListInsert5: abnormal-run
+   excluded SortedListInsert6: abnormal-run
+analysis set (exact tree-size agreement): 65 programs
+
+--- JPF (same programs): 65 programs, 36 groups, 1544 non-leaf rows
+   floor      macro rho = -0.602  [ -0.726, -0.473]  scoreable groups = 25
+   hindsight  macro rho =  0.950  [  0.899,  0.991]  scoreable groups = 25
+   jpfbuiltin macro rho = -0.014  [ -0.193,  0.151]  scoreable groups = 21
+   jpfbar     macro rho =  0.251  [  0.013,  0.472]  scoreable groups = 20
+   kilby      macro rho =  0.504  [  0.335,  0.668]  scoreable groups = 20
+   groupC     macro rho =  0.617  [  0.342,  0.826]  scoreable groups = 13
+   knuth30    macro rho =  0.836  [  0.752,  0.904]  scoreable groups = 25
+--- GDart (work = full): 65 programs, 36 groups, 1544 non-leaf rows
+   floor      macro rho = -0.467  [ -0.632, -0.296]  scoreable groups = 25
+   hindsight  macro rho =  0.924  [  0.878,  0.963]  scoreable groups = 25
+   jpfbuiltin macro rho = -0.368  [ -0.522, -0.213]  scoreable groups = 23
+   jpfbar     macro rho = -0.224  [ -0.404, -0.036]  scoreable groups = 21
+   kilby      macro rho =  0.233  [  0.044,  0.423]  scoreable groups = 21
+   groupC     macro rho =  0.235  [ -0.093,  0.540]  scoreable groups = 17
+   knuth30    macro rho =  0.829  [  0.751,  0.896]  scoreable groups = 25
+
+Same-group comparison (macro over the groups scoreable in BOTH engines, identical group set):
+   method     n_groups          JPF macro [CI]        GDart macro [CI]  paired Wilcoxon p
+   floor            25    -0.602 [-0.73,-0.47]    -0.467 [-0.63,-0.30]              0.009
+   hindsight        25     0.950 [ 0.90, 0.99]     0.924 [ 0.88, 0.96]              0.013
+   jpfbuiltin       20    -0.039 [-0.22, 0.11]    -0.339 [-0.50,-0.18]              0.018
+   jpfbar           19     0.211 [-0.04, 0.45]    -0.203 [-0.39,-0.02]              0.017
+   kilby            19     0.478 [ 0.31, 0.65]     0.197 [ 0.01, 0.39]              0.031
+   groupC           12     0.627 [ 0.32, 0.85]     0.522 [ 0.21, 0.79]              0.577
+   knuth30          25     0.836 [ 0.75, 0.90]     0.829 [ 0.75, 0.90]              0.241
+
+Per-group agreement between engines (Spearman of per-group rho over shared scoreable groups):
+   floor      n_shared_groups = 25   rho(JPF_rho, GDart_rho) =  0.76
+   hindsight  n_shared_groups = 25   rho(JPF_rho, GDart_rho) =  0.46
+   jpfbuiltin n_shared_groups = 20   rho(JPF_rho, GDart_rho) =  0.14
+   jpfbar     n_shared_groups = 19   rho(JPF_rho, GDart_rho) =  0.02
+   kilby      n_shared_groups = 19   rho(JPF_rho, GDart_rho) =  0.24
+   groupC     n_shared_groups = 12   rho(JPF_rho, GDart_rho) =  0.78
+   knuth30    n_shared_groups = 25   rho(JPF_rho, GDart_rho) =  0.51

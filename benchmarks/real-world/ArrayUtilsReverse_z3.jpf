@@ -1,0 +1,8 @@
+target = ArrayUtilsReverse
+classpath = bin
+sourcepath = .
+symbolic.method = ArrayUtilsReverse.classify(sym#sym)
+symbolic.min_int = -2
+symbolic.max_int = 7
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

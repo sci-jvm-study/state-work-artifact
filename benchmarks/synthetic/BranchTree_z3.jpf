@@ -1,0 +1,17 @@
+# ---- kya chalana hai ----
+target    = BranchTree
+classpath = bin
+sourcepath = .
+
+# ---- kya symbolic banana hai ----
+symbolic.method = BranchTree.classify(sym#sym#sym)
+
+# ---- symbolic int ki range ----
+symbolic.min_int = -100
+symbolic.max_int = 100
+
+# ---- kaunsa solver ----
+symbolic.dp = z3
+
+# ---- kaun sunega / report karega ----
+listener = .symbc.StateWorkListener

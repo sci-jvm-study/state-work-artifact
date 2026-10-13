@@ -1,0 +1,7 @@
+target = HoNumSortingSortIndicesInsertionSort
+classpath = bin
+sourcepath = .
+symbolic.method = HoNumSortingSortIndicesInsertionSort.classify(sym#sym#sym#sym#sym)
+symbolic.min_int = -6
+symbolic.max_int = 6
+symbolic.dp = z3

@@ -1,0 +1,8 @@
+target = UnevenTree
+classpath = bin
+sourcepath = .
+symbolic.method = UnevenTree.classify(sym#sym#sym)
+symbolic.min_int = -100
+symbolic.max_int = 100
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

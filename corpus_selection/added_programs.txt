@@ -1,0 +1,17 @@
+Primes
+TaBFPRT
+TaBoardPath
+TaBoyerMoore
+TaClimbingStairs
+TaKadaneAlgorithm
+TaLongestIncreasingSubsequenceNLogN
+TaLongestSubarrayWithSumLessOrEqualToK
+TaMaxSumKSizeSubarray
+TaMaximumSumOfNonAdjacentElements
+TaMemoryManagementAlgorithms
+TaPerfectNumber
+TaRandomizedQuickSort
+TaStockProfitCalculator
+TaSumOfSubset
+TaTrappingRainwater
+TaTrinomialTriangle

@@ -1,0 +1,24 @@
+Group-C-eligible population: 29 groups
+
+=== Knuth accuracy and cost by probe count -- Knuth's OWN full scoreable population ===
+  k (probes)   Macro rho          95% CI   groups   Median cost %
+           1       0.652  [0.564,0.733]       55           60.7%
+           5       0.807  [0.740,0.865]       55          307.0%
+          10       0.847  [0.796,0.894]       55          608.0%
+          30       0.889  [0.846,0.927]       55         1856.5%
+
+=== Knuth accuracy and cost by probe count -- RESTRICTED to the Group-C-eligible population ===
+  k (probes)   Macro rho          95% CI   groups   Median cost %
+           1       0.799  [0.737,0.856]       29           60.7%
+           5       0.899  [0.855,0.939]       29          311.0%
+          10       0.915  [0.871,0.954]       29          614.0%
+          30       0.926  [0.880,0.965]       29         1885.2%
+
+=== Knuth accuracy and cost by probe count -- RESTRICTED to the Group-C-eligible population, zero-work states left out of the scoring ===
+  k (probes)   Macro rho          95% CI   groups   Median cost %
+           1       0.799  [0.737,0.856]       29           60.7%
+           5       0.899  [0.855,0.939]       29          311.0%
+          10       0.915  [0.871,0.954]       29          614.0%
+          30       0.926  [0.880,0.965]       29         1885.2%
+
+[Note] Group C's macro rho is on the Group-C-eligible population, so a Knuth probe count is compared with it on the restricted row above and not on the larger population of Knuth probing.

@@ -1,0 +1,12 @@
+Output of `java ForestBench ../model/m5_rf.bin features.csv` (bench/), JDK 11, the machine of results/h2_overhead.txt, isolated loop, 2378 feature rows
+(the states that are not end states of the nine held-out programs, pruned choices included, as the live listener predicts on all of them), steady state after JIT warm-up. Final forest (pruned choices as leaves, max_features sqrt):
+rep 0: 21.33 us per prediction (95120 calls)
+rep 1: 17.46 us per prediction (95120 calls)
+rep 2: 17.39 us per prediction (95120 calls)
+rep 3: 16.55 us per prediction (95120 calls)
+rep 4: 17.00 us per prediction (95120 calls)
+rep 5: 18.80 us per prediction (95120 calls)
+rep 6: 18.09 us per prediction (95120 calls)
+rep 7: 17.57 us per prediction (95120 calls)
+
+Average path length on these 2378 rows (decision_path, nodes visited per tree, mean over trees): 12.3.

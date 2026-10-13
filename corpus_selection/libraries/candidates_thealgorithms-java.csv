@@ -1,0 +1,1282 @@
+library,file,method,signature,returns,loc,failed_stage
+thealgorithms-java,com/thealgorithms/backtracking/AllPathsFromSourceToTarget.java,allPathsFromSourceToTarget,"int vertices, int[][] a, int source, int destination",List<List<Integer>>,6,P
+thealgorithms-java,com/thealgorithms/backtracking/ArrayCombination.java,combination,"int n, int k",List<List<Integer>>,6,R
+thealgorithms-java,com/thealgorithms/backtracking/ArrayCombination.java,combine,"List<List<Integer>> combinations, List<Integer> current, int start, int n, int k",void,9,P
+thealgorithms-java,com/thealgorithms/backtracking/Combination.java,combination,"T[] arr, int n",<T> List<TreeSet<T>>,11,P
+thealgorithms-java,com/thealgorithms/backtracking/Combination.java,backtracking,"T[] arr, int n, int index, TreeSet<T> currSet, List<TreeSet<T>> result",<T> void,16,P
+thealgorithms-java,com/thealgorithms/backtracking/CombinationSum.java,combinationSum,"int[] candidates, int target",List<List<Integer>>,7,R
+thealgorithms-java,com/thealgorithms/backtracking/CombinationSum.java,backtrack,"int[] candidates, int remaining, int start, List<Integer> combination, List<List<Integer>> results",void,13,P
+thealgorithms-java,com/thealgorithms/backtracking/CrosswordSolver.java,isValid,"char[][] puzzle, String word, int row, int col, boolean vertical",boolean,12,P
+thealgorithms-java,com/thealgorithms/backtracking/CrosswordSolver.java,placeWord,"char[][] puzzle, String word, int row, int col, boolean vertical",void,7,P
+thealgorithms-java,com/thealgorithms/backtracking/CrosswordSolver.java,removeWord,"char[][] puzzle, String word, int row, int col, boolean vertical",void,7,P
+thealgorithms-java,com/thealgorithms/backtracking/CrosswordSolver.java,solveCrossword,"char[][] puzzle, Collection<String> words",boolean,22,P
+thealgorithms-java,com/thealgorithms/backtracking/FloodFill.java,getPixel,"final int[][] image, final int x, final int y",int,1,P
+thealgorithms-java,com/thealgorithms/backtracking/FloodFill.java,putPixel,"final int[][] image, final int x, final int y, final int newColor",void,1,P
+thealgorithms-java,com/thealgorithms/backtracking/FloodFill.java,floodFill,"final int[][] image, final int x, final int y, final int newColor, final int oldColor",void,12,P
+thealgorithms-java,com/thealgorithms/backtracking/KnightsTour.java,resetBoard,,void,9,P
+thealgorithms-java,com/thealgorithms/backtracking/KnightsTour.java,solve,"int row, int column, int count",boolean,18,T
+thealgorithms-java,com/thealgorithms/backtracking/KnightsTour.java,neighbors,"int row, int column",List<int[]>,10,R
+thealgorithms-java,com/thealgorithms/backtracking/KnightsTour.java,countNeighbors,"int row, int column",int,9,K
+thealgorithms-java,com/thealgorithms/backtracking/KnightsTour.java,orphanDetected,"int count, int row, int column",boolean,9,T
+thealgorithms-java,com/thealgorithms/backtracking/MazeRecursion.java,solveMazeUsingFirstStrategy,int[][] map,int[][],4,P
+thealgorithms-java,com/thealgorithms/backtracking/MazeRecursion.java,solveMazeUsingSecondStrategy,int[][] map,int[][],4,P
+thealgorithms-java,com/thealgorithms/backtracking/MazeRecursion.java,setWay,"int[][] map, int i, int j",boolean,21,P
+thealgorithms-java,com/thealgorithms/backtracking/MazeRecursion.java,setWay2,"int[][] map, int i, int j",boolean,21,P
+thealgorithms-java,com/thealgorithms/backtracking/MColoring.java,isColoringPossible,"ArrayList<Node> nodes, int n, int m",boolean,31,P
+thealgorithms-java,com/thealgorithms/backtracking/NQueens.java,getNQueensArrangements,int queens,List<List<String>>,3,R
+thealgorithms-java,com/thealgorithms/backtracking/NQueens.java,placeQueens,final int queens,void,11,T
+thealgorithms-java,com/thealgorithms/backtracking/NQueens.java,getSolution,"int boardSize, List<List<String>> solutions, int[] columns, int columnIndex",void,27,P
+thealgorithms-java,com/thealgorithms/backtracking/ParenthesesGenerator.java,generateParentheses,final int n,List<String>,6,R
+thealgorithms-java,com/thealgorithms/backtracking/ParenthesesGenerator.java,generateParenthesesHelper,"List<String> result, final String current, final int open, final int close, final int n",void,10,P
+thealgorithms-java,com/thealgorithms/backtracking/Permutation.java,permutation,T[] arr,<T> List<T[]>,4,P
+thealgorithms-java,com/thealgorithms/backtracking/Permutation.java,backtracking,"T[] arr, int index, List<T[]> result",<T> void,8,P
+thealgorithms-java,com/thealgorithms/backtracking/Permutation.java,swap,"int a, int b, T[] arr",<T> void,3,P
+thealgorithms-java,com/thealgorithms/backtracking/RatInAMaze.java,findPaths,final int[][] maze,List<String>,16,P
+thealgorithms-java,com/thealgorithms/backtracking/RatInAMaze.java,solve,"final int[][] maze, final int row, final int col, final int n, final String path, final boolean[][] visited, final List<String> results",void,18,P
+thealgorithms-java,com/thealgorithms/backtracking/RatInAMaze.java,isSafe,"final int[][] maze, final int row, final int col, final int n, final boolean[][] visited",boolean,1,P
+thealgorithms-java,com/thealgorithms/backtracking/SubsequenceFinder.java,generateAll,List<T> sequence,<T> List<List<T>>,8,P
+thealgorithms-java,com/thealgorithms/backtracking/SubsequenceFinder.java,backtrack,"List<T> sequence, List<T> currentSubsequence, final int index, List<List<T>> allSubSequences",<T> void,9,P
+thealgorithms-java,com/thealgorithms/backtracking/SudokuSolver.java,solveSudoku,int[][] board,boolean,9,P
+thealgorithms-java,com/thealgorithms/backtracking/SudokuSolver.java,solve,int[][] board,boolean,17,P
+thealgorithms-java,com/thealgorithms/backtracking/SudokuSolver.java,isValidPlacement,"int[][] board, int row, int col, int number",boolean,1,P
+thealgorithms-java,com/thealgorithms/backtracking/SudokuSolver.java,isNumberInRow,"int[][] board, int row, int number",boolean,6,P
+thealgorithms-java,com/thealgorithms/backtracking/SudokuSolver.java,isNumberInColumn,"int[][] board, int col, int number",boolean,6,P
+thealgorithms-java,com/thealgorithms/backtracking/SudokuSolver.java,isNumberInSubgrid,"int[][] board, int row, int col, int number",boolean,10,P
+thealgorithms-java,com/thealgorithms/backtracking/SudokuSolver.java,printBoard,int[][] board,void,12,P
+thealgorithms-java,com/thealgorithms/backtracking/UniquePermutation.java,generateUniquePermutations,String input,List<String>,8,P
+thealgorithms-java,com/thealgorithms/backtracking/UniquePermutation.java,backtrack,"char[] chars, boolean[] used, StringBuilder current, List<String> result",void,16,P
+thealgorithms-java,com/thealgorithms/backtracking/WordPatternMatcher.java,matchWordPattern,"String pattern, String inputString",boolean,3,P
+thealgorithms-java,com/thealgorithms/backtracking/WordPatternMatcher.java,backtrack,"String pattern, String inputString, int patternIndex, int strIndex, Map<Character, String> patternMap, Map<String, Character> strMap",boolean,29,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/BcdConversion.java,bcdToDecimal,int bcd,int,12,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/BcdConversion.java,decimalToBcd,int decimal,int,12,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/BinaryPalindromeCheck.java,isBinaryPalindrome,int x,boolean,2,C
+thealgorithms-java,com/thealgorithms/bitmanipulation/BinaryPalindromeCheck.java,reverseBits,int x,int,7,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/BitRotate.java,rotateLeft,"int value, int shift",int,8,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/BitRotate.java,rotateRight,"int value, int shift",int,8,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/BitSwap.java,bitSwap,"int data, final int posA, final int posB",int,9,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/BitwiseGCD.java,gcd,"long a, long b",long,24,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/BitwiseGCD.java,absOrThrowIfOverflow,long x,long,4,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/BitwiseGCD.java,gcd,long... values,long,11,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/BitwiseGCD.java,gcdBig,"BigInteger a, BigInteger b",BigInteger,4,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/BitwiseGCD.java,gcdBig,"long a, long b",BigInteger,1,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/BitwiseGCD.java,gcd,"int a, int b",int,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/ClearLeftmostSetBit.java,clearLeftmostSetBit,int num,int,8,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/CountBitsFlip.java,countBitsFlip,"long a, long b",long,7,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/CountBitsFlip.java,countBitsFlipAlternative,"long a, long b",long,1,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/CountLeadingZeros.java,countLeadingZeros,int num,int,10,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/CountSetBits.java,countSetBits,int n,int,11,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/CountSetBits.java,largestPowerOf2InNumber,int n,int,5,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/CountSetBits.java,countSetBitsNaive,int n,int,8,C
+thealgorithms-java,com/thealgorithms/bitmanipulation/FindNthBit.java,findNthBit,"int num, int n",int,4,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/FirstDifferentBit.java,firstDifferentBit,"int x, int y",int,2,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/GenerateSubsets.java,generateSubsets,int[] set,List<List<Integer>>,12,R
+thealgorithms-java,com/thealgorithms/bitmanipulation/GrayCodeConversion.java,binaryToGray,int num,int,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/GrayCodeConversion.java,grayToBinary,int gray,int,6,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/HammingDistance.java,hammingDistance,"int x, int y",int,2,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/HigherLowerPowerOfTwo.java,nextHigherPowerOfTwo,int x,int,10,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/HigherLowerPowerOfTwo.java,nextLowerPowerOfTwo,int x,int,4,C
+thealgorithms-java,com/thealgorithms/bitmanipulation/HighestSetBit.java,findHighestSetBit,int num,Optional<Integer>,12,R
+thealgorithms-java,com/thealgorithms/bitmanipulation/IndexOfRightMostSetBit.java,indexOfRightMostSetBit,int n,int,13,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/IsEven.java,isEven,int number,boolean,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/IsPowerTwo.java,isPowerTwo,int number,boolean,5,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/LowestSetBit.java,isolateLowestSetBit,int n,int,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/LowestSetBit.java,clearLowestSetBit,int n,int,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/ModuloPowerOfTwo.java,moduloPowerOfTwo,"int x, int n",int,4,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/NextHigherSameBitCount.java,nextHigherSameBitCount,int n,int,3,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/NonRepeatingNumberFinder.java,findNonRepeatingNumber,int[] arr,int,5,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/NumberAppearingOddTimes.java,findOddOccurrence,int[] arr,int,5,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/NumbersDifferentSigns.java,differentSigns,"int num1, int num2",boolean,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/OneBitDifference.java,differByOneBit,"int x, int y",boolean,5,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/OnesComplement.java,onesComplement,String binary,String,12,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/ParityCheck.java,checkParity,int n,boolean,6,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/ReverseBits.java,reverseBits,int n,int,8,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/SingleBitOperations.java,flipBit,"final int num, final int bit",int,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/SingleBitOperations.java,setBit,"final int num, final int bit",int,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/SingleBitOperations.java,clearBit,"final int num, final int bit",int,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/SingleBitOperations.java,getBit,"final int num, final int bit",int,1,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/SingleElement.java,findSingleElement,int[] arr,int,5,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/SwapAdjacentBits.java,swapAdjacentBits,int num,int,5,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/TwosComplement.java,twosComplement,String binary,String,21,P
+thealgorithms-java,com/thealgorithms/bitmanipulation/Xs3Conversion.java,xs3ToBinary,int xs3,int,9,T
+thealgorithms-java,com/thealgorithms/bitmanipulation/Xs3Conversion.java,binaryToXs3,int binary,int,9,T
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,scheduleCore,"BigInteger t, int rconCounter",BigInteger,21,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,keyExpansion,BigInteger initialKey,BigInteger[],34,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,splitBlockIntoCells,BigInteger block,int[],10,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,mergeCellsIntoBlock,int[] cells,BigInteger,9,R
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,addRoundKey,"BigInteger ciphertext, BigInteger key",BigInteger,1,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,subBytes,BigInteger ciphertext,BigInteger,5,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,subBytesDec,BigInteger ciphertext,BigInteger,5,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,shiftRows,BigInteger ciphertext,BigInteger,19,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,shiftRowsDec,BigInteger ciphertext,BigInteger,19,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,mixColumns,BigInteger ciphertext,BigInteger,15,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,mixColumnsDec,BigInteger ciphertext,BigInteger,15,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,encrypt,"BigInteger plainText, BigInteger key",BigInteger,12,P
+thealgorithms-java,com/thealgorithms/ciphers/AES.java,decrypt,"BigInteger cipherText, BigInteger key",BigInteger,12,P
+thealgorithms-java,com/thealgorithms/ciphers/AESEncryption.java,getSecretEncryptionKey,,SecretKey,3,P
+thealgorithms-java,com/thealgorithms/ciphers/AESEncryption.java,encryptText,"String plainText, SecretKey secKey",byte[],3,P
+thealgorithms-java,com/thealgorithms/ciphers/AESEncryption.java,decryptText,"byte[] byteCipherText, SecretKey secKey",String,5,P
+thealgorithms-java,com/thealgorithms/ciphers/AESEncryption.java,bytesToHex,byte[] bytes,String,7,P
+thealgorithms-java,com/thealgorithms/ciphers/AffineCipher.java,encryptMessage,char[] msg,String,9,P
+thealgorithms-java,com/thealgorithms/ciphers/AffineCipher.java,decryptCipher,String cipher,String,18,P
+thealgorithms-java,com/thealgorithms/ciphers/Caesar.java,normalizeShift,final int shift,int,1,B
+thealgorithms-java,com/thealgorithms/ciphers/Caesar.java,isCapitalLatinLetter,char c,boolean,1,P
+thealgorithms-java,com/thealgorithms/ciphers/Caesar.java,isSmallLatinLetter,char c,boolean,1,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,encrypt,"final String word, final String keyword",String,11,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,encrypt,"String word, String keyword, String abecedarium",String,11,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,decrypt,,String,7,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,tableBuilder,String word,Object[][],15,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,numberOfRows,String word,int,5,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,findElements,,Object[],6,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,sortTable,Object[][] table,Object[][],13,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,getColumn,"Object[][] table, int rows, int column",Object[],5,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,switchColumns,"Object[][] table, int firstColumnIndex, int secondColumnIndex, Object[] columnToSwitch",void,4,P
+thealgorithms-java,com/thealgorithms/ciphers/ColumnarTranspositionCipher.java,abecedariumBuilder,,void,5,P
+thealgorithms-java,com/thealgorithms/ciphers/ElGamalCipher.java,generateKeys,int bitLength,KeyPair,20,R
+thealgorithms-java,com/thealgorithms/ciphers/ElGamalCipher.java,encrypt,"BigInteger message, BigInteger p, BigInteger g, BigInteger y",CipherText,17,P
+thealgorithms-java,com/thealgorithms/ciphers/ElGamalCipher.java,decrypt,"CipherText cipher, BigInteger x, BigInteger p",BigInteger,8,P
+thealgorithms-java,com/thealgorithms/ciphers/ElGamalCipher.java,isValidGenerator,"BigInteger g, BigInteger p, BigInteger q",boolean,7,P
+thealgorithms-java,com/thealgorithms/ciphers/MonoAlphabetic.java,encrypt,"String data, String key",String,9,P
+thealgorithms-java,com/thealgorithms/ciphers/MonoAlphabetic.java,decrypt,"String data, String key",String,9,P
+thealgorithms-java,com/thealgorithms/ciphers/MonoAlphabetic.java,charToPos,char c,int,1,P
+thealgorithms-java,com/thealgorithms/ciphers/MonoAlphabetic.java,posToChar,int pos,char,1,R
+thealgorithms-java,com/thealgorithms/ciphers/OneTimePadCipher.java,generateKey,int length,byte[],6,R
+thealgorithms-java,com/thealgorithms/ciphers/OneTimePadCipher.java,encrypt,"byte[] plaintext, byte[] key",byte[],2,P
+thealgorithms-java,com/thealgorithms/ciphers/OneTimePadCipher.java,decrypt,"byte[] ciphertext, byte[] key",byte[],2,P
+thealgorithms-java,com/thealgorithms/ciphers/OneTimePadCipher.java,validateInputs,"byte[] input, byte[] key",void,5,P
+thealgorithms-java,com/thealgorithms/ciphers/OneTimePadCipher.java,xor,"byte[] data, byte[] key",byte[],5,P
+thealgorithms-java,com/thealgorithms/ciphers/Polybius.java,findLocationByCharacter,final char character,String,10,P
+thealgorithms-java,com/thealgorithms/ciphers/Polybius.java,encrypt,final String plaintext,String,7,P
+thealgorithms-java,com/thealgorithms/ciphers/Polybius.java,decrypt,final String ciphertext,String,8,P
+thealgorithms-java,com/thealgorithms/ciphers/RailFenceCipher.java,checkInput,"String str, int rails",void,6,P
+thealgorithms-java,com/thealgorithms/ciphers/XORCipher.java,xor,"final byte[] inputBytes, final byte[] keyBytes",byte[],5,P
+thealgorithms-java,com/thealgorithms/ciphers/XORCipher.java,encrypt,"final String plainText, final String key",String,7,P
+thealgorithms-java,com/thealgorithms/ciphers/XORCipher.java,decrypt,"final String cipherText, final String key",String,7,P
+thealgorithms-java,com/thealgorithms/ciphers/a5/Utils.java,increment,"BitSet bits, int size",boolean,9,P
+thealgorithms-java,com/thealgorithms/compression/ArithmeticCoding.java,compress,String uncompressed,BigDecimal,13,P
+thealgorithms-java,com/thealgorithms/compression/ArithmeticCoding.java,decompress,"BigDecimal compressed, int length, Map<Character, Symbol> probabilityTable",String,20,P
+thealgorithms-java,com/thealgorithms/compression/ArithmeticCoding.java,calculateProbabilities,String text,"Map<Character, Symbol>",16,P
+thealgorithms-java,com/thealgorithms/compression/BurrowsWheelerTransform.java,transform,String text,BWTResult,15,P
+thealgorithms-java,com/thealgorithms/compression/BurrowsWheelerTransform.java,inverseTransform,"String bwtString, int originalIndex",String,32,P
+thealgorithms-java,com/thealgorithms/compression/LZ77.java,compress,"String text, int windowSize, int lookaheadBufferSize",List<Token>,46,P
+thealgorithms-java,com/thealgorithms/compression/LZ77.java,compress,String text,List<Token>,1,P
+thealgorithms-java,com/thealgorithms/compression/LZ77.java,decompress,List<Token> compressedData,String,16,P
+thealgorithms-java,com/thealgorithms/compression/LZ78.java,compress,String text,List<Token>,26,P
+thealgorithms-java,com/thealgorithms/compression/LZ78.java,decompress,List<Token> compressedData,String,17,P
+thealgorithms-java,com/thealgorithms/compression/LZW.java,compress,String uncompressed,List<Integer>,22,P
+thealgorithms-java,com/thealgorithms/compression/LZW.java,decompress,List<Integer> compressed,String,24,P
+thealgorithms-java,com/thealgorithms/compression/MoveToFront.java,transform,"String text, String initialAlphabet",List<Integer>,18,P
+thealgorithms-java,com/thealgorithms/compression/MoveToFront.java,inverseTransform,"Collection<Integer> indices, String initialAlphabet",String,15,P
+thealgorithms-java,com/thealgorithms/compression/RunLengthEncoding.java,compress,String text,String,15,P
+thealgorithms-java,com/thealgorithms/compression/RunLengthEncoding.java,decompress,String compressedText,String,14,P
+thealgorithms-java,com/thealgorithms/compression/ShannonFano.java,generateCodes,String text,"Map<Character, String>",18,P
+thealgorithms-java,com/thealgorithms/compression/ShannonFano.java,buildCodeTree,"List<Symbol> symbols, int start, int end, String prefix",void,7,P
+thealgorithms-java,com/thealgorithms/compression/ShannonFano.java,findSplitIndex,"List<Symbol> symbols, int start, int end",int,17,P
+thealgorithms-java,com/thealgorithms/conversions/AnyBaseToAnyBase.java,validForBase,"String n, int base",boolean,49,P
+thealgorithms-java,com/thealgorithms/conversions/AnyBaseToAnyBase.java,base2base,"String n, int b1, int b2",String,27,P
+thealgorithms-java,com/thealgorithms/conversions/AnyBaseToDecimal.java,convertToDecimal,"String input, int radix",int,11,P
+thealgorithms-java,com/thealgorithms/conversions/AnyBaseToDecimal.java,valOfChar,char character,int,7,P
+thealgorithms-java,com/thealgorithms/conversions/AnytoAny.java,convertBase,"int sourceNumber, int sourceBase, int destBase",int,5,C
+thealgorithms-java,com/thealgorithms/conversions/AnytoAny.java,toDecimal,"int number, int base",int,8,-
+thealgorithms-java,com/thealgorithms/conversions/AnytoAny.java,fromDecimal,"int decimal, int base",int,8,-
+thealgorithms-java,com/thealgorithms/conversions/Base64.java,encode,byte[] input,String,30,P
+thealgorithms-java,com/thealgorithms/conversions/Base64.java,encode,String input,String,4,P
+thealgorithms-java,com/thealgorithms/conversions/Base64.java,decode,String input,byte[],40,P
+thealgorithms-java,com/thealgorithms/conversions/Base64.java,decodeToString,String input,String,5,P
+thealgorithms-java,com/thealgorithms/conversions/Base64.java,getBase64Value,char c,int,13,P
+thealgorithms-java,com/thealgorithms/conversions/BinaryToDecimal.java,binaryToDecimal,long binaryNumber,long,11,P
+thealgorithms-java,com/thealgorithms/conversions/BinaryToDecimal.java,binaryStringToDecimal,String binary,long,12,P
+thealgorithms-java,com/thealgorithms/conversions/BinaryToHexadecimal.java,binToHex,int binary,String,15,R
+thealgorithms-java,com/thealgorithms/conversions/BinaryToHexadecimal.java,initializeHexMap,,"Map<Integer, String>",8,P
+thealgorithms-java,com/thealgorithms/conversions/BinaryToOctal.java,convertBinaryToOctal,int binary,String,21,R
+thealgorithms-java,com/thealgorithms/conversions/CoordinateConverter.java,cartesianToPolar,"double x, double y",double[],6,P
+thealgorithms-java,com/thealgorithms/conversions/CoordinateConverter.java,polarToCartesian,"double r, double thetaDegrees",double[],10,P
+thealgorithms-java,com/thealgorithms/conversions/DecimalToAnyBase.java,convertToAnyBase,"int decimal, int base",String,16,R
+thealgorithms-java,com/thealgorithms/conversions/DecimalToAnyBase.java,convertToChar,int value,char,5,R
+thealgorithms-java,com/thealgorithms/conversions/DecimalToBinary.java,convertUsingConventionalAlgorithm,int decimalNumber,int,9,-
+thealgorithms-java,com/thealgorithms/conversions/DecimalToBinary.java,convertUsingBitwiseAlgorithm,int decimalNumber,int,9,T
+thealgorithms-java,com/thealgorithms/conversions/DecimalToHexadecimal.java,decToHex,int decimal,String,7,R
+thealgorithms-java,com/thealgorithms/conversions/DecimalToHexadecimal.java,removeLeadingZeros,String str,String,8,P
+thealgorithms-java,com/thealgorithms/conversions/DecimalToOctal.java,convertToOctal,int decimal,int,12,C
+thealgorithms-java,com/thealgorithms/conversions/EndianConverter.java,bigToLittleEndian,int value,int,1,C
+thealgorithms-java,com/thealgorithms/conversions/EndianConverter.java,littleToBigEndian,int value,int,1,C
+thealgorithms-java,com/thealgorithms/conversions/HexaDecimalToDecimal.java,getHexaToDec,String hex,int,11,P
+thealgorithms-java,com/thealgorithms/conversions/HexToOct.java,hexToDecimal,String hex,int,9,P
+thealgorithms-java,com/thealgorithms/conversions/HexToOct.java,decimalToOctal,int decimal,int,9,-
+thealgorithms-java,com/thealgorithms/conversions/HexToOct.java,hexToOctal,String hex,int,2,P
+thealgorithms-java,com/thealgorithms/conversions/IntegerToEnglish.java,convertToWords,int number,String,24,R
+thealgorithms-java,com/thealgorithms/conversions/IntegerToEnglish.java,integerToEnglishWords,int number,String,23,R
+thealgorithms-java,com/thealgorithms/conversions/IntegerToRoman.java,integerToRoman,int num,String,10,R
+thealgorithms-java,com/thealgorithms/conversions/IPConverter.java,ipToBinary,String ip,String,5,P
+thealgorithms-java,com/thealgorithms/conversions/IPConverter.java,octetToBinary,int octet,String,8,R
+thealgorithms-java,com/thealgorithms/conversions/IPConverter.java,binaryToIP,String binary,String,5,P
+thealgorithms-java,com/thealgorithms/conversions/IPv6Converter.java,ipv4ToIpv6,String ipv4Address,String,17,P
+thealgorithms-java,com/thealgorithms/conversions/IPv6Converter.java,ipv6ToIpv4,String ipv6Address,String,9,P
+thealgorithms-java,com/thealgorithms/conversions/IPv6Converter.java,isValidIpv6MappedIpv4,byte[] ipv6Bytes,boolean,9,P
+thealgorithms-java,com/thealgorithms/conversions/MorseCodeConverter.java,textToMorse,String text,String,11,P
+thealgorithms-java,com/thealgorithms/conversions/MorseCodeConverter.java,morseToText,String morse,String,11,P
+thealgorithms-java,com/thealgorithms/conversions/NumberToWords.java,convert,BigDecimal number,String,20,P
+thealgorithms-java,com/thealgorithms/conversions/NumberToWords.java,convertWholeNumberToWords,BigDecimal number,String,19,P
+thealgorithms-java,com/thealgorithms/conversions/NumberToWords.java,convertChunk,int number,String,9,R
+thealgorithms-java,com/thealgorithms/conversions/OctalToBinary.java,convertOctalToBinary,int octalNumber,long,10,R
+thealgorithms-java,com/thealgorithms/conversions/OctalToBinary.java,convertOctalDigitToBinary,int octalDigit,long,9,R
+thealgorithms-java,com/thealgorithms/conversions/OctalToDecimal.java,convertOctalToDecimal,String inputOctal,int,13,P
+thealgorithms-java,com/thealgorithms/conversions/OctalToHexadecimal.java,octalToDecimal,String octalNumber,int,13,P
+thealgorithms-java,com/thealgorithms/conversions/OctalToHexadecimal.java,decimalToHexadecimal,int decimalNumber,String,10,R
+thealgorithms-java,com/thealgorithms/conversions/PhoneticAlphabetConverter.java,textToPhonetic,String text,String,8,P
+thealgorithms-java,com/thealgorithms/conversions/RgbHsvConversion.java,hsvToRgb,"double hue, double saturation, double value",int[],14,P
+thealgorithms-java,com/thealgorithms/conversions/RgbHsvConversion.java,rgbToHsv,"int red, int green, int blue",double[],27,R
+thealgorithms-java,com/thealgorithms/conversions/RgbHsvConversion.java,approximatelyEqualHsv,"double[] hsv1, double[] hsv2",boolean,4,P
+thealgorithms-java,com/thealgorithms/conversions/RgbHsvConversion.java,getRgbBySection,"double hueSection, double chroma, double matchValue, double secondLargestComponent",int[],29,P
+thealgorithms-java,com/thealgorithms/conversions/RgbHsvConversion.java,convertToInt,double input,int,1,P
+thealgorithms-java,com/thealgorithms/conversions/RomanToInteger.java,romanSymbolToInt,final char symbol,int,1,P
+thealgorithms-java,com/thealgorithms/conversions/RomanToInteger.java,romanToInt,String roman,int,16,P
+thealgorithms-java,com/thealgorithms/conversions/TemperatureConverter.java,celsiusToFahrenheit,double celsius,double,1,P
+thealgorithms-java,com/thealgorithms/conversions/TemperatureConverter.java,celsiusToKelvin,double celsius,double,1,P
+thealgorithms-java,com/thealgorithms/conversions/TemperatureConverter.java,fahrenheitToCelsius,double fahrenheit,double,1,P
+thealgorithms-java,com/thealgorithms/conversions/TemperatureConverter.java,fahrenheitToKelvin,double fahrenheit,double,1,P
+thealgorithms-java,com/thealgorithms/conversions/TemperatureConverter.java,kelvinToCelsius,double kelvin,double,1,P
+thealgorithms-java,com/thealgorithms/conversions/TemperatureConverter.java,kelvinToFahrenheit,double kelvin,double,1,P
+thealgorithms-java,com/thealgorithms/conversions/TimeConverter.java,convertTime,"double timeValue, String unitFrom, String unitTo",double,8,P
+thealgorithms-java,com/thealgorithms/conversions/TimeConverter.java,resolveUnit,String unit,TimeUnit,8,P
+thealgorithms-java,com/thealgorithms/conversions/TurkishToLatinConversion.java,convertTurkishToLatin,String param,String,32,P
+thealgorithms-java,com/thealgorithms/conversions/UnitsConverter.java,putIfNeeded,"Map<Pair<String, String>, AffineConverter> conversions, final String inputUnit, final String outputUnit, final AffineConverter converter",void,4,P
+thealgorithms-java,com/thealgorithms/conversions/UnitsConverter.java,addInversions,"final Map<Pair<String, String>, AffineConverter> knownConversions","Map<Pair<String, String>, AffineConverter>",8,P
+thealgorithms-java,com/thealgorithms/conversions/UnitsConverter.java,addCompositions,"final Map<Pair<String, String>, AffineConverter> knownConversions","Map<Pair<String, String>, AffineConverter>",13,P
+thealgorithms-java,com/thealgorithms/conversions/UnitsConverter.java,addAll,"final Map<Pair<String, String>, AffineConverter> knownConversions","Map<Pair<String, String>, AffineConverter>",2,P
+thealgorithms-java,com/thealgorithms/conversions/UnitsConverter.java,computeAllConversions,"final Map<Pair<String, String>, AffineConverter> basicConversions","Map<Pair<String, String>, AffineConverter>",7,P
+thealgorithms-java,com/thealgorithms/conversions/UnitsConverter.java,extractUnits,"final Map<Pair<String, String>, AffineConverter> conversions",Set<String>,5,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,getValue,String word,Integer,6,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,getValue,String word,BigDecimal,6,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,convert,String numberInWords,String,6,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,convertToBigDecimal,String numberInWords,BigDecimal,2,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,preprocessWords,String numberInWords,ArrayDeque<String>,12,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,handleConjunction,"boolean prevNumWasHundred, boolean prevNumWasPowerOfTen, ArrayDeque<String> wordDeque",void,12,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,handleHundred,"BigDecimal currentChunk, String word, boolean prevNumWasPowerOfTen",BigDecimal,8,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,handlePowerOfTen,"List<BigDecimal> chunks, BigDecimal currentChunk, BigDecimal powerOfTen, String word, boolean prevNumWasPowerOfTen",void,9,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,handleNumber,"Collection<BigDecimal> chunks, BigDecimal currentChunk, String word, Integer number",BigDecimal,9,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,handlePoint,"Collection<BigDecimal> chunks, BigDecimal currentChunk, ArrayDeque<String> wordDeque",void,6,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,handleNegative,boolean isNegative,void,4,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,convertWordQueueToBigDecimal,ArrayDeque<String> wordDeque,BigDecimal,58,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,isAdditionSafe,"BigDecimal currentChunk, BigDecimal number",boolean,3,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,convertDecimalPart,ArrayDeque<String> wordDeque,String,14,P
+thealgorithms-java,com/thealgorithms/conversions/WordsToNumber.java,combineChunks,List<BigDecimal> chunks,BigDecimal,5,P
+thealgorithms-java,com/thealgorithms/datastructures/buffers/SlidingWindowAggregator.java,of,"int capacity, BinaryOperator<E> combiner","<E> SlidingWindowAggregator<E, E>",1,P
+thealgorithms-java,com/thealgorithms/datastructures/buffers/SlidingWindowAggregator.java,sumOfLongs,int capacity,"SlidingWindowAggregator<Long, Long>",1,R
+thealgorithms-java,com/thealgorithms/datastructures/buffers/SlidingWindowAggregator.java,sumOfDoubles,int capacity,"SlidingWindowAggregator<Double, Double>",1,R
+thealgorithms-java,com/thealgorithms/datastructures/buffers/SlidingWindowAggregator.java,minimum,"int capacity, Comparator<? super E> comparator","<E> SlidingWindowAggregator<E, E>",1,P
+thealgorithms-java,com/thealgorithms/datastructures/buffers/SlidingWindowAggregator.java,maximum,"int capacity, Comparator<? super E> comparator","<E> SlidingWindowAggregator<E, E>",1,P
+thealgorithms-java,com/thealgorithms/datastructures/buffers/SlidingWindowAggregator.java,requireNonNullResult,"T value, String producer",<T> T,1,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/AStar.java,initializeGraph,"Graph graph, List<Integer> data",void,3,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/AStar.java,aStar,"int from, int to, Graph graph, int[] heuristic",PathAndDistance,20,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/BipartiteGraphDFS.java,bipartite,"int v, ArrayList<ArrayList<Integer>> adj, int[] color, int node",boolean,14,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/BipartiteGraphDFS.java,isBipartite,"int v, ArrayList<ArrayList<Integer>> adj",boolean,10,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/BoruvkaAlgorithm.java,initializeComponents,final Graph graph,Component[],5,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/BoruvkaAlgorithm.java,find,"final Component[] components, final int i",int,4,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/BoruvkaAlgorithm.java,union,"Component[] components, final int x, final int y",void,10,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/BoruvkaAlgorithm.java,boruvkaMST,final Graph graph,List<Edge>,6,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/BoruvkaAlgorithm.java,checkEdgeVertices,"final int vertex, final int upperBound",void,3,C
+thealgorithms-java,com/thealgorithms/datastructures/graphs/DialsAlgorithm.java,run,"List<List<Edge>> graph, int source, int maxEdgeWeight",int[],34,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/EdmondsBlossomAlgorithm.java,maximumMatching,"Iterable<int[]> edges, int vertexCount",List<int[]>,68,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/EdmondsBlossomAlgorithm.java,updateMatching,"int[] match, int[] parent, int u",void,7,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/EdmondsBlossomAlgorithm.java,findBase,"int[] base, int[] parent, int u, int v",int,18,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/EdmondsBlossomAlgorithm.java,contractBlossom,BlossomData blossomData,void,21,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/FordFulkerson.java,networkFlow,"int vertexCount, int[][] capacity, int[][] flow, int source, int sink",int,34,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/JohnsonsAlgorithm.java,johnsonAlgorithm,double[][] graph,double[][],9,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/JohnsonsAlgorithm.java,convertToEdgeList,double[][] graph,double[][],10,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/JohnsonsAlgorithm.java,bellmanFord,"double[][] edges, int numVertices",double[],26,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/JohnsonsAlgorithm.java,reweightGraph,"double[][] graph, double[] modifiedWeights",double[][],10,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/JohnsonsAlgorithm.java,dijkstra,"double[][] reweightedGraph, int source, double[] modifiedWeights",double[],20,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/JohnsonsAlgorithm.java,minDistance,"double[] dist, boolean[] visited",int,9,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/Kruskal.java,addEdge,"HashSet<Edge>[] graph, int from, int to, int weight",void,1,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/WelshPowell.java,makeGraph,"int numberOfVertices, int[][] listOfEdges",Graph,8,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/WelshPowell.java,findColoring,Graph graph,int[],15,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/WelshPowell.java,isBlank,int color,boolean,1,B
+thealgorithms-java,com/thealgorithms/datastructures/graphs/WelshPowell.java,isAdjacentToColored,"Graph graph, int vertex, int[] colors",boolean,1,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/WelshPowell.java,initializeColors,int numberOfVertices,int[],3,C
+thealgorithms-java,com/thealgorithms/datastructures/graphs/WelshPowell.java,getSortedNodes,final Graph graph,Integer[],1,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/WelshPowell.java,computeUsedColors,"final Graph graph, final int vertex, final int[] colors",boolean[],3,P
+thealgorithms-java,com/thealgorithms/datastructures/graphs/WelshPowell.java,firstUnusedColor,boolean[] usedColors,int,1,P
+thealgorithms-java,com/thealgorithms/datastructures/hashmap/hashing/ImmutableHashMap.java,empty,,"<K, V> ImmutableHashMap<K, V>",2,P
+thealgorithms-java,com/thealgorithms/datastructures/hashmap/hashing/Intersection.java,intersection,"int[] arr1, int[] arr2",List<Integer>,15,P
+thealgorithms-java,com/thealgorithms/datastructures/hashmap/hashing/MajorityElement.java,majority,int[] nums,List<Integer>,14,R
+thealgorithms-java,com/thealgorithms/datastructures/heaps/FibonacciHeap.java,totalLinks,,int,1,P
+thealgorithms-java,com/thealgorithms/datastructures/heaps/FibonacciHeap.java,totalCuts,,int,1,P
+thealgorithms-java,com/thealgorithms/datastructures/heaps/KthElementFinder.java,findKthLargest,"int[] nums, int k",int,8,T
+thealgorithms-java,com/thealgorithms/datastructures/heaps/KthElementFinder.java,findKthSmallest,"int[] nums, int k",int,8,T
+thealgorithms-java,com/thealgorithms/datastructures/heaps/MergeKSortedArrays.java,mergeKArrays,int[][] arrays,int[],18,P
+thealgorithms-java,com/thealgorithms/datastructures/lists/CreateAndDetectLoop.java,createLoop,"Node head, int position1, int position2",void,18,P
+thealgorithms-java,com/thealgorithms/datastructures/lists/CreateAndDetectLoop.java,detectLoop,Node head,boolean,10,P
+thealgorithms-java,com/thealgorithms/datastructures/lists/FlattenMultilevelLinkedList.java,merge,"Node a, Node b",Node,16,P
+thealgorithms-java,com/thealgorithms/datastructures/lists/FlattenMultilevelLinkedList.java,flatten,Node head,Node,6,P
+thealgorithms-java,com/thealgorithms/datastructures/lists/MergeSortedArrayList.java,merge,"List<Integer> listA, List<Integer> listB, Collection<Integer> listC",void,18,P
+thealgorithms-java,com/thealgorithms/datastructures/lists/MergeSortedSinglyLinkedList.java,merge,"SinglyLinkedList listA, SinglyLinkedList listB",SinglyLinkedList,20,P
+thealgorithms-java,com/thealgorithms/datastructures/lists/MiddleOfLinkedList.java,middleNode,final SinglyLinkedListNode head,SinglyLinkedListNode,10,P
+thealgorithms-java,com/thealgorithms/datastructures/lists/PalindromeSinglyLinkedList.java,isPalindrome,final Iterable linkedList,boolean,10,P
+thealgorithms-java,com/thealgorithms/datastructures/lists/PalindromeSinglyLinkedList.java,isPalindromeOptimised,Node head,boolean,29,P
+thealgorithms-java,com/thealgorithms/datastructures/queues/ReverseQueueRecursion.java,reverseQueue,final Queue<T> queue,<T> void,6,P
+thealgorithms-java,com/thealgorithms/datastructures/queues/SlidingWindowMaximum.java,maxSlidingWindow,"int[] nums, int k",int[],19,T
+thealgorithms-java,com/thealgorithms/datastructures/stacks/ReverseStack.java,reverseStack,Stack<Integer> stack,void,9,P
+thealgorithms-java,com/thealgorithms/datastructures/stacks/ReverseStack.java,insertAtBottom,"Stack<Integer> stack, int element",void,7,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/BoundaryTraversal.java,boundaryTraversal,BinaryTree.Node root,List<Integer>,11,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/BoundaryTraversal.java,addLeftBoundary,"BinaryTree.Node node, List<Integer> result",void,16,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/BoundaryTraversal.java,addLeaves,"BinaryTree.Node node, List<Integer> result",void,9,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/BoundaryTraversal.java,addRightBoundary,"BinaryTree.Node node, List<Integer> result",void,20,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/BoundaryTraversal.java,isLeaf,BinaryTree.Node node,boolean,1,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/BoundaryTraversal.java,iterativeBoundaryTraversal,BinaryTree.Node root,List<Integer>,33,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/BSTFromSortedArray.java,createBST,int[] array,Node,4,R
+thealgorithms-java,com/thealgorithms/datastructures/trees/BSTFromSortedArray.java,createBST,"int[] array, int startIdx, int endIdx",Node,8,R
+thealgorithms-java,com/thealgorithms/datastructures/trees/CeilInBinarySearchTree.java,getCeil,"Node root, int key",Node,11,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CentroidDecomposition.java,buildFromEdges,"int n, int[][] edges",CentroidTree,26,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CheckBinaryTreeIsValidBST.java,isBST,BinaryTree.Node root,boolean,1,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CheckBinaryTreeIsValidBST.java,isBSTUtil,"BinaryTree.Node node, int min, int max",boolean,7,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CheckIfBinaryTreeBalanced.java,isBalancedRecursive,BinaryTree.Node root,boolean,7,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CheckIfBinaryTreeBalanced.java,isBalancedRecursive,"BinaryTree.Node node, int depth, boolean[] isBalanced",int,9,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CheckIfBinaryTreeBalanced.java,isBalancedIterative,BinaryTree.Node root,boolean,36,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CheckTreeIsSymmetric.java,isSymmetric,Node root,boolean,4,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CheckTreeIsSymmetric.java,isSymmetric,"Node leftSubtreeRoot, Node rightSubtreeRoot",boolean,7,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CheckTreeIsSymmetric.java,isInvalidSubtree,"Node leftSubtreeRoot, Node rightSubtreeRoot",boolean,1,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CreateBinaryTreeFromInorderPreorder.java,createTree,"final Integer[] preorder, final Integer[] inorder",Node,4,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CreateBinaryTreeFromInorderPreorder.java,createTreeOptimized,"final Integer[] preorder, final Integer[] inorder",Node,8,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CreateBinaryTreeFromInorderPreorder.java,createTree,"final Integer[] preorder, final Integer[] inorder, final int preStart, final int inStart, final int size",Node,13,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/CreateBinaryTreeFromInorderPreorder.java,createTreeOptimized,"final Integer[] preorder, final Map<Integer, Integer> inorderMap, final int preStart, final int inStart, final int size",Node,10,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/InorderTraversal.java,recursiveInorder,BinaryTree.Node root,List<Integer>,3,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/InorderTraversal.java,iterativeInorder,BinaryTree.Node root,List<Integer>,15,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/InorderTraversal.java,recursiveInorder,"BinaryTree.Node root, List<Integer> result",void,6,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/KDTree.java,comparableDistance,"Point p1, Point p2",int,6,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/KDTree.java,comparableDistanceExceptAxis,"Point p1, Point p2, int axis",int,9,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/LazySegmentTree.java,merge,"Node left, Node right",Node,10,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/LCA.java,dfs,"ArrayList<ArrayList<Integer>> adj, int s, int p, int[] parent, int[] depth",void,7,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/LCA.java,getLCA,"int v1, int v2, int[] depth, int[] parent",int,16,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/LevelOrderTraversal.java,traverse,BinaryTree.Node root,List<List<Integer>>,22,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/LevelOrderTraversal.java,printGivenLevel,"BinaryTree.Node root, int level",void,10,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/nearestRightKey.java,buildTree,,NRKTree,7,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/nearestRightKey.java,nearestRightKey,"NRKTree root, int x0",int,13,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/PostOrderTraversal.java,recursivePostOrder,BinaryTree.Node root,List<Integer>,3,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/PostOrderTraversal.java,iterativePostOrder,BinaryTree.Node root,List<Integer>,17,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/PostOrderTraversal.java,recursivePostOrder,"BinaryTree.Node root, List<Integer> result",void,6,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/PreOrderTraversal.java,recursivePreOrder,BinaryTree.Node root,List<Integer>,3,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/PreOrderTraversal.java,iterativePreOrder,BinaryTree.Node root,List<Integer>,17,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/PreOrderTraversal.java,recursivePreOrder,"BinaryTree.Node root, List<Integer> result",void,6,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/SameTreesCheck.java,check,"BinaryTree.Node p, BinaryTree.Node q",boolean,34,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/SameTreesCheck.java,equalNodes,"BinaryTree.Node p, BinaryTree.Node q",boolean,7,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/TreeRandomNode.java,inOrder,Node node,void,6,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/TrieAutocomplete.java,getNode,,TrieNode,6,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/TrieAutocomplete.java,insert,"TrieNode root, final String key",void,9,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/TrieAutocomplete.java,isLastNode,TrieNode root,boolean,6,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/TrieAutocomplete.java,suggestionsRec,"TrieNode root, String currPrefix",void,12,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/TrieAutocomplete.java,printAutoSuggestions,"TrieNode root, final String query",int,22,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/VerticalOrderTraversal.java,verticalTraversal,BinaryTree.Node root,ArrayList<Integer>,34,P
+thealgorithms-java,com/thealgorithms/datastructures/trees/ZigzagTraversal.java,traverse,BinaryTree.Node root,List<List<Integer>>,28,P
+thealgorithms-java,com/thealgorithms/divideandconquer/BinaryExponentiation.java,calculatePower,"long x, long y",long,7,P
+thealgorithms-java,com/thealgorithms/divideandconquer/ClosestPair.java,setMinNum,double minNum,void,1,P
+thealgorithms-java,com/thealgorithms/divideandconquer/ClosestPair.java,setSecondCount,int secondCount,void,1,B
+thealgorithms-java,com/thealgorithms/divideandconquer/CountingInversions.java,countInversions,int[] arr,int,1,C
+thealgorithms-java,com/thealgorithms/divideandconquer/CountingInversions.java,mergeSortAndCount,"int[] arr, int left, int right",int,9,C
+thealgorithms-java,com/thealgorithms/divideandconquer/CountingInversions.java,mergeAndCount,"int[] arr, int left, int mid, int right",int,23,P
+thealgorithms-java,com/thealgorithms/divideandconquer/MedianOfTwoSortedArrays.java,findMedianSortedArrays,"int[] nums1, int[] nums2",double,28,P
+thealgorithms-java,com/thealgorithms/divideandconquer/TilingProblem.java,solveTiling,"int size, int missingRow, int missingCol",int[][],3,R
+thealgorithms-java,com/thealgorithms/divideandconquer/TilingProblem.java,fillBoard,"int size, int row, int col, int missingRow, int missingCol",void,29,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/Abbreviation.java,abbr,"String a, String b",boolean,17,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/AllConstruct.java,allConstruct,"String target, Iterable<String> wordBank",List<List<String>>,21,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/BoardPath.java,bpR,"int start, int end",int,10,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/BoardPath.java,bpRS,"int curr, int end, int[] strg",int,14,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/BoardPath.java,bpIS,"int curr, int end, int[] strg",int,9,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/BoundaryFill.java,getPixel,"int[][] image, int xCoordinate, int yCoordinate",int,1,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/BoundaryFill.java,putPixel,"int[][] image, int xCoordinate, int yCoordinate, int newColor",void,1,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/BoundaryFill.java,boundaryFill,"int[][] image, int xCoordinate, int yCoordinate, int newColor, int boundaryColor",void,11,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/BruteForceKnapsack.java,knapSack,"int w, int[] wt, int[] val, int n",int,8,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/CatalanNumber.java,findNthCatalan,int n,long,10,R
+thealgorithms-java,com/thealgorithms/dynamicprogramming/ClimbingStairs.java,numberOfWays,int n,int,12,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/CoinChange.java,change,"int[] coins, int amount",int,8,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/CoinChange.java,minimumCoins,"int[] coins, int amount",int,16,K
+thealgorithms-java,com/thealgorithms/dynamicprogramming/CountFriendsPairing.java,countFriendsPairing,"int n, int[] a",boolean,11,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DamerauLevenshteinDistance.java,distance,"String s1, String s2",int,7,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DamerauLevenshteinDistance.java,validateInputs,"String s1, String s2",void,3,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DamerauLevenshteinDistance.java,buildCharacterMap,"String s1, String s2","Map<Character, Integer>",8,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DamerauLevenshteinDistance.java,initializeTable,"int n, int m",int[][],12,R
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DamerauLevenshteinDistance.java,fillTable,"String s1, String s2, int[][] dp, Map<Character, Integer> charLastPosition",void,16,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DamerauLevenshteinDistance.java,computeMinimumCost,"int[][] dp, int i, int j, int lastMatchRow, int lastMatchCol, int cost",int,5,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DiceThrow.java,findWays,"int m, int n, int x",long,12,R
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DigitDP.java,countRangeWithDigitSum,"long l, long r, int target",long,6,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DigitDP.java,countWithDigitSum,"long number, int target",long,12,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/DigitDP.java,solve,"int index, int currentSum, int tight, String numStr, int target, long[][][] dp",long,18,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/EditDistance.java,minDistance,"String word1, String word2",int,26,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/EditDistance.java,editDistance,"String s1, String s2",int,2,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/EditDistance.java,editDistance,"String s1, String s2, int[][] storage",int,22,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/EggDropping.java,minTrials,"int n, int m",int,22,K
+thealgorithms-java,com/thealgorithms/dynamicprogramming/Fibonacci.java,fibMemo,int n,int,14,T
+thealgorithms-java,com/thealgorithms/dynamicprogramming/Fibonacci.java,fibBotUp,int n,int,14,T
+thealgorithms-java,com/thealgorithms/dynamicprogramming/Fibonacci.java,fibOptimized,int n,int,15,C
+thealgorithms-java,com/thealgorithms/dynamicprogramming/Fibonacci.java,fibBinet,int n,int,6,T
+thealgorithms-java,com/thealgorithms/dynamicprogramming/KadaneAlgorithm.java,maxSum,"int[] a, int predictedAnswer",boolean,10,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/Knapsack.java,throwIfInvalidInput,"final int weightCapacity, final int[] weights, final int[] values",void,9,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/Knapsack.java,knapSack,"final int weightCapacity, final int[] weights, final int[] values",int,8,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/KnapsackZeroOne.java,compute,"final int[] values, final int[] weights, final int capacity, final int n",int,20,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/KnapsackZeroOneTabulation.java,compute,"final int[] values, final int[] weights, final int capacity, final int itemCount",int,27,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LevenshteinDistance.java,naiveLevenshteinDistance,"final String string1, final String string2",int,6,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LevenshteinDistance.java,optimizedLevenshteinDistance,"final String string1, final String string2",int,16,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestAlternatingSubsequence.java,alternatingLength,"int[] arr, int n",int,18,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestArithmeticSubsequence.java,getLongestArithmeticSubsequenceLength,int[] nums,int,17,T
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestCommonSubsequence.java,getLCS,"String str1, String str2",String,25,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestCommonSubsequence.java,lcsString,"String str1, String str2, int[][] lcsMatrix",String,15,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequence.java,upperBound,"int[] ar, int l, int r, int key",int,9,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequence.java,lis,int[] array,int,19,C
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequence.java,findLISLen,int[] a,int,15,C
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequence.java,binarySearchBetween,"int[] t, int end, int key",int,17,T
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequenceNLogN.java,lowerBound,"int[] arr, int target, int size",int,11,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequenceNLogN.java,lengthOfLIS,int[] arr,int,13,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestPalindromicSubsequence.java,lps,String original,String,5,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestPalindromicSubsequence.java,recursiveLPS,"String original, String reverse",String,10,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestPalindromicSubstring.java,lps,String input,String,22,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/LongestValidParentheses.java,getLongestValidParentheses,String s,int,23,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MatrixChainMultiplication.java,calculateMatrixChainOrder,ArrayList<Matrix> matrices,Result,13,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MatrixChainMultiplication.java,matrixChainOrder,int size,void,16,K
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MatrixChainRecursiveTopDownMemoisation.java,memoizedMatrixChain,int[] p,int,8,C
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MatrixChainRecursiveTopDownMemoisation.java,lookupChain,"int[][] m, int[] p, int i, int j",int,15,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MaximumProductSubarray.java,maxProduct,int[] nums,int,17,T
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MaximumSumOfNonAdjacentElements.java,getMaxSumApproach1,int[] arr,int,15,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MaximumSumOfNonAdjacentElements.java,getMaxSumApproach2,int[] arr,int,17,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MinimumPathSum.java,minimumPathSum,final int[][] grid,int,17,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MinimumSumPartition.java,throwIfInvalidInput,final int[] array,void,3,T
+thealgorithms-java,com/thealgorithms/dynamicprogramming/MinimumSumPartition.java,minimumSumPartition,final int[] array,int,16,C
+thealgorithms-java,com/thealgorithms/dynamicprogramming/NeedlemanWunsch.java,align,"String s1, String s2, int matchScore, int mismatchPenalty, int gapPenalty",int,23,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/NewManShanksPrime.java,nthManShanksPrime,"int n, int expectedAnswer",boolean,7,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/OptimalBinarySearchTree.java,findOptimalCost,"int[] keys, int[] frequencies",long,32,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/OptimalBinarySearchTree.java,validateInput,"int[] keys, int[] frequencies",void,11,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/OptimalBinarySearchTree.java,sortNodes,"int[] keys, int[] frequencies",int[][],12,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/OptimalBinarySearchTree.java,buildPrefixSums,int[][] sortedNodes,long[],5,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/PalindromicPartitioning.java,minimalPartitions,String word,int,32,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/PartitionProblem.java,partition,int[] nums,boolean,2,T
+thealgorithms-java,com/thealgorithms/dynamicprogramming/RegexMatching.java,regexRecursion,"String src, String pat",boolean,29,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/RegexMatching.java,regexRecursion,"String src, String pat, int svidx, int pvidx",boolean,27,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/RegexMatching.java,regexRecursion,"String src, String pat, int svidx, int pvidx, int[][] strg",boolean,31,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/RegexMatching.java,regexBU,"String src, String pat",boolean,28,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/RodCutting.java,cutRod,"int[] price, int n",int,16,C
+thealgorithms-java,com/thealgorithms/dynamicprogramming/ShortestCommonSupersequenceLength.java,shortestSuperSequence,"String x, String y",int,4,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/ShortestCommonSupersequenceLength.java,lcs,"String x, String y, int m, int n",int,15,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/SmithWaterman.java,align,"String s1, String s2, int matchScore, int mismatchPenalty, int gapPenalty",int,22,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/SubsetCount.java,getCount,"int[] arr, int target",int,19,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/SubsetCount.java,getCountSO,"int[] arr, int target",int,20,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/SubsetSum.java,subsetSum,"int[] arr, int sum",boolean,9,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/SubsetSumSpaceOptimized.java,isSubsetSum,"int[] nums, int targetSum",boolean,11,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/SumOfSubset.java,subsetSum,"int[] arr, int num, int key",boolean,9,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/Tribonacci.java,compute,int n,int,16,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/UniquePaths.java,uniquePaths,"final int m, final int n",int,11,C
+thealgorithms-java,com/thealgorithms/dynamicprogramming/UniquePaths.java,uniquePaths2,"final int m, final int n",int,13,C
+thealgorithms-java,com/thealgorithms/dynamicprogramming/UniqueSubsequencesCount.java,countSubseq,String str,int,3,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/UniqueSubsequencesCount.java,countSubsequences,"String st, int idx, int[] dp",int,17,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/WildcardMatching.java,isMatch,"String text, String pattern",boolean,23,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/WineProblem.java,wpRecursion,"int[] arr, int si, int ei",int,8,-
+thealgorithms-java,com/thealgorithms/dynamicprogramming/WineProblem.java,wptd,"int[] arr, int si, int ei, int[][] strg",int,13,P
+thealgorithms-java,com/thealgorithms/dynamicprogramming/WineProblem.java,wpbu,int[] arr,int,19,C
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,getOrCreateEvent,"Map<Point2D.Double, Event> eventMap, Point2D.Double point, EventType type",Event,8,P
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,handleEvent,"Event event, TreeSet<Segment> status, PriorityQueue<Event> eventQueue, Map<Point2D.Double, Event> eventMap, Set<Point2D.Double> intersections",void,51,P
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,getNeighbor,"NavigableSet<Segment> status, Set<Segment> removed, boolean lower",Segment,5,P
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,getLeftmost,"Set<Segment> segments, SortedSet<Segment> status",Segment,7,P
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,getRightmost,"Set<Segment> segments, SortedSet<Segment> status",Segment,7,P
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,findNewEvent,"Segment s1, Segment s2, Point2D.Double currentPoint, PriorityQueue<Event> eventQueue, Map<Point2D.Double, Event> eventMap",void,20,P
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,areCollinear,"Segment s1, Segment s2",boolean,3,P
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,crossProduct,"Point2D.Double a, Point2D.Double b, Point2D.Double c",double,1,P
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,onSegment,"Segment s, Point2D.Double p",boolean,1,P
+thealgorithms-java,com/thealgorithms/geometry/BentleyOttmann.java,pointsEqual,"Point2D.Double p1, Point2D.Double p2",boolean,1,P
+thealgorithms-java,com/thealgorithms/geometry/BresenhamLine.java,findLine,"int x0, int y0, int x1, int y1",List<Point>,22,R
+thealgorithms-java,com/thealgorithms/geometry/ConvexHull.java,checkPointOrientation,"Point i, Point j, Point k",boolean,8,P
+thealgorithms-java,com/thealgorithms/geometry/ConvexHull.java,convexHullBruteForce,List<Point> points,List<Point>,18,P
+thealgorithms-java,com/thealgorithms/geometry/ConvexHull.java,convexHullRecursive,List<Point> points,List<Point>,24,P
+thealgorithms-java,com/thealgorithms/geometry/ConvexHull.java,constructHull,"Collection<Point> points, Point left, Point right, Set<Point> convexSet",void,20,P
+thealgorithms-java,com/thealgorithms/geometry/ConvexHull.java,sortCounterClockwise,List<Point> hullPoints,List<Point>,34,P
+thealgorithms-java,com/thealgorithms/geometry/ConvexHull.java,distanceSquared,"Point p1, Point p2",long,3,P
+thealgorithms-java,com/thealgorithms/geometry/DDALine.java,findLine,"int x0, int y0, int x1, int y1",List<Point>,14,R
+thealgorithms-java,com/thealgorithms/geometry/Haversine.java,haversine,"double lat1, double lon1, double lat2, double lon2",double,7,P
+thealgorithms-java,com/thealgorithms/geometry/LineIntersection.java,intersects,"Point p1, Point p2, Point q1, Point q2",boolean,20,P
+thealgorithms-java,com/thealgorithms/geometry/LineIntersection.java,orientation,"Point a, Point b, Point c",int,2,P
+thealgorithms-java,com/thealgorithms/geometry/LineIntersection.java,onSegment,"Point a, Point b, Point c",boolean,1,P
+thealgorithms-java,com/thealgorithms/geometry/MidpointCircle.java,generateCirclePoints,"int centerX, int centerY, int radius",List<int[]>,20,R
+thealgorithms-java,com/thealgorithms/geometry/MidpointCircle.java,addSymmetricPoints,"Collection<int[]> points, int centerX, int centerY, int x, int y",void,8,P
+thealgorithms-java,com/thealgorithms/geometry/MidpointEllipse.java,drawEllipse,"int centerX, int centerY, int a, int b",List<int[]>,19,R
+thealgorithms-java,com/thealgorithms/geometry/MidpointEllipse.java,computeEllipsePoints,"Collection<int[]> points, int centerX, int centerY, int a, int b",void,34,P
+thealgorithms-java,com/thealgorithms/geometry/MidpointEllipse.java,addEllipsePoints,"Collection<int[]> points, int centerX, int centerY, int x, int y",void,4,P
+thealgorithms-java,com/thealgorithms/geometry/Point.java,orientation,"Point a, Point b, Point c",int,1,P
+thealgorithms-java,com/thealgorithms/geometry/WusLine.java,drawLine,"int x0, int y0, int x1, int y1",List<Pixel>,27,R
+thealgorithms-java,com/thealgorithms/geometry/WusLine.java,processEndpoint,"double x, double y, double gradient, boolean isStart",EndpointData,6,P
+thealgorithms-java,com/thealgorithms/geometry/WusLine.java,addEndpointPixels,"List<Pixel> pixels, EndpointData endpoint, boolean steep",void,9,P
+thealgorithms-java,com/thealgorithms/geometry/WusLine.java,drawMainLine,"List<Pixel> pixels, EndpointData firstEndpoint, EndpointData secondEndpoint, double gradient, boolean steep",void,14,P
+thealgorithms-java,com/thealgorithms/geometry/WusLine.java,fpart,double x,double,1,P
+thealgorithms-java,com/thealgorithms/geometry/WusLine.java,rfpart,double x,double,1,P
+thealgorithms-java,com/thealgorithms/geometry/WusLine.java,round,double x,double,1,P
+thealgorithms-java,com/thealgorithms/graph/AccountMerge.java,mergeAccounts,List<List<String>> accounts,List<List<String>>,47,P
+thealgorithms-java,com/thealgorithms/graph/BronKerbosch.java,findMaximalCliques,List<Set<Integer>> adjacency,List<Set<Integer>>,30,P
+thealgorithms-java,com/thealgorithms/graph/BronKerbosch.java,bronKerboschPivot,"Set<Integer> r, Set<Integer> p, Set<Integer> x, List<Set<Integer>> graph, List<Set<Integer>> cliques",void,18,P
+thealgorithms-java,com/thealgorithms/graph/BronKerbosch.java,choosePivot,"Set<Integer> p, Set<Integer> x, List<Set<Integer>> graph",int,12,P
+thealgorithms-java,com/thealgorithms/graph/BronKerbosch.java,intersection,"Set<Integer> base, Set<Integer> neighbors",Set<Integer>,7,P
+thealgorithms-java,com/thealgorithms/graph/Dinic.java,maxFlow,"int[][] capacity, int source, int sink",int,35,P
+thealgorithms-java,com/thealgorithms/graph/Dinic.java,bfsBuildLevelGraph,"int[][] residual, int source, int sink, int[] level",boolean,17,P
+thealgorithms-java,com/thealgorithms/graph/Dinic.java,dfsBlocking,"int[][] residual, int[] level, int[] next, int u, int sink, int f",int,19,P
+thealgorithms-java,com/thealgorithms/graph/Edmonds.java,findMinimumSpanningArborescence,"int numVertices, List<Edge> edges, int root",long,7,P
+thealgorithms-java,com/thealgorithms/graph/Edmonds.java,findMSARecursive,"int n, List<Edge> edges, int root",long,92,P
+thealgorithms-java,com/thealgorithms/graph/EdmondsKarp.java,maxFlow,"int[][] capacity, int source, int sink",int,40,P
+thealgorithms-java,com/thealgorithms/graph/EdmondsKarp.java,bfs,"int[][] residual, int source, int sink, int[] parent",boolean,17,P
+thealgorithms-java,com/thealgorithms/graph/GomoryHuTree.java,buildTree,int[][] cap,int[][],28,P
+thealgorithms-java,com/thealgorithms/graph/GomoryHuTree.java,validateCapacityMatrix,int[][] cap,void,14,P
+thealgorithms-java,com/thealgorithms/graph/GomoryHuTree.java,edmondsKarpWithMinCut,"int[][] capacity, int source, int sink",MaxFlowResult,23,P
+thealgorithms-java,com/thealgorithms/graph/GomoryHuTree.java,bfs,"int[][] residual, int source, int sink, int[] parent",boolean,17,P
+thealgorithms-java,com/thealgorithms/graph/GomoryHuTree.java,markReachable,"int[][] residual, int source, boolean[] vis",void,13,P
+thealgorithms-java,com/thealgorithms/graph/HungarianAlgorithm.java,solve,int[][] cost,Result,77,P
+thealgorithms-java,com/thealgorithms/graph/HungarianAlgorithm.java,validate,int[][] cost,void,17,P
+thealgorithms-java,com/thealgorithms/graph/PredecessorConstrainedDfs.java,visit,"T node, int order",<T> TraversalEvent<T>,1,P
+thealgorithms-java,com/thealgorithms/graph/PredecessorConstrainedDfs.java,skip,"T node, String note",<T> TraversalEvent<T>,1,P
+thealgorithms-java,com/thealgorithms/graph/PredecessorConstrainedDfs.java,dfsRecursiveOrder,"Map<T, List<T>> successors, T start",<T> List<TraversalEvent<T>>,5,P
+thealgorithms-java,com/thealgorithms/graph/PredecessorConstrainedDfs.java,dfsRecursiveOrder,"Map<T, List<T>> successors, Map<T, List<T>> predecessors, T start",<T> List<TraversalEvent<T>>,14,P
+thealgorithms-java,com/thealgorithms/graph/PredecessorConstrainedDfs.java,dfs,"T currentNode, Map<T, List<T>> successors, Map<T, List<T>> predecessors, Set<T> visited, int[] order, List<TraversalEvent<T>> result",<T> void,14,P
+thealgorithms-java,com/thealgorithms/graph/PredecessorConstrainedDfs.java,allParentsVisited,"T node, Set<T> visited, Map<T, List<T>> predecessors",<T> boolean,6,P
+thealgorithms-java,com/thealgorithms/graph/PredecessorConstrainedDfs.java,appearsAnywhere,"Map<T, List<T>> successors, T node",<T> boolean,9,P
+thealgorithms-java,com/thealgorithms/graph/PredecessorConstrainedDfs.java,derivePredecessors,"Map<T, List<T>> successors","<T> Map<T, List<T>>",8,P
+thealgorithms-java,com/thealgorithms/graph/PushRelabel.java,maxFlow,"int[][] capacity, int source, int sink",int,37,P
+thealgorithms-java,com/thealgorithms/graph/PushRelabel.java,discharge,"int u, State s",void,22,P
+thealgorithms-java,com/thealgorithms/graph/PushRelabel.java,relabel,"int u, int[][] residual, int[] height",void,10,P
+thealgorithms-java,com/thealgorithms/graph/PushRelabel.java,validate,"int[][] capacity, int source, int sink",void,17,P
+thealgorithms-java,com/thealgorithms/graph/TarjanBridges.java,findBridges,"int vertexCount, List<List<Integer>> adjacencyList",List<int[]>,17,P
+thealgorithms-java,com/thealgorithms/graph/TravelingSalesman.java,bruteForce,int[][] distanceMatrix,int,19,P
+thealgorithms-java,com/thealgorithms/graph/TravelingSalesman.java,calculateDistance,"int[][] distanceMatrix, List<Integer> route",int,10,P
+thealgorithms-java,com/thealgorithms/graph/TravelingSalesman.java,generatePermutations,List<Integer> cities,List<List<Integer>>,3,P
+thealgorithms-java,com/thealgorithms/graph/TravelingSalesman.java,permute,"List<Integer> arr, int k, List<List<Integer>> output",void,9,P
+thealgorithms-java,com/thealgorithms/graph/TravelingSalesman.java,dynamicProgramming,int[][] distanceMatrix,int,36,P
+thealgorithms-java,com/thealgorithms/graph/YensKShortestPaths.java,kShortestPaths,"int[][] weights, int src, int dst, int k",List<List<Integer>>,57,P
+thealgorithms-java,com/thealgorithms/graph/YensKShortestPaths.java,validate,"int[][] weights, int src, int dst, int k",void,21,P
+thealgorithms-java,com/thealgorithms/graph/YensKShortestPaths.java,startsWith,"List<Integer> list, List<Integer> prefix",boolean,9,P
+thealgorithms-java,com/thealgorithms/graph/YensKShortestPaths.java,cloneMatrix,int[][] a,int[][],6,P
+thealgorithms-java,com/thealgorithms/graph/YensKShortestPaths.java,pathCost,"int[][] weights, List<Integer> nodes",long,11,P
+thealgorithms-java,com/thealgorithms/graph/YensKShortestPaths.java,dijkstra,"int[][] weights, int src, int dst, boolean[] blocked",Path,47,P
+thealgorithms-java,com/thealgorithms/graph/ZeroOneBfs.java,shortestPaths,"int n, List<List<int[]>> adj, int src",int[],38,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/ActivitySelection.java,activitySelection,"int[] startTimes, int[] endTimes",ArrayList<Integer>,19,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/BandwidthAllocation.java,maxValue,"int bandwidth, int[] users, int[] values",int,19,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/CoinChange.java,coinChangeProblem,int amount,ArrayList<Integer>,12,R
+thealgorithms-java,com/thealgorithms/greedyalgorithms/EgyptianFraction.java,getEgyptianFraction,"int numerator, int denominator",List<String>,8,R
+thealgorithms-java,com/thealgorithms/greedyalgorithms/FractionalKnapsack.java,fractionalKnapsack,"int[] weight, int[] value, int capacity",int,19,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/GaleShapley.java,stableMatch,"Map<String, LinkedList<String>> womenPrefs, Map<String, LinkedList<String>> menPrefs","Map<String, String>",26,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/JobSequencing.java,findJobSequence,"ArrayList<Job> jobs, int size",String,23,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/KCenters.java,findKCenters,"int[][] distances, int k",int,25,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/MergeIntervals.java,merge,int[][] intervals,int[][],10,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/MinimizingLateness.java,of,"String jobName, int processingTime, int deadline",Job,1,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/MinimizingLateness.java,calculateLateness,Job... jobs,void,7,P
+thealgorithms-java,com/thealgorithms/greedyalgorithms/MinimumWaitingTime.java,minimumWaitingTime,int[] queries,int,10,C
+thealgorithms-java,com/thealgorithms/greedyalgorithms/OptimalFileMerging.java,minMergeCost,int[] files,int,13,T
+thealgorithms-java,com/thealgorithms/greedyalgorithms/StockProfitCalculator.java,maxProfit,int[] prices,int,10,-
+thealgorithms-java,com/thealgorithms/machinelearning/KNearestNeighbors.java,euclideanDistance,"double[] first, double[] second",double,6,P
+thealgorithms-java,com/thealgorithms/maths/AbsoluteMax.java,getMaxValue,int... numbers,int,10,P
+thealgorithms-java,com/thealgorithms/maths/AbsoluteMin.java,getMinValue,int... numbers,int,11,P
+thealgorithms-java,com/thealgorithms/maths/AbsoluteValue.java,getAbsValue,long number,long,1,P
+thealgorithms-java,com/thealgorithms/maths/AbundantNumber.java,sumOfDivisors,int n,int,7,-
+thealgorithms-java,com/thealgorithms/maths/AbundantNumber.java,validatePositiveNumber,int number,void,3,C
+thealgorithms-java,com/thealgorithms/maths/AbundantNumber.java,isAbundant,int number,boolean,2,C
+thealgorithms-java,com/thealgorithms/maths/AbundantNumber.java,isAbundantNumber,int number,boolean,2,C
+thealgorithms-java,com/thealgorithms/maths/AliquotSum.java,getAliquotValue,int number,int,3,T
+thealgorithms-java,com/thealgorithms/maths/AliquotSum.java,getAliquotSum,int n,int,14,T
+thealgorithms-java,com/thealgorithms/maths/AmicableNumber.java,findAllInRange,"int from, int to","Set<Pair<Integer, Integer>>",12,R
+thealgorithms-java,com/thealgorithms/maths/AmicableNumber.java,isAmicableNumber,"int a, int b",boolean,4,C
+thealgorithms-java,com/thealgorithms/maths/AmicableNumber.java,sumOfDividers,"int number, int divisor",int,7,-
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaCube,final double sideLength,double,4,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaCuboid,"final double length, double width, double height",double,10,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaSphere,final double radius,double,4,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaPyramid,"final double sideLength, final double slantHeight",double,9,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaRectangle,"final double length, final double width",double,7,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaCylinder,"final double radius, final double height",double,7,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaSquare,final double sideLength,double,4,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaTriangle,"final double baseLength, final double height",double,7,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaParallelogram,"final double baseLength, final double height",double,7,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaTrapezium,"final double baseLength1, final double baseLength2, final double height",double,10,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaCircle,final double radius,double,4,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaHemisphere,final double radius,double,4,P
+thealgorithms-java,com/thealgorithms/maths/Area.java,surfaceAreaCone,"final double radius, final double height",double,7,P
+thealgorithms-java,com/thealgorithms/maths/AutoCorrelation.java,autoCorrelation,double[] x,double[],1,P
+thealgorithms-java,com/thealgorithms/maths/AutomorphicNumber.java,isAutomorphic,long n,boolean,12,P
+thealgorithms-java,com/thealgorithms/maths/AutomorphicNumber.java,isAutomorphic2,long n,boolean,5,P
+thealgorithms-java,com/thealgorithms/maths/AutomorphicNumber.java,isAutomorphic3,String s,boolean,6,P
+thealgorithms-java,com/thealgorithms/maths/Average.java,average,double[] numbers,double,8,P
+thealgorithms-java,com/thealgorithms/maths/Average.java,average,int[] numbers,long,8,R
+thealgorithms-java,com/thealgorithms/maths/Average.java,averageStream,double[] numbers,OptionalDouble,4,P
+thealgorithms-java,com/thealgorithms/maths/BellNumbers.java,compute,int n,long,18,R
+thealgorithms-java,com/thealgorithms/maths/BinaryPow.java,binPow,"int a, int p",int,9,T
+thealgorithms-java,com/thealgorithms/maths/BinomialCoefficient.java,binomialCoefficient,"int totalObjects, int numberOfObjects",int,7,-
+thealgorithms-java,com/thealgorithms/maths/CatalanNumbers.java,catalan,final int n,long,4,R
+thealgorithms-java,com/thealgorithms/maths/CatalanNumbers.java,factorial,final int n,long,8,R
+thealgorithms-java,com/thealgorithms/maths/Ceil.java,ceil,double number,double,12,P
+thealgorithms-java,com/thealgorithms/maths/ChebyshevIteration.java,solve,"double[][] a, double[] b, double[] x0, double minEigenvalue, double maxEigenvalue, int maxIterations, double tolerance",double[],29,P
+thealgorithms-java,com/thealgorithms/maths/ChebyshevIteration.java,validateInputs,"double[][] a, double[] b, double[] x0, double minEigenvalue, double maxEigenvalue, int maxIterations, double tolerance",void,25,P
+thealgorithms-java,com/thealgorithms/maths/ChebyshevIteration.java,matrixVectorMultiply,"double[][] a, double[] v",double[],10,P
+thealgorithms-java,com/thealgorithms/maths/ChebyshevIteration.java,vectorSubtract,"double[] v1, double[] v2",double[],6,P
+thealgorithms-java,com/thealgorithms/maths/ChebyshevIteration.java,vectorAdd,"double[] v1, double[] v2",double[],6,P
+thealgorithms-java,com/thealgorithms/maths/ChebyshevIteration.java,scalarMultiply,"double scalar, double[] v",double[],6,P
+thealgorithms-java,com/thealgorithms/maths/ChebyshevIteration.java,vectorNorm,double[] v,double,5,P
+thealgorithms-java,com/thealgorithms/maths/ChineseRemainderTheorem.java,solveCRT,"List<Integer> remainders, List<Integer> moduli",int,15,P
+thealgorithms-java,com/thealgorithms/maths/ChineseRemainderTheorem.java,modInverse,"int a, int m",int,19,-
+thealgorithms-java,com/thealgorithms/maths/CircularConvolutionFFT.java,padding,"Collection<FFT.Complex> x, int newSize",void,6,P
+thealgorithms-java,com/thealgorithms/maths/Combinations.java,factorial,int n,long,4,R
+thealgorithms-java,com/thealgorithms/maths/Combinations.java,combinations,"int n, int k",long,1,R
+thealgorithms-java,com/thealgorithms/maths/Combinations.java,combinationsOptimized,"int n, int k",long,11,R
+thealgorithms-java,com/thealgorithms/maths/ComplexNumberMultiply.java,parse,String num,int[],7,P
+thealgorithms-java,com/thealgorithms/maths/ComplexNumberMultiply.java,multiply,"String num1, String num2",String,5,P
+thealgorithms-java,com/thealgorithms/maths/Convolution.java,convolution,"double[] a, double[] b",double[],11,P
+thealgorithms-java,com/thealgorithms/maths/ConvolutionFFT.java,padding,"Collection<FFT.Complex> x, int newSize",void,6,P
+thealgorithms-java,com/thealgorithms/maths/Correlation.java,correlation,"double[] x, double[] y, int n",double,25,P
+thealgorithms-java,com/thealgorithms/maths/CrossCorrelation.java,crossCorrelation,"double[] x, double[] y",double[],17,P
+thealgorithms-java,com/thealgorithms/maths/DeterminantOfMatrix.java,determinant,"int[][] a, int n",int,27,P
+thealgorithms-java,com/thealgorithms/maths/DigitalRoot.java,digitalRoot,int n,int,5,-
+thealgorithms-java,com/thealgorithms/maths/DigitalRoot.java,single,int n,int,5,-
+thealgorithms-java,com/thealgorithms/maths/DisariumNumber.java,isDisarium,int number,boolean,13,T
+thealgorithms-java,com/thealgorithms/maths/DistanceBetweenTwoPoints.java,calculate,"final double x1, final double y1, final double x2, final double y2",double,3,P
+thealgorithms-java,com/thealgorithms/maths/DistanceFormula.java,euclideanDistance,"double x1, double y1, double x2, double y2",double,3,P
+thealgorithms-java,com/thealgorithms/maths/DistanceFormula.java,manhattanDistance,"double x1, double y1, double x2, double y2",double,1,P
+thealgorithms-java,com/thealgorithms/maths/DistanceFormula.java,hammingDistance,"int[] b1, int[] b2",int,8,P
+thealgorithms-java,com/thealgorithms/maths/DistanceFormula.java,minkowskiDistance,"double[] p1, double[] p2, int p",double,11,P
+thealgorithms-java,com/thealgorithms/maths/DudeneyNumber.java,isDudeney,final int n,boolean,8,C
+thealgorithms-java,com/thealgorithms/maths/EulerMethod.java,eulerStep,"double xCurrent, double stepSize, double yCurrent, BiFunction<Double, Double, Double> differentialEquation",double,4,P
+thealgorithms-java,com/thealgorithms/maths/EulerMethod.java,eulerFull,"double xStart, double xEnd, double stepSize, double yStart, BiFunction<Double, Double, Double> differentialEquation",ArrayList<double[]>,18,P
+thealgorithms-java,com/thealgorithms/maths/EulerPseudoprime.java,isProbablePrime,"BigInteger n, int trials",boolean,22,P
+thealgorithms-java,com/thealgorithms/maths/EulerPseudoprime.java,jacobiSymbol,"BigInteger a, BigInteger n",int,22,P
+thealgorithms-java,com/thealgorithms/maths/EulerPseudoprime.java,uniformRandom,"BigInteger min, BigInteger max",BigInteger,5,P
+thealgorithms-java,com/thealgorithms/maths/EulersFunction.java,checkInput,int n,void,3,C
+thealgorithms-java,com/thealgorithms/maths/EulersFunction.java,getEuler,int n,int,14,C
+thealgorithms-java,com/thealgorithms/maths/EvilNumber.java,countOneBits,int number,int,6,T
+thealgorithms-java,com/thealgorithms/maths/EvilNumber.java,isEvilNumber,int number,boolean,5,C
+thealgorithms-java,com/thealgorithms/maths/ExtendedEuclideanAlgorithm.java,extendedGCD,"long a, long b",long[],10,P
+thealgorithms-java,com/thealgorithms/maths/Factorial.java,factorial,int n,BigInteger,8,R
+thealgorithms-java,com/thealgorithms/maths/FastExponentiation.java,fastExponentiation,"long base, long exp, long mod",long,16,P
+thealgorithms-java,com/thealgorithms/maths/FastInverseSqrt.java,inverseSqrt,float number,boolean,7,P
+thealgorithms-java,com/thealgorithms/maths/FastInverseSqrt.java,inverseSqrt,double number,boolean,10,P
+thealgorithms-java,com/thealgorithms/maths/FFT.java,fft,"ArrayList<Complex> x, boolean inverse",ArrayList<Complex>,21,P
+thealgorithms-java,com/thealgorithms/maths/FFT.java,findLog2,int n,int,5,T
+thealgorithms-java,com/thealgorithms/maths/FFT.java,fftBitReversal,"int n, int log2n, ArrayList<Complex> x",ArrayList<Complex>,8,P
+thealgorithms-java,com/thealgorithms/maths/FFT.java,inverseFFT,"int n, boolean inverse, ArrayList<Complex> x",ArrayList<Complex>,7,P
+thealgorithms-java,com/thealgorithms/maths/FFT.java,reverseBits,"int num, int log2n",int,7,T
+thealgorithms-java,com/thealgorithms/maths/FFT.java,paddingPowerOfTwo,Collection<Complex> x,void,8,P
+thealgorithms-java,com/thealgorithms/maths/FFTBluestein.java,fftBluestein,"List<FFT.Complex> x, boolean inverse",void,29,P
+thealgorithms-java,com/thealgorithms/maths/FibonacciJavaStreams.java,calculate,final BigDecimal index,Optional<BigDecimal>,12,P
+thealgorithms-java,com/thealgorithms/maths/FibonacciLoop.java,compute,final int n,BigInteger,14,R
+thealgorithms-java,com/thealgorithms/maths/FibonacciNumberCheck.java,isPerfectSquare,long number,boolean,2,P
+thealgorithms-java,com/thealgorithms/maths/FibonacciNumberCheck.java,isFibonacciNumber,long number,boolean,3,P
+thealgorithms-java,com/thealgorithms/maths/FibonacciNumberGoldenRation.java,compute,int n,long,14,R
+thealgorithms-java,com/thealgorithms/maths/FindKthNumber.java,findKthMax,"int[] array, int k",int,4,C
+thealgorithms-java,com/thealgorithms/maths/FindKthNumber.java,quickSelect,"int[] array, int left, int right, int kSmallest",int,12,P
+thealgorithms-java,com/thealgorithms/maths/FindKthNumber.java,partition,"int[] array, int left, int right, int pivotIndex",int,11,P
+thealgorithms-java,com/thealgorithms/maths/FindKthNumber.java,swap,"int[] array, int i, int j",void,3,B
+thealgorithms-java,com/thealgorithms/maths/FindKthNumber.java,findKthMaxUsingHeap,"int[] array, int k",int,12,T
+thealgorithms-java,com/thealgorithms/maths/FindMax.java,findMax,final int[] array,int,11,C
+thealgorithms-java,com/thealgorithms/maths/FindMaxRecursion.java,max,"final int[] array, final int low, final int high",int,10,T
+thealgorithms-java,com/thealgorithms/maths/FindMaxRecursion.java,max,final int[] array,int,1,B
+thealgorithms-java,com/thealgorithms/maths/FindMin.java,findMin,final int[] array,int,10,C
+thealgorithms-java,com/thealgorithms/maths/FindMinRecursion.java,min,"final int[] array, final int low, final int high",int,10,T
+thealgorithms-java,com/thealgorithms/maths/FindMinRecursion.java,min,final int[] array,int,1,B
+thealgorithms-java,com/thealgorithms/maths/Floor.java,floor,double number,double,7,P
+thealgorithms-java,com/thealgorithms/maths/FriendlyNumber.java,sumOfDivisors,final int number,int,12,C
+thealgorithms-java,com/thealgorithms/maths/FriendlyNumber.java,areFriendly,"final int a, final int b",boolean,6,T
+thealgorithms-java,com/thealgorithms/maths/FrizzyNumber.java,getNthFrizzy,"int base, int n",double,6,R
+thealgorithms-java,com/thealgorithms/maths/Gaussian.java,gaussian,"int matSize, List<Double> matrix",ArrayList<Double>,11,P
+thealgorithms-java,com/thealgorithms/maths/Gaussian.java,gaussianElimination,"int matSize, int i, double[][] mat",double[][],10,P
+thealgorithms-java,com/thealgorithms/maths/Gaussian.java,valueOfGaussian,"int matSize, double[][] x, double[][] mat",ArrayList<Double>,22,P
+thealgorithms-java,com/thealgorithms/maths/GCD.java,gcd,"int num1, int num2",int,12,C
+thealgorithms-java,com/thealgorithms/maths/GCD.java,gcd,int... numbers,int,5,P
+thealgorithms-java,com/thealgorithms/maths/GCDRecursion.java,gcd,"int a, int b",int,11,C
+thealgorithms-java,com/thealgorithms/maths/GenericRoot.java,sumOfDigits,final int n,int,5,-
+thealgorithms-java,com/thealgorithms/maths/GenericRoot.java,genericRoot,final int n,int,5,-
+thealgorithms-java,com/thealgorithms/maths/GermainPrimeAndSafePrime.java,isGermainPrime,int number,boolean,4,C
+thealgorithms-java,com/thealgorithms/maths/GermainPrimeAndSafePrime.java,isSafePrime,int number,boolean,4,C
+thealgorithms-java,com/thealgorithms/maths/GoldbachConjecture.java,getPrimeSum,int number,Result,9,R
+thealgorithms-java,com/thealgorithms/maths/HappyNumber.java,isHappy,int n,boolean,7,-
+thealgorithms-java,com/thealgorithms/maths/HappyNumber.java,sumOfSquares,int num,int,7,-
+thealgorithms-java,com/thealgorithms/maths/HarshadNumber.java,isHarshad,long n,boolean,10,P
+thealgorithms-java,com/thealgorithms/maths/HarshadNumber.java,isHarshad,String s,boolean,19,P
+thealgorithms-java,com/thealgorithms/maths/HeronsFormula.java,areAllSidesPositive,"final double a, final double b, final double c",boolean,1,P
+thealgorithms-java,com/thealgorithms/maths/HeronsFormula.java,canFormTriangle,"final double a, final double b, final double c",boolean,1,P
+thealgorithms-java,com/thealgorithms/maths/HeronsFormula.java,herons,"final double a, final double b, final double c",double,8,P
+thealgorithms-java,com/thealgorithms/maths/JacobsthalNumber.java,jacobsthal,final int n,long,18,R
+thealgorithms-java,com/thealgorithms/maths/JosephusProblem.java,findTheWinner,"int n, int k",int,1,B
+thealgorithms-java,com/thealgorithms/maths/JosephusProblem.java,winner,"int n, int k",int,4,B
+thealgorithms-java,com/thealgorithms/maths/JugglerSequence.java,jugglerSequence,int inputNumber,void,15,T
+thealgorithms-java,com/thealgorithms/maths/KaprekarNumbers.java,kaprekarNumberInRange,"long start, long end",List<Long>,13,P
+thealgorithms-java,com/thealgorithms/maths/KaprekarNumbers.java,isKaprekarNumber,long num,boolean,22,P
+thealgorithms-java,com/thealgorithms/maths/KaratsubaMultiplication.java,karatsuba,"BigInteger x, BigInteger y",BigInteger,16,P
+thealgorithms-java,com/thealgorithms/maths/KeithNumber.java,isKeith,int number,boolean,23,T
+thealgorithms-java,com/thealgorithms/maths/KrishnamurthyNumber.java,isKrishnamurthy,int n,boolean,11,K
+thealgorithms-java,com/thealgorithms/maths/LeastCommonMultiple.java,lcm,"int num1, int num2",int,18,-
+thealgorithms-java,com/thealgorithms/maths/LeonardoNumber.java,leonardoNumber,int n,int,7,C
+thealgorithms-java,com/thealgorithms/maths/LeonardoNumber.java,leonardoNumberIterative,int n,int,14,C
+thealgorithms-java,com/thealgorithms/maths/LinearDiophantineEquationsSolver.java,findAnySolution,final Equation equation,Solution,31,P
+thealgorithms-java,com/thealgorithms/maths/LinearDiophantineEquationsSolver.java,gcd,"final int a, final int b, final GcdSolutionWrapper previous",GcdSolutionWrapper,9,P
+thealgorithms-java,com/thealgorithms/maths/LongDivision.java,divide,"int dividend, int divisor",int,59,T
+thealgorithms-java,com/thealgorithms/maths/LowestBasePalindrome.java,checkBase,int base,void,3,C
+thealgorithms-java,com/thealgorithms/maths/LowestBasePalindrome.java,checkNumber,int number,void,3,C
+thealgorithms-java,com/thealgorithms/maths/LowestBasePalindrome.java,computeDigitsInBase,"int number, int base",List<Integer>,8,R
+thealgorithms-java,com/thealgorithms/maths/LowestBasePalindrome.java,isPalindromic,List<Integer> list,boolean,7,P
+thealgorithms-java,com/thealgorithms/maths/LowestBasePalindrome.java,isPalindromicInBase,"int number, int base",boolean,9,C
+thealgorithms-java,com/thealgorithms/maths/LowestBasePalindrome.java,lowestBasePalindrome,int number,int,6,C
+thealgorithms-java,com/thealgorithms/maths/LucasSeries.java,lucasSeries,int n,int,10,C
+thealgorithms-java,com/thealgorithms/maths/LucasSeries.java,lucasSeriesIteration,int n,int,17,C
+thealgorithms-java,com/thealgorithms/maths/LuckyNumber.java,validatePositiveNumber,int number,void,3,C
+thealgorithms-java,com/thealgorithms/maths/LuckyNumber.java,isLuckyRecursiveApproach,"int n, int counter",boolean,8,-
+thealgorithms-java,com/thealgorithms/maths/LuckyNumber.java,isLuckyNumber,int number,boolean,3,C
+thealgorithms-java,com/thealgorithms/maths/LuckyNumber.java,isLucky,int number,boolean,11,C
+thealgorithms-java,com/thealgorithms/maths/MaxValue.java,max,"int a, int b",int,1,B
+thealgorithms-java,com/thealgorithms/maths/Means.java,arithmetic,final Iterable<Double> numbers,Double,4,P
+thealgorithms-java,com/thealgorithms/maths/Means.java,geometric,final Iterable<Double> numbers,Double,4,P
+thealgorithms-java,com/thealgorithms/maths/Means.java,harmonic,final Iterable<Double> numbers,Double,4,P
+thealgorithms-java,com/thealgorithms/maths/Means.java,quadratic,final Iterable<Double> numbers,Double,4,P
+thealgorithms-java,com/thealgorithms/maths/Means.java,checkIfNotEmpty,final Iterable<Double> numbers,void,3,P
+thealgorithms-java,com/thealgorithms/maths/Median.java,median,int[] values,double,10,R
+thealgorithms-java,com/thealgorithms/maths/MinValue.java,min,"int a, int b",int,1,B
+thealgorithms-java,com/thealgorithms/maths/Mode.java,mode,final int[] numbers,int[],15,T
+thealgorithms-java,com/thealgorithms/maths/Neville.java,interpolate,"double[] x, double[] y, double target",double,21,P
+thealgorithms-java,com/thealgorithms/maths/NonRepeatingElement.java,findNonRepeatingElements,int[] arr,int[],18,T
+thealgorithms-java,com/thealgorithms/maths/NumberOfDigits.java,numberOfDigits,int number,int,6,-
+thealgorithms-java,com/thealgorithms/maths/NumberOfDigits.java,numberOfDigitsFast,int number,int,1,C
+thealgorithms-java,com/thealgorithms/maths/NumberOfDigits.java,numberOfDigitsFaster,int number,int,1,T
+thealgorithms-java,com/thealgorithms/maths/NumberOfDigits.java,numberOfDigitsRecursion,int number,int,1,B
+thealgorithms-java,com/thealgorithms/maths/NumberPersistence.java,multiplicativePersistence,int num,int,15,C
+thealgorithms-java,com/thealgorithms/maths/NumberPersistence.java,additivePersistence,int num,int,15,C
+thealgorithms-java,com/thealgorithms/maths/PadovanSequence.java,padovan,final int n,long,17,R
+thealgorithms-java,com/thealgorithms/maths/PalindromeNumber.java,isPalindrome,int number,boolean,11,C
+thealgorithms-java,com/thealgorithms/maths/PalindromePrime.java,prime,int num,boolean,15,C
+thealgorithms-java,com/thealgorithms/maths/PalindromePrime.java,reverse,int n,int,6,-
+thealgorithms-java,com/thealgorithms/maths/PalindromePrime.java,generatePalindromePrimes,int n,List<Integer>,15,R
+thealgorithms-java,com/thealgorithms/maths/ParseInteger.java,checkInput,final String s,void,6,P
+thealgorithms-java,com/thealgorithms/maths/ParseInteger.java,checkDigitAt,"final String s, final int pos",void,3,P
+thealgorithms-java,com/thealgorithms/maths/ParseInteger.java,digitToInt,final char digit,int,1,P
+thealgorithms-java,com/thealgorithms/maths/ParseInteger.java,parseInt,final String s,int,9,P
+thealgorithms-java,com/thealgorithms/maths/PascalTriangle.java,pascal,int n,int[][],11,R
+thealgorithms-java,com/thealgorithms/maths/PerfectCube.java,isPerfectCube,int number,boolean,3,C
+thealgorithms-java,com/thealgorithms/maths/PerfectCube.java,isPerfectCubeMathCbrt,int number,boolean,2,T
+thealgorithms-java,com/thealgorithms/maths/PerfectNumber.java,isPerfectNumber,int number,boolean,10,-
+thealgorithms-java,com/thealgorithms/maths/PerfectNumber.java,isPerfectNumber2,int n,boolean,14,T
+thealgorithms-java,com/thealgorithms/maths/PerfectSquare.java,isPerfectSquare,final int number,boolean,5,C
+thealgorithms-java,com/thealgorithms/maths/PerfectSquare.java,isPerfectSquareUsingPow,long number,boolean,5,P
+thealgorithms-java,com/thealgorithms/maths/Perimeter.java,perimeterRegularPolygon,"int n, float side",float,1,P
+thealgorithms-java,com/thealgorithms/maths/Perimeter.java,perimeterIrregularPolygon,"float side1, float side2, float side3, float... sides",float,5,P
+thealgorithms-java,com/thealgorithms/maths/Perimeter.java,perimeterRectangle,"float length, float breadth",float,1,P
+thealgorithms-java,com/thealgorithms/maths/Perimeter.java,perimeterCircle,float r,double,1,P
+thealgorithms-java,com/thealgorithms/maths/PerrinNumber.java,perrin,final int n,long,23,R
+thealgorithms-java,com/thealgorithms/maths/PiApproximation.java,approximatePi,List<Point> pts,double,7,P
+thealgorithms-java,com/thealgorithms/maths/PiApproximation.java,generateRandomPoints,int numPoints,List<Point>,8,R
+thealgorithms-java,com/thealgorithms/maths/PiNilakantha.java,calculatePi,int iterations,double,14,R
+thealgorithms-java,com/thealgorithms/maths/PollardRho.java,g,"int base, int modulus",int,1,B
+thealgorithms-java,com/thealgorithms/maths/PollardRho.java,pollardRho,int number,int,12,C
+thealgorithms-java,com/thealgorithms/maths/Pow.java,pow,"int a, int b",long,8,R
+thealgorithms-java,com/thealgorithms/maths/PowerOfFour.java,isPowerOfFour,int number,boolean,6,T
+thealgorithms-java,com/thealgorithms/maths/PowerOfTwoOrNot.java,checkIfPowerOfTwoOrNot,final int number,boolean,1,T
+thealgorithms-java,com/thealgorithms/maths/PowerUsingRecursion.java,power,"double base, int exponent",double,4,P
+thealgorithms-java,com/thealgorithms/maths/PronicNumber.java,isPronic,int inputNumber,boolean,9,-
+thealgorithms-java,com/thealgorithms/maths/PronicNumber.java,isPronicNumber,int number,boolean,2,C
+thealgorithms-java,com/thealgorithms/maths/PythagoreanTriple.java,isPythagTriple,"int a, int b, int c",boolean,9,C
+thealgorithms-java,com/thealgorithms/maths/ReverseNumber.java,reverseNumber,int number,int,10,C
+thealgorithms-java,com/thealgorithms/maths/RomanNumeralUtil.java,generate,int number,String,4,R
+thealgorithms-java,com/thealgorithms/maths/SecondMinMax.java,secondBest,"final int[] arr, final int initialVal, final BiPredicate<Integer, Integer> isBetter",int,13,P
+thealgorithms-java,com/thealgorithms/maths/SecondMinMax.java,findSecondMin,final int[] arr,int,1,T
+thealgorithms-java,com/thealgorithms/maths/SecondMinMax.java,findSecondMax,final int[] arr,int,1,T
+thealgorithms-java,com/thealgorithms/maths/SecondMinMax.java,checkInput,final int[] arr,void,3,C
+thealgorithms-java,com/thealgorithms/maths/SecondMinMax.java,checkOutput,"final int secNum, final int initialVal",void,3,C
+thealgorithms-java,com/thealgorithms/maths/SieveOfAtkin.java,generatePrimes,int limit,List<Integer>,20,R
+thealgorithms-java,com/thealgorithms/maths/SieveOfAtkin.java,markQuadraticResidues,"int limit, int sqrtLimit, boolean[] sieve",void,7,P
+thealgorithms-java,com/thealgorithms/maths/SieveOfAtkin.java,applyQuadraticForm,"int n, int limit, boolean[] sieve, int modulo",void,3,P
+thealgorithms-java,com/thealgorithms/maths/SieveOfAtkin.java,applyQuadraticForm,"int n, int limit, boolean[] sieve, int modulo1, int modulo2",void,3,P
+thealgorithms-java,com/thealgorithms/maths/SieveOfAtkin.java,applyQuadraticForm,"int n, int limit, boolean[] sieve, int modulo, boolean condition",void,3,P
+thealgorithms-java,com/thealgorithms/maths/SieveOfAtkin.java,eliminateMultiplesOfSquares,"int limit, int sqrtLimit, boolean[] sieve",void,9,P
+thealgorithms-java,com/thealgorithms/maths/SieveOfEratosthenes.java,findPrimes,int n,List<Integer>,24,R
+thealgorithms-java,com/thealgorithms/maths/SieveOfEratosthenes.java,countPrimes,int n,int,1,T
+thealgorithms-java,com/thealgorithms/maths/SigmoidActivation.java,activate,double x,double,10,P
+thealgorithms-java,com/thealgorithms/maths/SigmoidActivation.java,activate,double[][] x,double[][],8,P
+thealgorithms-java,com/thealgorithms/maths/SigmoidActivation.java,grad,double y,double,1,P
+thealgorithms-java,com/thealgorithms/maths/SigmoidActivation.java,grad,double[][] y,double[][],8,P
+thealgorithms-java,com/thealgorithms/maths/SmithNumber.java,primeFactorDigitSum,int n,int,12,C
+thealgorithms-java,com/thealgorithms/maths/SmithNumber.java,isSmithNumber,int number,boolean,4,C
+thealgorithms-java,com/thealgorithms/maths/SociableNumber.java,sumOfProperDivisors,final int number,int,15,C
+thealgorithms-java,com/thealgorithms/maths/SociableNumber.java,isSociable,"final int number, final int cycleLength",boolean,11,C
+thealgorithms-java,com/thealgorithms/maths/SolovayStrassenPrimalityTest.java,getSolovayStrassenPrimalityTest,int seed,SolovayStrassenPrimalityTest,1,R
+thealgorithms-java,com/thealgorithms/maths/SolovayStrassenPrimalityTest.java,calculateModularExponentiation,"long base, long exponent, long mod",long,10,P
+thealgorithms-java,com/thealgorithms/maths/SquareRootWithBabylonianMethod.java,squareRoot,float num,float,8,P
+thealgorithms-java,com/thealgorithms/maths/SquareRootWithNewtonRaphsonMethod.java,squareRoot,int n,double,7,R
+thealgorithms-java,com/thealgorithms/maths/StandardDeviation.java,stdDev,double[] data,double,11,P
+thealgorithms-java,com/thealgorithms/maths/StandardScore.java,zScore,"double num, double mean, double stdDev",double,1,P
+thealgorithms-java,com/thealgorithms/maths/SumOfArithmeticSeries.java,sumOfSeries,"final double firstTerm, final double commonDiff, final int numOfTerms",double,4,P
+thealgorithms-java,com/thealgorithms/maths/SumOfDigits.java,sumOfDigits,int number,int,8,-
+thealgorithms-java,com/thealgorithms/maths/SumOfDigits.java,sumOfDigitsRecursion,int number,int,3,B
+thealgorithms-java,com/thealgorithms/maths/SumOfDigits.java,sumOfDigitsFast,final int number,int,1,T
+thealgorithms-java,com/thealgorithms/maths/SumOfOddNumbers.java,sumOfFirstNOddNumbers,final int n,int,4,C
+thealgorithms-java,com/thealgorithms/maths/SumOfSquares.java,minSquares,int n,int,20,C
+thealgorithms-java,com/thealgorithms/maths/SumOfSquares.java,isPerfectSquare,int n,boolean,5,C
+thealgorithms-java,com/thealgorithms/maths/TrinomialTriangle.java,trinomialValue,"int n, int k",int,7,-
+thealgorithms-java,com/thealgorithms/maths/TrinomialTriangle.java,printTrinomial,int n,void,9,C
+thealgorithms-java,com/thealgorithms/maths/TwinPrime.java,getTwinPrime,int inputNumber,int,4,C
+thealgorithms-java,com/thealgorithms/maths/UniformNumbers.java,uniformNumbers,int num,int,9,T
+thealgorithms-java,com/thealgorithms/maths/UniformNumbers.java,countUniformIntegers,"int a, int b",int,7,C
+thealgorithms-java,com/thealgorithms/maths/VampireNumber.java,isVampireNumber,"int a, int b, boolean ignorePseudoVampireNumbers",boolean,6,P
+thealgorithms-java,com/thealgorithms/maths/VampireNumber.java,splitIntoSortedDigits,int... nums,String,10,P
+thealgorithms-java,com/thealgorithms/maths/VectorCrossProduct.java,test,,void,6,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeCube,double sideLength,double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeCuboid,"double width, double height, double length",double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeSphere,double radius,double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeCylinder,"double radius, double height",double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeHemisphere,double radius,double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeCone,"double radius, double height",double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumePrism,"double baseArea, double height",double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumePyramid,"double baseArea, double height",double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeFrustumOfCone,"double r1, double r2, double height",double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeFrustumOfPyramid,"double upperBaseArea, double lowerBaseArea, double height",double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeTorus,"double majorRadius, double minorRadius",double,1,P
+thealgorithms-java,com/thealgorithms/maths/Volume.java,volumeEllipsoid,"double a, double b, double c",double,1,P
+thealgorithms-java,com/thealgorithms/maths/ZellersCongruence.java,calculateDay,String input,String,27,P
+thealgorithms-java,com/thealgorithms/maths/ZellersCongruence.java,parsePart,"String part, int min, int max, String error",int,9,P
+thealgorithms-java,com/thealgorithms/maths/ZellersCongruence.java,validateSeparator,char sep,void,3,P
+thealgorithms-java,com/thealgorithms/maths/Prime/LiouvilleLambdaFunction.java,liouvilleLambda,int number,int,4,T
+thealgorithms-java,com/thealgorithms/maths/Prime/MillerRabinPrimalityCheck.java,millerRabin,"long n, int k",boolean,17,P
+thealgorithms-java,com/thealgorithms/maths/Prime/MillerRabinPrimalityCheck.java,deterministicMillerRabin,long n,boolean,18,P
+thealgorithms-java,com/thealgorithms/maths/Prime/MillerRabinPrimalityCheck.java,checkComposite,"long n, long a, long d, int s",boolean,11,P
+thealgorithms-java,com/thealgorithms/maths/Prime/MillerRabinPrimalityCheck.java,powerModP,"long x, long y, long p",long,13,P
+thealgorithms-java,com/thealgorithms/maths/Prime/MillerRabinPrimalityCheck.java,multiplyModP,"long a, long b, long p",long,7,P
+thealgorithms-java,com/thealgorithms/maths/Prime/MobiusFunction.java,mobius,int number,int,18,T
+thealgorithms-java,com/thealgorithms/maths/Prime/PrimeCheck.java,isPrime,int n,boolean,12,C
+thealgorithms-java,com/thealgorithms/maths/Prime/PrimeCheck.java,fermatPrimeChecking,"int n, int iteration",boolean,10,T
+thealgorithms-java,com/thealgorithms/maths/Prime/PrimeCheck.java,modPow,"long a, long b, long c",long,6,P
+thealgorithms-java,com/thealgorithms/maths/Prime/PrimeFactorization.java,pfactors,int n,List<Integer>,18,R
+thealgorithms-java,com/thealgorithms/maths/Prime/SquareFreeInteger.java,isSquareFreeInteger,int number,boolean,5,T
+thealgorithms-java,com/thealgorithms/matrix/InverseOfMatrix.java,invert,double[][] a,double[][],26,P
+thealgorithms-java,com/thealgorithms/matrix/InverseOfMatrix.java,gaussian,"double[][] a, int[] index",void,36,P
+thealgorithms-java,com/thealgorithms/matrix/LUDecomposition.java,decompose,double[][] a,LU,24,P
+thealgorithms-java,com/thealgorithms/matrix/LUDecomposition.java,printMatrix,double[][] m,void,10,P
+thealgorithms-java,com/thealgorithms/matrix/MatrixMultiplication.java,multiply,"double[][] matrixA, double[][] matrixB",double[][],21,P
+thealgorithms-java,com/thealgorithms/matrix/MatrixRank.java,computeRank,double[][] matrix,int,16,P
+thealgorithms-java,com/thealgorithms/matrix/MatrixRank.java,isZero,double value,boolean,1,P
+thealgorithms-java,com/thealgorithms/matrix/MatrixRank.java,deepCopy,double[][] matrix,double[][],7,P
+thealgorithms-java,com/thealgorithms/matrix/MatrixRank.java,findPivotRow,"double[][] matrix, boolean[] rowMarked, int colIndex",int,7,P
+thealgorithms-java,com/thealgorithms/matrix/MatrixRank.java,normalizePivotRow,"double[][] matrix, int pivotRow, int colIndex",void,4,P
+thealgorithms-java,com/thealgorithms/matrix/MatrixRank.java,eliminateRows,"double[][] matrix, int pivotRow, int colIndex",void,9,P
+thealgorithms-java,com/thealgorithms/matrix/MatrixTranspose.java,transpose,int[][] matrix,int[][],12,P
+thealgorithms-java,com/thealgorithms/matrix/MedianOfMatrix.java,median,Iterable<List<Integer>> matrix,int,11,P
+thealgorithms-java,com/thealgorithms/matrix/MirrorOfMatrix.java,mirrorMatrix,final double[][] originalMatrix,double[][],8,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,decompose,double[][] matrix,QR,20,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,getColumn,"double[][] matrix, int col",double[],6,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,setColumn,"double[][] matrix, int col, double[] column",void,3,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,dotProduct,"double[] a, double[] b",double,5,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,subtractVectors,"double[] a, double[] b",double[],5,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,scalarMultiply,"double[] v, double scalar",double[],5,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,norm,double[] v,double,1,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,validateInputMatrix,double[][] matrix,void,12,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,hasValidRows,double[][] matrix,boolean,6,P
+thealgorithms-java,com/thealgorithms/matrix/QRDecomposition.java,isJaggedMatrix,double[][] matrix,boolean,7,P
+thealgorithms-java,com/thealgorithms/matrix/RotateMatrixBy90Degrees.java,printMatrix,int[][] arr,void,6,P
+thealgorithms-java,com/thealgorithms/matrix/RotateMatrixBy90Degrees.java,rotate,int[][] a,void,21,P
+thealgorithms-java,com/thealgorithms/matrix/SolveSystem.java,solveSystem,"double[][] matrix, double[] constants",double[],42,P
+thealgorithms-java,com/thealgorithms/matrix/StochasticMatrix.java,isRowStochastic,double[][] matrix,boolean,14,P
+thealgorithms-java,com/thealgorithms/matrix/StochasticMatrix.java,isColumnStochastic,double[][] matrix,boolean,16,P
+thealgorithms-java,com/thealgorithms/matrix/StochasticMatrix.java,validateMatrix,double[][] matrix,void,3,P
+thealgorithms-java,com/thealgorithms/matrix/matrixexponentiation/Fibonacci.java,fib,int n,BigDecimal[][],11,R
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,isValid,final BigDecimal[][] matrix,boolean,1,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,hasEqualSizes,"final BigDecimal[][] matrix1, final BigDecimal[][] matrix2",boolean,1,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,canMultiply,"final BigDecimal[][] matrix1, final BigDecimal[][] matrix2",boolean,1,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,validateInputMatrix,double[][] matrix,void,12,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,hasValidRows,double[][] matrix,boolean,6,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,isJaggedMatrix,double[][] matrix,boolean,7,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,operate,"final BigDecimal[][] matrix1, final BigDecimal[][] matrix2, final BiFunction<BigDecimal, BigDecimal, BigDecimal> operation",Optional<BigDecimal[][]>,12,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,add,"final BigDecimal[][] matrix1, final BigDecimal[][] matrix2",Optional<BigDecimal[][]>,1,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,subtract,"final BigDecimal[][] matrix1, final BigDecimal[][] matrix2",Optional<BigDecimal[][]>,1,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,multiply,"final BigDecimal[][] matrix1, final BigDecimal[][] matrix2",Optional<BigDecimal[][]>,19,P
+thealgorithms-java,com/thealgorithms/matrix/utils/MatrixUtil.java,reverseRow,final double[] inRow,double[],5,P
+thealgorithms-java,com/thealgorithms/misc/MapReduce.java,countWordFrequencies,String sentence,String,3,P
+thealgorithms-java,com/thealgorithms/misc/RangeInSortedArray.java,sortedRange,"int[] nums, int key",int[],4,C
+thealgorithms-java,com/thealgorithms/misc/RangeInSortedArray.java,alteredBinSearch,"int[] nums, int key, int left, int right, int[] range, boolean goLeft",void,23,P
+thealgorithms-java,com/thealgorithms/misc/RangeInSortedArray.java,alteredBinSearchIter,"int[] nums, int key, int left, int right, int[] range, boolean goLeft",void,22,P
+thealgorithms-java,com/thealgorithms/misc/RangeInSortedArray.java,getCountLessThan,"int[] nums, int key",int,1,C
+thealgorithms-java,com/thealgorithms/misc/RangeInSortedArray.java,getLessThan,"int[] nums, int key, int left, int right",int,11,P
+thealgorithms-java,com/thealgorithms/misc/ShuffleArray.java,shuffle,int[] arr,void,8,C
+thealgorithms-java,com/thealgorithms/misc/ShuffleArray.java,swap,"int[] arr, int i, int j",void,5,-
+thealgorithms-java,com/thealgorithms/misc/Sparsity.java,sparsity,double[][] matrix,double,14,P
+thealgorithms-java,com/thealgorithms/misc/TwoSumProblem.java,twoSum,"final int[] values, final int target","Optional<Pair<Integer, Integer>>",11,R
+thealgorithms-java,com/thealgorithms/others/ArrayLeftRotation.java,rotateLeft,"int[] arr, int n",int[],13,C
+thealgorithms-java,com/thealgorithms/others/ArrayRightRotation.java,rotateRight,"int[] arr, int k",int[],9,C
+thealgorithms-java,com/thealgorithms/others/ArrayRightRotation.java,reverseArray,"int[] arr, int start, int end",void,7,-
+thealgorithms-java,com/thealgorithms/others/BankersAlgorithm.java,calculateNeed,"int[][] needArray, int[][] maxArray, int[][] allocationArray, int totalProcess, int totalResources",void,5,P
+thealgorithms-java,com/thealgorithms/others/BankersAlgorithm.java,checkSafeSystem,"int[] processes, int[] availableArray, int[][] maxArray, int[][] allocationArray, int totalProcess, int totalResources",boolean,37,P
+thealgorithms-java,com/thealgorithms/others/BFPRT.java,getMinKNumsByBFPRT,"int[] arr, int k",int[],15,C
+thealgorithms-java,com/thealgorithms/others/BFPRT.java,getMinKthByBFPRT,"int[] arr, int k",int,2,C
+thealgorithms-java,com/thealgorithms/others/BFPRT.java,copyArray,int[] arr,int[],3,C
+thealgorithms-java,com/thealgorithms/others/BFPRT.java,bfprt,"int[] arr, int begin, int end, int i",int,12,P
+thealgorithms-java,com/thealgorithms/others/BFPRT.java,medianOfMedians,"int[] arr, int begin, int end",int,7,C
+thealgorithms-java,com/thealgorithms/others/BFPRT.java,partition,"int[] arr, int begin, int end, int num",int[],13,P
+thealgorithms-java,com/thealgorithms/others/BFPRT.java,getMedian,"int[] arr, int begin, int end",int,4,B
+thealgorithms-java,com/thealgorithms/others/BFPRT.java,insertionSort,"int[] arr, int begin, int end",void,12,-
+thealgorithms-java,com/thealgorithms/others/BFPRT.java,swap,"int[] arr, int i, int j",void,3,B
+thealgorithms-java,com/thealgorithms/others/BoyerMoore.java,findMajorityElement,int[] array,Optional<Integer>,9,R
+thealgorithms-java,com/thealgorithms/others/BoyerMoore.java,findCandidate,final int[] array,int,9,-
+thealgorithms-java,com/thealgorithms/others/BoyerMoore.java,countOccurrences,"final int candidate, final int[] array",int,7,-
+thealgorithms-java,com/thealgorithms/others/BoyerMoore.java,isMajority,"int count, int totalCount",boolean,1,B
+thealgorithms-java,com/thealgorithms/others/BrianKernighanAlgorithm.java,countSetBits,int num,int,6,T
+thealgorithms-java,com/thealgorithms/others/Conway.java,generateList,"String originalString, int maxIteration",List<String>,6,P
+thealgorithms-java,com/thealgorithms/others/Conway.java,generateNextElement,String originalString,String,4,P
+thealgorithms-java,com/thealgorithms/others/CRC16.java,crc16,String message,String,15,P
+thealgorithms-java,com/thealgorithms/others/CRC32.java,crc32,String str,int,1,P
+thealgorithms-java,com/thealgorithms/others/CRC32.java,crc32,byte[] data,int,11,P
+thealgorithms-java,com/thealgorithms/others/Damm.java,dammCheck,String digits,boolean,7,P
+thealgorithms-java,com/thealgorithms/others/Damm.java,addDammChecksum,String initialDigits,String,7,P
+thealgorithms-java,com/thealgorithms/others/Damm.java,checkAndPrint,String input,void,2,P
+thealgorithms-java,com/thealgorithms/others/Damm.java,generateAndPrint,String input,void,2,P
+thealgorithms-java,com/thealgorithms/others/Damm.java,checkInput,String input,void,4,P
+thealgorithms-java,com/thealgorithms/others/Damm.java,toIntArray,String string,int[],1,P
+thealgorithms-java,com/thealgorithms/others/FloydTriangle.java,generateFloydTriangle,int rows,List<List<Integer>>,10,R
+thealgorithms-java,com/thealgorithms/others/GaussLegendre.java,pi,int l,double,12,R
+thealgorithms-java,com/thealgorithms/others/GaussLegendre.java,update,"double a, double b, double t, double p",double[],6,P
+thealgorithms-java,com/thealgorithms/others/Huffman.java,buildHuffmanTree,"char[] charArray, int[] charFreq",HuffmanNode,29,P
+thealgorithms-java,com/thealgorithms/others/Huffman.java,generateCodes,HuffmanNode root,"Map<Character, String>",5,P
+thealgorithms-java,com/thealgorithms/others/Huffman.java,generateCodesHelper,"HuffmanNode node, String code, Map<Character, String> huffmanCodes",void,13,P
+thealgorithms-java,com/thealgorithms/others/Huffman.java,printCode,"HuffmanNode root, String code",void,13,P
+thealgorithms-java,com/thealgorithms/others/InsertDeleteInArray.java,insertElement,"int[] array, int element, int position",int[],11,C
+thealgorithms-java,com/thealgorithms/others/InsertDeleteInArray.java,deleteElement,"int[] array, int position",int[],13,C
+thealgorithms-java,com/thealgorithms/others/IterativeFloodFill.java,floodFill,"final int[][] image, final int x, final int y, final int newColor, final int oldColor",void,21,P
+thealgorithms-java,com/thealgorithms/others/IterativeFloodFill.java,shouldSkipPixel,"final int[][] image, final int x, final int y, final int oldColor",boolean,4,P
+thealgorithms-java,com/thealgorithms/others/KochSnowflake.java,iterate,"ArrayList<Vector2> initialVectors, int steps",ArrayList<Vector2>,5,P
+thealgorithms-java,com/thealgorithms/others/KochSnowflake.java,getKochSnowflake,"int imageWidth, int steps",BufferedImage,15,R
+thealgorithms-java,com/thealgorithms/others/KochSnowflake.java,iterationStep,List<Vector2> vectors,ArrayList<Vector2>,12,P
+thealgorithms-java,com/thealgorithms/others/KochSnowflake.java,getImage,"ArrayList<Vector2> vectors, int imageWidth, int imageHeight",BufferedImage,15,P
+thealgorithms-java,com/thealgorithms/others/LineSweep.java,findMaximumEndPoint,int[][] ranges,int,2,P
+thealgorithms-java,com/thealgorithms/others/LineSweep.java,isOverlap,int[][] ranges,boolean,18,P
+thealgorithms-java,com/thealgorithms/others/Luhn.java,luhnCheck,int[] digits,boolean,13,C
+thealgorithms-java,com/thealgorithms/others/Luhn.java,checkAndPrint,int[] input,void,2,T
+thealgorithms-java,com/thealgorithms/others/Luhn.java,fromString,String cardNumber,CreditCard,11,P
+thealgorithms-java,com/thealgorithms/others/Luhn.java,toIntArray,String string,int[],1,P
+thealgorithms-java,com/thealgorithms/others/Luhn.java,businessExample,String cardNumber,void,7,P
+thealgorithms-java,com/thealgorithms/others/Mandelbrot.java,getImage,"int imageWidth, int imageHeight, double figureCenterX, double figureCenterY, double figureWidth, int maxStep, boolean useDistanceColorCoding",BufferedImage,20,P
+thealgorithms-java,com/thealgorithms/others/Mandelbrot.java,blackAndWhiteColorMap,double distance,Color,1,P
+thealgorithms-java,com/thealgorithms/others/Mandelbrot.java,colorCodedColorMap,double distance,Color,27,P
+thealgorithms-java,com/thealgorithms/others/Mandelbrot.java,getDistance,"double figureX, double figureY, int maxStep",double,13,P
+thealgorithms-java,com/thealgorithms/others/MaximumSumOfDistinctSubarraysWithLengthK.java,maximumSubarraySum,"int k, int... nums",long,30,P
+thealgorithms-java,com/thealgorithms/others/MemoryManagementAlgorithms.java,findMaxElement,int[] array,int,7,-
+thealgorithms-java,com/thealgorithms/others/MemoryManagementAlgorithms.java,findBestFit,"int[] blockSizes, int processSize",int,9,-
+thealgorithms-java,com/thealgorithms/others/MemoryManagementAlgorithms.java,findWorstFit,"int[] blockSizes, int processSize",int,12,-
+thealgorithms-java,com/thealgorithms/others/MemoryManagementAlgorithms.java,findFirstFit,"int[] blockSizes, int processSize",int,6,-
+thealgorithms-java,com/thealgorithms/others/MiniMaxAlgorithm.java,getRandomScores,"int size, int maxScore",int[],5,C
+thealgorithms-java,com/thealgorithms/others/MosAlgorithm.java,solveRangeSumQueries,"int[] arr, Query[] queries",int[],33,P
+thealgorithms-java,com/thealgorithms/others/MosAlgorithm.java,solveRangeFrequencyQueries,"int[] arr, Query[] queries, int targetValue",int[],41,P
+thealgorithms-java,com/thealgorithms/others/PasswordGen.java,generatePassword,"int minLength, int maxLength",String,14,R
+thealgorithms-java,com/thealgorithms/others/PerlinNoise.java,generatePerlinNoise,"int width, int height, int octaveCount, float persistence, long seed",float[][],12,P
+thealgorithms-java,com/thealgorithms/others/PerlinNoise.java,createBaseGrid,"int width, int height, long seed",float[][],8,P
+thealgorithms-java,com/thealgorithms/others/PerlinNoise.java,createLayers,"float[][] base, int width, int height, int octaveCount",float[][][],5,P
+thealgorithms-java,com/thealgorithms/others/PerlinNoise.java,blendAndNormalize,"float[][][] layers, int width, int height, float persistence",float[][],24,P
+thealgorithms-java,com/thealgorithms/others/PerlinNoise.java,generatePerlinNoiseLayer,"float[][] base, int width, int height, int octave",float[][],17,P
+thealgorithms-java,com/thealgorithms/others/PerlinNoise.java,interpolate,"float a, float b, float alpha",float,1,P
+thealgorithms-java,com/thealgorithms/others/TwoPointers.java,isPairedSum,"int[] arr, int key",boolean,17,C
+thealgorithms-java,com/thealgorithms/others/Verhoeff.java,verhoeffCheck,String digits,boolean,9,P
+thealgorithms-java,com/thealgorithms/others/Verhoeff.java,addVerhoeffChecksum,String initialDigits,String,11,P
+thealgorithms-java,com/thealgorithms/others/Verhoeff.java,checkAndPrint,String input,void,2,P
+thealgorithms-java,com/thealgorithms/others/Verhoeff.java,generateAndPrint,String input,void,2,P
+thealgorithms-java,com/thealgorithms/others/Verhoeff.java,checkInput,String input,void,4,P
+thealgorithms-java,com/thealgorithms/others/Verhoeff.java,toIntArray,String string,int[],1,P
+thealgorithms-java,com/thealgorithms/physics/CoulombsLaw.java,calculateForceVector,"double q1, double x1, double y1, double q2, double x2, double y2",double[],11,P
+thealgorithms-java,com/thealgorithms/physics/CoulombsLaw.java,calculateCircularOrbitVelocity,"double centralCharge, double orbitingCharge, double orbitingMass, double radius",double,5,P
+thealgorithms-java,com/thealgorithms/physics/ElasticCollision2D.java,resolveCollision,"Body a, Body b",void,21,P
+thealgorithms-java,com/thealgorithms/physics/Gravitation.java,calculateGravitationalForce,"double m1, double x1, double y1, double m2, double x2, double y2",double[],11,P
+thealgorithms-java,com/thealgorithms/physics/Gravitation.java,calculateCircularOrbitVelocity,"double centralMass, double radius",double,4,P
+thealgorithms-java,com/thealgorithms/physics/GroundToGroundProjectileMotion.java,degreesToRadians,double degrees,double,1,P
+thealgorithms-java,com/thealgorithms/physics/GroundToGroundProjectileMotion.java,timeOfFlight,"double initialVelocity, double angle",double,1,P
+thealgorithms-java,com/thealgorithms/physics/GroundToGroundProjectileMotion.java,timeOfFlight,"double initialVelocity, double angle, double gravity",double,2,P
+thealgorithms-java,com/thealgorithms/physics/GroundToGroundProjectileMotion.java,horizontalRange,"double initialVelocity, double angle, double time",double,2,P
+thealgorithms-java,com/thealgorithms/physics/GroundToGroundProjectileMotion.java,maxHeight,"double initialVelocity, double angle",double,1,P
+thealgorithms-java,com/thealgorithms/physics/GroundToGroundProjectileMotion.java,maxHeight,"double initialVelocity, double angle, double gravity",double,2,P
+thealgorithms-java,com/thealgorithms/physics/Kinematics.java,calculateFinalVelocity,"double u, double a, double t",double,1,P
+thealgorithms-java,com/thealgorithms/physics/Kinematics.java,calculateDisplacement,"double u, double a, double t",double,1,P
+thealgorithms-java,com/thealgorithms/physics/Kinematics.java,calculateFinalVelocitySquared,"double u, double a, double s",double,1,P
+thealgorithms-java,com/thealgorithms/physics/Kinematics.java,calculateDisplacementFromVelocities,"double u, double v, double t",double,2,P
+thealgorithms-java,com/thealgorithms/physics/ProjectileMotion.java,calculateTrajectory,"double initialVelocity, double launchAngleDegrees, double initialHeight",Result,1,P
+thealgorithms-java,com/thealgorithms/physics/ProjectileMotion.java,calculateTrajectory,"double initialVelocity, double launchAngleDegrees, double initialHeight, double gravity",Result,16,P
+thealgorithms-java,com/thealgorithms/physics/Relativity.java,gamma,double v,double,4,P
+thealgorithms-java,com/thealgorithms/physics/Relativity.java,lengthContraction,"double length, double v",double,4,P
+thealgorithms-java,com/thealgorithms/physics/Relativity.java,timeDilation,"double time, double v",double,4,P
+thealgorithms-java,com/thealgorithms/physics/Relativity.java,velocityAddition,"double v1, double v",double,7,P
+thealgorithms-java,com/thealgorithms/physics/SnellLaw.java,refractedAngle,"double n1, double n2, double theta1",double,6,P
+thealgorithms-java,com/thealgorithms/physics/ThinLens.java,imageDistance,"double focalLength, double objectDistance",double,4,P
+thealgorithms-java,com/thealgorithms/physics/ThinLens.java,magnification,"double imageDistance, double objectDistance",double,4,P
+thealgorithms-java,com/thealgorithms/physics/ThinLens.java,isRealImage,double imageDistance,boolean,1,P
+thealgorithms-java,com/thealgorithms/prefixsum/RangeSumQuery.java,buildPrefixSum,int[] nums,int[],9,C
+thealgorithms-java,com/thealgorithms/prefixsum/RangeSumQuery.java,sumRange,"int[] prefixSum, int left, int right",int,7,C
+thealgorithms-java,com/thealgorithms/prefixsum/SubarraySumEqualsK.java,countSubarrays,"int[] nums, int k",int,14,T
+thealgorithms-java,com/thealgorithms/puzzlesandgames/TowerOfHanoi.java,shift,"int n, String startPole, String intermediatePole, String endPole, List<String> result",void,9,P
+thealgorithms-java,com/thealgorithms/puzzlesandgames/WordBoggle.java,boggleBoard,"char[][] board, String[] words",List<String>,12,P
+thealgorithms-java,com/thealgorithms/puzzlesandgames/WordBoggle.java,explore,"int i, int j, char[][] board, TrieNode trieNode, boolean[][] visited, Set<String> finalWords",void,17,P
+thealgorithms-java,com/thealgorithms/puzzlesandgames/WordBoggle.java,getNeighbors,"int i, int j, char[][] board",List<Integer[]>,26,P
+thealgorithms-java,com/thealgorithms/randomized/KargerMinCut.java,findMinCut,"Collection<Integer> nodeSet, List<int[]> edges",KargerOutput,1,P
+thealgorithms-java,com/thealgorithms/randomized/KargerMinCut.java,findMinCut,"Collection<Integer> nodeSet, List<int[]> edges, int iterations",KargerOutput,11,P
+thealgorithms-java,com/thealgorithms/randomized/MonteCarloIntegration.java,approximate,"Function<Double, Double> fx, double a, double b, int n, long seed",double,1,P
+thealgorithms-java,com/thealgorithms/randomized/MonteCarloIntegration.java,approximate,"Function<Double, Double> fx, double a, double b, int n",double,1,P
+thealgorithms-java,com/thealgorithms/randomized/MonteCarloIntegration.java,doApproximate,"Function<Double, Double> fx, double a, double b, int n, Random generator",double,18,P
+thealgorithms-java,com/thealgorithms/randomized/MonteCarloIntegration.java,validate,"Function<Double, Double> fx, double a, double b, int n",boolean,4,P
+thealgorithms-java,com/thealgorithms/randomized/RandomizedClosestPair.java,findClosestPairDistance,Point[] points,double,7,P
+thealgorithms-java,com/thealgorithms/randomized/RandomizedClosestPair.java,closestPair,"Point[] px, Point[] py",double,27,P
+thealgorithms-java,com/thealgorithms/randomized/RandomizedClosestPair.java,bruteForce,Point[] points,double,7,P
+thealgorithms-java,com/thealgorithms/randomized/RandomizedClosestPair.java,stripClosest,"List<Point> strip, double d",double,8,P
+thealgorithms-java,com/thealgorithms/randomized/RandomizedClosestPair.java,distance,"Point p1, Point p2",double,1,P
+thealgorithms-java,com/thealgorithms/randomized/RandomizedMatrixMultiplicationVerification.java,verify,"int[][] a, int[][] b, int[][] c, int iterations",boolean,32,P
+thealgorithms-java,com/thealgorithms/randomized/RandomizedQuickSort.java,randomizedQuickSort,"int[] arr, int low, int high",void,5,C
+thealgorithms-java,com/thealgorithms/randomized/RandomizedQuickSort.java,partition,"int[] arr, int low, int high",int,12,C
+thealgorithms-java,com/thealgorithms/randomized/RandomizedQuickSort.java,swap,"int[] arr, int i, int j",void,6,-
+thealgorithms-java,com/thealgorithms/randomized/ReservoirSampling.java,sample,"int[] stream, int sampleSize",List<Integer>,16,R
+thealgorithms-java,com/thealgorithms/recursion/DiceThrower.java,getDiceCombinations,int target,List<String>,4,R
+thealgorithms-java,com/thealgorithms/recursion/DiceThrower.java,printDiceCombinations,int target,void,4,C
+thealgorithms-java,com/thealgorithms/recursion/DiceThrower.java,generateCombinations,"String current, int remaining",List<String>,10,P
+thealgorithms-java,com/thealgorithms/recursion/DiceThrower.java,printCombinations,"String current, int remaining",void,7,P
+thealgorithms-java,com/thealgorithms/recursion/FactorialRecursion.java,factorial,int n,long,4,R
+thealgorithms-java,com/thealgorithms/recursion/FibonacciSeries.java,fibonacci,int n,int,7,C
+thealgorithms-java,com/thealgorithms/recursion/GenerateSubsets.java,subsetRecursion,String str,List<String>,1,P
+thealgorithms-java,com/thealgorithms/recursion/GenerateSubsets.java,generateSubsets,"String current, String remaining",List<String>,11,P
+thealgorithms-java,com/thealgorithms/recursion/SylvesterSequence.java,sylvester,int n,BigInteger,9,R
+thealgorithms-java,com/thealgorithms/scheduling/HighestResponseRatioNextScheduling.java,calculateTurnAroundTime,"final String[] processNames, final int[] arrivalTimes, final int[] burstTimes, final int noOfProcesses",int[],25,P
+thealgorithms-java,com/thealgorithms/scheduling/HighestResponseRatioNextScheduling.java,calculateWaitingTime,"int[] turnAroundTime, int[] burstTimes",int[],5,P
+thealgorithms-java,com/thealgorithms/scheduling/HighestResponseRatioNextScheduling.java,findNextProcess,"Process[] processes, int currentTime",int,1,P
+thealgorithms-java,com/thealgorithms/scheduling/HighestResponseRatioNextScheduling.java,findHighestResponseRatio,"Process[] processes, int currentTime",int,13,P
+thealgorithms-java,com/thealgorithms/scheduling/JobSchedulingWithDeadline.java,jobSequencingWithDeadlines,Job[] jobs,int[],19,P
+thealgorithms-java,com/thealgorithms/scheduling/NonPreemptivePriorityScheduling.java,scheduleProcesses,Process[] processes,Process[],20,P
+thealgorithms-java,com/thealgorithms/scheduling/NonPreemptivePriorityScheduling.java,calculateAverageWaitingTime,"Process[] processes, Process[] executionOrder",double,6,P
+thealgorithms-java,com/thealgorithms/scheduling/NonPreemptivePriorityScheduling.java,calculateAverageTurnaroundTime,"Process[] processes, Process[] executionOrder",double,6,P
+thealgorithms-java,com/thealgorithms/scheduling/SJFScheduling.java,sortProcessesByArrivalTime,List<ProcessDetails> processes,void,1,P
+thealgorithms-java,com/thealgorithms/searches/BinarySearch2dArray.java,binarySearch,"int[][] arr, int target",int[],37,P
+thealgorithms-java,com/thealgorithms/searches/BinarySearch2dArray.java,binarySearch,"int[][] arr, int target, int row, int colStart, int colEnd",int[],13,P
+thealgorithms-java,com/thealgorithms/searches/BoyerMoore.java,staticSearch,"String text, String pattern",int,1,P
+thealgorithms-java,com/thealgorithms/searches/HowManyTimesRotated.java,rotated,int[] a,int,14,-
+thealgorithms-java,com/thealgorithms/searches/OrderAgnosticBinarySearch.java,binSearchAlgo,"int[] arr, int start, int end, int target",int,21,P
+thealgorithms-java,com/thealgorithms/searches/QuickSelect.java,select,"List<T> list, int n",<T extends Comparable<T>> T,15,P
+thealgorithms-java,com/thealgorithms/searches/QuickSelect.java,selectIndex,"List<T> list, int n",<T extends Comparable<T>> int,1,P
+thealgorithms-java,com/thealgorithms/searches/QuickSelect.java,selectIndex,"List<T> list, int left, int right, int n",<T extends Comparable<T>> int,14,P
+thealgorithms-java,com/thealgorithms/searches/QuickSelect.java,partition,"List<T> list, int left, int right, int pivotIndex, int n",<T extends Comparable<T>> int,18,P
+thealgorithms-java,com/thealgorithms/searches/QuickSelect.java,pivot,"List<T> list, int left, int right",<T extends Comparable<T>> int,15,P
+thealgorithms-java,com/thealgorithms/searches/QuickSelect.java,partition5,"List<T> list, int left, int right",<T extends Comparable<T>> int,3,P
+thealgorithms-java,com/thealgorithms/searches/RabinKarpAlgorithm.java,search,"String pattern, String text, int primeNumber",int,34,P
+thealgorithms-java,com/thealgorithms/searches/RowColumnWiseSorted2dArrayBinarySearch.java,search,"T[][] matrix, T target",<T extends Comparable<T>> int[],13,P
+thealgorithms-java,com/thealgorithms/searches/SaddlebackSearch.java,find,"int[][] arr, int row, int col, int key",int[],16,P
+thealgorithms-java,com/thealgorithms/searches/SquareRootBinarySearch.java,squareRoot,long num,long,18,P
+thealgorithms-java,com/thealgorithms/slidingwindow/CountDistinctElementsInWindow.java,countDistinct,"int[] arr, int k",int[],24,T
+thealgorithms-java,com/thealgorithms/slidingwindow/CountNiceSubarrays.java,countNiceSubarrays,"int[] nums, int k",int,27,T
+thealgorithms-java,com/thealgorithms/slidingwindow/LongestSubarrayWithSumLessOrEqualToK.java,longestSubarrayWithSumLEK,"int[] arr, int k",int,12,-
+thealgorithms-java,com/thealgorithms/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java,lengthOfLongestSubstring,String s,int,12,P
+thealgorithms-java,com/thealgorithms/slidingwindow/MaxSumKSizeSubarray.java,maxSumKSizeSubarray,"int[] arr, int k",int,14,-
+thealgorithms-java,com/thealgorithms/slidingwindow/MinimumWindowSubstring.java,minWindow,"String s, String t",String,34,P
+thealgorithms-java,com/thealgorithms/slidingwindow/MinSumKSizeSubarray.java,minSumKSizeSubarray,"int[] arr, int k",int,14,-
+thealgorithms-java,com/thealgorithms/slidingwindow/ShortestCoprimeSegment.java,shortestCoprimeSegment,long[] arr,long[],27,P
+thealgorithms-java,com/thealgorithms/slidingwindow/ShortestCoprimeSegment.java,legalSegment,"DoubleStack front, DoubleStack back",boolean,1,P
+thealgorithms-java,com/thealgorithms/slidingwindow/ShortestCoprimeSegment.java,gcd,"long a, long b",long,7,P
+thealgorithms-java,com/thealgorithms/slidingwindow/ShortestCoprimeSegment.java,remove,"DoubleStack front, DoubleStack back",void,6,P
+thealgorithms-java,com/thealgorithms/sorts/BitonicSort.java,nextPowerOfTwo,int n,int,9,T
+thealgorithms-java,com/thealgorithms/sorts/BitonicSort.java,max,final T[] array,<T extends Comparable<T>> T,1,P
+thealgorithms-java,com/thealgorithms/sorts/BogoSort.java,isSorted,T[] array,<T extends Comparable<T>> boolean,6,P
+thealgorithms-java,com/thealgorithms/sorts/BogoSort.java,nextPermutation,T[] array,<T> void,5,P
+thealgorithms-java,com/thealgorithms/sorts/BubbleSortRecursive.java,bubbleSort,"T[] array, int len",<T extends Comparable<T>> void,10,P
+thealgorithms-java,com/thealgorithms/sorts/ConcurrentMergeSort.java,sort,int[] array,void,12,T
+thealgorithms-java,com/thealgorithms/sorts/ConcurrentMergeSort.java,concurrentMergeSort,"int[] array, int[] temp, int left, int right, ThreadPoolExecutor executor, int depth",void,10,P
+thealgorithms-java,com/thealgorithms/sorts/ConcurrentMergeSort.java,sequentialMergeSort,"int[] array, int[] temp, int left, int right",void,7,P
+thealgorithms-java,com/thealgorithms/sorts/ConcurrentMergeSort.java,merge,"int[] array, int[] temp, int left, int mid, int right",void,14,P
+thealgorithms-java,com/thealgorithms/sorts/CountingSort.java,sort,int[] array,int[],8,C
+thealgorithms-java,com/thealgorithms/sorts/CountingSort.java,computeHistogram,"final int[] array, final int shift, final int spread",int[],5,-
+thealgorithms-java,com/thealgorithms/sorts/CountingSort.java,toCumulative,int[] count,void,3,B
+thealgorithms-java,com/thealgorithms/sorts/CountingSort.java,reconstructSorted,"final int[] cumulativeCount, final int shift, final int[] array",int[],6,P
+thealgorithms-java,com/thealgorithms/sorts/DualPivotQuickSort.java,dualPivotQuicksort,"final T[] array, final int left, final int right",<T extends Comparable<T>> void,6,P
+thealgorithms-java,com/thealgorithms/sorts/DualPivotQuickSort.java,partition,"final T[] array, int left, final int right",<T extends Comparable<T>> int[],30,P
+thealgorithms-java,com/thealgorithms/sorts/IntrospectiveSort.java,introspectiveSort,"T[] array, final int low, int high, final int depth",<T extends Comparable<T>> void,10,P
+thealgorithms-java,com/thealgorithms/sorts/IntrospectiveSort.java,partition,"T[] array, final int low, final int high",<T extends Comparable<T>> int,12,P
+thealgorithms-java,com/thealgorithms/sorts/IntrospectiveSort.java,insertionSort,"T[] array, final int low, final int high",<T extends Comparable<T>> void,9,P
+thealgorithms-java,com/thealgorithms/sorts/IntrospectiveSort.java,heapSort,"T[] array, final int low, final int high",<T extends Comparable<T>> void,8,P
+thealgorithms-java,com/thealgorithms/sorts/IntrospectiveSort.java,heapify,"T[] array, final int i, final int n, final int low",<T extends Comparable<T>> void,13,P
+thealgorithms-java,com/thealgorithms/sorts/LibrarySort.java,sort,final int[] array,int[],35,T
+thealgorithms-java,com/thealgorithms/sorts/LibrarySort.java,insert,"final int[] data, final boolean[] occupied, final int value",void,31,P
+thealgorithms-java,com/thealgorithms/sorts/LibrarySort.java,insertAtEnd,"final int[] data, final boolean[] occupied, final int value",void,16,P
+thealgorithms-java,com/thealgorithms/sorts/LibrarySort.java,findInsertionIndex,"final int[] data, final boolean[] occupied, final int value",int,12,P
+thealgorithms-java,com/thealgorithms/sorts/LibrarySort.java,nearestOccupiedValueAtOrAfter,"final int[] data, final boolean[] occupied, final int index",int,6,P
+thealgorithms-java,com/thealgorithms/sorts/LibrarySort.java,rebalance,"final int[] data, final boolean[] occupied, final int filled",void,14,P
+thealgorithms-java,com/thealgorithms/sorts/LinkListSort.java,isSorted,"int[] p, int option",boolean,79,C
+thealgorithms-java,com/thealgorithms/sorts/LinkListSort.java,count,Node head,int,6,P
+thealgorithms-java,com/thealgorithms/sorts/MergeSortNoExtraSpace.java,sort,int[] array,int[],9,T
+thealgorithms-java,com/thealgorithms/sorts/MergeSortNoExtraSpace.java,mergeSort,"int[] array, int start, int end, int maxElement",void,6,P
+thealgorithms-java,com/thealgorithms/sorts/MergeSortNoExtraSpace.java,merge,"int[] array, int start, int middle, int end, int maxElement",void,27,P
+thealgorithms-java,com/thealgorithms/sorts/MergeSortRecursive.java,merge,List<Integer> arr,List<Integer>,10,P
+thealgorithms-java,com/thealgorithms/sorts/MergeSortRecursive.java,sort,"List<Integer> unsortedA, List<Integer> unsortedB",List<Integer>,22,P
+thealgorithms-java,com/thealgorithms/sorts/PatienceSort.java,formPiles,final T[] array,<T extends Comparable<T>> List<List<T>>,18,P
+thealgorithms-java,com/thealgorithms/sorts/PatienceSort.java,mergePiles,final Iterable<List<T>> piles,<T extends Comparable<T>> PriorityQueue<PileNode<T>>,5,P
+thealgorithms-java,com/thealgorithms/sorts/PatienceSort.java,extractPiles,"final T[] array, final PriorityQueue<PileNode<T>> pq",<T extends Comparable<T>> void,8,P
+thealgorithms-java,com/thealgorithms/sorts/PigeonholeSort.java,sort,int[] array,int[],9,T
+thealgorithms-java,com/thealgorithms/sorts/PigeonholeSort.java,checkForNegativeInput,int[] array,void,5,C
+thealgorithms-java,com/thealgorithms/sorts/PigeonholeSort.java,createPigeonHoles,int maxElement,List<List<Integer>>,5,R
+thealgorithms-java,com/thealgorithms/sorts/PigeonholeSort.java,populatePigeonHoles,"int[] array, List<List<Integer>> pigeonHoles",void,3,P
+thealgorithms-java,com/thealgorithms/sorts/PigeonholeSort.java,collectFromPigeonHoles,"int[] array, Iterable<List<Integer>> pigeonHoles",void,6,P
+thealgorithms-java,com/thealgorithms/sorts/PriorityQueueSort.java,sort,int[] arr,int[],12,T
+thealgorithms-java,com/thealgorithms/sorts/QuickSort.java,doSort,"T[] array, final int left, final int right",<T extends Comparable<T>> void,5,P
+thealgorithms-java,com/thealgorithms/sorts/QuickSort.java,randomPartition,"T[] array, final int left, final int right",<T extends Comparable<T>> int,3,P
+thealgorithms-java,com/thealgorithms/sorts/QuickSort.java,partition,"T[] array, int left, int right",<T extends Comparable<T>> int,16,P
+thealgorithms-java,com/thealgorithms/sorts/RadixSort.java,sort,int[] array,int[],6,C
+thealgorithms-java,com/thealgorithms/sorts/RadixSort.java,checkForNegativeInput,int[] array,void,5,C
+thealgorithms-java,com/thealgorithms/sorts/RadixSort.java,radixSort,int[] array,void,4,C
+thealgorithms-java,com/thealgorithms/sorts/RadixSort.java,countingSortByDigit,"int[] array, int exp",void,4,C
+thealgorithms-java,com/thealgorithms/sorts/RadixSort.java,countDigits,"int[] array, int exp",int[],5,-
+thealgorithms-java,com/thealgorithms/sorts/RadixSort.java,getDigit,"int number, int position",int,1,B
+thealgorithms-java,com/thealgorithms/sorts/RadixSort.java,accumulateCounts,int[] count,void,3,B
+thealgorithms-java,com/thealgorithms/sorts/RadixSort.java,buildOutput,"int[] array, int exp, int[] count",int[],7,P
+thealgorithms-java,com/thealgorithms/sorts/RadixSort.java,copyOutput,"int[] array, int[] output",void,1,P
+thealgorithms-java,com/thealgorithms/sorts/SelectionSort.java,findIndexOfMin,"T[] array, final int startIndex",<T extends Comparable<T>> int,7,P
+thealgorithms-java,com/thealgorithms/sorts/SelectionSortRecursive.java,recursiveSelectionSort,"T[] array, final int index",<T extends Comparable<T>> void,5,P
+thealgorithms-java,com/thealgorithms/sorts/SelectionSortRecursive.java,findMinIndex,"T[] array, final int start",<T extends Comparable<T>> int,5,P
+thealgorithms-java,com/thealgorithms/sorts/SmoothSort.java,sift,"final T[] array, int order, int root",<T extends Comparable<T>> void,18,P
+thealgorithms-java,com/thealgorithms/sorts/SmoothSort.java,trinkle,"final T[] array, long p, int order, int root, boolean trusty",<T extends Comparable<T>> void,25,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtils.java,swap,"T[] array, int i, int j",<T> void,5,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtils.java,less,"T firstElement, T secondElement",<T extends Comparable<T>> boolean,1,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtils.java,greater,"T firstElement, T secondElement",<T extends Comparable<T>> boolean,1,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtils.java,greaterOrEqual,"T firstElement, T secondElement",<T extends Comparable<T>> boolean,1,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtils.java,print,List<?> listToPrint,void,2,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtils.java,print,T[] array,<T> void,1,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtils.java,flip,"T[] array, int left, int right",<T extends Comparable<T>> void,3,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtils.java,isSorted,T[] array,<T extends Comparable<T>> boolean,6,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtils.java,isSorted,List<T> list,<T extends Comparable<T>> boolean,6,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtilsRandomGenerator.java,generateArray,int size,Double[],5,R
+thealgorithms-java,com/thealgorithms/sorts/SortUtilsRandomGenerator.java,generateDouble,,Double,1,P
+thealgorithms-java,com/thealgorithms/sorts/SortUtilsRandomGenerator.java,generateInt,int n,int,1,C
+thealgorithms-java,com/thealgorithms/sorts/StrandSort.java,strandSort,List<T> list,<T extends Comparable<? super T>> List<T>,17,P
+thealgorithms-java,com/thealgorithms/sorts/StrandSort.java,merge,"List<T> left, List<T> right",<T extends Comparable<? super T>> List<T>,15,P
+thealgorithms-java,com/thealgorithms/sorts/TopologicalSort.java,sort,Graph graph,LinkedList<String>,7,P
+thealgorithms-java,com/thealgorithms/sorts/TopologicalSort.java,sort,"Graph graph, Vertex u, LinkedList<String> list",String,10,P
+thealgorithms-java,com/thealgorithms/sorts/TournamentSort.java,nextPowerOfTwo,int n,int,5,T
+thealgorithms-java,com/thealgorithms/sorts/TournamentSort.java,winnerIndex,"T[] array, int leftIndex, int rightIndex",<T extends Comparable<T>> int,7,P
+thealgorithms-java,com/thealgorithms/stacks/BalancedBrackets.java,isPaired,"char leftBracket, char rightBracket",boolean,12,P
+thealgorithms-java,com/thealgorithms/stacks/BalancedBrackets.java,isBalanced,String brackets,boolean,25,P
+thealgorithms-java,com/thealgorithms/stacks/CelebrityFinder.java,findCelebrity,int[][] party,int,20,P
+thealgorithms-java,com/thealgorithms/stacks/DecimalToAnyUsingStack.java,convert,"int number, int radix",String,19,R
+thealgorithms-java,com/thealgorithms/stacks/DuplicateBrackets.java,check,String expression,boolean,21,P
+thealgorithms-java,com/thealgorithms/stacks/InfixToPostfix.java,infix2PostFix,String infixExpression,String,26,P
+thealgorithms-java,com/thealgorithms/stacks/InfixToPostfix.java,precedence,char operator,int,6,P
+thealgorithms-java,com/thealgorithms/stacks/InfixToPostfix.java,filterBrackets,String input,String,3,P
+thealgorithms-java,com/thealgorithms/stacks/InfixToPrefix.java,infix2Prefix,String infixExpression,String,34,P
+thealgorithms-java,com/thealgorithms/stacks/InfixToPrefix.java,precedence,char operator,int,6,P
+thealgorithms-java,com/thealgorithms/stacks/InfixToPrefix.java,filterBrackets,String input,String,3,P
+thealgorithms-java,com/thealgorithms/stacks/LargestRectangle.java,largestRectangleHistogram,int[] heights,String,17,R
+thealgorithms-java,com/thealgorithms/stacks/MaximumMinimumWindow.java,calculateMaxOfMin,"int[] arr, int n",int[],43,T
+thealgorithms-java,com/thealgorithms/stacks/NextGreaterElement.java,findNextGreaterElements,int[] array,int[],12,T
+thealgorithms-java,com/thealgorithms/stacks/NextSmallerElement.java,findNextSmallerElements,int[] array,int[],16,T
+thealgorithms-java,com/thealgorithms/stacks/PostfixEvaluator.java,evaluatePostfix,String expression,int,14,P
+thealgorithms-java,com/thealgorithms/stacks/PostfixEvaluator.java,isOperator,String token,boolean,1,P
+thealgorithms-java,com/thealgorithms/stacks/PostfixEvaluator.java,applyOperator,"String operator, int a, int b",int,7,P
+thealgorithms-java,com/thealgorithms/stacks/PostfixToInfix.java,isOperator,char token,boolean,1,P
+thealgorithms-java,com/thealgorithms/stacks/PostfixToInfix.java,isValidPostfixExpression,String postfix,boolean,19,P
+thealgorithms-java,com/thealgorithms/stacks/PostfixToInfix.java,getPostfixToInfix,String postfix,String,20,P
+thealgorithms-java,com/thealgorithms/stacks/PrefixEvaluator.java,evaluatePrefix,String expression,int,16,P
+thealgorithms-java,com/thealgorithms/stacks/PrefixEvaluator.java,isOperator,String token,boolean,1,P
+thealgorithms-java,com/thealgorithms/stacks/PrefixEvaluator.java,applyOperator,"String operator, int a, int b",int,7,P
+thealgorithms-java,com/thealgorithms/stacks/PrefixToInfix.java,isOperator,char token,boolean,1,P
+thealgorithms-java,com/thealgorithms/stacks/PrefixToInfix.java,getPrefixToInfix,String prefix,String,22,P
+thealgorithms-java,com/thealgorithms/stacks/SortStack.java,sortStack,Stack<Integer> stack,void,6,P
+thealgorithms-java,com/thealgorithms/stacks/SortStack.java,insertInSortedOrder,"Stack<Integer> stack, int element",void,7,P
+thealgorithms-java,com/thealgorithms/stacks/StackPostfixNotation.java,getOperator,final String operationSymbol,"BiFunction<Integer, Integer, Integer>",12,P
+thealgorithms-java,com/thealgorithms/stacks/StackPostfixNotation.java,performOperation,"Stack<Integer> s, final String operationSymbol",void,4,P
+thealgorithms-java,com/thealgorithms/stacks/StackPostfixNotation.java,consumeExpression,"Stack<Integer> s, final String exp",void,9,P
+thealgorithms-java,com/thealgorithms/stacks/StackPostfixNotation.java,postfixEvaluate,final String exp,int,6,P
+thealgorithms-java,com/thealgorithms/stacks/StockSpanProblem.java,calculateSpan,int[] prices,int[],13,T
+thealgorithms-java,com/thealgorithms/stacks/TrappingRainwater.java,trap,int[] height,int,23,-
+thealgorithms-java,com/thealgorithms/stacks/ValidParentheses.java,isValid,String s,boolean,22,P
+thealgorithms-java,com/thealgorithms/streaming/ComplementaryFilter.java,ofTimeConstant,"double timeConstant, double samplingInterval",ComplementaryFilter,3,P
+thealgorithms-java,com/thealgorithms/streaming/ComplementaryFilter.java,requireFinite,"double value, String name",void,3,P
+thealgorithms-java,com/thealgorithms/streaming/ComplementaryFilter.java,requirePositive,"double value, String name",void,3,P
+thealgorithms-java,com/thealgorithms/streaming/CusumDetector.java,requireFinite,"double value, String name",void,3,P
+thealgorithms-java,com/thealgorithms/streaming/ExponentialMovingAverage.java,ofAlpha,double alpha,ExponentialMovingAverage,1,P
+thealgorithms-java,com/thealgorithms/streaming/ExponentialMovingAverage.java,ofAlpha,"double alpha, double seed",ExponentialMovingAverage,1,P
+thealgorithms-java,com/thealgorithms/streaming/ExponentialMovingAverage.java,ofSpan,double span,ExponentialMovingAverage,4,P
+thealgorithms-java,com/thealgorithms/streaming/ExponentialMovingAverage.java,ofHalfLife,double halfLife,ExponentialMovingAverage,4,P
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,requireVector,"double[] vector, int size, String name",void,8,P
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,requireMatrix,"double[][] matrix, int rows, int columns, String name",void,13,P
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,requireFiniteMatrix,double[][] matrix,void,7,P
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,copy,double[][] matrix,double[][],5,P
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,identity,int size,double[][],5,R
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,transpose,double[][] matrix,double[][],7,P
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,multiply,"double[][] left, double[][] right",double[][],10,P
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,multiply,"double[][] matrix, double[] vector",double[],9,P
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,add,"double[][] left, double[][] right",double[][],7,P
+thealgorithms-java,com/thealgorithms/streaming/ExtendedKalmanFilter.java,subtract,"double[][] left, double[][] right",double[][],7,P
+thealgorithms-java,com/thealgorithms/streaming/GeneralizedEsd.java,mean,"double[] values, int size",double,5,P
+thealgorithms-java,com/thealgorithms/streaming/GeneralizedEsd.java,standardDeviation,"double[] values, int size, double mean",double,6,P
+thealgorithms-java,com/thealgorithms/streaming/GeneralizedEsd.java,indexOfLargestDeviation,"double[] values, int size, double mean",int,10,P
+thealgorithms-java,com/thealgorithms/streaming/GeneralizedEsd.java,studentTQuantile,"double probability, int degreesOfFreedom",double,17,P
+thealgorithms-java,com/thealgorithms/streaming/GeneralizedEsd.java,studentTCumulative,"double t, int degreesOfFreedom",double,3,P
+thealgorithms-java,com/thealgorithms/streaming/GeneralizedEsd.java,regularizedIncompleteBeta,"double a, double b, double x",double,11,P
+thealgorithms-java,com/thealgorithms/streaming/GeneralizedEsd.java,betaContinuedFraction,"double a, double b, double x",double,38,P
+thealgorithms-java,com/thealgorithms/streaming/GeneralizedEsd.java,logGamma,double x,double,7,P
+thealgorithms-java,com/thealgorithms/streaming/KalmanFilter.java,fuse,"double[] measurements, double[] variances",Estimate,16,P
+thealgorithms-java,com/thealgorithms/streaming/KalmanFilter.java,requireFinite,"double value, String name",void,3,P
+thealgorithms-java,com/thealgorithms/streaming/KalmanFilter.java,requireNonNegativeVariance,"double value, String name",void,3,P
+thealgorithms-java,com/thealgorithms/streaming/KalmanFilter.java,requirePositiveVariance,"double value, String name",void,3,P
+thealgorithms-java,com/thealgorithms/streaming/WelfordAlgorithm.java,merge,"WelfordAlgorithm left, WelfordAlgorithm right",WelfordAlgorithm,9,P
+thealgorithms-java,com/thealgorithms/streaming/WelfordAlgorithm.java,requireFinite,double value,void,3,P
+thealgorithms-java,com/thealgorithms/strings/AhoCorasick.java,search,"final String text, final String[] patterns","Map<String, List<Integer>>",3,P
+thealgorithms-java,com/thealgorithms/strings/AhoCorasick.java,convert,"final List<List<Integer>> positionByStringIndexValue, final String[] patterns","Map<String, List<Integer>>",7,P
+thealgorithms-java,com/thealgorithms/strings/Alphabetical.java,isAlphabetical,String s,boolean,15,P
+thealgorithms-java,com/thealgorithms/strings/AlternativeStringArrange.java,arrange,"String firstString, String secondString",String,17,P
+thealgorithms-java,com/thealgorithms/strings/Anagrams.java,areAnagramsBySorting,"String s, String t",boolean,10,P
+thealgorithms-java,com/thealgorithms/strings/Anagrams.java,areAnagramsByCountingChars,"String s, String t",boolean,15,P
+thealgorithms-java,com/thealgorithms/strings/Anagrams.java,areAnagramsByCountingCharsSingleArray,"String s, String t",boolean,16,P
+thealgorithms-java,com/thealgorithms/strings/Anagrams.java,areAnagramsUsingHashMap,"String s, String t",boolean,16,P
+thealgorithms-java,com/thealgorithms/strings/Anagrams.java,areAnagramsBySingleFreqArray,"String s, String t",boolean,16,P
+thealgorithms-java,com/thealgorithms/strings/CharactersSame.java,isAllCharactersSame,String s,boolean,10,P
+thealgorithms-java,com/thealgorithms/strings/CheckVowels.java,hasVowels,String input,boolean,9,P
+thealgorithms-java,com/thealgorithms/strings/CountChar.java,countCharacters,String str,int,4,P
+thealgorithms-java,com/thealgorithms/strings/CountWords.java,wordCount,String s,int,4,P
+thealgorithms-java,com/thealgorithms/strings/CountWords.java,removeSpecialCharacters,String s,String,7,P
+thealgorithms-java,com/thealgorithms/strings/CountWords.java,secondaryWordCount,String s,int,4,P
+thealgorithms-java,com/thealgorithms/strings/HammingDistance.java,calculateHammingDistance,"String s1, String s2",int,13,P
+thealgorithms-java,com/thealgorithms/strings/HorspoolSearch.java,findFirst,"String pattern, String text",int,1,P
+thealgorithms-java,com/thealgorithms/strings/HorspoolSearch.java,findFirstInsensitive,"String pattern, String text",int,1,P
+thealgorithms-java,com/thealgorithms/strings/HorspoolSearch.java,getLastComparisons,,Integer,1,P
+thealgorithms-java,com/thealgorithms/strings/HorspoolSearch.java,firstOccurrence,"String pattern, String text, boolean caseSensitive",int,23,P
+thealgorithms-java,com/thealgorithms/strings/HorspoolSearch.java,charEquals,"char c1, char c2, boolean caseSensitive",boolean,4,P
+thealgorithms-java,com/thealgorithms/strings/HorspoolSearch.java,calcShiftValues,String pattern,"HashMap<Character, Integer>",8,P
+thealgorithms-java,com/thealgorithms/strings/HorspoolSearch.java,getShiftValue,char c,Integer,5,P
+thealgorithms-java,com/thealgorithms/strings/Isogram.java,isAlphabeticIsogram,String str,boolean,20,P
+thealgorithms-java,com/thealgorithms/strings/Isogram.java,isFullIsogram,String str,boolean,9,P
+thealgorithms-java,com/thealgorithms/strings/Isomorphic.java,areIsomorphic,"String s, String t",boolean,21,P
+thealgorithms-java,com/thealgorithms/strings/KasaiAlgorithm.java,kasai,"String text, int[] suffixArr",int[],35,P
+thealgorithms-java,com/thealgorithms/strings/KMP.java,kmpMatcher,"final String haystack, final String needle",List<Integer>,21,P
+thealgorithms-java,com/thealgorithms/strings/KMP.java,computePrefixFunction,final String p,int[],14,P
+thealgorithms-java,com/thealgorithms/strings/LetterCombinationsOfPhoneNumber.java,getCombinations,int[] numbers,List<String>,4,R
+thealgorithms-java,com/thealgorithms/strings/LetterCombinationsOfPhoneNumber.java,generateCombinations,"int[] numbers, int index, StringBuilder current",List<String>,18,P
+thealgorithms-java,com/thealgorithms/strings/LongestCommonPrefix.java,longestCommonPrefix,String[] strs,String,11,P
+thealgorithms-java,com/thealgorithms/strings/LongestCommonSubstring.java,longestCommonSubstring,"final String a, final String b",String,23,P
+thealgorithms-java,com/thealgorithms/strings/LongestNonRepetitiveSubstring.java,lengthOfLongestSubstring,String s,int,12,P
+thealgorithms-java,com/thealgorithms/strings/LongestRepeatedSubstring.java,longestRepeatedSubstring,String text,String,14,P
+thealgorithms-java,com/thealgorithms/strings/LongestRepeatedSubstring.java,buildLcpArray,"String text, int[] suffixArray",int[],22,P
+thealgorithms-java,com/thealgorithms/strings/Lower.java,toLowerCase,String s,String,7,P
+thealgorithms-java,com/thealgorithms/strings/Manacher.java,longestPalindrome,String s,String,25,P
+thealgorithms-java,com/thealgorithms/strings/Manacher.java,preprocess,String s,String,9,P
+thealgorithms-java,com/thealgorithms/strings/MoveHashToEnd.java,moveHashToEnd,String str,String,14,P
+thealgorithms-java,com/thealgorithms/strings/MyAtoi.java,myAtoi,String s,int,28,P
+thealgorithms-java,com/thealgorithms/strings/Palindrome.java,isPalindrome,String s,boolean,1,P
+thealgorithms-java,com/thealgorithms/strings/Palindrome.java,isPalindromeRecursion,String s,boolean,7,P
+thealgorithms-java,com/thealgorithms/strings/Palindrome.java,isPalindromeTwoPointer,String s,boolean,9,P
+thealgorithms-java,com/thealgorithms/strings/Pangram.java,isPangramUsingSet,String s,boolean,8,P
+thealgorithms-java,com/thealgorithms/strings/Pangram.java,isPangram,String s,boolean,13,P
+thealgorithms-java,com/thealgorithms/strings/Pangram.java,isPangram2,String s,boolean,10,P
+thealgorithms-java,com/thealgorithms/strings/PermuteString.java,getPermutations,String str,Set<String>,3,P
+thealgorithms-java,com/thealgorithms/strings/PermuteString.java,generatePermutations,"String str, int start, int end, Set<String> permutations",void,9,P
+thealgorithms-java,com/thealgorithms/strings/PermuteString.java,swapCharacters,"String str, int i, int j",String,5,P
+thealgorithms-java,com/thealgorithms/strings/RabinKarp.java,search,"String text, String pattern",List<Integer>,1,P
+thealgorithms-java,com/thealgorithms/strings/RabinKarp.java,search,"String text, String pattern, int q",List<Integer>,42,P
+thealgorithms-java,com/thealgorithms/strings/RemoveDuplicateFromString.java,removeDuplicate,String input,String,10,P
+thealgorithms-java,com/thealgorithms/strings/RemoveStars.java,removeStars,String s,String,11,P
+thealgorithms-java,com/thealgorithms/strings/ReturnSubsequence.java,getSubsequences,String input,String[],10,P
+thealgorithms-java,com/thealgorithms/strings/ReverseString.java,reverse,String str,String,1,P
+thealgorithms-java,com/thealgorithms/strings/ReverseString.java,reverse2,String str,String,10,P
+thealgorithms-java,com/thealgorithms/strings/ReverseString.java,reverse3,String string,String,9,P
+thealgorithms-java,com/thealgorithms/strings/ReverseString.java,reverseStringUsingStack,String str,String,15,P
+thealgorithms-java,com/thealgorithms/strings/ReverseString.java,reverseStringUsingRecursion,String str,String,5,P
+thealgorithms-java,com/thealgorithms/strings/ReverseWordsInString.java,reverseWordsInString,final String s,String,3,P
+thealgorithms-java,com/thealgorithms/strings/Rotation.java,rotation,"String s, int n",String,1,P
+thealgorithms-java,com/thealgorithms/strings/Rotation.java,rotation,"char[] values, int n",void,3,P
+thealgorithms-java,com/thealgorithms/strings/Rotation.java,reverse,"char[] values, int from, int to",void,7,P
+thealgorithms-java,com/thealgorithms/strings/StringCompression.java,compress,String input,String,23,P
+thealgorithms-java,com/thealgorithms/strings/StringCompression.java,appendCount,"String res, int count, char ch",String,6,P
+thealgorithms-java,com/thealgorithms/strings/StringMatchFiniteAutomata.java,searchPattern,"final String text, final String pattern",Set<Integer>,10,P
+thealgorithms-java,com/thealgorithms/strings/StringMatchFiniteAutomata.java,computeStateTransitionTable,final String pattern,int[][],8,P
+thealgorithms-java,com/thealgorithms/strings/StringMatchFiniteAutomata.java,getNextState,"final String pattern, final int patternLength, final int state, final int x",int,18,P
+thealgorithms-java,com/thealgorithms/strings/SuffixArray.java,buildSuffixArray,String text,int[],31,P
+thealgorithms-java,com/thealgorithms/strings/TitleCase.java,toTitleCase,final String input,String,24,P
+thealgorithms-java,com/thealgorithms/strings/TopKFrequentWords.java,findTopKFrequentWords,"String[] words, int k",List<String>,20,P
+thealgorithms-java,com/thealgorithms/strings/Upper.java,toUpperCase,String s,String,16,P
+thealgorithms-java,com/thealgorithms/strings/WordLadder.java,ladderLength,"String beginWord, String endWord, Collection<String> wordList",int,33,P
+thealgorithms-java,com/thealgorithms/strings/ZAlgorithm.java,zFunction,String s,int[],17,P
+thealgorithms-java,com/thealgorithms/strings/ZAlgorithm.java,search,"String text, String pattern",int,9,P
+thealgorithms-java,com/thealgorithms/strings/zigZagPattern/ZigZagPattern.java,encode,"String s, int numRows",String,17,P

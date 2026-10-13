@@ -1,0 +1,21 @@
+scoreable groups: 55
+
+Raw M5-RF on nested pairs (macro over 55 groups with nested pairs): ancestor predicted LOWER than descendant 0.237, equal 0.007, higher 0.756
+
+variant                      groups  macro rho   95% CI
+raw M5 RF                        55     +0.452   [+0.373, +0.525]
+A: cap by ancestor estimate      53     +0.598   [+0.532, +0.664]
+B: cap by remaining estimate     55     +0.531   [+0.451, +0.610]
+
+Groups scoreable for raw but not for A (capped predictions constant or too few distinct values): ['BankAccount', 'HanoiSteps']
+
+A: macro rho on these 53 groups, raw +0.477 -> A +0.598
+A: macro gain over raw +0.121 on 53 groups; better by > 0.05 in 31, worse by > 0.05 in 6 -> NOT ADOPTED
+B: macro rho on these 55 groups, raw +0.452 -> B +0.531
+B: macro gain over raw +0.080 on 55 groups; better by > 0.05 in 26, worse by > 0.05 in 16 -> NOT ADOPTED
+
+By tree size, POST HOC (bands as in nesting_decomposition.py, not predeclared): macro rho raw -> A on the groups A can score
+  non-leaf states in [0, 15): 14 groups, raw +0.563 -> A +0.757
+  non-leaf states in [15, 60): 23 groups, raw +0.498 -> A +0.633
+  non-leaf states in [60, 300): 8 groups, raw +0.419 -> A +0.484
+  non-leaf states in [300, inf): 8 groups, raw +0.323 -> A +0.336

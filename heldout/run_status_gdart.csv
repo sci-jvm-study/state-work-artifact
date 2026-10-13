@@ -1,0 +1,10 @@
+program,runs,nodes,nonleaf,jpf_states,status
+HoAllKadaneKadaneSum,36,71,35,71,clean
+HoAllSelectionSortSelection,10,15,7,477,clean
+HoAllShellSortShell,24,47,23,47,clean
+HoJaiLowerBoundLowerBound,10,12,4,57,clean
+HoNumIndexIntervalsCompressDuplicates,23,45,22,45,clean
+HoNumPartitionCountIndices,13,16,6,481,clean
+HoNumSortingSort,41,64,30,1183,clean
+HoNumSortingSortIndicesInsertionSort,167,333,166,333,clean
+HoRngAliasMethodDiscreteSamplerFillRemainingIndices,3,0,0,89,not-finished

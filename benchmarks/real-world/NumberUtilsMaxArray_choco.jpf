@@ -1,0 +1,8 @@
+target = NumberUtilsMaxArray
+classpath = bin
+sourcepath = .
+symbolic.method = NumberUtilsMaxArray.classify(sym#sym#sym#sym)
+symbolic.min_int = -100
+symbolic.max_int = 100
+symbolic.dp = choco
+listener = gov.nasa.jpf.symbc.StateWorkListener

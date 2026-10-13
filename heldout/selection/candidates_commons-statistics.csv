@@ -1,0 +1,973 @@
+library,file,method,signature,returns,loc,failed_stage
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/DoubleStatistics.java,create,"Function<S, T> constructor, S values","<S, T> T",4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/DoubleStatistics.java,create,"RangeFunction<S, T> constructor, S values, int from, int to","<S, T> T",4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/DoubleStatistics.java,create,"RangeBiFunction<R, S, T> constructor, R r, S s, int from, int to","<R, S, T> T",4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/DoubleStatistics.java,of,Statistic... statistics,DoubleStatistics,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/DoubleStatistics.java,of,"Set<Statistic> statistics, double... values",DoubleStatistics,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/DoubleStatistics.java,ofRange,"Set<Statistic> statistics, double[] values, int from, int to",DoubleStatistics,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/DoubleStatistics.java,builder,Statistic... statistics,Builder,8,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/FirstMoment.java,of,double... values,FirstMoment,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/FirstMoment.java,ofRange,"double[] values, int from, int to",FirstMoment,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/FirstMoment.java,createFromRange,"org.apache.commons.numbers.core.Sum sum, double[] values, int from, int to",FirstMoment,20,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/FirstMoment.java,create,"double[] values, int from, int to",FirstMoment,12,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/FirstMoment.java,computeNonFiniteValue,"double[] values, int from, int to",double,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/FirstMoment.java,combine,"double m1, double m2, long n1, long n2",double,3,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/GeometricMean.java,create,,GeometricMean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/GeometricMean.java,of,double... values,GeometricMean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/GeometricMean.java,ofRange,"double[] values, int from, int to",GeometricMean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/GeometricMean.java,of,int... values,GeometricMean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/GeometricMean.java,ofRange,"int[] values, int from, int to",GeometricMean,1,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/GeometricMean.java,of,long... values,GeometricMean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/GeometricMean.java,ofRange,"long[] values, int from, int to",GeometricMean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/GeometricMean.java,computeGeometricMean,"long n, SumOfLogs sumOfLogs",double,3,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Int128.java,create,,Int128,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Int128.java,of,long x,Int128,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Interpolation.java,mean,"double x, double y",double,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Interpolation.java,mean,"int x, int y",double,1,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Interpolation.java,meanAsDouble,"long x, long y",double,7,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Interpolation.java,meanAsLong,"long x, long y",long,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Interpolation.java,mean,"long x, long y",StatisticResult,10,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Interpolation.java,interpolate,"double a, double b, double t",double,7,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Interpolation.java,interpolate,"long a, long b, double t",StatisticResult,61,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMath.java,squareHigh,long x,long,10,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMath.java,unsignedMultiplyHigh,"long value1, long value2",long,12,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMath.java,unsignedMultiplyToDouble,"long x, long y",double,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMath.java,uint128ToDouble,"long hi, long lo",double,17,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMath.java,toIntExact,double x,int,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMath.java,toLongExact,double x,long,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMath.java,toBigIntegerExact,double x,BigInteger,8,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMath.java,roundToInteger,double x,double,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMax.java,create,,IntMax,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMax.java,of,int... values,IntMax,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMax.java,ofRange,"int[] values, int from, int to",IntMax,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMax.java,createFromRange,"int[] values, int from, int to",IntMax,1,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMean.java,create,,IntMean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMean.java,of,int... values,IntMean,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMean.java,ofRange,"int[] values, int from, int to",IntMean,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMean.java,createFromRange,"int[] values, int from, int to",IntMean,5,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMean.java,computeMean,"Int128 sum, long n",double,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMin.java,create,,IntMin,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMin.java,of,int... values,IntMin,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMin.java,ofRange,"int[] values, int from, int to",IntMin,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntMin.java,createFromRange,"int[] values, int from, int to",IntMin,1,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStandardDeviation.java,create,,IntStandardDeviation,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStandardDeviation.java,of,int... values,IntStandardDeviation,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStandardDeviation.java,ofRange,"int[] values, int from, int to",IntStandardDeviation,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStandardDeviation.java,createFromRange,"int[] values, int from, int to",IntStandardDeviation,23,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStatistics.java,create,"RangeFunction<S, T> constructor, S values, int from, int to","<S, T> T",4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStatistics.java,composeAsInt,DoubleConsumer... consumers,IntConsumer,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStatistics.java,of,Statistic... statistics,IntStatistics,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStatistics.java,of,"Set<Statistic> statistics, int... values",IntStatistics,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStatistics.java,ofRange,"Set<Statistic> statistics, int[] values, int from, int to",IntStatistics,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntStatistics.java,builder,Statistic... statistics,Builder,8,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntSum.java,create,,IntSum,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntSum.java,of,int... values,IntSum,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntSum.java,ofRange,"int[] values, int from, int to",IntSum,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntSum.java,createFromRange,"int[] values, int from, int to",IntSum,5,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntSumOfSquares.java,create,,IntSumOfSquares,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntSumOfSquares.java,of,int... values,IntSumOfSquares,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntSumOfSquares.java,ofRange,"int[] values, int from, int to",IntSumOfSquares,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntSumOfSquares.java,createFromRange,"int[] values, int from, int to",IntSumOfSquares,20,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntVariance.java,create,,IntVariance,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntVariance.java,of,int... values,IntVariance,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntVariance.java,ofRange,"int[] values, int from, int to",IntVariance,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntVariance.java,createFromRange,"int[] values, int from, int to",IntVariance,23,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntVariance.java,computeVarianceOrStd,"UInt128 sumSq, Int128 sum, long n, boolean biased, boolean std",double,13,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntVariance.java,computeSSDevN,"UInt128 sumSq, Int128 sum, long n",double,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/IntVariance.java,square,BigInteger x,BigInteger,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Kurtosis.java,create,,Kurtosis,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Kurtosis.java,of,double... values,Kurtosis,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Kurtosis.java,ofRange,"double[] values, int from, int to",Kurtosis,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Kurtosis.java,of,int... values,Kurtosis,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Kurtosis.java,ofRange,"int[] values, int from, int to",Kurtosis,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Kurtosis.java,of,long... values,Kurtosis,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Kurtosis.java,ofRange,"long[] values, int from, int to",Kurtosis,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMax.java,create,,LongMax,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMax.java,of,long... values,LongMax,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMax.java,ofRange,"long[] values, int from, int to",LongMax,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMax.java,createFromRange,"long[] values, int from, int to",LongMax,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMean.java,create,,LongMean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMean.java,of,long... values,LongMean,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMean.java,ofRange,"long[] values, int from, int to",LongMean,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMean.java,createFromRange,"long[] values, int from, int to",LongMean,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMean.java,computeMean,"Int128 sum, long n",double,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMin.java,create,,LongMin,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMin.java,of,long... values,LongMin,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMin.java,ofRange,"long[] values, int from, int to",LongMin,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongMin.java,createFromRange,"long[] values, int from, int to",LongMin,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStandardDeviation.java,create,,LongStandardDeviation,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStandardDeviation.java,of,long... values,LongStandardDeviation,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStandardDeviation.java,ofRange,"long[] values, int from, int to",LongStandardDeviation,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStandardDeviation.java,createFromRange,"long[] values, int from, int to",LongStandardDeviation,8,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStatistics.java,create,"RangeFunction<S, T> constructor, S values, int from, int to","<S, T> T",4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStatistics.java,composeAsLong,DoubleConsumer... consumers,LongConsumer,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStatistics.java,of,Statistic... statistics,LongStatistics,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStatistics.java,of,"Set<Statistic> statistics, long... values",LongStatistics,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStatistics.java,ofRange,"Set<Statistic> statistics, long[] values, int from, int to",LongStatistics,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongStatistics.java,builder,Statistic... statistics,Builder,8,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongSum.java,create,,LongSum,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongSum.java,of,long... values,LongSum,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongSum.java,ofRange,"long[] values, int from, int to",LongSum,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongSum.java,createFromRange,"long[] values, int from, int to",LongSum,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongSumOfSquares.java,create,,LongSumOfSquares,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongSumOfSquares.java,of,long... values,LongSumOfSquares,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongSumOfSquares.java,ofRange,"long[] values, int from, int to",LongSumOfSquares,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongSumOfSquares.java,createFromRange,"long[] values, int from, int to",LongSumOfSquares,5,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongVariance.java,create,,LongVariance,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongVariance.java,of,long... values,LongVariance,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongVariance.java,ofRange,"long[] values, int from, int to",LongVariance,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongVariance.java,createFromRange,"long[] values, int from, int to",LongVariance,8,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongVariance.java,computeVarianceOrStd,"UInt192 sumSq, Int128 sum, long n, boolean biased, boolean std",double,13,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongVariance.java,computeSSDevN,"UInt192 sumSq, Int128 sum, long n",double,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/LongVariance.java,square,BigInteger x,BigInteger,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Max.java,create,,Max,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Max.java,of,double... values,Max,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Max.java,ofRange,"double[] values, int from, int to",Max,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Max.java,createFromRange,"double[] values, int from, int to",Max,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Mean.java,create,,Mean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Mean.java,of,double... values,Mean,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Mean.java,ofRange,"double[] values, int from, int to",Mean,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Median.java,withDefaults,,Median,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Min.java,create,,Min,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Min.java,of,double... values,Min,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Min.java,ofRange,"double[] values, int from, int to",Min,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Min.java,createFromRange,"double[] values, int from, int to",Min,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/NaNTransformers.java,createNaNTransformer,"NaNPolicy nanPolicy, boolean copy",NaNTransformer,7,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/NaNTransformers.java,copy,"double[] data, int from, int to",double[],4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,create,,Product,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,of,double... values,Product,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,ofRange,"double[] values, int from, int to",Product,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,createFromRange,"double[] values, int from, int to",Product,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,of,int... values,Product,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,ofRange,"int[] values, int from, int to",Product,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,createFromRange,"int[] values, int from, int to",Product,1,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,of,long... values,Product,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,ofRange,"long[] values, int from, int to",Product,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Product.java,createFromRange,"long[] values, int from, int to",Product,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Quantile.java,withDefaults,,Quantile,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Quantile.java,probabilities,int n,double[],7,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Quantile.java,probabilities,"int n, double p1, double p2",double[],10,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Quantile.java,checkProbability,double p,void,3,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Quantile.java,checkProbabilities,double... p,void,6,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Quantile.java,checkSize,int n,void,3,C
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Quantile.java,checkNumberOfProbabilities,int n,void,3,C
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Skewness.java,create,,Skewness,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Skewness.java,of,double... values,Skewness,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Skewness.java,ofRange,"double[] values, int from, int to",Skewness,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Skewness.java,of,int... values,Skewness,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Skewness.java,ofRange,"int[] values, int from, int to",Skewness,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Skewness.java,of,long... values,Skewness,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Skewness.java,ofRange,"long[] values, int from, int to",Skewness,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/StandardDeviation.java,create,,StandardDeviation,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/StandardDeviation.java,of,double... values,StandardDeviation,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/StandardDeviation.java,ofRange,"double[] values, int from, int to",StandardDeviation,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, double[] values",<T extends DoubleConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, double[] values, int from, int to",<T extends DoubleConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, int[] values",<T extends DoubleConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, int[] values, int from, int to",<T extends DoubleConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, long[] values",<T extends DoubleConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, long[] values, int from, int to",<T extends DoubleConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, int[] values",<T extends IntConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, int[] values, int from, int to",<T extends IntConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, long[] values",<T extends LongConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,add,"T statistic, long[] values, int from, int to",<T extends LongConsumer> T,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,zeroVariance,"double m1, double m2",boolean,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,composeDoubleConsumers,DoubleConsumer... consumers,DoubleConsumer,7,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,composeIntConsumers,IntConsumer... consumers,IntConsumer,7,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,composeLongConsumers,LongConsumer... consumers,LongConsumer,7,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,getResultAsIntOrNull,StatisticResult s,StatisticResult,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,getResultAsLongOrNull,StatisticResult s,StatisticResult,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,getResultAsDoubleOrNull,StatisticResult s,StatisticResult,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,getResultAsBigIntegerOrNull,StatisticResult s,StatisticResult,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,checkCombineAssignable,"FirstMoment a, FirstMoment b",void,3,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,combineMoment,"FirstMoment a, FirstMoment b",void,9,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,checkFromToIndex,"int fromIndex, int toIndex, int length",void,4,C
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,msgRangeOutOfBounds,"int fromIndex, int toIndex, int length",String,1,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,copy,"int[] data, int from, int to",int[],4,C
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,copy,"long[] data, int from, int to",long[],4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Statistics.java,createStatisticResult,long value,StatisticResult,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/StatisticsConfiguration.java,withDefaults,,StatisticsConfiguration,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Sum.java,create,,Sum,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Sum.java,of,double... values,Sum,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Sum.java,ofRange,"double[] values, int from, int to",Sum,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviations.java,of,double... values,SumOfCubedDeviations,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviations.java,ofRange,"double[] values, int from, int to",SumOfCubedDeviations,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviations.java,createFromRange,"org.apache.commons.numbers.core.Sum sum, double[] values, int from, int to",SumOfCubedDeviations,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviations.java,create,"SumOfSquaredDeviations ss, double[] values, int from, int to",SumOfCubedDeviations,14,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviations.java,of,int... values,SumOfCubedDeviations,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviations.java,ofRange,"int[] values, int from, int to",SumOfCubedDeviations,13,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviations.java,of,long... values,SumOfCubedDeviations,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviations.java,ofRange,"long[] values, int from, int to",SumOfCubedDeviations,13,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviations.java,pow3,double x,double,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviations.java,of,double... values,SumOfFourthDeviations,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviations.java,ofRange,"double[] values, int from, int to",SumOfFourthDeviations,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviations.java,createFromRange,"org.apache.commons.numbers.core.Sum sum, double[] values, int from, int to",SumOfFourthDeviations,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviations.java,create,"SumOfCubedDeviations sc, double[] values, int from, int to",SumOfFourthDeviations,11,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviations.java,pow4,double x,double,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviations.java,of,int... values,SumOfFourthDeviations,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviations.java,ofRange,"int[] values, int from, int to",SumOfFourthDeviations,18,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviations.java,of,long... values,SumOfFourthDeviations,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviations.java,ofRange,"long[] values, int from, int to",SumOfFourthDeviations,18,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,create,,SumOfLogs,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,of,double... values,SumOfLogs,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,ofRange,"double[] values, int from, int to",SumOfLogs,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,createFromRange,"double[] values, int from, int to",SumOfLogs,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,of,int... values,SumOfLogs,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,ofRange,"int[] values, int from, int to",SumOfLogs,2,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,createFromRange,"int[] values, int from, int to",SumOfLogs,1,R
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,of,long... values,SumOfLogs,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,ofRange,"long[] values, int from, int to",SumOfLogs,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfLogs.java,createFromRange,"long[] values, int from, int to",SumOfLogs,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfSquaredDeviations.java,of,double... values,SumOfSquaredDeviations,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfSquaredDeviations.java,ofRange,"double[] values, int from, int to",SumOfSquaredDeviations,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfSquaredDeviations.java,createFromRange,"org.apache.commons.numbers.core.Sum sum, double[] values, int from, int to",SumOfSquaredDeviations,4,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfSquaredDeviations.java,create,"FirstMoment m1, double[] values, int from, int to",SumOfSquaredDeviations,15,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfSquares.java,create,,SumOfSquares,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfSquares.java,of,double... values,SumOfSquares,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfSquares.java,ofRange,"double[] values, int from, int to",SumOfSquares,2,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/SumOfSquares.java,createFromRange,"double[] values, int from, int to",SumOfSquares,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/UInt128.java,create,,UInt128,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/UInt128.java,of,UInt96 x,UInt128,7,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/UInt192.java,create,,UInt192,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/UInt96.java,create,,UInt96,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/UInt96.java,of,long x,UInt96,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Variance.java,create,,Variance,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Variance.java,of,double... values,Variance,1,P
+commons-statistics,commons-statistics-descriptive/src/main/java/org/apache/commons/statistics/descriptive/Variance.java,ofRange,"double[] values, int from, int to",Variance,2,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,createAbsTolerance,double eps,DoubleTolerance,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,createRelTolerance,double eps,DoubleTolerance,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,createAbsOrRelTolerance,"double absTolerance, double relTolerance",DoubleTolerance,2,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,addReference,"double expected, DoubleTolerance tol, double... values",StatisticTestData,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,addReference,"double expected, DoubleTolerance tolAccept, DoubleTolerance tolArray, DoubleTolerance tolAcceptCombine, DoubleTolerance tolArrayCombine, double... values",StatisticTestData,2,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,cut,"double[] data, int... sizes",double[][],15,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,split,"double[] data, int groups",double[][],8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,format,double[] values,String,7,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,format,double[][] values,String,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseDoubleStatisticTest.java,rethrowWithSeedAndRepeat,"AssertionError e, long[] seed, int repeat",void,2,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseIntStatisticTest.java,cut,"int[] data, int... sizes",int[][],15,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseIntStatisticTest.java,split,"int[] data, int groups",int[][],8,R
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseIntStatisticTest.java,format,int[] values,String,7,R
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseIntStatisticTest.java,format,int[][] values,String,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseLongStatisticTest.java,cut,"long[] data, int... sizes",long[][],15,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseLongStatisticTest.java,split,"long[] data, int groups",long[][],8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseLongStatisticTest.java,format,long[] values,String,7,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseLongStatisticTest.java,format,long[][] values,String,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseStatisticTest.java,createStatisticResult,double value,StatisticResult,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseStatisticTest.java,createStatisticResult,int value,StatisticResult,1,R
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseStatisticTest.java,createStatisticResult,long value,StatisticResult,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseStatisticTest.java,createStatisticResult,BigInteger value,StatisticResult,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseStatisticTest.java,createAbsTolerance,double eps,DoubleTolerance,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseStatisticTest.java,createRelTolerance,double eps,DoubleTolerance,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseStatisticTest.java,createAbsOrRelTolerance,"double absTolerance, double relTolerance",DoubleTolerance,2,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/BaseStatisticTest.java,rethrowWithSeedAndRepeat,"AssertionError e, long[] seed, int repeat",void,2,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,setup,,void,34,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,addCoComputed,"Statistic s1, Statistic s2",void,2,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,teardown,,void,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,streamTestData,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,assertStatistics,"EnumSet<Statistic> stats, TestData data, Function<double[], DoubleStatistics> constructor, ToDoubleFunction<ExpectedResult> expected",void,27,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,assertStatistics,"EnumSet<Statistic> stats, double[] data, int from, int to",void,13,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,buildComputedStatistics,EnumSet<Statistic> stats,EnumSet<Statistic>,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,acceptAll,"Statistic[] statistics, double[] values",DoubleStatistics,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,getResults,"Statistic[] statistics, final DoubleStatistics stats",StatisticResult[],8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,combine,"Statistic[] statistics, DoubleStatistics s1, DoubleStatistics s2",DoubleStatistics,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,testIncompatibleCombineThrows,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,testCompatibleCombine,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,assertFinite,"double value, Statistic s",void,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/DoubleStatisticsTest.java,testBiased,,Stream<Arguments>,22,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/GeometricMeanTest.java,computeExpectedGeometricMean,double[] values,double,9,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/Int128Test.java,testAddLong,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/Int128Test.java,testAddLongs,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/Int128Test.java,testAddInt128,,Stream<Arguments>,12,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/Int128Test.java,testSquareLow,,LongStream,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/Int128Test.java,testDivideToDouble,,Stream<Arguments>,10,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,testMean,,Stream<Arguments>,16,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,testIntMean,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,testLongMeanAsDouble,,Stream<Arguments>,21,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,testLongMeanAsLong,,Stream<Arguments>,29,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,testLongMean,,Stream<Arguments>,15,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,testInterpolate,,Stream<Arguments>,26,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,testInterpolateProperties,,Stream<Arguments>,13,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,anyFiniteDouble,,Stream<Arguments>,14,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,testLongInterpolate,,Stream<Arguments>,67,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,testLongInterpolateCoverage,,Stream<Arguments>,37,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/InterpolationTest.java,signedDouble,UniformRandomProvider rng,double,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntMathTest.java,testSquareHigh,,LongStream,13,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntMathTest.java,testUnsignedMultiplyHigh,,Stream<Arguments>,19,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntMathTest.java,toUnsignedBigInteger,long v,BigInteger,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntMathTest.java,testUint128ToDouble,,Stream<Arguments>,21,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntMathTest.java,testToIntExact,,DoubleStream,9,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStandardDeviationTest.java,assertConsistentWithVariance,"IntVariance variance, IntStandardDeviation std",void,4,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStandardDeviationTest.java,testBiased,,Stream<Arguments>,10,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,setup,,void,45,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,addCoComputed,"Statistic s1, Statistic s2",void,2,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,addComputedBy,"Statistic parent, Statistic... children",void,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,teardown,,void,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,streamTestData,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,assertStatistics,"EnumSet<Statistic> stats, TestData data, Function<int[], IntStatistics> constructor, Function<ExpectedResult, StatisticResult> expected",void,40,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,assertStatistics,"EnumSet<Statistic> stats, int[] data, int from, int to",void,13,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,buildComputedStatistics,EnumSet<Statistic> stats,EnumSet<Statistic>,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,acceptAll,"Statistic[] statistics, int[] values",IntStatistics,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,getResults,"Statistic[] statistics, final IntStatistics stats",StatisticResult[],8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,combine,"Statistic[] statistics, IntStatistics s1, IntStatistics s2",IntStatistics,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,testIncompatibleCombineThrows,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,testCompatibleCombine,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,assertFinite,"double value, Statistic s",void,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntStatisticsTest.java,testBiased,,Stream<Arguments>,22,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntSumTest.java,testLongOverflow,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntVarianceTest.java,computeExpectedVariance,int[] values,double,14,R
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/IntVarianceTest.java,testBiased,,Stream<Arguments>,12,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/KurtosisTest.java,computeExpectedKurtosis,double[] values,double,27,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/KurtosisTest.java,testBiased,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStandardDeviationTest.java,assertConsistentWithVariance,"LongVariance variance, LongStandardDeviation std",void,4,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStandardDeviationTest.java,testBiased,,Stream<Arguments>,10,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,setup,,void,45,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,addCoComputed,"Statistic s1, Statistic s2",void,2,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,addComputedBy,"Statistic parent, Statistic... children",void,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,teardown,,void,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,streamTestData,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,assertStatistics,"EnumSet<Statistic> stats, TestData data, Function<long[], LongStatistics> constructor, Function<ExpectedResult, StatisticResult> expected",void,40,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,assertStatistics,"EnumSet<Statistic> stats, long[] data, int from, int to",void,13,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,buildComputedStatistics,EnumSet<Statistic> stats,EnumSet<Statistic>,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,acceptAll,"Statistic[] statistics, long[] values",LongStatistics,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,getResults,"Statistic[] statistics, final LongStatistics stats",StatisticResult[],8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,combine,"Statistic[] statistics, LongStatistics s1, LongStatistics s2",LongStatistics,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,testIncompatibleCombineThrows,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,testCompatibleCombine,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,assertFinite,"double value, Statistic s",void,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongStatisticsTest.java,testBiased,,Stream<Arguments>,22,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongSumTest.java,testLongOverflow,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongVarianceTest.java,computeExpectedVariance,long[] values,double,14,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/LongVarianceTest.java,testBiased,,Stream<Arguments>,12,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MeanTest.java,testNonFiniteValue,,Stream<Arguments>,16,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,testDoubleMedian,,Stream<Arguments>,44,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,evaluate,double[] values,double,7,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,assertMedianWithCopy,"double[] values, double expected",void,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,assertMedianRange,"double[] values, int from, int to",void,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,assertMedianRange,"double[] values, int from, int to, NaNPolicy nanPolicy",void,18,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,testIntMedian,,Stream<Arguments>,30,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,evaluate,int[] values,double,7,R
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,assertMedianWithCopy,"int[] values, double expected",void,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,assertMedianRange,"int[] values, int from, int to",void,12,T
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,testLongMedian,,Stream<Arguments>,30,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,evaluate,long[] values,StatisticResult,7,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,assertMedianWithCopy,"long[] values, StatisticResult expected",void,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/MedianTest.java,assertMedianRange,"long[] values, int from, int to",void,12,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/NaNTransformersTest.java,assertNaNTransformer,"double[] a, NaNTransformer t, boolean includeNaN, boolean copy",void,4,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/NaNTransformersTest.java,assertNaNTransformer,"double[] a, int from, int to, NaNTransformer t, boolean includeNaN, boolean copy",void,32,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/NaNTransformersTest.java,nanData,,Stream<double[]>,19,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/NaNTransformersTest.java,nonNanData,,Stream<double[]>,14,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,testProbabilities,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantile,"Quantile q, double[] values, double[] p, double[][] expected, double delta, DoubleQuantileFunction f1, DoubleQuantileFunctionN fn",void,20,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertEqualsOrExactlyEqual,"double expected, double actual, double delta, Supplier<String> messageSupplier",void,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,testDoubleQuantile,,Stream<Arguments>,103,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,addDoubleQuantiles,"Stream.Builder<Arguments> builder, double[] x, double[] p, double delta, double[]... expected",void,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantileRange,"double[] values, int from, int to",void,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantileRange,"double[] values, int from, int to, NaNPolicy nanPolicy, double prob",void,26,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantile,"Quantile q, int[] values, double[] p, double[][] expected, double delta, IntQuantileFunction f1, IntQuantileFunctionN fn",void,20,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,testIntQuantile,,Stream<Arguments>,72,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,addIntQuantiles,"Stream.Builder<Arguments> builder, int[] x, double[] p, double delta, double[]... expected",void,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantileRange,"int[] values, int from, int to",void,3,T
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantileRange,"int[] values, int from, int to, double prob",void,18,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantile,"Quantile q, long[] values, double[] p, double[][] expected, double delta, LongQuantileFunction f1, LongQuantileFunctionN fn",void,22,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,testLongQuantile,,Stream<Arguments>,72,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,addLongQuantiles,"Stream.Builder<Arguments> builder, long[] x, double[] p, double delta, double[]... expected",void,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantileRange,"long[] values, int from, int to",void,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantileRange,"long[] values, int from, int to, double prob",void,18,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,assertQuantileStatisticResult,"Quantile q, long[] values, double[] p, LongQuantileFunction f1, LongQuantileFunctionN fn",void,30,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/QuantileTest.java,testLongQuantileStatisticResult,,Stream<Arguments>,23,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/SkewnessTest.java,computeExpectedSkewness,double[] values,double,23,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/SkewnessTest.java,testBiased,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/StandardDeviationTest.java,assertConsistentWithVariance,"Variance variance, StandardDeviation std",void,4,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/StandardDeviationTest.java,computeExpectedStandardDeviation,double[] values,double,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/StandardDeviationTest.java,testBiased,,Stream<Arguments>,10,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/StatisticResultTest.java,round,double x,BigDecimal,3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/StatisticsTest.java,testCheckFromToIndex,,Stream<Arguments>,13,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/SumOfCubedDeviationsTest.java,computeExpectedSC,"double[] values, BigDecimal mean",double,19,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/SumOfFourthDeviationsTest.java,computeExpectedSumOfFourthDeviations,"double[] values, BigDecimal mean",BigDecimal,15,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/SumOfLogsTest.java,computeExpectedSumOfLogs,double[] values,double,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestData.java,momentTestData,,Stream<double[]>,13,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestData.java,arrayRangeTestData,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,concatenate,double[]... arrays,double[],3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,concatenate,int[]... arrays,int[],3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,concatenate,long[]... arrays,long[],3,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,unconcatenate,"double[] data, double[]... arrays",void,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,unconcatenate,"int[] data, int[]... arrays",void,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,unconcatenate,"long[] data, long[]... arrays",void,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,computeExpectedMean,double[] values,BigDecimal,5,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,computeExpectedSumOfSquaredDeviations,"double[] values, BigDecimal[] mean",BigDecimal,16,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,equalsOrNonFinite,DoubleTolerance tol,DoubleTolerance,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,createRNGSeed,,long[],1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,createRNG,,UniformRandomProvider,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,createRNG,long[] seed,UniformRandomProvider,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,assertEquals,"StatisticResult expected, StatisticResult actual, DoubleTolerance tol, Supplier<String> msg",void,4,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,assertIntEquals,"StatisticResult expected, IntSupplier actual, Supplier<String> msg",void,10,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,assertLongEquals,"StatisticResult expected, LongSupplier actual, Supplier<String> msg",void,10,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,assertDoubleEquals,"StatisticResult expected, DoubleSupplier actual, DoubleTolerance tol, Supplier<String> msg",void,14,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,assertBigIntegerEquals,"StatisticResult expected, Supplier<BigInteger> actual, DoubleTolerance tol, Supplier<String> msg",void,17,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,assertEquals,"BigDecimal expected, DD actual, double eps, String msg",double,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,assertEquals,"BigDecimal expected, DD actual, double eps, Supplier<String> msg",double,31,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,interpolate,"long a, long b, double t",StatisticResult,17,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,printf,"String format, Object... args",void,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/TestHelper.java,prefix,Supplier<String> msg,String,1,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt128Test.java,testAddLong,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt128Test.java,testAddLongs,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt128Test.java,testAddInt128,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt128Test.java,testOfInt96,,Stream<Arguments>,10,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt128Test.java,assertMultiplyInt,"long a, long b, int n",void,7,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt128Test.java,testMultiplyInt,,Stream<Arguments>,15,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt128Test.java,assertSubtract,"long a, long b, long c, long d",void,7,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt128Test.java,testSubtract,,Stream<Arguments>,13,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt192Test.java,testAddSquareLong,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt192Test.java,testAddSquareLongs,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt192Test.java,testAddInt192,,Stream<Arguments>,13,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt192Test.java,assertMultiplyInt,"long a, long b, long c, int n",void,7,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt192Test.java,testMultiplyInt,,Stream<Arguments>,16,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt192Test.java,assertSubtract,"long a, long b, long c, long d, long e",void,7,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt192Test.java,testSubtract,,Stream<Arguments>,14,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt192Test.java,testToDouble,,Stream<Arguments>,16,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt96Test.java,testAddLong,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt96Test.java,testAddLongs,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/UInt96Test.java,testAddInt128,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/VarianceTest.java,computeExpectedVariance,"double[] values, BigDecimal[] mean",double,12,P
+commons-statistics,commons-statistics-descriptive/src/test/java/org/apache/commons/statistics/descriptive/VarianceTest.java,testBiased,,Stream<Arguments>,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/AbstractDiscreteDistribution.java,solveInverseProbability,"IntUnaryOperator fun, int lowerBound, int upperBound",int,12,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ArgumentUtils.java,isFiniteStrictlyPositive,double x,boolean,1,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ArgumentUtils.java,checkProbability,double p,void,4,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/BetaDistribution.java,of,"double alpha, double beta",BetaDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/BinomialDistribution.java,of,"int trials, double p",BinomialDistribution,6,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/CauchyDistribution.java,of,"double location, double scale",CauchyDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/CauchyDistribution.java,cdf,double x,double,1,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ChiSquaredDistribution.java,of,double degreesOfFreedom,ChiSquaredDistribution,1,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ExponentialDistribution.java,of,double mean,ExponentialDistribution,4,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ExtendedPrecision.java,xsqrt2pi,double x,double,10,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ExtendedPrecision.java,computeXsqrt2pi,double a,double,1,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ExtendedPrecision.java,sqrt2xx,double x,double,10,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ExtendedPrecision.java,computeSqrt2aa,double a,double,1,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ExtendedPrecision.java,expmhxx,double x,double,8,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ExtendedPrecision.java,expxx,"double a, double b",double,2,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/FDistribution.java,of,"double numeratorDegreesOfFreedom, double denominatorDegreesOfFreedom",FDistribution,9,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/FoldedNormalDistribution.java,of,"double mu, double sigma",FoldedNormalDistribution,10,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/GammaDistribution.java,of,"double shape, double scale",GammaDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/GeometricDistribution.java,of,double p,GeometricDistribution,4,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/GumbelDistribution.java,of,"double mu, double beta",GumbelDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/HurwitzZeta.java,value,"double s, double a",double,26,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/HypergeometricDistribution.java,of,"int populationSize, int numberOfSuccesses, int sampleSize",HypergeometricDistribution,21,R
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/HypergeometricDistribution.java,getLowerDomain,"int nn, int k, int n",int,1,B
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/HypergeometricDistribution.java,getUpperDomain,"int k, int n",int,1,B
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/LaplaceDistribution.java,of,"double mu, double beta",LaplaceDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/LevyDistribution.java,of,"double mu, double c",LevyDistribution,8,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/LogisticDistribution.java,of,"double mu, double scale",LogisticDistribution,8,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/LogNormalDistribution.java,of,"double mu, double sigma",LogNormalDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/LogUniformDistribution.java,of,"double lower, double upper",LogUniformDistribution,11,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/LogUniformDistribution.java,clip,"double x, double lower, double upper",double,4,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/NakagamiDistribution.java,of,"double mu, double omega",NakagamiDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/NormalDistribution.java,of,"double mean, double sd",NormalDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ParetoDistribution.java,of,"double scale, double shape",ParetoDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/PascalDistribution.java,of,"int r, double p",PascalDistribution,7,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/PoissonDistribution.java,of,double mean,PoissonDistribution,4,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/SaddlePointExpansionUtils.java,getStirlingError,int z,double,10,R
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/SaddlePointExpansionUtils.java,getDeviancePart,"int x, double mu",double,19,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/SaddlePointExpansionUtils.java,logBinomialProbability,"int x, int n, double p, double q",double,19,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TDistribution.java,computeVariance,double degreesOfFreedom,double,9,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TDistribution.java,of,double degreesOfFreedom,TDistribution,9,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TrapezoidalDistribution.java,nonCentralMoment,"int k, double b, double c",double,3,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TrapezoidalDistribution.java,of,"double a, double b, double c, double d",TrapezoidalDistribution,23,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TriangularDistribution.java,of,"double a, double c, double b",TriangularDistribution,13,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TruncatedNormalDistribution.java,of,"double mean, double sd, double lower, double upper",TruncatedNormalDistribution,15,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TruncatedNormalDistribution.java,clip,"double x, double lower, double upper",double,4,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TruncatedNormalDistribution.java,moment1,"double a, double b",double,24,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TruncatedNormalDistribution.java,moment2,"double a, double b",double,28,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/TruncatedNormalDistribution.java,variance,"double a, double b",double,13,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/UniformContinuousDistribution.java,of,"double lower, double upper",UniformContinuousDistribution,8,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/UniformDiscreteDistribution.java,of,"int lower, int upper",UniformDiscreteDistribution,5,R
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/WeibullDistribution.java,of,"double shape, double scale",WeibullDistribution,9,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ZetaDistribution.java,of,double exponent,ZetaDistribution,5,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ZipfDistribution.java,of,"int numberOfElements, double exponent",ZipfDistribution,19,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ZipfDistribution.java,generalizedHarmonic,"int from, int to, double m",double,5,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ZipfDistribution.java,generalizedHarmonicAscendingSum,"int n, double m",double,15,P
+commons-statistics,commons-statistics-distribution/src/main/java/org/apache/commons/statistics/distribution/ZipfDistribution.java,allowedDifference,"double large, double small",boolean,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/AbstractContinuousDistributionTest.java,assertTruncatedDistributionAtPositiveInfinity,boolean finiteBound,void,19,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/AbstractContinuousDistributionTest.java,assertTruncatedDistributionAtNegativeInfinity,boolean finiteBound,void,19,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/BaseDiscreteDistributionTest.java,assertPmfAndLogPmfAtBound,"DiscreteDistribution dist, int x, DoubleTolerance tolerance, String name",void,9,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/BaseDistributionTest.java,assertMethodNotModified,"Class<?> cls, int modifiers, String name, Class<?>... parameterTypes",void,11,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/BetaDistributionTest.java,gTest,"final ContinuousDistribution expectedDistribution, final double[] values",double,21,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/BinomialDistributionTest.java,binomialProbability,"int n, double p, int k",BigDecimal,17,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/ChiSquaredDistributionTest.java,testAdditionalDensity,,Stream<Arguments>,67,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/ConstantsTest.java,testConstant,,Stream<Arguments>,7,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,parseParameter,String value,Object,8,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,get,"Properties props, String key",String,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,parseInt,String s,int,6,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,parseDouble,String s,double,10,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,getAsDouble,"Properties props, String key",double,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,getAsDouble,"Properties props, String key, double defaultValue",double,6,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,getAsInt,"Properties props, String key, int defaultValue",int,6,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,getAsBoolean,"Properties props, String key, boolean defaultValue",boolean,6,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,getAsDoubleArray,"Properties props, String key",double[],5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,getAsDoubleArray,"Properties props, String key, double[] defaultValue",double[],7,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,getAsIntArray,"Properties props, String key",int[],5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,getAsIntArray,"Properties props, String key, int[] defaultValue",int[],7,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,validatePair,"double[] p, double[] v, String name",void,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,validatePair,"int[] p, double[] v, String name",void,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,validatePair,"double[] p, int[] v, String name",void,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DistributionTestData.java,validatePair,"int l1, int l2, String name",void,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DoubleTolerances.java,equals,,DoubleTolerance,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DoubleTolerances.java,ulps,final int maxUlps,DoubleTolerance,10,R
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DoubleTolerances.java,absolute,final double eps,DoubleTolerance,14,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/DoubleTolerances.java,relative,final double eps,DoubleTolerance,14,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/ExtendedPrecisionTest.java,assertPrecision,"RMS rms, double maxError, double rmsError",void,2,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/ExtendedPrecisionTest.java,addError,"double z, BigDecimal expected, double e, RMS rms",double,9,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/FDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/FDistributionTest.java,testAdditionalLogDensity,,Stream<Arguments>,31,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/FDistributionTest.java,testAdditionalDensity,,Stream<Arguments>,36,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/FoldedNormalDistributionTest.java,testMean,,Stream<Arguments>,7,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/GammaDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,7,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/GammaDistributionTest.java,testAdditionalDensity,,Stream<Arguments>,18,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/GammaDistributionTest.java,testAdditionalLogDensity,,Stream<Arguments>,16,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/GammaDistributionTest.java,logGamma,double x,double,7,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/GammaDistributionTest.java,density,"double x, double shape, double scale",double,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/GammaDistributionTest.java,testMath753,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/GeometricDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/HurwitzZetaTest.java,zeta,"double s, double a, int n, int m",double,32,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/HurwitzZetaTest.java,assertZeta,"double s, double a, BigDecimal expected, DoubleBinaryOperator f, int ulp, RMS rms",double,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/HurwitzZetaTest.java,testZetaSpot,,Stream<Arguments>,84,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/HypergeometricDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/HypergeometricDistributionTest.java,testHypergeometricDistributionProbabilities,"int populationSize, int sampleSize, int numberOfSuccesses, double[][] data",void,13,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/LogUniformDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,7,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/NakagamiDistributionTest.java,testAdditionalLogDensity,,Stream<Arguments>,24,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/NormalDistributionTest.java,assertPDF,"double x, BigDecimal expected, int ulpTolerance",void,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/ParetoDistributionTest.java,assertSampler,"ParetoDistribution dist, double expected",void,11,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/ParetoDistributionTest.java,createRNG,long... values,UniformRandomProvider,11,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/PascalDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,isNotEmpty,String string,boolean,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,isNullOrEmpty,String string,boolean,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,hasNonWhiteSpace,String string,boolean,6,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,toString,Object object,String,10,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,negateToString,Object object,String,2,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,orToString,"Object object1, Object object2",String,6,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,andToString,"Object object1, Object object2",String,6,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,concatenate,"String s1, String operator, String s2",String,23,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,lastOperator,String s,String,6,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/StringUtils.java,firstOperator,String s,String,9,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TDistributionTest.java,testNistData,,Stream<Arguments>,7,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestName.java,fromString,String key,TestName,6,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,assertEquals,"double expected, double actual, DoubleTolerance tolerance",void,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,assertEquals,"double expected, double actual, DoubleTolerance tolerance, String message",void,3,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,assertEquals,"double expected, double actual, DoubleTolerance tolerance, Supplier<String> messageSupplier",void,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,format,"double expected, double actual, DoubleTolerance tolerance, String message",String,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,buildPrefix,String message,String,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,formatValues,"double expected, double actual, DoubleTolerance tolerance",String,12,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,formatUlpDifference,"double expected, double actual",String,18,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,appendTolerance,"final StringBuilder msg, final Object tolerance",void,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,assertRelativelyEquals,"Supplier<String> msg, double expected, double actual, double relativeError",void,12,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,assertChiSquare,"int[] valueLabels, double[] expected, long[] observed, double alpha",void,24,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,assertChiSquareAccept,"int[] values, double[] expected, long[] observed, double alpha",void,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,assertChiSquareAccept,"double[] expected, long[] observed, double alpha",void,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,getDistributionQuartiles,ContinuousDistribution distribution,double[],5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,getDistributionQuartiles,DiscreteDistribution distribution,int[],5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,updateCounts,"double value, long[] counts, double[] quartiles",void,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,updateCounts,"int value, long[] counts, int[] quartiles",void,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,eliminateZeroMassPoints,"int[] densityPoints, double[] densityValues",int,21,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,sample,"int n, ContinuousDistribution.Sampler sampler",double[],5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,sample,"int n, DiscreteDistribution.Sampler sampler",int[],5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,getLength,double[] array,int,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,getLength,int[] array,int,1,B
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TestUtils.java,getLength,Object array,int,1,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TrapezoidalDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,21,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TrapezoidalDistributionTest.java,moments,"double a, double b, double c, double d, int ulps",Arguments,14,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TrapezoidalDistributionTest.java,survivalProbability,"double a, double b, double c, double d, double x",double,8,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TriangularDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TruncatedNormalDistributionTest.java,assertMean,"double lower, double upper, double expected, double eps",void,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TruncatedNormalDistributionTest.java,assertMean,"double lower, double upper, double u, double s, double expected, double eps",void,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TruncatedNormalDistributionTest.java,assertVariance,"double lower, double upper, double expected, double eps",void,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/TruncatedNormalDistributionTest.java,assertVariance,"double lower, double upper, double u, double s, double expected, double eps",void,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/UniformContinuousDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/UniformDiscreteDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,4,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/WeibullDistributionTest.java,testAdditionalMoments,,Stream<Arguments>,12,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/ZetaDistributionTest.java,testJavadocCumulativeProbabilityHighPrecision,,Stream<Arguments>,14,P
+commons-statistics,commons-statistics-distribution/src/test/java/org/apache/commons/statistics/distribution/ZipfDistributionTest.java,testAdditionlSurvivalProbabilityHighPrecision,,Stream<Arguments>,23,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,evaluate,"List<Distribution<ContinuousDistribution>> dist, ContinuousDistributionOptions distributionOptions",void,16,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,evaluate,"List<Distribution<ContinuousDistribution>> dist, InverseContinuousDistributionOptions distributionOptions",void,16,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,evaluate,"List<Distribution<DiscreteDistribution>> dist, DiscreteDistributionOptions distributionOptions",void,15,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,evaluate,"List<Distribution<DiscreteDistribution>> dist, InverseDiscreteDistributionOptions distributionOptions",void,15,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,check,"List<Distribution<ContinuousDistribution>> dist, ContinuousDistributionOptions distributionOptions",void,55,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,check,"List<Distribution<DiscreteDistribution>> dist, DiscreteDistributionOptions distributionOptions",void,51,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,infoContinuous,"List<Distribution<ContinuousDistribution>> dist, OutputOptions outputOptions",void,12,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,infoDiscrete,"List<Distribution<DiscreteDistribution>> dist, OutputOptions outputOptions",void,12,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createFormatAndWriteHeader,"OutputOptions outputOptions, PrintWriter out",String,3,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,sampleContinuous,"List<Distribution<ContinuousDistribution>> dist, SampleOptions outputOptions",void,10,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,sampleDiscrete,"List<Distribution<DiscreteDistribution>> dist, SampleOptions outputOptions",void,10,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createOutput,DistributionOptions distributionOptions,PrintWriter,1,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createOutput,File outputFile,PrintWriter,13,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createDelimiter,DistributionOptions distributionOptions,String,2,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createHeader,"String xname, List<Distribution<T>> dist, final PrintWriter out, final String delim",<T> void,6,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createFunction,ContinuousDistributionOptions distributionOptions,ContinuousFunction,30,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createFunction,DiscreteDistributionOptions distributionOptions,DiscreteFunction,30,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createFunction,InverseContinuousDistributionOptions distributionOptions,ContinuousFunction,24,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createFunction,InverseDiscreteDistributionOptions distributionOptions,InverseDiscreteFunction,24,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createPoints,ContinuousDistributionOptions distributionOptions,double[],8,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createPoints,DiscreteDistributionOptions distributionOptions,int[],8,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,createPoints,InverseDiscreteDistributionOptions distributionOptions,double[],8,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,readDoublePoints,File inputFile,double[],16,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,readIntPoints,File inputFile,int[],16,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,enumerate,"double min, double max, int steps",double[],16,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,series,"int min, int max, int increment",int[],10,T
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,validateLengths,int... lengths,int,12,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,expandToLength,"double[] array, int n",double[],5,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,expandToLength,"int[] array, int n",int[],5,C
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/DistributionUtils.java,closeToInteger,double p,boolean,1,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/ManifestVersionProvider.java,isApplicableManifest,Manifest manifest,boolean,2,P
+commons-statistics,commons-statistics-examples/examples-distribution/src/main/java/org/apache/commons/statistics/examples/distribution/ManifestVersionProvider.java,get,"Attributes attributes, String key",Object,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/Int128.java,create,,Int128,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/Int128.java,of,long x,Int128,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolateBigDecimal,"long a, long b, double t",StatisticResult,22,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolateDD,"long a, long b, double t",StatisticResult,22,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolateDD2,"long a, long b, double t",StatisticResult,30,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolateHybrid,"long a, long b, double t",StatisticResult,40,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolatePartial,"long a, long b, double t",StatisticResult,38,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolatePartialAsDouble,"long a, long b, double t",StatisticResult,2,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolatePartial2AsLong,"long a, long b, double t",StatisticResult,2,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolateDD3,"long a, long b, double t",StatisticResult,62,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolateDD4,"long a, long b, double t",StatisticResult,69,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,interpolateDD5,"long a, long b, double t",StatisticResult,62,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,add3,"double x, double xx, double y, double yy, double[] s12",double,18,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformance.java,fastTwoSumLow,"double a, double b, double x",double,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMath.java,squareHigh,long x,long,10,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMath.java,unsignedMultiplyHigh,"long value1, long value2",long,12,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMath.java,unsignedMultiplyToDoubleBigInteger,"long a, long b",double,9,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMath.java,unsignedMultiplyToDouble,"long x, long y",double,5,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMath.java,uin128ToDouble,"long hi, long lo",double,17,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,createIntStatistic,"IntConsumer c, DoubleSupplier s",IntStatistic,10,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,createDoubleAsIntStatistic,"DoubleConsumer c, DoubleSupplier s",IntStatistic,10,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,createDoubleStatistic,"DoubleConsumer c, DoubleSupplier s",DoubleStatistic,10,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,createLongStatistic,"LongConsumer c, DoubleSupplier s",LongStatistic,10,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,createDoubleAsLongStatistic,"DoubleConsumer c, DoubleSupplier s",LongStatistic,10,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,square,BigInteger x,BigInteger,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceDD,IntVarianceData data,double,18,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceDD2,IntVarianceData data,double,15,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceBigIntegerPow,IntVarianceData data,double,13,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceBigIntegerMultiply,IntVarianceData data,double,13,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceSumSquareBigInteger,IntVarianceData data,double,14,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceSumSquareMultiplyIntBigInteger,IntVarianceData data,double,15,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceUIntBigInteger,IntVarianceData data,double,24,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceUIntDD,IntVarianceData data,double,20,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceUIntDD2,IntVarianceData data,double,20,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceUIntBigInteger2,IntVarianceData data,double,17,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceUIntBigInteger3,IntVarianceData data,double,17,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceUIntDouble,IntVarianceData data,double,18,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceUIntBigFraction,IntVarianceData data,double,21,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,varianceUIntBigDecimal,IntVarianceData data,double,22,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,applyAll,"long[] array, LongLongToDoubleFunction f",double,5,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,mean,int[] data,double,5,R
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMomentPerformance.java,mean,long[] data,double,5,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/LongVariance2.java,create,,LongVariance2,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/LongVariance2.java,of,long... values,LongVariance2,7,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/LongVariance2.java,square,BigInteger x,BigInteger,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MedianPerformance.java,sortMedian,double[] values,double,17,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MedianPerformance.java,sortMedian,int[] values,double,17,R
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MedianPerformance.java,sortMedian,long[] values,Double,17,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,forEach,"T action, double[] values",<T extends DoubleConsumer> T,4,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,correctMean,"double[] data, double xbar",double,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,correctMeanKahan,"double[] data, double xbar",double,13,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arrayRollingFirstMoment,double[] data,double,9,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arraySafeRollingFirstMoment,double[] data,double,9,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arrayScaledRollingFirstMoment,double[] data,double,9,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arrayInlineRollingFirstMoment,double[] data,double,9,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arrayInlineSafeRollingFirstMoment,double[] data,double,10,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arrayInlineSafeRollingFirstMomentExt,double[] data,double,10,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arraySumMean,double[] data,double,5,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arrayDDSumMean,double[] data,double,5,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arraySumOfCubed,double[] data,double,7,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arraySumOfCubedPow,double[] data,double,6,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arraySumOfFourth,double[] data,double,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/MomentPerformance.java,arraySumOfFourthPow,double[] data,double,6,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,getEnumFromParam,"Class<E> cls, String parameters",<E extends Enum<E>> EnumSet<E>,18,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,createSeeds,"int seed, int n",int[],10,C
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,createDistributions,"EnumSet<Distribution> dist, UniformRandomProvider rng, int n, int m, int o",List<int[]>,123,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,medianOf3Killer,int[] x,void,9,T
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,reverse,"int[] x, int from, int to",int[],7,C
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,dither,int[] x,int[],5,C
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,sortQuantile,"double[] values, double[] p",double[],27,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,sortQuantile,"int[] values, double[] p",double[],27,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,sortQuantile,"long[] values, double[] p",double[],27,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformance.java,checkQuantile,double p,void,3,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/StatisticCreationPerformance.java,of,double... values,CMin,5,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/StatisticCreationPerformance.java,ofRange,"double[] values, int from, int to",CMin,5,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/StatisticCreationPerformance.java,of,double... values,CProduct,5,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/StatisticCreationPerformance.java,ofRange,"double[] values, int from, int to",CProduct,5,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128.java,create,,UInt128,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128.java,of,long x,UInt128,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128.java,of,UInt96 x,UInt128,7,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt192.java,create,,UInt192,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt96.java,create,,UInt96,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt96.java,of,long x,UInt96,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/distribution/InverseProbabilityPerformance.java,createFunction,"String implementation, double relativeAccuracy, double absoluteAccuracy, String invert",DoubleUnaryOperator,12,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/distribution/InverseProbabilityPerformance.java,createDistribution,String implementation,ContinuousDistribution,15,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/distribution/InverseProbabilityPerformance.java,isFiniteStrictlyPositive,double x,boolean,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/distribution/InverseProbabilityPerformance.java,checkProbability,double p,void,4,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/ranking/NaturalRankingPerformance.java,createData,"UniformRandomProvider rng, int length, double tieFraction, int ties, double alpha",double[],27,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/ranking/NaturalRankingPerformance.java,swap,"double[] array, int i, int j",void,3,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/ranking/NaturalRankingPerformance.java,createFunction,String name,UnaryOperator<double[]>,9,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/main/java/org/apache/commons/statistics/examples/jmh/ranking/NaturalRankingPerformance.java,getFunctionNames,,String[],1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/Int128Test.java,testAddLong,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/Int128Test.java,testAddLongs,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/Int128Test.java,testAddInt128,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/Int128Test.java,testSquareLow,,LongStream,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformanceTest.java,setup,,void,52,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformanceTest.java,teardown,,void,2,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformanceTest.java,addCase,"List<Arguments> list, long a, long b, double t",void,12,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformanceTest.java,testLongInterpolate,,Stream<Arguments>,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformanceTest.java,testLongInterpolateHard,,Stream<Arguments>,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/InterpolationPerformanceTest.java,assertLongInterpolate,"long a, long b, double t, double doubleValue, long longValue, InterpolationFunction fun, int ulps, int longDelta",void,22,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMathTest.java,testSquareHigh,,LongStream,13,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMathTest.java,testUnsignedMultiplyHigh,,Stream<Arguments>,19,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMathTest.java,toUnsignedBigInteger,long v,BigInteger,3,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/IntMathTest.java,testUin128ToDouble,,Stream<Arguments>,20,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/QuantilePerformanceTest.java,assertGetEnumFromParam,Class<E> cls,<E extends Enum<E>> void,17,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/TestUtils.java,assertEquals,"BigDecimal expected, DD actual, double eps, String msg",double,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/TestUtils.java,assertEquals,"BigDecimal expected, DD actual, double eps, Supplier<String> msg",double,31,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/TestUtils.java,printf,"String format, Object... args",void,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/TestUtils.java,prefix,Supplier<String> msg,String,1,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128Test.java,testAddLong,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128Test.java,testAddLongs,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128Test.java,testAddInt128,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128Test.java,testOfInt96,,Stream<Arguments>,10,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128Test.java,assertMultiplyInt,"long a, long b, int n",void,7,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128Test.java,testMultiplyInt,,Stream<Arguments>,15,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128Test.java,assertSubtract,"long a, long b, long c, long d",void,7,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt128Test.java,testSubtract,,Stream<Arguments>,13,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt192Test.java,testAddSquareLong,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt192Test.java,testAddSquareLongs,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt192Test.java,testAddInt192,,Stream<Arguments>,13,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt192Test.java,assertMultiplyInt,"long a, long b, long c, int n",void,7,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt192Test.java,testMultiplyInt,,Stream<Arguments>,16,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt192Test.java,assertSubtract,"long a, long b, long c, long d, long e",void,7,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt192Test.java,testSubtract,,Stream<Arguments>,14,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt96Test.java,testAddLong,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt96Test.java,testAddLongs,,Stream<Arguments>,8,P
+commons-statistics,commons-statistics-examples/examples-jmh/src/test/java/org/apache/commons/statistics/examples/jmh/descriptive/UInt96Test.java,testAddInt128,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkSignificance,double alpha,void,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkProbability,double p,void,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkNonNegative,int v,int,4,C
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkNonNegative,double v,void,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkNonNegative,long[] values,void,5,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkNonNegative,long[][] values,void,3,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkStrictlyPositive,int v,int,4,C
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkStrictlyPositive,double v,double,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkStrictlyPositive,double[] values,void,5,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkFinite,double v,double,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkFinite,double[] values,void,5,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkNonNaN,double v,double,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkRectangular,long[][] array,void,6,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkValuesRequiredSize,"int size, int required",void,3,C
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkCategoriesRequiredSize,"int size, int required",void,3,C
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkValuesSizeMatch,"int size1, int size2",void,3,C
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkOption,"E v, Set<E> allowed",<E extends Enum<E>> E,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Arguments.java,checkTable,int[][] table,void,13,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/BinomialTest.java,withDefaults,,BinomialTest,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/BinomialTest.java,twoSidedBinomialTest,"int n, int k, double probability, BinomialDistribution distribution",double,16,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/BrentOptimizer.java,of,"double point, double value",PointValuePair,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/ChiSquareTest.java,withDefaults,,ChiSquareTest,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/ChiSquareTest.java,computeP,"double chi2, double degreesOfFreedom",double,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/ChiSquareTest.java,checkNonZero,"double value, String name, int index",void,3,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/FisherExactTest.java,withDefaults,,FisherExactTest,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/FisherExactTest.java,twoSidedTest,"int k, HypergeometricDistribution distribution",double,22,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/GTest.java,withDefaults,,GTest,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/GTest.java,computeP,"double g, double degreesOfFreedom",double,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/GTest.java,checkNonZero,"double value, String name, int index",void,3,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,sf,"double x, int n",double,21,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,sfExact,"double x, int n",double,22,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,durbinMTW,"double x, int n",double,12,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,createH,"double x, int n",RealSquareMatrix,29,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,pomeranz,"double x, int n",double,50,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,computeAP,"double[] p, double z",void,5,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,computeA,"int n, double t, int[] amt, int[] apt",void,34,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,pelzGood,"double x, int n",double,60,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,sf,"double x, int n",double,8,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,sfExact,"double x, int n",double,17,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,sfAsymptotic,"double x, int n",double,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,sf,"double x, int n, ScaledPower power",double,61,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,splitX,"int n, double x, double[] alpha",int,10,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,log2,int n,int,1,C
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,ksSum,double x,double,20,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistribution.java,clipProbability,double p,double,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,withDefaults,,KolmogorovSmirnovTest,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,testIntegralKolmogorovSmirnovStatistic,"double[] x, double[] y, long plus, long minus",boolean,42,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,createSampler,"double[] x, double[] y, UniformRandomProvider rng",DoubleSupplier,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,createSampler,"double[] x, double[] y, UniformRandomProvider rng, int maxArraySize",DoubleSupplier,18,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,computeD,"long dnm, int n, int m, int gcd",double,3,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,twoSampleExactP,"long dnm, int n, int m, int gcd, boolean strict, boolean twoSided",double,23,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,twoSampleTwoSidedPStabilizedInner,"long d, int n, int m, int gcd",double,36,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,twoSampleOneSidedPOutside,"long d, int n, int m, int gcd",double,33,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,twoSampleOneSidedPOutsideSquare,"long d, int n",double,12,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,twoSampleTwoSidedPOutsideSquare,"long d, int n",double,16,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,binom,"int n, int k",double,1,R
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,twoSampleApproximateP,"double d, int n, int m, boolean twoSided",double,7,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,checkArrayLength,double[] array,int,5,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTest.java,sort,"double[] x, String name",double[],5,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,withDefaults,,MannWhitneyUTest,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,checkSamples,"double[] x, double[] y",void,2,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,concatenateSamples,"double mu, double[] x, double[] y",double[],9,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,calculateExactPValue,"double u, int m, int n, AlternativeHypothesis alternative",double,22,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,cdf,"int u1, int u2, int m, int n, double binom",double,3,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,sf,"int u1, int u2, int m, int n, double binom",double,3,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,computeCdf,"int k, int m, int n, double binom",double,5,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,getF,"int m, int n, int k",double[][][],68,R
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,isOversizedAllocation,"double x, double y, double z",boolean,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,initialize,double[] fmn,void,2,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/MannWhitneyUTest.java,fmnk,"double[][][] f, int m, int n, int k",double,9,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/OneWayAnova.java,withDefaults,,OneWayAnova,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/OneWayAnova.java,aov,"Collection<double[]> data, double[] statistic",Result,42,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/OneWayAnova.java,allMatch,"double v, double[] a",boolean,6,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/OneWayAnova.java,allMatch,Collection<double[]> data,boolean,8,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/OneWayAnova.java,pow2,double x,double,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Searches.java,searchDescending,"int a, int b, double x, IntToDoubleFunction value",int,2,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/Searches.java,searchAscending,"int a, int b, double x, IntToDoubleFunction value",int,24,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/SquareMatrixSupport.java,multiply,"double[] a, int sa, double[] b, int sb, double[] col, double[] out",int,27,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/SquareMatrixSupport.java,checkExponent,int p,void,3,C
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/SquareMatrixSupport.java,create,"int dimension, double[] data",RealSquareMatrix,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/StatisticUtils.java,subtract,"double[] x, double y",double[],1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/StatisticUtils.java,computeDegreesOfFreedom,"int n, int m",int,5,C
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/StatisticUtils.java,computeRatio,"double[] expected, long[] observed",double,15,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/StatisticUtils.java,add,"DD sum, long v",DD,3,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/StatisticUtils.java,mean,Collection<double[]> samples,double,8,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/StatisticUtils.java,meanDifference,"double[] x, double[] y",double,9,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/StatisticUtils.java,varianceDifference,"double[] x, double[] y, double mean",double,15,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/TTest.java,withDefaults,,TTest,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/TTest.java,computeT,"double m, double v, long n",double,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/TTest.java,computeT,"double mu, double m1, double v1, long n1, double m2, double v2, long n2",double,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/TTest.java,computeDf,"double v1, long n1, double v2, long n2",double,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/TTest.java,computeHomoscedasticT,"double mu, double m1, double v1, long n1, double m2, double v2, long n2",double,2,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/TTest.java,checkSampleSize,long n,long,4,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/UnconditionedExactTest.java,withDefaults,,UnconditionedExactTest,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/UnconditionedExactTest.java,statisticZ,"int a, int b, int m, int n, boolean pooled",double,13,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/UnconditionedExactTest.java,statisticBoschlooTwoSided,"Hypergeom distribution, int k",double,16,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/UnconditionedExactTest.java,createBinomialModel,XYList tableList,DoubleUnaryOperator,50,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/UnconditionedExactTest.java,createLogBinomialCoefficients,int n,IntToDoubleFunction,7,R
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/UnconditionedExactTest.java,checkTable,int[][] table,void,17,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,withDefaults,,WilcoxonSignedRankTest,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,computeStatistic,"double[] z, double mu",double,6,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,checkSamples,"double[] x, double[] y",void,3,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,calculateDifferences,"double mu, double[] x, double[] y",double[],5,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,calculateAbsoluteDifferences,double[] z,double[],5,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,calculateW,"final double[] obs, final double[] ranks",double,7,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,countZeros,final double[] z,int,10,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,calculateTieCorrection,double[] ranks,double,17,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,selectMethod,"PValueMethod method, int n",PValueMethod,1,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,calculateAsymptoticPValue,"double wPlus, int n, double z, double c, AlternativeHypothesis alternative, boolean continuityCorrection",double,22,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,calculateExactPValue,"int w1, int n, AlternativeHypothesis alternative",double,10,P
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,cdf,"int w1, int w2, int n",double,3,R
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,sf,"int w1, int w2, int n",double,3,R
+commons-statistics,commons-statistics-inference/src/main/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTest.java,computeCdf,"int t, int n",double,13,R
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/BinomialTestTest.java,testBinomTest,,Stream<Arguments>,10,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/BracketFinderTest.java,assertBracket,"DoubleUnaryOperator func, final BracketFinder bFind, double a, double b",void,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/BracketFinderTest.java,assertBracket,"DoubleUnaryOperator func, final BracketFinder bFind, double a, double b, double min, double max",void,13,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/BrentOptimizerTest.java,optimize,"BrentOptimizer optimizer, DoubleUnaryOperator func, double a, double b",PointValuePair,2,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/BrentOptimizerTest.java,findMin,"DoubleUnaryOperator func, double a, double b",double,14,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/BrentOptimizerTest.java,quinticFunction,,DoubleUnaryOperator,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/ChiSquareTestTest.java,testChiSquareTestUniform,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/ChiSquareTestTest.java,testChiSquareTest,,Stream<Arguments>,38,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/ChiSquareTestTest.java,testChiSquareTestTable,,Stream<Arguments>,17,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/ChiSquareTestTest.java,testChiSquareTestTwoSampleThrows,"BiConsumer<long[], long[]> action",void,20,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/ChiSquareTestTest.java,testChiSquareTestTwoSample,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/FisherExactTestTest.java,testMode,,Stream<Arguments>,10,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/FisherExactTestTest.java,testFisherExactTest,,Stream<Arguments>,20,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/GTestTest.java,assertTestUniformThrows,Consumer<long[]> action,void,6,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/GTestTest.java,testGTestUniform,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/GTestTest.java,assertTestThrows,"BiConsumer<double[], long[]> action",void,20,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/GTestTest.java,testGTest,,Stream<Arguments>,32,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/GTestTest.java,assertTestTableThrows,Consumer<long[][]> action,void,18,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/GTestTest.java,testGTestTable,,Stream<Arguments>,21,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/GTestTest.java,testScaling,,Stream<Arguments>,5,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,assertSubNormalP,"double expected, double actual",void,7,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,onesf,"double x, int n, ScaledPower power",double,11,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,onesf,"double x, int n, MathContext mc",double,11,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,sf,"double x, int n, MathContext mathContext",double,57,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,bd,double v,BigDecimal,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,bd,int v,BigDecimal,1,R
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,addDD,"BigDecimal a, BigDecimal b, MathContext mc",BigDecimal,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,mulDD,"BigDecimal a, BigDecimal b, MathContext mc",BigDecimal,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,divDD,"BigDecimal a, BigDecimal b, MathContext mc",BigDecimal,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,div22,"int a, int b, MathContext mc",BigDecimal,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovDistributionTest.java,simplePowScaled,"DD x, int n, long[] exp",DD,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testOneSampleThrows,Consumer<double[]> action,void,6,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testOneSample,,Stream<Arguments>,41,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testTwoSampleThrows,"BiConsumer<double[], double[]> action",void,21,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testTwoSample,,Stream<Arguments>,90,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testTwoSampleTwoSidedExactPCritical,,Stream<Arguments>,9,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testTwoSampleTwoSidedExactP,,Stream<Arguments>,35,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,addTwoSampleTwoSidedExactPArguments," Stream.Builder<Arguments> builder, int n, int m, int d, double eps",void,5,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testTwoSampleTwoSidedApproximateP,,Stream<Arguments>,37,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,findTwoSampleD,"double p, int n, int m, long a, long b, boolean above, int gcd",long,12,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testTwoSampleWithTies,,Stream<Arguments>,95,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,assertThrowsIllegalArgumentException,"double[] x, double[] y",void,5,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testTwoSampleEstimateP,,Stream<Arguments>,15,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,testTwoSampleOneSidedExactP,,Stream<Arguments>,15,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/KolmogorovSmirnovTestTest.java,assertTwoSampleExactP,"int n, int m, long dmn, double p2, double p2s, double p1, double p1s, double eps",void,9,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/MannWhitneyUTestTest.java,assertMannWhitneyUTestThrows,"BiConsumer<double[], double[]> action",void,10,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/MannWhitneyUTestTest.java,testMannWhitneyU,,Stream<Arguments>,139,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/MannWhitneyUTestTest.java,testCDF,,Stream<Arguments>,27,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/MannWhitneyUTestTest.java,hasTies,"double[] x, double[] y",boolean,8,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/OneWayAnovaTest.java,assertAnovaTestThrows,Consumer<Collection<double[]>> action,void,16,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/OneWayAnovaTest.java,testAnova,,Stream<Arguments>,66,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/SearchesTest.java,testSearch,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/SearchesTest.java,createValues,"int length, int n, boolean descending",double[],17,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/SquareMatrixSupportTest.java,testRealSquareMatrixPower,,Stream<Arguments>,29,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/SquareMatrixSupportTest.java,assertEquals,"final RealMatrix a, final RealSquareMatrix b, int ulp",void,15,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/SquareMatrixSupportTest.java,testRealSquareMatrixPowerWithScale,,Stream<Arguments>,23,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/StatisticUtilsTest.java,testComputeRatio,,Stream<Arguments>,23,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/StatisticUtilsTest.java,testMeanAndVariance,,Stream<Arguments>,6,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/StatisticUtilsTest.java,testMeanAndVariance2,,Stream<double[]>,6,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TestUtils.java,printf,"String format, Object... args",void,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TestUtils.java,assertThrowsWithMessage,"Class<T> expectedType, Executable executable, String... values",<T extends Throwable> T,13,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TestUtils.java,assertSignificanceLevel,"DoubleConsumer fun, String msg",void,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TestUtils.java,assertSignificanceLevel,"DoubleConsumer fun, Supplier<String> msg",void,10,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TestUtils.java,assertProbability,"double expected, double actual, double relativeError, String msg",void,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TestUtils.java,assertProbability,"double expected, double actual, double relativeError, Supplier<String> msg",void,11,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TestUtils.java,assertRelativelyEquals,"double expected, double actual, double relativeError, String msg",void,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TestUtils.java,assertRelativelyEquals,"double expected, double actual, double relativeError, Supplier<String> msg",void,7,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TestUtils.java,prefix,Supplier<String> msg,String,1,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,assertOneSampleDatasetThrows,DDLConsumer action,void,11,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,testOneSampleDataset,,Stream<Arguments>,15,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,assertOneSampleThrows,Consumer<double[]> action,void,7,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,testOneSample,,Stream<Arguments>,14,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,assertPairedSampleThrows,"BiConsumer<double[], double[]> action",void,18,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,testPairedSample,,Stream<Arguments>,23,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,assertTwoSampleDatasetThrows,DDLDDLConsumer action,void,19,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,testTwoSampleDataset,,Stream<Arguments>,15,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,testTwoSampleDataset2,,Stream<Arguments>,18,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,assertTwoSampleThrows,"BiConsumer<double[], double[]> action",void,13,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/TTestTest.java,testTwoSample,,Stream<Arguments>,38,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/UnconditionedExactTestTest.java,testCandidatesList,,Stream<Arguments>,40,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/UnconditionedExactTestTest.java,testZPooled,,Stream<Arguments>,42,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/UnconditionedExactTestTest.java,testZUnpooled,,Stream<Arguments>,42,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/UnconditionedExactTestTest.java,testBoschloo,,Stream<Arguments>,42,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/UnconditionedExactTestTest.java,testNuisanceParameter,,Stream<Arguments>,18,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,testTieCorrection,,Stream<Arguments>,11,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,scipyTieCorrect,"double tieCorrect, double... ranks",Arguments,3,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,assertWilcoxonSignedRankDifferencesThrows,Consumer<double[]> action,void,6,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,testWilcoxonSignedRankDifferences,,Stream<Arguments>,13,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,assertWilcoxonSignedRankThrows,"BiConsumer<double[], double[]> action",void,15,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,testWilcoxonSignedRank,,Stream<Arguments>,201,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,hasTies,"double[] x, double[] y",boolean,11,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,hasTies,double[] z,boolean,8,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,countZeros,"double[] x, double[] y",int,7,P
+commons-statistics,commons-statistics-inference/src/test/java/org/apache/commons/statistics/inference/WilcoxonSignedRankTestTest.java,hasZeros,double[] z,boolean,6,P
+commons-statistics,commons-statistics-interval/src/main/java/org/apache/commons/statistics/interval/ArgumentUtils.java,checkErrorRate,double alpha,void,4,P
+commons-statistics,commons-statistics-interval/src/main/java/org/apache/commons/statistics/interval/BinomialConfidenceInterval.java,clip,double p,double,1,P
+commons-statistics,commons-statistics-interval/src/test/java/org/apache/commons/statistics/interval/BinomialConfidenceIntervalTest.java,testInterval,,Stream<Arguments>,43,P
+commons-statistics,commons-statistics-interval/src/test/java/org/apache/commons/statistics/interval/BinomialConfidenceIntervalTest.java,add,"Builder<Arguments> builder, BinomialConfidenceInterval method, int n, int x, double alpha, double lower, double upper, double relativeError",void,1,P
+commons-statistics,commons-statistics-interval/src/test/java/org/apache/commons/statistics/interval/NormalConfidenceIntervalTest.java,testInterval,,Stream<Arguments>,25,P
+commons-statistics,commons-statistics-interval/src/test/java/org/apache/commons/statistics/interval/NormalConfidenceIntervalTest.java,add,"Builder<Arguments> builder, NormalConfidenceInterval method, double mean, double variance, int n, double alpha, double lower, double upper, double relativeError",void,1,P
+commons-statistics,commons-statistics-interval/src/test/java/org/apache/commons/statistics/interval/UserGuideTest.java,assertInterval,"Interval interval, double lower, double upper, double relError",void,2,P
+commons-statistics,commons-statistics-ranking/src/main/java/org/apache/commons/statistics/ranking/NaturalRanking.java,createNonNaNRankData,double[] data,DataPosition[],9,P
+commons-statistics,commons-statistics-ranking/src/main/java/org/apache/commons/statistics/ranking/NaturalRanking.java,createMappedRankData,"double[] data, DoubleUnaryOperator nanAction",DataPosition[],9,P
+commons-statistics,commons-statistics-ranking/src/main/java/org/apache/commons/statistics/ranking/NaturalRanking.java,fill,"double[] data, IntList tiesTrace, double value",void,4,P
+commons-statistics,commons-statistics-ranking/src/main/java/org/apache/commons/statistics/ranking/NaturalRanking.java,swap,"int[] array, int i, int j",void,3,B
+commons-statistics,commons-statistics-ranking/src/test/java/org/apache/commons/statistics/ranking/NaturalRankingTest.java,assertThrowsNPEWithKeywords,"Executable executable, String... keywords",void,5,P
+commons-statistics,commons-statistics-ranking/src/test/java/org/apache/commons/statistics/ranking/NaturalRankingTest.java,testRanks,,Stream<Arguments>,83,P
+commons-statistics,commons-statistics-ranking/src/test/java/org/apache/commons/statistics/ranking/NaturalRankingTest.java,testRanksTiesRandom,,Stream<Arguments>,57,P
+commons-statistics,commons-statistics-ranking/src/test/java/org/apache/commons/statistics/ranking/NaturalRankingTest.java,testNaNsAndInfinities,,Stream<Arguments>,7,P
+commons-statistics,commons-statistics-ranking/src/test/java/org/apache/commons/statistics/ranking/NaturalRankingTest.java,testNaN,,Stream<Arguments>,7,P
+commons-statistics,commons-statistics-ranking/src/test/java/org/apache/commons/statistics/ranking/NaturalRankingTest.java,assertRanks,"RankingAlgorithm ranking, double[] data, double[] expected, String msg",void,10,P
+commons-statistics,commons-statistics-ranking/src/test/java/org/apache/commons/statistics/ranking/NaturalRankingTest.java,assertRanksByGroup,"RankingAlgorithm ranking, double[] data, int[] expectedGroups, String msg",void,76,P

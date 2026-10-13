@@ -1,0 +1,8 @@
+target = NumberUtilsMax3
+classpath = bin
+sourcepath = .
+symbolic.method = NumberUtilsMax3.max(sym#sym#sym)
+symbolic.min_int = -100
+symbolic.max_int = 100
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

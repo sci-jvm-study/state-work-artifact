@@ -1,0 +1,442 @@
+library,file,method,signature,returns,loc,failed_stage
+commons-codec,java/org/apache/commons/codec/Charsets.java,toCharset,final Charset charset,Charset,1,P
+commons-codec,java/org/apache/commons/codec/Charsets.java,toCharset,final String charset,Charset,1,P
+commons-codec,java/org/apache/commons/codec/Resources.java,getInputStream,final String name,InputStream,5,P
+commons-codec,java/org/apache/commons/codec/binary/Base16.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base16.java,toDecodeTable,final byte[] encodeTable,byte[],23,P
+commons-codec,java/org/apache/commons/codec/binary/Base16InputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base16OutputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base32.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base32.java,calculateDecodeTable,final byte[] encodeTable,byte[],13,P
+commons-codec,java/org/apache/commons/codec/binary/Base32.java,decodeTable,final boolean useHex,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base32.java,encodeTable,final boolean useHex,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base32.java,toDecodeTable,final byte[] encodeTable,byte[],8,P
+commons-codec,java/org/apache/commons/codec/binary/Base32InputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base32OutputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base45.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base45.java,calculateDecodeTable,final byte[] encodeTable,byte[],13,P
+commons-codec,java/org/apache/commons/codec/binary/Base45.java,toDecodeTable,final byte[] encodeTable,byte[],5,P
+commons-codec,java/org/apache/commons/codec/binary/Base45InputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base45OutputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base58.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base58.java,calculateDecodeTable,final byte[] encodeTable,byte[],13,P
+commons-codec,java/org/apache/commons/codec/binary/Base58.java,toDecodeTable,final byte[] encodeTable,byte[],5,P
+commons-codec,java/org/apache/commons/codec/binary/Base58InputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base58OutputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,calculateDecodeTable,final byte[] encodeTable,byte[],13,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,contains,"final byte[] bytes, final byte value",boolean,6,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,decodeBase64,final byte[] base64Data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,decodeBase64,final String base64String,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,decodeBase64Standard,final byte[] base64Data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,decodeBase64Standard,final String base64String,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,decodeBase64UrlSafe,final byte[] base64Data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,decodeBase64UrlSafe,final String base64String,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,decodeInteger,final byte[] array,BigInteger,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,encodeBase64,final byte[] binaryData,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,encodeBase64,"final byte[] binaryData, final boolean isChunked",byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,encodeBase64,"final byte[] binaryData, final boolean isChunked, final boolean urlSafe",byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,encodeBase64,"final byte[] binaryData, final boolean isChunked, final boolean urlSafe, final int maxResultSize",byte[],10,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,encodeBase64Chunked,final byte[] binaryData,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,encodeBase64String,final byte[] binaryData,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,encodeBase64URLSafe,final byte[] binaryData,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,encodeBase64URLSafeString,final byte[] binaryData,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,encodeInteger,final BigInteger bigInteger,byte[],2,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isArrayByteBase64,final byte[] arrayOctet,boolean,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isBase64,final byte octet,boolean,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isBase64,final byte[] arrayOctet,boolean,6,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isBase64,final String base64,boolean,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isBase64Standard,final byte octet,boolean,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isBase64Standard,final byte[] arrayOctet,boolean,6,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isBase64Standard,final String base64,boolean,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isBase64Url,final byte octet,boolean,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isBase64Url,final byte[] arrayOctet,boolean,6,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,isBase64Url,final String base64,boolean,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,toDecodeTable,final byte[] encodeTable,byte[],5,P
+commons-codec,java/org/apache/commons/codec/binary/Base64.java,toUrlSafeEncodeTable,final boolean urlSafe,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64InputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/Base64OutputStream.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/binary/BaseNCodec.java,clone,"final byte[] array, final byte[] defaultArray",byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/BaseNCodec.java,code,"final boolean doEncode, final BaseNCodec baseNCodec, final byte[] buf, final int offset, final int len, final Context context",void,9,P
+commons-codec,java/org/apache/commons/codec/binary/BaseNCodec.java,createPositiveCapacity,final int minCapacity,int,4,T
+commons-codec,java/org/apache/commons/codec/binary/BaseNCodec.java,getChunkSeparator,,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/BaseNCodec.java,gte0,final int value,int,4,C
+commons-codec,java/org/apache/commons/codec/binary/BaseNCodec.java,isWhiteSpace,final byte byteToCheck,boolean,1,P
+commons-codec,java/org/apache/commons/codec/binary/BaseNCodec.java,resizeBuffer,"final Context context, final int minCapacity",byte[],11,P
+commons-codec,java/org/apache/commons/codec/binary/BaseNCodec.java,toUnsignedBytes,final BigInteger value,byte[],7,P
+commons-codec,java/org/apache/commons/codec/binary/BinaryCodec.java,fromAscii,final byte[] ascii,byte[],19,P
+commons-codec,java/org/apache/commons/codec/binary/BinaryCodec.java,fromAscii,final char[] ascii,byte[],19,P
+commons-codec,java/org/apache/commons/codec/binary/BinaryCodec.java,isEmpty,final byte[] array,boolean,1,P
+commons-codec,java/org/apache/commons/codec/binary/BinaryCodec.java,toAsciiBytes,final byte[] raw,byte[],15,P
+commons-codec,java/org/apache/commons/codec/binary/BinaryCodec.java,toAsciiChars,final byte[] raw,char[],15,P
+commons-codec,java/org/apache/commons/codec/binary/BinaryCodec.java,toAsciiString,final byte[] raw,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/CharSequenceUtils.java,regionMatches,"final CharSequence cs, final boolean ignoreCase, final int thisStart, final CharSequence substring, final int start, final int length",boolean,21,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,decodeHex,final char[] data,byte[],3,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,decodeHex,"final char[] data, final byte[] out, final int outOffset",int,16,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,decodeHex,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHex,final byte[] data,char[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHex,"final byte[] data, final boolean toLowerCase",char[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHex,"final byte[] data, final char[] toDigits",char[],2,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHex,"final byte[] data, final int dataOffset, final int dataLen, final boolean toLowerCase",char[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHex,"final byte[] data, final int dataOffset, final int dataLen, final boolean toLowerCase, final char[] out, final int outOffset",void,1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHex,"final byte[] data, final int dataOffset, final int dataLen, final char[] toDigits, final char[] out, final int outOffset",char[],5,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHex,final ByteBuffer data,char[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHex,"final ByteBuffer data, final boolean toLowerCase",char[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHex,"final ByteBuffer byteBuffer, final char[] toDigits",char[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHexString,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHexString,"final byte[] data, final boolean toLowerCase",String,1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHexString,final ByteBuffer data,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,encodeHexString,"final ByteBuffer data, final boolean toLowerCase",String,1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,toAlphabet,final boolean toLowerCase,char[],1,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,toByteArray,final ByteBuffer byteBuffer,byte[],11,P
+commons-codec,java/org/apache/commons/codec/binary/Hex.java,toDigit,"final char ch, final int index",int,14,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,equals,"final CharSequence cs1, final CharSequence cs2",boolean,10,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getByteBuffer,"final String string, final Charset charset",ByteBuffer,4,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getByteBufferUtf8,final String string,ByteBuffer,1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getBytes,"final String string, final Charset charset",byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getBytesIso8859_1,final String string,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getBytesUnchecked,"final String string, final String charsetName",byte[],8,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getBytesUsAscii,final String string,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getBytesUtf16,final String string,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getBytesUtf16Be,final String string,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getBytesUtf16Le,final String string,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,getBytesUtf8,final String string,byte[],1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,newIllegalStateException,"final String charsetName, final UnsupportedEncodingException e",IllegalStateException,1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,newString,"final byte[] bytes, final Charset charset",String,1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,newString,"final byte[] bytes, final String charsetName",String,8,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,newStringIso8859_1,final byte[] bytes,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,newStringUsAscii,final byte[] bytes,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,newStringUtf16,final byte[] bytes,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,newStringUtf16Be,final byte[] bytes,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,newStringUtf16Le,final byte[] bytes,String,1,P
+commons-codec,java/org/apache/commons/codec/binary/StringUtils.java,newStringUtf8,final byte[] bytes,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/B64.java,b64from24bit,"final byte b2, final byte b1, final byte b0, final int outLen, final StringBuilder buffer",void,6,P
+commons-codec,java/org/apache/commons/codec/digest/B64.java,getRandomSalt,final int num,String,1,R
+commons-codec,java/org/apache/commons/codec/digest/B64.java,getRandomSalt,"final int num, final Random random",String,5,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,checkBufferArgs,"final byte[] buffer, final int offset, final int length",void,11,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,compress,"final int[] chainingValue, final int[] blockWords, final int blockLength, final long counter, final int flags",int[],15,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,g,"final int[] state, final int a, final int b, final int c, final int d, final int mx, final int my",void,8,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,hash,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,initHash,,Blake3,1,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,initKeyDerivationFunction,final byte[] kdfContext,Blake3,6,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,initKeyedHash,final byte[] key,Blake3,5,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,keyedHash,"final byte[] key, final byte[] data",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,packInt,"final int value, final byte[] dst, final int off, final int len",void,3,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,parentChainingValue,"final int[] leftChildCV, final int[] rightChildCV, final int[] key, final int flags",int[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,parentOutput,"final int[] leftChildCV, final int[] rightChildCV, final int[] key, final int flags",Output,3,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,round,"final int[] state, final int[] msg, final byte[] schedule",void,8,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,unpackInt,"final byte[] buf, final int off",int,1,P
+commons-codec,java/org/apache/commons/codec/digest/Blake3.java,unpackInts,"final byte[] buf, final int nrInts",int[],5,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,arc,,Crc16,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,ccitt,,Crc16,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,dnp,,Crc16,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,getArcTable,,int[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,getCcittTable,,int[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,getDnpTable,,int[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,getIbmSdlcTable,,int[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,getMaximTable,,int[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,getMcrf4xxTable,,int[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,getModbusTable,,int[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,getNrsc5Table,,int[],1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,ibmSdlc,,Crc16,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,maxim,,Crc16,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,mcrf4xx,,Crc16,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,modbus,,Crc16,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,nrsc5,,Crc16,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crc16.java,usb,,Crc16,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crypt.java,crypt,final byte[] keyBytes,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crypt.java,crypt,"final byte[] keyBytes, final String salt",String,13,P
+commons-codec,java/org/apache/commons/codec/digest/Crypt.java,crypt,final String key,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Crypt.java,crypt,"final String key, final String salt",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,digest,"final MessageDigest messageDigest, final byte[] data",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,digest,"final MessageDigest messageDigest, final ByteBuffer data",byte[],2,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,digest,"final MessageDigest messageDigest, final File data",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,digest,"final MessageDigest messageDigest, final InputStream data",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,digest,"final MessageDigest messageDigest, final Path data, final OpenOption... options",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,digest,"final MessageDigest messageDigest, final RandomAccessFile data",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getDigest,final String algorithm,MessageDigest,5,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getDigest,"final String algorithm, final MessageDigest defaultMessageDigest",MessageDigest,5,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getMd2Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getMd5Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getMessageDigest,final String algorithm,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha1Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha256Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha3_224Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha3_256Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha3_384Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha3_512Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha384Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha512_224Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha512_256Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getSha512Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getShaDigest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getShake128_256Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,getShake256_512Digest,,MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,isAvailable,final String messageDigestAlgorithm,boolean,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md2,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md2,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md2,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md2Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md2Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md2Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md5,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md5,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md5,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md5Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md5Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,md5Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha1,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha1,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha1,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha1Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha1Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha1Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha256,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha256,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha256,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha256Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha256Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha256Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_224,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_224,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_224,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_224Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_224Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_224Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_256,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_256,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_256,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_256Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_256Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_256Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_384,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_384,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_384,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_384Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_384Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_384Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_512,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_512,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_512,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_512Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_512Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha3_512Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha384,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha384,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha384,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha384Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha384Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha384Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_224,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_224,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_224,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_224Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_224Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_224Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_256,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_256,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_256,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_256Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_256Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512_256Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,sha512Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shaHex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shaHex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shaHex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake128_256,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake128_256,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake128_256,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake128_256Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake128_256Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake128_256Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake256_512,final byte[] data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake256_512,final InputStream data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake256_512,final String data,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake256_512Hex,final byte[] data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake256_512Hex,final InputStream data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,shake256_512Hex,final String data,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,updateDigest,"final MessageDigest messageDigest, final byte[] valueToDigest",MessageDigest,2,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,updateDigest,"final MessageDigest messageDigest, final ByteBuffer valueToDigest",MessageDigest,2,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,updateDigest,"final MessageDigest digest, final File data",MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,updateDigest,"final MessageDigest digest, final FileChannel data",MessageDigest,7,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,updateDigest,"final MessageDigest digest, final InputStream inputStream",MessageDigest,7,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,updateDigest,"final MessageDigest digest, final Path path, final OpenOption... options",MessageDigest,3,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,updateDigest,"final MessageDigest digest, final RandomAccessFile data",MessageDigest,1,P
+commons-codec,java/org/apache/commons/codec/digest/DigestUtils.java,updateDigest,"final MessageDigest messageDigest, final String valueToDigest",MessageDigest,2,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,requireValidName,final String name,String,11,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,get,final Path path,FileMode,10,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,blobId,"final MessageDigest messageDigest, final byte[] data",byte[],3,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,blobId,"final MessageDigest messageDigest, final long dataSize, final InputStream data",byte[],13,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,blobId,"final MessageDigest messageDigest, final Path data",byte[],8,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,getGitBlobPrefix,final long dataSize,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,getGitPrefix,"final String type, final long dataSize",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,getGitTreePrefix,final long dataSize,byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,treeId,"final MessageDigest messageDigest, final Path data",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/GitIdentifiers.java,treeIdBuilder,final MessageDigest messageDigest,TreeIdBuilder,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,getHmacMd5,final byte[] key,Mac,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,getHmacSha1,final byte[] key,Mac,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,getHmacSha256,final byte[] key,Mac,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,getHmacSha384,final byte[] key,Mac,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,getHmacSha512,final byte[] key,Mac,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,getInitializedMac,"final HmacAlgorithms algorithm, final byte[] key",Mac,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,getInitializedMac,"final String algorithm, final byte[] key",Mac,11,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacMd5,"final byte[] key, final byte[] valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacMd5,"final byte[] key, final InputStream valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacMd5,"final String key, final String valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacMd5Hex,"final byte[] key, final byte[] valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacMd5Hex,"final byte[] key, final InputStream valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacMd5Hex,"final String key, final String valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha1,"final byte[] key, final byte[] valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha1,"final byte[] key, final InputStream valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha1,"final String key, final String valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha1Hex,"final byte[] key, final byte[] valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha1Hex,"final byte[] key, final InputStream valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha1Hex,"final String key, final String valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha256,"final byte[] key, final byte[] valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha256,"final byte[] key, final InputStream valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha256,"final String key, final String valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha256Hex,"final byte[] key, final byte[] valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha256Hex,"final byte[] key, final InputStream valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha256Hex,"final String key, final String valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha384,"final byte[] key, final byte[] valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha384,"final byte[] key, final InputStream valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha384,"final String key, final String valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha384Hex,"final byte[] key, final byte[] valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha384Hex,"final byte[] key, final InputStream valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha384Hex,"final String key, final String valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha512,"final byte[] key, final byte[] valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha512,"final byte[] key, final InputStream valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha512,"final String key, final String valueToDigest",byte[],1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha512Hex,"final byte[] key, final byte[] valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha512Hex,"final byte[] key, final InputStream valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,hmacSha512Hex,"final String key, final String valueToDigest",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,isAvailable,final HmacAlgorithms hmacAlgorithms,boolean,1,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,isAvailable,final String name,boolean,6,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,updateHmac,"final Mac mac, final byte[] valueToDigest",Mac,3,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,updateHmac,"final Mac mac, final InputStream valueToDigest",Mac,8,P
+commons-codec,java/org/apache/commons/codec/digest/HmacUtils.java,updateHmac,"final Mac mac, final String valueToDigest",Mac,3,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,apr1Crypt,final byte[] keyBytes,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,apr1Crypt,"final byte[] keyBytes, final Random random",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,apr1Crypt,"final byte[] keyBytes, String salt",String,4,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,apr1Crypt,final String keyBytes,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,apr1Crypt,"final String keyBytes, final String salt",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,md5Crypt,final byte[] keyBytes,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,md5Crypt,"final byte[] keyBytes, final Random random",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,md5Crypt,"final byte[] keyBytes, final String salt",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,md5Crypt,"final byte[] keyBytes, final String salt, final String prefix",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Md5Crypt.java,md5Crypt,"final byte[] keyBytes, final String salt, final String prefix, final Random random",String,76,P
+commons-codec,java/org/apache/commons/codec/digest/MessageDigestAlgorithms.java,values,,String[],2,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash.java,getLittleEndianInt,"final byte[] data, final int index",int,4,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash.java,getLittleEndianLong,"final byte[] data, final int index",long,8,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash2.java,hash32,"final byte[] data, final int length",int,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash2.java,hash32,"final byte[] data, final int length, final int seed",int,25,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash2.java,hash32,final String text,int,2,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash2.java,hash32,"final String text, final int from, final int length",int,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash2.java,hash64,"final byte[] data, final int length",long,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash2.java,hash64,"final byte[] data, final int length, final int seed",long,33,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash2.java,hash64,final String text,long,2,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash2.java,hash64,"final String text, final int from, final int length",long,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,orBytes,"final byte b1, final byte b2, final byte b3, final byte b4",int,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,fmix32,int hash,int,6,T
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,fmix64,long hash,long,6,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash128,final byte[] data,long[],1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash128,"final byte[] data, final int offset, final int length, final int seed",long[],1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash128,final String data,long[],2,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash128x64,final byte[] data,long[],1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash128x64,"final byte[] data, final int offset, final int length, final int seed",long[],1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash128x64Internal,"final byte[] data, final int offset, final int length, final long seed",long[],74,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32,final byte[] data,int,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32,"final byte[] data, final int length",int,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32,"final byte[] data, final int length, final int seed",int,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32,"final byte[] data, final int offset, final int length, final int seed",int,23,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32,final long data,int,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32,"final long data, final int seed",int,6,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32,"final long data1, final long data2",int,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32,"final long data1, final long data2, final int seed",int,9,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32,final String data,int,2,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32x86,final byte[] data,int,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash32x86,"final byte[] data, final int offset, final int length, final int seed",int,23,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash64,final byte[] data,long,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash64,"final byte[] data, final int offset, final int length",long,1,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash64,"final byte[] data, final int offset, final int length, final int seed",long,35,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash64,final int data,long,8,R
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash64,final long data,long,9,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,hash64,final short data,long,10,P
+commons-codec,java/org/apache/commons/codec/digest/MurmurHash3.java,mix32,"int k, int hash",int,5,T
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,firstNonZeroIndex,final String value,int,5,P
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,getMaxKeyLen,,int,1,P
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,getMaxRounds,,int,1,P
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,sha256Crypt,final byte[] keyBytes,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,sha256Crypt,"final byte[] keyBytes, String salt",String,4,P
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,sha256Crypt,"final byte[] keyBytes, String salt, final Random random",String,4,P
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,sha2Crypt,"final byte[] keyBytes, final String salt, final String saltPrefix, final int blocksize, final String algorithm, final int maxKeyLen, final int maxRounds",String,150,P
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,sha512Crypt,final byte[] keyBytes,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,sha512Crypt,"final byte[] keyBytes, String salt",String,4,P
+commons-codec,java/org/apache/commons/codec/digest/Sha2Crypt.java,sha512Crypt,"final byte[] keyBytes, String salt, final Random random",String,4,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,body,"final int[] schedule, final int eSwap0, final int eSwap1",int[],35,T
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,byteToUnsigned,final byte b,int,1,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,crypt,final byte[] original,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,crypt,"final byte[] original, String salt",String,45,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,crypt,final String original,String,1,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,crypt,"final String original, final String salt",String,1,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,dEncrypt,"int el, final int r, final int s, final int e0, final int e1, final int[] sArr",int,10,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,desSetKey,final byte[] key,int[],42,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,fourBytesToInt,"final byte[] b, int offset",int,5,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,hPermOp,"final int a, final int n, final int m",int,2,T
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,intToFourBytes,"final int iValue, final byte[] b, int offset",void,4,P
+commons-codec,java/org/apache/commons/codec/digest/UnixCrypt.java,permOp,"int a, int b, final int n, final int m, final int[] results",void,5,P
+commons-codec,java/org/apache/commons/codec/digest/XXHash32.java,getInt,"final byte[] buffer, final int idx",int,4,P
+commons-codec,java/org/apache/commons/codec/language/ColognePhonetic.java,arrayContains,"final char[] arr, final char key",boolean,6,P
+commons-codec,java/org/apache/commons/codec/language/DoubleMetaphone.java,contains,"final String value, final int start, final int length, final String... criteria",boolean,11,P
+commons-codec,java/org/apache/commons/codec/language/Nysiis.java,isVowel,final char c,boolean,1,P
+commons-codec,java/org/apache/commons/codec/language/Nysiis.java,transcodeRemaining,"final char prev, final char curr, final char next, final char aNext",char[],34,P
+commons-codec,java/org/apache/commons/codec/language/SoundexUtils.java,clean,final String str,String,15,P
+commons-codec,java/org/apache/commons/codec/language/SoundexUtils.java,difference,"final StringEncoder encoder, final String s1, final String s2",int,1,P
+commons-codec,java/org/apache/commons/codec/language/SoundexUtils.java,differenceEncoded,"final String es1, final String es2",int,11,P
+commons-codec,java/org/apache/commons/codec/language/SoundexUtils.java,isEmpty,final CharSequence cs,boolean,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/BeiderMorseEncoder.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/Lang.java,instance,final NameType nameType,Lang,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/Lang.java,loadFromResource,"final String languageRulesResourceName, final Languages languages",Lang,35,P
+commons-codec,java/org/apache/commons/codec/language/bm/Languages.java,from,final Set<String> languages,LanguageSet,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/Languages.java,getInstance,final NameType nameType,Languages,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/Languages.java,getInstance,final String languagesResourceName,Languages,18,P
+commons-codec,java/org/apache/commons/codec/language/bm/Languages.java,langResourceName,final NameType nameType,String,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/PhoneticEngine.java,empty,final Languages.LanguageSet languages,PhonemeBuilder,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/PhoneticEngine.java,builder,,Builder,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/PhoneticEngine.java,join,"final List<String> strings, final String sep",String,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,contains,"final CharSequence chars, final char input",boolean,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,createResourceName,"final NameType nameType, final RuleType rt, final String lang",String,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,createScanner,"final NameType nameType, final RuleType rt, final String lang",Scanner,2,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,createScanner,final String lang,Scanner,2,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,endsWith,"final CharSequence input, final CharSequence suffix",boolean,11,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,getInstance,"final NameType nameType, final RuleType rt, final Languages.LanguageSet langs",List<Rule>,4,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,getInstance,"final NameType nameType, final RuleType rt, final String lang",List<Rule>,1,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,getInstanceMap,"final NameType nameType, final RuleType rt, final Languages.LanguageSet langs","Map<String, List<Rule>>",1,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,getInstanceMap,"final NameType nameType, final RuleType rt, final String lang","Map<String, List<Rule>>",5,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,parsePhoneme,final String ph,Phoneme,11,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,parsePhonemeExpr,final String ph,PhonemeExpr,16,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,parseRules,"final Scanner scanner, final String location","Map<String, List<Rule>>",65,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,pattern,final String regex,RPattern,52,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,startsWith,"final CharSequence input, final CharSequence prefix",boolean,9,P
+commons-codec,java/org/apache/commons/codec/language/bm/Rule.java,stripQuotes,String str,String,7,P
+commons-codec,java/org/apache/commons/codec/net/QuotedPrintableCodec.java,decodeQuotedPrintable,final byte[] bytes,byte[],25,P
+commons-codec,java/org/apache/commons/codec/net/QuotedPrintableCodec.java,encodeByte,"final int b, final boolean encode, final ByteArrayOutputStream buffer",int,5,P
+commons-codec,java/org/apache/commons/codec/net/QuotedPrintableCodec.java,encodeQuotedPrintable,"final BitSet printable, final byte[] bytes",byte[],1,P
+commons-codec,java/org/apache/commons/codec/net/QuotedPrintableCodec.java,encodeQuotedPrintable,"BitSet printable, final byte[] bytes, final boolean strict",byte[],52,P
+commons-codec,java/org/apache/commons/codec/net/QuotedPrintableCodec.java,encodeQuotedPrintable,"final int b, final ByteArrayOutputStream buffer",int,6,P
+commons-codec,java/org/apache/commons/codec/net/QuotedPrintableCodec.java,getUnsignedOctet,"final int index, final byte[] bytes",int,5,P
+commons-codec,java/org/apache/commons/codec/net/QuotedPrintableCodec.java,isWhitespace,final int b,boolean,1,K
+commons-codec,java/org/apache/commons/codec/net/URLCodec.java,decodeUrl,"BitSet urlsafe, final byte[] bytes",byte[],24,P
+commons-codec,java/org/apache/commons/codec/net/URLCodec.java,decodeUrl,final byte[] bytes,byte[],1,P
+commons-codec,java/org/apache/commons/codec/net/URLCodec.java,encodeUrl,"BitSet urlsafe, final byte[] bytes",byte[],26,P
+commons-codec,java/org/apache/commons/codec/net/Utils.java,digit16,final byte b,int,5,P
+commons-codec,java/org/apache/commons/codec/net/Utils.java,hexChar,final int b,char,1,R

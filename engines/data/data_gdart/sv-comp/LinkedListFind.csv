@@ -1,0 +1,8 @@
+stateId,parentId,depth,actualSubtreeWork,actualFullRunWork,pathConditionSize,pcInstrNext,pcInstrChain,isEndStateAtEntry
+0,-1,0,184,184,0,-1,-1,False
+1,0,1,43,43,1,-1,-1,True
+2,0,1,141,141,1,-1,-1,False
+3,2,2,45,45,2,-1,-1,True
+4,2,2,96,96,2,-1,-1,False
+5,4,3,49,49,3,-1,-1,True
+6,4,3,47,47,3,-1,-1,True

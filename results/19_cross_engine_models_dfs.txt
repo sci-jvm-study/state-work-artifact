@@ -1,0 +1,11 @@
+68 programs (exact tree-size agreement), COASTAL data = data_coastal2
+
+model                     JPF (own groups)    COASTAL (own groups)   | same groups: n, JPF, COASTAL, Wilcoxon p
+M1 depth                   0.780 (n=29)         0.782 (n=29)   | 29   0.7797   0.7819  p=0.455  r=-0.186
+M2 static                  0.347 (n=18)         0.385 (n=18)   | 18   0.3469   0.3851  p=0.701  r=+0.121
+M3 dynamic                 0.712 (n=29)         0.790 (n=29)   | 29   0.7124   0.7904  p=0.003  r=-0.680
+M5 static+dynamic          0.790 (n=29)         0.772 (n=29)   | 29   0.7898   0.7716  p=1.000  r=+0.000
+M5-RF                      0.630 (n=29)         0.587 (n=29)   | 29   0.6303   0.5873  p=0.429  r=+0.172
+M6 linear                  0.793 (n=15)         0.716 (n=15)   | 15   0.7932   0.7163  p=0.075  r=+0.560
+M6-RF                      0.775 (n=15)         0.723 (n=15)   | 15   0.7751   0.7228  p=0.087  r=+0.538
+Gated M6-RF/M5-RF          0.739 (n=29)         0.683 (n=29)   | 29   0.7385   0.6827  p=0.041  r=+0.450

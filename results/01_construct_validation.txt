@@ -1,0 +1,82 @@
+Excluding 1 program(s) without wall-clock data: ['ArithmeticUtilsCheck']
+Non-leaf states with wall-clock data: 6553 across 65 program groups.
+
+=== Does the count-based W_engine proxy (actualSubtreeWork) track REAL measured wall-clock time? ===
+
+actualSubtreeWork vs actualWallClockNanos:
+  pooled rho = 0.719   macro rho = 0.851 [0.791,0.893]  groups=54
+
+actualSolverNanos vs actualWallClockNanos (does solver time alone track real time?):
+  pooled rho = 0.867   macro rho = 0.864 [0.819,0.902]  groups=54
+
+rank(actualSubtreeWork) + rank(actualSolverNanos) vs actualWallClockNanos (does combining help?):
+  pooled rho = 0.838   macro rho = 0.870 [0.820,0.909]  groups=54
+
+=== Per-program-group rho (actualSubtreeWork vs actualWallClockNanos), blank = < 5 rows ===
+Ackermann                  n=6      rho=1.000
+ApplyHanoi                 n=2      rho=--
+ArithmeticUtilsMulAndCheck n=30     rho=0.410
+ArrayUtilsIndexOf          n=36     rho=0.911
+ArrayUtilsIsSorted         n=329    rho=0.917
+ArrayUtilsLastIndexOf      n=24     rho=0.961
+ArrayUtilsReverse          n=43     rho=0.890
+ArrayUtilsShift            n=55     rho=0.970
+BankAccount                n=77     rho=0.791
+BellmanFord                n=82     rho=0.873
+BinaryTreeInsert           n=700    rho=0.898
+BinomialCoefficient        n=16     rho=0.985
+BranchTree                 n=116    rho=0.820
+CombinedWork               n=56     rho=0.840
+DelimSearch                n=27     rho=1.000
+EuclideanGcd               n=460    rho=0.966
+EvenOdd                    n=15     rho=1.000
+ExSymExe15                 n=1      rho=--
+ExSymExe20                 n=2      rho=--
+ExSymExe25                 n=3      rho=--
+ExSymExeResearch           n=1      rho=--
+ExSymExeSimple             n=2      rho=--
+ExSymExeSuzette            n=2      rho=--
+Fibonacci                  n=5      rho=1.000
+HanoiSteps                 n=7      rho=1.000
+HasDupes                   n=112    rho=0.775
+HeapWork                   n=56     rho=0.928
+InsertionSort              n=884    rho=0.857
+Learn                      n=5      rho=0.738
+LinkedListFind             n=8      rho=0.497
+Mccarthy91                 n=11     rho=1.000
+MultCommutative            n=13     rho=0.868
+MutableIntOps              n=4      rho=--
+NumberUtilsMax3            n=6      rho=0.621
+NumberUtilsMaxArray        n=636    rho=0.891
+PassCheck                  n=15     rho=-0.136
+PrecisionCompare           n=7      rho=0.926
+PrecisionRoundUnscaled     n=4      rho=--
+Primes                     n=10     rho=0.802
+RbTreeInsert               n=34     rho=0.887
+RecursiveAddition          n=10     rho=0.865
+RecursiveAddition_choco    n=83     rho=1.000
+SortedListInsert           n=843    rho=0.820
+StringSearchReplace        n=3      rho=--
+StringUtilsLeft            n=2      rho=--
+TaBFPRT                    n=276    rho=0.930
+TaBoardPath                n=173    rho=0.928
+TaBoyerMoore               n=15     rho=0.794
+TaClimbingStairs           n=21     rho=1.000
+TaKadaneAlgorithm          n=107    rho=0.898
+TaLongestIncreasingSubsequenceNLogN n=16     rho=0.752
+TaLongestSubarrayWithSumLessOrEqualToK n=56     rho=0.885
+TaMaxSumKSizeSubarray      n=46     rho=0.931
+TaMaximumSumOfNonAdjacentElements n=7      rho=0.777
+TaMemoryManagementAlgorithms n=325    rho=0.960
+TaPerfectNumber            n=20     rho=0.983
+TaRandomizedQuickSort      n=30     rho=0.819
+TaStockProfitCalculator    n=13     rho=0.842
+TaSumOfSubset              n=118    rho=0.932
+TaTrappingRainwater        n=45     rho=0.858
+TaTrinomialTriangle        n=52     rho=0.992
+Tsp                        n=303    rho=0.936
+UnequalWork                n=56     rho=0.808
+UnevenTree                 n=23     rho=0.725
+ValidateInclusiveBetween   n=8      rho=0.630
+
+[Note] Single-machine measurement on a machine that was not a dedicated benchmarking rig.

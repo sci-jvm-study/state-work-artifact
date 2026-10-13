@@ -1,0 +1,201 @@
+=== Leakage check ===
+  Re-derived 1739 predictions independently: 0 mismatches (OK -- causal design confirmed).
+  Cross-program isolation: groupC_pred is computed once per `program` group from the rows of that program only, so the groupC_pred of a held-out group never depends on the groups in the training fold.
+
+Full corpus: 6567 non-leaf rows.
+Group-C-scoreable rows: 1739 across 46 groups; of those, 29 groups meet the >= 5-row eligibility bar Group C itself uses -- ALL comparisons below use exactly this 29-group set, the same set as fit_all_baselines_fair_comparison.py.
+
+--- Eligible groups, full (1698 rows, 29 eligible groups) ---
+Model                         Pooled rho  Macro rho     Macro 95% CI
+Group C alone                      0.826      0.674 [ 0.526, 0.797]
+M5 (no groupC_pred)                0.400      0.539 [ 0.442, 0.644]
+M6 linear (M5+groupC_pred)         0.790      0.683 [ 0.552, 0.787]
+M6 RandomForest                    0.776      0.656 [ 0.523, 0.761]
+
+Top-4 dominant groups: ['InsertionSort', 'SortedListInsert', 'BinaryTreeInsert', 'NumberUtilsMaxArray']
+Of these, 4 are in the eligible set.
+
+--- Eligible groups, top-4 excluded (911 rows, 25 eligible groups) ---
+Model                         Pooled rho  Macro rho     Macro 95% CI
+Group C alone                      0.798      0.656 [ 0.476, 0.799]
+M5 (no groupC_pred)                0.343      0.571 [ 0.460, 0.680]
+M6 linear (M5+groupC_pred)         0.771      0.655 [ 0.501, 0.771]
+M6 RandomForest                    0.718      0.620 [ 0.468, 0.742]
+
+=== Per-program-group rho + M6-vs-GroupC verdict (full eligible set) ===
+program_group              GroupC       M5    M6lin     M6RF   M6lin vs GC   M6RF vs GC
+ArithmeticUtilsMulAndCheck     0.50     0.43     0.50     0.53         ~tied        ~tied
+ArrayUtilsIsSorted           0.99     0.62     0.92     0.92         worse        worse
+ArrayUtilsReverse            0.36     0.83     0.53     0.52        better       better
+BankAccount                  1.00     0.67     0.95     0.87         ~tied        worse
+BellmanFord                  0.74     0.93     0.79     0.84         ~tied       better
+BinaryTreeInsert             0.74     0.50     0.77     0.65         ~tied        worse
+BranchTree                   1.00     0.92     0.92     0.92         worse        worse
+CombinedWork                 0.87     0.53     0.84     0.78         ~tied        worse
+EuclideanGcd                 0.30     0.41     0.32     0.32         ~tied        ~tied
+HasDupes                     1.00     0.22     0.55     0.68         worse        worse
+HeapWork                     0.74     0.14     0.72     0.70         ~tied        ~tied
+InsertionSort                0.71     0.07     0.61     0.64         worse        worse
+NumberUtilsMaxArray          0.99     0.67     0.95     0.95         ~tied        ~tied
+RbTreeInsert                 0.64     0.47     0.63     0.56         ~tied        worse
+SortedListInsert             0.71     0.20     0.62     0.61         worse        worse
+TaBFPRT                      0.78     0.63     0.76     0.74         ~tied        ~tied
+TaBoardPath                  0.05     0.61     0.16     0.11        better       better
+TaBoyerMoore                 1.00     1.00     1.00     1.00         ~tied        ~tied
+TaKadaneAlgorithm            0.76     0.65     0.66     0.78         worse        ~tied
+TaLongestSubarrayWithSumLessOrEqualToK     0.82     0.86     0.88     0.82        better        ~tied
+TaMaxSumKSizeSubarray        0.81     0.86     0.86     0.86        better       better
+TaMemoryManagementAlgorithms     0.69     0.37     0.71     0.65         ~tied        ~tied
+TaRandomizedQuickSort        1.00     0.79     0.79     0.79         worse        worse
+TaSumOfSubset                0.68     0.61     0.85     0.65        better        ~tied
+TaTrappingRainwater          0.91     0.54     0.93     0.93         ~tied        ~tied
+TaTrinomialTriangle         -0.65     0.13    -0.71    -0.77         worse        worse
+Tsp                          0.85    -0.01     0.96     0.46        better        worse
+UnequalWork                  0.84     0.20     0.83     0.86         ~tied        ~tied
+UnevenTree                  -0.29     0.77     0.54     0.68        better       better
+Summary: M6-linear better than Group C in 7/29 groups, worse in 8, ~tied in 14 (threshold: |rho diff| > 0.05).
+         M6-RandomForest better than Group C in 5/29 groups, worse in 12, ~tied in 12.
+
+=== Per-program-group rho + M6-vs-GroupC verdict (top-4 excluded) ===
+program_group              GroupC       M5    M6lin     M6RF   M6lin vs GC   M6RF vs GC
+ArithmeticUtilsMulAndCheck     0.50     0.43     0.50     0.53         ~tied        ~tied
+ArrayUtilsIsSorted           0.99     0.62     0.92     0.92         worse        worse
+ArrayUtilsReverse            0.36     0.83     0.53     0.42        better       better
+BankAccount                  1.00     0.67     0.95     0.87         ~tied        worse
+BellmanFord                  0.74     0.93     0.79     0.81         ~tied       better
+BranchTree                   1.00     0.92     0.92     0.92         worse        worse
+CombinedWork                 0.87     0.58     0.82     0.83         ~tied        ~tied
+EuclideanGcd                 0.30     0.41     0.32     0.32         ~tied        ~tied
+HasDupes                     1.00     0.22     0.55     0.68         worse        worse
+HeapWork                     0.74     0.13     0.72     0.69         ~tied        worse
+RbTreeInsert                 0.64     0.52     0.63     0.63         ~tied        ~tied
+TaBFPRT                      0.78     0.57     0.76     0.77         ~tied        ~tied
+TaBoardPath                  0.05     0.59     0.16    -0.01        better        worse
+TaBoyerMoore                 1.00     1.00     1.00     1.00         ~tied        ~tied
+TaKadaneAlgorithm            0.76     0.76     0.66     0.70         worse        worse
+TaLongestSubarrayWithSumLessOrEqualToK     0.82     0.86     0.88     0.94        better       better
+TaMaxSumKSizeSubarray        0.81     0.86     0.86     0.64        better        worse
+TaMemoryManagementAlgorithms     0.69     0.32     0.71     0.58         ~tied        worse
+TaRandomizedQuickSort        1.00     0.79     0.79     0.79         worse        worse
+TaSumOfSubset                0.68     0.61     0.84     0.59        better        worse
+TaTrappingRainwater          0.91     0.54     0.93     0.47         ~tied        worse
+TaTrinomialTriangle         -0.65     0.01    -0.71    -0.75         worse        worse
+Tsp                          0.85    -0.01     0.47     0.45         worse        worse
+UnequalWork                  0.84     0.23     0.83     0.82         ~tied        ~tied
+UnevenTree                  -0.29     0.87     0.54     0.88        better       better
+Summary: M6-linear better than Group C in 6/25 groups, worse in 7, ~tied in 12 (threshold: |rho diff| > 0.05).
+         M6-RandomForest better than Group C in 4/25 groups, worse in 14, ~tied in 7.
+
+=== Error analysis: M6-linear vs Group C, by program family ===
+family                 n mean(M6-linear-GroupC)  groups
+early_exit             2             -0.329  HasDupes:-0.45, TaRandomizedQuickSort:-0.21
+sorting                3             -0.070  InsertionSort:-0.10, SortedListInsert:-0.09, TaBFPRT:-0.02
+stateful_sequence      1             -0.048  BankAccount:-0.05
+arithmetic_branchy     1              0.000  ArithmeticUtilsMulAndCheck:+0.00
+tree_ds                2              0.007  BinaryTreeInsert:+0.03, RbTreeInsert:-0.02
+linear_scan            9              0.012  ArrayUtilsIsSorted:-0.07, ArrayUtilsReverse:+0.17, NumberUtilsMaxArray:-0.04, TaBoyerMoore:+0.00, TaKadaneAlgorithm:-0.10, TaLongestSubarrayWithSumLessOrEqualToK:+0.06, TaMaxSumKSizeSubarray:+0.05, TaMemoryManagementAlgorithms:+0.02, TaTrappingRainwater:+0.02
+graph_algo             1              0.047  BellmanFord:+0.05
+recursive_magnitude    4              0.059  EuclideanGcd:+0.02, TaBoardPath:+0.11, TaSumOfSubset:+0.17, TaTrinomialTriangle:-0.06
+sorting_search         1              0.102  Tsp:+0.10
+synthetic_branch       5              0.137  BranchTree:-0.08, CombinedWork:-0.03, HeapWork:-0.02, UnequalWork:-0.02, UnevenTree:+0.83
+
+Reading this: negative mean = M6-linear systematically WORSE than Group C in that family; positive = systematically BETTER. Families with only 1-2 groups are not reliable generalizations, shown for completeness only.
+
+=== Error analysis: M6-RandomForest vs Group C, by program family ===
+family                 n mean(M6-RandomForest-GroupC)  groups
+sorting_search         1             -0.399  Tsp:-0.40
+early_exit             2             -0.265  HasDupes:-0.32, TaRandomizedQuickSort:-0.21
+stateful_sequence      1             -0.125  BankAccount:-0.13
+tree_ds                2             -0.081  BinaryTreeInsert:-0.08, RbTreeInsert:-0.08
+sorting                3             -0.070  InsertionSort:-0.07, SortedListInsert:-0.10, TaBFPRT:-0.04
+recursive_magnitude    4             -0.018  EuclideanGcd:+0.03, TaBoardPath:+0.06, TaSumOfSubset:-0.03, TaTrinomialTriangle:-0.13
+linear_scan            9              0.011  ArrayUtilsIsSorted:-0.07, ArrayUtilsReverse:+0.16, NumberUtilsMaxArray:-0.04, TaBoyerMoore:+0.00, TaKadaneAlgorithm:+0.02, TaLongestSubarrayWithSumLessOrEqualToK:-0.00, TaMaxSumKSizeSubarray:+0.05, TaMemoryManagementAlgorithms:-0.04, TaTrappingRainwater:+0.02
+arithmetic_branchy     1              0.026  ArithmeticUtilsMulAndCheck:+0.03
+graph_algo             1              0.098  BellmanFord:+0.10
+synthetic_branch       5              0.154  BranchTree:-0.08, CombinedWork:-0.09, HeapWork:-0.04, UnequalWork:+0.02, UnevenTree:+0.97
+
+Reading this: negative mean = M6-RandomForest systematically WORSE than Group C in that family; positive = systematically BETTER. Families with only 1-2 groups are not reliable generalizations, shown for completeness only.
+
+=== Coverage test: can a Group-C-aware model help groups Group C can't score? ===
+Imputing missing groupC_pred with the corpus-wide median (5.165) for the imputed M6 -- a neutral 'no information' filler value, not a leak (computed from logWork's own overall scale only, not from any test row's actual target).
+Model                             Pooled rho  Macro rho     Macro 95% CI  groups
+M5 (full 43-group corpus)              0.193      0.553 [ 0.459, 0.646]      55
+M6, imputed history                    0.379      0.496 [ 0.400, 0.592]      55
+
+On the 37 groups Group C cannot score at all (imputed feature carries no real information there):
+program_group                  M5    M6imp
+Ackermann                    0.09    -0.09
+ArithmeticUtilsCheck         0.69     0.19
+ArrayUtilsIndexOf            0.51     0.51
+ArrayUtilsLastIndexOf        0.82     0.82
+ArrayUtilsShift              0.34     0.36
+BinomialCoefficient          0.99     0.89
+DelimSearch                  1.00     1.00
+EvenOdd                      1.00     1.00
+Fibonacci                    1.00     1.00
+HanoiSteps                   1.00     1.00
+Learn                        0.95     0.95
+LinkedListFind               0.74     0.74
+Mccarthy91                   1.00     1.00
+MultCommutative              0.65     0.29
+NumberUtilsMax3              0.87     0.87
+PassCheck                    1.00     0.99
+PrecisionCompare            -0.12    -0.12
+Primes                       0.52    -0.13
+RecursiveAddition            0.40     0.11
+RecursiveAddition_choco      1.00     1.00
+TaClimbingStairs             1.00     1.00
+TaLongestIncreasingSubsequenceNLogN     0.58     0.13
+TaMaximumSumOfNonAdjacentElements     0.67     0.67
+TaPerfectNumber              0.54     0.45
+TaStockProfitCalculator      0.50     0.09
+ValidateInclusiveBetween     0.77     0.77
+
+=== Coverage strategy 2: gated model (M6 for eligible, SPECIALIZED M5 fallback for ineligible) ===
+29 eligible groups -> M6. 37 ineligible groups -> specialized M5-only fallback, trained/tested exclusively within the ineligible population (no eligible-group rows in that fallback's training data at all).
+
+Fallback strategy                        Macro rho (ineligible groups only)               CI
+Specialized (trained on ineligible only)                               -0.078 [-0.311,0.176]
+Mixed (trained on full 43-group corpus)                                0.712 [0.593,0.825]
+
+program_group             Specialized    Mixed
+Ackermann                        0.09     0.09
+ArithmeticUtilsCheck            -0.55     0.69
+ArrayUtilsIndexOf               -0.40     0.51
+ArrayUtilsLastIndexOf           -0.77     0.82
+ArrayUtilsShift                  0.21     0.34
+BinomialCoefficient              0.52     0.99
+DelimSearch                     -0.99     1.00
+EvenOdd                         -0.76     1.00
+Fibonacci                        0.00     1.00
+HanoiSteps                      -0.89     1.00
+Learn                            0.95     0.95
+LinkedListFind                   0.15     0.74
+Mccarthy91                      -0.97     1.00
+MultCommutative                 -0.19     0.65
+NumberUtilsMax3                  0.87     0.87
+PassCheck                        0.41     1.00
+PrecisionCompare                -0.72    -0.12
+Primes                           0.79     0.52
+RecursiveAddition               -0.44     0.40
+RecursiveAddition_choco          1.00     1.00
+TaClimbingStairs                -0.48     1.00
+TaLongestIncreasingSubsequenceNLogN         0.25     0.58
+TaMaximumSumOfNonAdjacentElements         0.18     0.67
+TaPerfectNumber                 -0.44     0.54
+TaStockProfitCalculator         -0.59     0.50
+ValidateInclusiveBetween         0.77     0.77
+
+=== FULL-CORPUS GATED EVALUATION, WITH SAME-POPULATION BASELINES ===
+29 eligible groups -> M6 RandomForest (tuned). 37 ineligible groups -> M5-only fallback (mixed-trained).
+
+Scoreable population fixed at 55 groups (this is what ALL rows below are restricted to -- same LOPO splits, same target, same metric):
+  ['Ackermann', 'ArithmeticUtilsCheck', 'ArithmeticUtilsMulAndCheck', 'ArrayUtilsIndexOf', 'ArrayUtilsIsSorted', 'ArrayUtilsLastIndexOf', 'ArrayUtilsReverse', 'ArrayUtilsShift', 'BankAccount', 'BellmanFord', 'BinaryTreeInsert', 'BinomialCoefficient', 'BranchTree', 'CombinedWork', 'DelimSearch', 'EuclideanGcd', 'EvenOdd', 'Fibonacci', 'HanoiSteps', 'HasDupes', 'HeapWork', 'InsertionSort', 'Learn', 'LinkedListFind', 'Mccarthy91', 'MultCommutative', 'NumberUtilsMax3', 'NumberUtilsMaxArray', 'PassCheck', 'PrecisionCompare', 'Primes', 'RbTreeInsert', 'RecursiveAddition', 'RecursiveAddition_choco', 'SortedListInsert', 'TaBFPRT', 'TaBoardPath', 'TaBoyerMoore', 'TaClimbingStairs', 'TaKadaneAlgorithm', 'TaLongestIncreasingSubsequenceNLogN', 'TaLongestSubarrayWithSumLessOrEqualToK', 'TaMaxSumKSizeSubarray', 'TaMaximumSumOfNonAdjacentElements', 'TaMemoryManagementAlgorithms', 'TaPerfectNumber', 'TaRandomizedQuickSort', 'TaStockProfitCalculator', 'TaSumOfSubset', 'TaTrappingRainwater', 'TaTrinomialTriangle', 'Tsp', 'UnequalWork', 'UnevenTree', 'ValidateInclusiveBetween']
+
+Model                                       Groups scored  Macro rho         95% CI
+Group C / M4 alone                              29/55          0.674 [ 0.526, 0.797]
+M5 alone (same population, no gating)           55/55          0.553 [ 0.459, 0.646]
+Gated: M6-RF + M5-Linear fallback               55/55          0.683 [ 0.599, 0.761]
+Gated: M6-RF + M5-RF fallback                   55/55          0.578 [ 0.487, 0.663]
+
+Group C scores 29/55 of this exact population -- it structurally cannot produce a prediction for the other 26 (['Ackermann', 'ArithmeticUtilsCheck', 'ArrayUtilsIndexOf', 'ArrayUtilsLastIndexOf', 'ArrayUtilsShift', 'BinomialCoefficient', 'DelimSearch', 'EvenOdd', 'Fibonacci', 'HanoiSteps', 'Learn', 'LinkedListFind', 'Mccarthy91', 'MultCommutative', 'NumberUtilsMax3', 'PassCheck', 'PrecisionCompare', 'Primes', 'RecursiveAddition', 'RecursiveAddition_choco', 'TaClimbingStairs', 'TaLongestIncreasingSubsequenceNLogN', 'TaMaximumSumOfNonAdjacentElements', 'TaPerfectNumber', 'TaStockProfitCalculator', 'ValidateInclusiveBetween']), so its row above is NOT averaged over the full population size the other rows use, so it is not an equal-footing competitor in this specific comparison. M5-alone and both gated variants ARE scored on the complete same-population set and are directly comparable to each other.

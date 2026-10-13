@@ -1,0 +1,37 @@
+Non-leaf states scored: 6567 across 66 groups.
+
+=== A. Real cost of 30-probe Knuth estimation, as % of the state's own actualSubtreeWork ===
+  Median: 1643.9%   Mean: 1729.2%   25th/75th percentile: 919.5% / 3000.0%
+  (i.e. gathering 30 live probes for a state typically costs this fraction of what FULLY exploring that state's own subtree would have cost anyway)
+
+=== B. Accuracy vs. probe count (cost/accuracy tradeoff) ===
+  k (probes)   Macro rho          95% CI   Median cost %
+           1       0.551  [0.450,0.639]           50.0%
+           5       0.753  [0.680,0.818]          276.7%
+          10       0.808  [0.741,0.868]          552.0%
+          30       0.856  [0.802,0.902]         1643.9%
+
+=== C. Sanity check: does 30-probe estimation ever cost MORE than full exploration? ===
+  97.5% of scored states: 30-probe cost EXCEEDS the state's own full actualSubtreeWork (i.e. probing would have been a worse deal than just fully exploring).
+  6567 of 6567 scored states (100.0%) have non-zero actualSubtreeWork (the cost ratio is undefined for the rest, and the median above is over these); among them 97.5% exceed.
+
+=== D. Work-weighted ratio (30 probes), states with non-zero actualSubtreeWork ===
+  All such states pooled: sum of probe cost / sum of own work = 6.25x
+  Per group: median 11.86x, 25th/75th percentile 7.18x / 17.59x, min 1.13x, max 30.00x (66 groups)
+  Groups where total probe cost exceeds total own work: 66 of 66
+  Non-leaf states with zero own work: 0 of 6567 (0.0%)
+
+=== E. Knuth accuracy with the zero-work childless states left out of the scoring (P55 groups) ===
+  k (probes)    All rows   Without zero-work   groups
+           1       0.551               0.551       55
+           5       0.753               0.753       55
+          10       0.808               0.808       55
+          30       0.856               0.856       55
+
+=== F. 30-probe cost as a multiple of the state's own subtree work, by size of that work (states with non-zero work) ===
+  own work (bytecodes)  states  median x  share >1x   sum cost / sum work
+                 <=100    2844     30.00     100.0%                 23.37
+              101-1000    3016     11.70      98.8%                 10.32
+            1001-10000     650      3.75      83.5%                  5.80
+          10001-100000      50      2.01      70.0%                  5.47
+               >100000       7      0.11       0.0%                  0.30

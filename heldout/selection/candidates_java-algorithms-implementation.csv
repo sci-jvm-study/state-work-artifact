@@ -1,0 +1,316 @@
+library,file,method,signature,returns,loc,failed_stage
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/AVLTree.java,getString,AVLTree<T> tree,<T extends Comparable<T>> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/AVLTree.java,getString,AVLNode<T> node,<T extends Comparable<T>> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/AVLTree.java,getString,"AVLNode<T> node, String prefix, boolean isTail",<T extends Comparable<T>> String,19,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinaryHeap.java,getParentIndex,int index,int,3,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinaryHeap.java,getLeftIndex,int index,int,1,B
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinaryHeap.java,getRightIndex,int index,int,1,B
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinaryHeap.java,getString,BinaryHeapArray<T> tree,<T extends Comparable<T>> String,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinaryHeap.java,getString,"BinaryHeapArray<T> tree, int index, String prefix, boolean isTail",<T extends Comparable<T>> String,25,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinaryHeap.java,getDirections,int idx,int[],12,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinaryHeap.java,print,BinaryHeapTree<T> tree,<T extends Comparable<T>> void,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinaryHeap.java,getString,BinaryHeapTree<T> tree,<T extends Comparable<T>> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinaryHeap.java,getString,"Node<T> node, String prefix, boolean isTail",<T extends Comparable<T>> String,20,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinarySearchTree.java,getBFS,"Node<T> start, int size",<T extends Comparable<T>> T[],16,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinarySearchTree.java,getDFS,"DepthFirstSearchOrder order, Node<T> start, int size",<T extends Comparable<T>> T[],58,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinarySearchTree.java,getString,BinarySearchTree<T> tree,<T extends Comparable<T>> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BinarySearchTree.java,getString,"Node<T> node, String prefix, boolean isTail",<T extends Comparable<T>> String,26,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BTree.java,getString,BTree<T> tree,<T extends Comparable<T>> String,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/BTree.java,getString,"Node<T> node, String prefix, boolean isTail",<T extends Comparable<T>> String,20,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/DisjointSet.java,makeSet,T v,<T extends Object> Item<T>,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/DisjointSet.java,find,Item<T> x,<T extends Object> Item<T>,5,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/DisjointSet.java,union,"Item<T> x, Item<T> y",<T extends Object> Item<T>,20,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/FenwickTree.java,prev,int x,int,1,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/FenwickTree.java,next,int x,int,1,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashArrayMappedTrie.java,getPosition,"int height, int value",int,1,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashArrayMappedTrie.java,validate,"ArrayNode parent, KeyValueNode<V> child",<V> boolean,4,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashArrayMappedTrie.java,validate,"ArrayNode parent, ArrayNode node",<V> boolean,25,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashArrayMappedTrie.java,toBinaryString,int value,String,6,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashArrayMappedTrie.java,calcNewLength,int size,int,5,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashArrayMappedTrie.java,getString,"HashArrayMappedTrie<K,V> tree","<K, V> String",2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashArrayMappedTrie.java,getString,"Node parent, Node node, int height, String prefix, boolean isTail",<V> String,22,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashMap.java,getLargerSize,int input,int,1,B
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashMap.java,getSmallerSize,int input,int,1,B
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashMap.java,getLargerSize,int input,int,1,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/HashMap.java,getSmallerSize,int input,int,1,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,split,"Node<T> node, int index",<T> Pair<T>,22,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,merge,"Node<T> left, Node<T> right",<T> Node<T>,16,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,insert,"Node<T> root, int index, T value",<T> Node<T>,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,remove,"Node<T> root, int index",<T> Node<T>,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,getNodeByValue,"Node<T> node, T value",<T> Node<T>,8,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,getNodeByIndex,"Node<T> node, int parentIndex, int index",<T> Node<T>,22,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,getIndexByValue,"Node<T> node, int parentIndex, T value",<T> int,22,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,inOrder,"Node<T> node, int size",<T> T[],5,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,inOrder,"Node<T> node, T[] data, int idx",<T> int,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,getString,ImplicitKeyTreap<T> tree,<T> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java,getString,"Node<T> node, String prefix, boolean isTail",<T> String,26,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/IntervalSum.java,greatestPowerOfTwoDividing,int x,int,1,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/IntervalSum.java,successor,int x,int,1,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/IntervalSum.java,predecessor,int x,int,1,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/IntervalTree.java,createFromList,List<IntervalData<O>> intervals,<O extends Object> Interval<O>,26,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/IntervalTree.java,getString,IntervalTree<O> tree,<O extends Object> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/IntervalTree.java,getString,"Interval<O> interval, String prefix, boolean isTail",<O extends Object> String,14,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/KdTree.java,createNode,"List<XYZPoint> list, int k, int depth",KdNode,35,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/KdTree.java,getTree,KdNode root,List<XYZPoint>,12,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/KdTree.java,search,"final KdNode node, final Deque<T> results",<T extends XYZPoint> void,5,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/KdTree.java,compareTo,"int depth, int k, XYZPoint o1, XYZPoint o2",int,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/KdTree.java,euclideanDistance,"XYZPoint o1, XYZPoint o2",double,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/KdTree.java,getString,KdTree<T> tree,<T extends XYZPoint> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/KdTree.java,getString,"KdNode node, String prefix, boolean isTail",String,28,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/LowestCommonAncestor.java,lowestCommonAncestor,"TreeNode<S> node1, TreeNode<S> node2",<S> TreeNode<S>,31,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/PatriciaTrie.java,getString,PatriciaTrie<C> tree,<C extends CharSequence> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/PatriciaTrie.java,getString,"Node node, String prefix, String previousString, boolean isTail",String,21,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/QuadTree.java,getString,QuadTree<T> tree,<T extends XYPoint> String,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/QuadTree.java,getString,"QuadNode<T> node, String prefix, boolean isTail",<T extends XYPoint> String,19,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/RadixTrie.java,getString,"RadixTrie<K, V> map","<K extends CharSequence, V> String",1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/RadixTrie.java,getString,"PatriciaTrie.Node node, String prefix, String previousString, boolean isTail","<K extends CharSequence, V> String",30,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/RedBlackTree.java,getString,RedBlackTree<T> tree,<T extends Comparable<T>> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/RedBlackTree.java,getString,RedBlackNode<T> node,<T extends Comparable<T>> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/RedBlackTree.java,getString,"RedBlackNode<T> node, String prefix, boolean isTail",<T extends Comparable<T>> String,23,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/SegmentTree.java,createFromList,"int minLength, List<NonOverlappingSegment<D>> segments, long start, int length",<D extends Data> Segment<D>,37,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/SegmentTree.java,createFromList,"int minLength, List<OverlappingSegment<D>> segments, long start, int length",<D extends Data> Segment<D>,46,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/SuffixTree.java,key,"int node, char c",int,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/SuffixTree.java,find,"SuffixTree<C> tree, int node, char c",<C extends CharSequence> Edge<C>,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/SuffixTree.java,printNode,SuffixTree<C> tree,<C extends CharSequence> void,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/SuffixTree.java,getString,SuffixTree<C> tree,<C extends CharSequence> String,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/SuffixTree.java,getString,"SuffixTree<C> tree, Edge<C> e, String prefix, boolean isTail",<C extends CharSequence> String,31,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/TernarySearchTree.java,print,TernarySearchTree<C> tree,<C extends CharSequence> void,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/TernarySearchTree.java,getString,TernarySearchTree<C> tree,<C extends CharSequence> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/TernarySearchTree.java,getString,"Node node, String prefix, String previousString, boolean isTail",String,16,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/Treap.java,getString,Treap<T> tree,<T extends Comparable<T>> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/Treap.java,getString,"TreapNode<T> node, String prefix, boolean isTail",<T extends Comparable<T>> String,19,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/TreeMap.java,getString,"TreeMap<K, V> map","<K extends Comparable<K>, V> String",2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/TreeMap.java,getString,"TreeMapNode<K, V> node, String prefix, boolean isTail","<K extends Comparable<K>, V> String",17,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/Trie.java,print,Trie<C> trie,<C extends CharSequence> void,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/Trie.java,getString,Trie<C> tree,<C extends CharSequence> String,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/Trie.java,getString,"Node node, String prefix, String previousString, boolean isTail",String,23,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/TrieMap.java,getString,"TrieMap<K, V> map","<K extends CharSequence, V> String",1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/data_structures/TrieMap.java,getString,"Trie.Node node, String prefix, String previousString, boolean isTail",<V> String,30,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/BellmanFord.java,getShortestPath,"Graph<Integer> graph, Graph.Vertex<Integer> start, Map<Graph.Vertex<Integer>, List<Graph.Edge<Integer>>> paths, Map<Graph.Vertex<Integer>, Graph.CostVertexPair<Integer>> costs",void,33,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/BreadthFirstTraversal.java,breadthFirstTraversal,"int n, byte[][] adjacencyMatrix, int source",int[],27,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/ConnectedComponents.java,getConnectedComponents,Graph<T> graph,<T extends Comparable<T>> List<List<Vertex<T>>>,11,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/ConnectedComponents.java,visit,"Map<Vertex<T>,Integer> map, List<List<Vertex<T>>> list, Vertex<T> v, int c",<T extends Comparable<T>> void,21,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/CycleDetection.java,detect,Graph<T> graph,<T extends Comparable<T>> boolean,11,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/CycleDetection.java,depthFirstSearch,"Graph.Vertex<T> vertex, Set<Graph.Vertex<T>> visitedVerticies, Set<Graph.Edge<T>> visitedEdges",<T extends Comparable<T>> boolean,21,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/DepthFirstTraversal.java,depthFirstTraversal,"int n, byte[][] adjacencyMatrix, int source",int[],30,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/Dijkstra.java,checkForNegativeEdges,Collection<Graph.Vertex<Integer>> vertitices,boolean,7,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/Kruskal.java,isTheSamePart,"Graph.Vertex<Integer> v1, Graph.Vertex<Integer> v2, HashMap<Graph.Vertex<Integer>, HashSet<Graph.Vertex<Integer>>> membershipMap",boolean,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/Kruskal.java,union,"Graph.Vertex<Integer> v1, Graph.Vertex<Integer> v2, HashMap<Graph.Vertex<Integer>, HashSet<Graph.Vertex<Integer>>> membershipMap",void,11,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/PushRelabel.java,getMaximumFlow,"Map<Graph.Edge<T>, Long> edgesToCapacities, Graph.Vertex<T> source, Graph.Vertex<T> sink",<T extends Comparable<T>> Long,21,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/PushRelabel.java,addEdge,"Vertex from, Vertex to, long cost",void,11,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/PushRelabel.java,relabel,Vertex v,void,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/TurboMatching.java,getMaximumMatching,Graph<T> graph,<T extends Comparable<T>> MatchingResult<T>,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/TurboMatching.java,pathset,"Graph<T> graph, Map<Graph.Vertex<T>, Graph.Vertex<T>> mate",<T extends Comparable<T>> boolean,9,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/graph/TurboMatching.java,path,"Graph<T> graph, Map<Graph.Vertex<T>, Graph.Vertex<T>> mate, Set<Graph.Vertex<T>> visited, Graph.Vertex<T> vertex",<T extends Comparable<T>> boolean,12,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Coprimes.java,getNumberOfCoprimes,long n,long,14,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/DiscreteLogarithm.java,pow,"long a, long x, long p",long,8,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/DiscreteLogarithm.java,getDiscreteLogarithm,"HashMap<Long, Long> set, long s, long a, long p",long,7,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/DiscreteLogarithm.java,generateSet,"long a, long b_1, long p, long s, HashMap<Long, Long> set",void,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/DiscreteLogarithm.java,countDiscreteLogarithm,"final long a, final long b, final long p",long,4,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Distance.java,chebyshevDistance,"long[] point1, long[] point2",long,5,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Distance.java,squaredDistance,"double x1, double y1, double x2, double y2",double,4,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Distance.java,euclideanDistance,"double x1, double y1, double x2, double y2",double,4,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Division.java,division,"int a, int b",long,2,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Division.java,divisionUsingLoop,"int a, int b",long,10,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Division.java,divisionUsingRecursion,"int a, int b",long,11,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Division.java,divisionUsingMultiplication,"int a, int b",long,13,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Division.java,divisionUsingShift,"int a, int b",long,16,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Division.java,divisionUsingLogs,"int a, int b",long,7,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Exponentiation.java,recursiveExponentiation,"int base, int exponent",int,5,-
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Exponentiation.java,fastRecursiveExponentiation,"int base, int exponent",int,9,-
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Exponentiation.java,fastRecursiveExponentiationModulo,"int base, int exponent, int mod",int,9,-
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/FastFourierTransform.java,cooleyTukeyFFT,Complex[] coefficients,void,19,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/GreatestCommonDivisor.java,gcdUsingRecursion,"long a, long b",long,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/GreatestCommonDivisor.java,gcdUsingEuclides,"long x, long y",long,20,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Knapsack.java,zeroOneKnapsack,"int[] values, int[] weights, int capacity",int[],41,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Modular.java,modularAbs,"long n, long mod",long,4,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Modular.java,add,"long a, long b, long mod",long,8,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Modular.java,subtract,"long a, long b, long mod",long,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Modular.java,multiply,"long a, long b, long mod",long,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Modular.java,pow,"long a, long b, long mod",long,16,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Modular.java,divide,"long a, long b, long mod",long,17,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Multiplication.java,multiplication,"int a, int b",long,2,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Multiplication.java,multiplyUsingLoop,"int a, int b",long,6,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Multiplication.java,multiplyUsingRecursion,"int a, int b",long,6,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Multiplication.java,multiplyUsingShift,"int a, int b",long,10,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Multiplication.java,multiplyUsingLogs,"int a, int b",long,4,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Multiplication.java,multiplyUsingFFT,"String a, String b",String,66,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Multiplication.java,multiplyUsingLoopWithStringInput,"String a, String b",String,56,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Multiplication.java,multiplyUsingLoopWithIntegerInput,"int a, int b",int,63,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Permutations.java,permutations,String stringToGeneratePermutationsFrom,String[],6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Permutations.java,numberOfPermutations,int N,int,4,B
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Permutations.java,permutations,"String[] list, int index, char[] prefix, char[] remaining, int prefixLength, int remainingLength",int,16,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Permutations.java,getAllPermutations,final N[] numbers,<N extends Number> List<List<N>>,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Permutations.java,getAllPermutations,"final N[] numbers, List<List<N>> result",<N extends Number> List<List<N>>,5,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Permutations.java,permute,"final N[] numbers, int currentElementIndex, List<List<N>> result",<N extends Number> List<List<N>>,18,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Primes.java,getPrimeFactorization,long number,"Map<Long, Long>",23,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Primes.java,isPrime,long number,boolean,20,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Primes.java,sieveOfEratosthenes,int number,boolean,19,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/Primes.java,millerRabinTest,int number,boolean,29,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/RamerDouglasPeucker.java,sqr,double x,double,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/RamerDouglasPeucker.java,distanceBetweenPoints,"double vx, double vy, double wx, double wy",double,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/RamerDouglasPeucker.java,distanceToSegmentSquared,"double px, double py, double vx, double vy, double wx, double wy",double,9,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/RamerDouglasPeucker.java,perpendicularDistance,"double px, double py, double vx, double vy, double wx, double wy",double,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/RamerDouglasPeucker.java,douglasPeucker,"List<Double[]> list, int s, int e, double epsilon, List<Double[]> resultList",void,28,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/mathematics/RamerDouglasPeucker.java,douglasPeucker,"List<Double[]> list, double epsilon",List<Double[]>,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Complex.java,polar,"final double rho, final double theta",Complex,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,toBinaryUsingDivideAndModulus,int numberToConvert,String,10,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,toBinaryUsingShiftsAndModulus,int numberToConvert,String,10,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,toBinaryUsingBigDecimal,int numberToConvert,String,11,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,toBinaryUsingDivideAndDouble,int numberToConvert,String,10,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,powerOfTwoUsingLoop,int numberToCheck,boolean,9,-
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,powerOfTwoUsingRecursion,int numberToCheck,boolean,6,-
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,powerOfTwoUsingLog,int numberToCheck,boolean,6,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,powerOfTwoUsingBits,int numberToCheck,boolean,4,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,handleUnderOneThousand,int number,String,25,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Integers.java,toEnglish,int number,String,37,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Longs.java,toBinaryUsingDivideAndModulus,long numberToConvert,String,10,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Longs.java,toBinaryUsingShiftsAndModulus,long numberToConvert,String,10,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/numbers/Longs.java,toBinaryUsingBigDecimal,long numberToConvert,String,13,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/search/BinarySearch.java,find,"int value, int[] array, boolean optimize",int,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/search/BinarySearch.java,recursiveFind,"int value, int start, int end, boolean optimize",int,20,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/search/BinarySearch.java,linearSearch,"int value, int start, int end",int,6,K
+java-algorithms-implementation,src/com/jwetherell/algorithms/search/InterpolationSearch.java,find,"int value, int[] array",int,6,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/search/InterpolationSearch.java,recursiveFind,"int value, int start, int end",int,15,K
+java-algorithms-implementation,src/com/jwetherell/algorithms/search/LinearSearch.java,find,"int value, int[] array",int,6,K
+java-algorithms-implementation,src/com/jwetherell/algorithms/search/LowerBound.java,lowerBound,"int[] array, int length, int value",int,11,-
+java-algorithms-implementation,src/com/jwetherell/algorithms/search/QuickSelect.java,find,"int value, int[] array",int,27,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/search/UpperBound.java,upperBound,"int[] array, int length, int value",int,11,-
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/ArithmeticProgression.java,sequenceTotalUsingLoop,"int startNumber, int numberOfNumbersToCompute",long,8,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/ArithmeticProgression.java,sequenceTotalUsingTriangularNumbers,"int startNumber, int numberOfNumbersToCompute",long,5,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/FibonacciSequence.java,fibonacciSequenceUsingLoop,int n,long,15,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/FibonacciSequence.java,fibonacciSequenceUsingRecursion,int n,long,2,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/FibonacciSequence.java,fibonacciSequenceUsingRecursion,"long[] array, int n",long,18,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/FibonacciSequence.java,fibonacciSequenceUsingMatrixMultiplication,int n,long,19,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/FibonacciSequence.java,multiplyMatrices,"long[][] A, long[][] B",long[][],13,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/FibonacciSequence.java,fibonacciSequenceUsingBinetsFormula,int n,long,4,R
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/LargestSumContiguousSubarray.java,getLargestSumContiguousSubarray,int[] A,int,9,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/LongestCommonSubsequence.java,getLCS,"char[] seq1, char[] seq2",MatrixPair,12,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/LongestCommonSubsequence.java,populateMatrix,"char[] seq1, char[] seq2",void,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/LongestCommonSubsequence.java,longestCommonSubsequence,"int i, int j, char[] seq1, char[] seq2",int,32,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/LongestCommonSubsequence.java,distribute,"char c, Set<String> set",void,13,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/LongestIncreasingSubsequence.java,getLongestIncreasingSubsequence,int[] X,int[],27,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/LongestPalindromicSubsequence.java,getLongestPalindromeSubsequence,String s,int,8,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/LongestPalindromicSubsequence.java,initializeMatrix,int[][] M,void,9,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/LongestPalindromicSubsequence.java,fillMatrix,"int[][] M, char[] ch",void,14,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/SubsequenceCounter.java,getCount,"char[] sequence, char[] subSequence",int,13,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sequence/SubsequenceCounter.java,countMatches,"int seqDigitsLeft, int subseqDigitsLeft",int,11,T
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/AmericanFlagSort.java,sort,Integer[] unsorted,Integer[],6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/AmericanFlagSort.java,sort,"Integer[] unsorted, int start, int length, int divisor",void,37,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/AmericanFlagSort.java,getMaxNumberOfDigits,Integer[] unsorted,int,8,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/AmericanFlagSort.java,getDigit,"int integer, int divisor",int,1,B
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/BubbleSort.java,sort,T[] unsorted,<T extends Comparable<T>> T[],13,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/BubbleSort.java,swap,"int index1, int index2, T[] unsorted",<T extends Comparable<T>> void,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/CountingSort.java,sort,Integer[] unsorted,Integer[],5,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/CountingSort.java,findMax,Integer[] unsorted,int,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/CountingSort.java,updateCounts,"Integer[] unsorted, int[] counts",void,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/CountingSort.java,populateCounts,"Integer[] unsorted, int[] counts",void,8,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/HeapSort.java,sort,T[] unsorted,<T extends Comparable<T>> T[],3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/HeapSort.java,sortHeap,T[] unsorted,<T extends Comparable<T>> void,35,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/HeapSort.java,createHeap,T[] unsorted,<T extends Comparable<T>> void,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/HeapSort.java,add,"int size, T element, T[] unsorted",<T extends Comparable<T>> int,14,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/HeapSort.java,swap,"int parentIndex, int childIndex, T[] unsorted",<T extends Comparable<T>> void,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/InsertionSort.java,sort,T[] unsorted,<T extends Comparable<T>> T[],5,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/InsertionSort.java,sort,"int i, T[] unsorted",<T extends Comparable<T>> void,10,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/MergeSort.java,sort,"SPACE_TYPE type, T[] unsorted",<T extends Comparable<T>> T[],2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/MergeSort.java,sort,"SPACE_TYPE type, int start, int length, T[] unsorted",<T extends Comparable<T>> void,16,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/MergeSort.java,mergeInPlace,"int aStart, int aLength, int bStart, int bLength, T[] unsorted",<T extends Comparable<T>> void,17,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/MergeSort.java,mergeWithExtraStorage,"int aStart, int aLength, int bStart, int bLength, T[] unsorted",<T extends Comparable<T>> void,34,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/QuickSort.java,sort,"PIVOT_TYPE pivotType, T[] unsorted",<T extends Comparable<T>> T[],8,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/QuickSort.java,sort,"int index, int start, int finish, T[] unsorted",<T extends Comparable<T>> void,23,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/QuickSort.java,getRandom,int length,int,5,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/QuickSort.java,swap,"int index1, int index2, T[] unsorted",<T extends Comparable<T>> void,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/RadixSort.java,sort,Integer[] unsorted,Integer[],23,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/RadixSort.java,getMaxNumberOfDigits,Integer[] unsorted,int,8,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/RadixSort.java,getDigit,"int integer, int divisor",int,1,B
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/RadixSort.java,add,"int integer, int[] bucket",int[],9,C
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/ShellSort.java,sort,"int[] shells, T[] unsorted",<T extends Comparable<T>> T[],29,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/ShellSort.java,sortSubarrays,List<List<T>> lists,<T extends Comparable<T>> void,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/sorts/ShellSort.java,sort,List<T> list,<T extends Comparable<T>> void,13,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/KnuthMorrisPratt.java,getPrefSufTable,String text,List<Integer>,16,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/Manacher.java,getLongestPalindromicSubstring,String input,String,37,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/Rotation.java,charAt,"String text, int pos",char,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/Rotation.java,compare,"char a, char b, boolean greater",int,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/Rotation.java,bestRotation,"String text, boolean greatest",String,25,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/Rotation.java,getLexicographicallyMinimalRotation,String text,String,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/Rotation.java,getLexicographicallyMaximalRotation,String text,String,1,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,reverseWithStringConcat,String string,String,5,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,reverseWithStringBuilder,String string,String,5,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,reverseWithStringBuilderBuiltinMethod,String string,String,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,reverseWithSwaps,String string,String,10,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,reverseWithXOR,String string,String,9,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,reverseWordsByCharWithAdditionalStorage,String string,String,19,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,reverseWordsUsingStringTokenizerWithAdditionalStorage,String string,String,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,reverseWordsUsingSplitWithAdditionalStorage,String string,String,6,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,reverseWordsInPlace,String string,String,28,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,swapWords,"int startA, int endA, int startB, int endB, char[] array",void,32,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,shiftRight,"int start, int end, char[] array",void,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,shiftLeft,"int start, int end, char[] array",void,3,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,isPalindromeWithAdditionalStorage,String string,boolean,2,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,isPalindromeInPlace,String string,boolean,11,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,generateSubsets,String inputString,String[],30,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,levenshteinDistanceRecursive,"String s, String t",int,18,P
+java-algorithms-implementation,src/com/jwetherell/algorithms/strings/StringFunctions.java,levenshteinDistanceIterative,"String string1, String string2",int,23,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/DisjointSetTests.java,toString,DisjointSet.Item<Integer>[] items,String,7,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/ImplicitKeyTreapTests.java,moveToFront,"MyTreap<T> t, int begin, int end",<T extends Comparable<T>> void,9,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/ImplicitKeyTreapTests.java,moveToBack,"MyTreap<T> t, int begin, int end",<T extends Comparable<T>> void,9,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/ImplicitKeyTreapTests.java,toString,"Class<T> type, Object[] array",<T> String,4,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/IntervalTreeTests.java,collectionsEqual,"Collection<?> c1, Collection<?> c2",boolean,2,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/IntervalTreeTests.java,assertTrue,"String msg, IntervalTree<String> obj, boolean isTrue",void,4,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/SegmentTreeTests.java,collectionsEqual,"Collection<?> c1, Collection<?> c2",boolean,2,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/HeapTest.java,testHeap,"BinaryHeap.Type heapType, IHeap<T> heap, Class<T> type, String name, Integer[] unsorted, Integer[] sorted, Integer _invalid",<T extends Comparable<T>> boolean,149,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/IteratorTest.java,testIterator,Iterator<T> iter,<T extends Comparable<T>> boolean,8,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/JavaCollectionTest.java,testCollection,"Collection<T> collection, Class<T> type, String name, Integer[] unsorted, Integer[] sorted, Integer _invalid",<T extends Comparable<T>> boolean,27,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/JavaCollectionTest.java,addAndRemoveInOrder,"Collection<T> collection, Class<T> type, String name, Integer[] data, Integer _invalid",<T extends Comparable<T>> boolean,62,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/JavaCollectionTest.java,addInReverseOrderAndRemoveInOrder,"Collection<T> collection, Class<T> type, String name, Integer[] data, Integer _invalid",<T extends Comparable<T>> boolean,54,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/JavaCollectionTest.java,addInOrderRemoveInReverseOrder,"Collection<T> collection, Class<T> type, String name, Integer[] data, Integer _invalid",<T extends Comparable<T>> boolean,62,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/JavaMapTest.java,testJavaMap,"java.util.Map<K,V> map, Class<T> type, String name, Integer[] unsorted, Integer[] sorted, Integer _invalid","<K,V, T extends Comparable<T>> boolean",32,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/JavaMapTest.java,addInOrderAndRemoveInOrder,"java.util.Map<K,V> map, Class<T> keyType, String name, Integer[] data, Integer _invalid","<K,V, T extends Comparable<T>> boolean",47,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/JavaMapTest.java,addInReverseOrderAndRemoveInReverseOrder,"java.util.Map<K,V> map, Class<T> keyType, String name, Integer[] data, Integer _invalid","<K,V, T extends Comparable<T>> boolean",46,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/JavaMapTest.java,addInOrderAndRemoveInReverseOrder,"java.util.Map<K,V> map, Class<T> keyType, String name, Integer[] data, Integer _invalid","<K,V, T extends Comparable<T>> boolean",47,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/JavaMapTest.java,testMapEntrySet,"java.util.Map<K, V> map, Class<T> keyType, Integer[] data","<K,V, T extends Comparable<T>> boolean",86,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/ListIteratorTest.java,testListIterator,"ListIterator<T> iter, Class<T> type, Integer[] data, int size",<T extends Comparable<T>> boolean,80,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/ListTest.java,testList,"IList<T> list, String name, T[] data, T _invalid",<T extends Comparable<T>> boolean,100,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/MapTest.java,testMap,"IMap<K,V> map, Class<T> type, String name, Integer[] data, Integer _invalid","<K,V, T extends Comparable<T>> boolean",150,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/QueueTest.java,testQueue,"IQueue<T> queue, String name, T[] data, T _invalid",<T extends Comparable<T>> boolean,136,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/SetTest.java,testSet,"ISet<T> set, String name, T[] data, T _invalid",<T extends Comparable<T>> boolean,100,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/StackTest.java,testStack,"IStack<T> stack, String name, T[] data, T _invalid",<T extends Comparable<T>> boolean,115,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/SuffixTreeTest.java,suffixTreeTest,"ISuffixTree<String> tree, String test",boolean,21,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/TreeTest.java,testTree,"ITree<T> tree, Class<T> type, String name, Integer[] data, Integer _invalid",<T extends Comparable<T>> boolean,107,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/Utils.java,parseT,"final Integer value, final Class<T> type",<T> T,11,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/Utils.java,handleError,Object obj,void,2,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/Utils.java,handleError,"Object data, Object obj",void,3,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/Utils.java,handleError,"Object[] data, Object obj",void,6,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/Utils.java,testData,int... integers,TestData,18,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/Utils.java,generateTestData,int data_size,TestData,28,R
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/test/common/Utils.java,setString,Integer[] _unsorted,String,8,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,generateTestData,"int idx, int size, Integer[][] unsorteds, Integer[][] sorteds, String[] strings",void,29,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,runTests,,boolean,89,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,runTests,"Testable testable, int tests, Integer[][] unsorteds, Integer sorteds[][], String[] strings",boolean,23,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,handleError,"String input, Object obj",void,3,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,testJavaCollection,"Collection<T> collection, Class<T> type, String name, Integer[] _unsorted, Integer[] _sorted, String input",<T extends Comparable<T>> boolean,343,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,testJavaMap,"java.util.Map<K,V> map, Class<K> keyType, Class<V> valueType, String name, Integer[] _unsorted, Integer[] _sorted, String input","<K extends Comparable<K>,V> boolean",331,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,getTestResults,"int number, String[] names, long[][] results",String,90,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,getMemoryUse,,long,5,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,putOutTheGarbage,,void,1,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,putOutTheGarbage,long sleep,void,3,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java,collectGarbage,long sleep,void,10,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/SpatialDataStructuresTiming.java,generateTestData,"int size, int[][] unsorteds",String,12,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/SpatialDataStructuresTiming.java,runTests,int round,void,18,T
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/SpatialDataStructuresTiming.java,testKdTree,"String name, int testRound, int testNum, int[][] unsorteds",boolean,55,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/data_structures/timing/SpatialDataStructuresTiming.java,getTestResults,"int number, String[] names, long[][] results",String,78,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/graph/test/Graphs.java,makeDirectedGraph,"int N, int K, int[] values",Graph<Integer>,17,R
+java-algorithms-implementation,test/com/jwetherell/algorithms/mathematics/test/MathematicsTest.java,nextRandomInt,"int min, int max",int,1,C
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/test/Sorts.java,check,Integer[] array,boolean,5,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/test/Sorts.java,print,Integer[] array,String,1,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/test/Sorts.java,print,"Integer[] array, int start, int length",String,7,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/timing/SortsTiming.java,runTest,"Testable testable, Integer[] unsorted, Integer[] sorted, String[] names, double[] results, int count",int,37,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/timing/SortsTiming.java,showComparison,,void,12,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/timing/SortsTiming.java,showResultingArray,"Integer[] u, Integer[] r",void,3,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/timing/SortsTiming.java,check,Integer[] array,boolean,5,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/timing/SortsTiming.java,print,Integer[] array,String,1,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/timing/SortsTiming.java,print,"Integer[] array, int start, int length",String,7,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/timing/SortsTiming.java,printWithPivot,"Integer[] array, int pivotIndex, int start, int length",String,10,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/timing/SortsTiming.java,putOutTheGarbage,,void,3,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/sorts/timing/SortsTiming.java,collectGarbage,,void,10,P
+java-algorithms-implementation,test/com/jwetherell/algorithms/strings/test/Strings.java,print,String[] strings,String,4,P

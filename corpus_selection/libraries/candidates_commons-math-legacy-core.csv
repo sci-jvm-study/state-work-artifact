@@ -1,0 +1,76 @@
+library,file,method,signature,returns,loc,failed_stage
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/IntegerSequence.java,range,"int start, int end",Range,1,R
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/IntegerSequence.java,range,"final int start, final int max, final int step",Range,1,R
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/IntegerSequence.java,create,,Incrementor,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,scale,"double val, final double[] arr",double[],5,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,scaleInPlace,"double val, final double[] arr",void,3,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,ebeAdd,"double[] a, double[] b",double[],6,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,ebeSubtract,"double[] a, double[] b",double[],6,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,ebeMultiply,"double[] a, double[] b",double[],6,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,ebeDivide,"double[] a, double[] b",double[],6,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,distance1,"double[] p1, double[] p2",double,6,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,distance1,"int[] p1, int[] p2",int,6,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,distance,"double[] p1, double[] p2",double,7,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,distance,"int[] p1, int[] p2",double,7,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,distanceInf,"double[] p1, double[] p2",double,6,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,distanceInf,"int[] p1, int[] p2",int,6,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,isMonotonic,"T[] val, OrderDirection dir, boolean strict",<T extends Comparable<? super T>> boolean,35,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,isMonotonic,"double[] val, OrderDirection dir, boolean strict",boolean,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkEqualLength,"double[] a, double[] b, boolean abort",boolean,8,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkEqualLength,"double[] a, double[] b",void,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkEqualLength,"int[] a, int[] b, boolean abort",boolean,8,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkEqualLength,"int[] a, int[] b",void,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkOrder,"double[] val, OrderDirection dir, boolean strict, boolean abort",boolean,45,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkOrder,"double[] val, OrderDirection dir, boolean strict",void,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkOrder,double[] val,void,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkRectangular,final long[][] in,void,8,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkPositive,final double[] in,void,5,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkNotNaN,final double[] in,void,5,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkFinite,final double[] val,void,5,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkNonNegative,final long[] in,void,5,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,checkNonNegative,final long[][] in,void,7,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,equals,"float[] x, float[] y",boolean,12,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,equalsIncludingNaN,"float[] x, float[] y",boolean,12,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,equals,"double[] x, double[] y",boolean,12,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,equalsIncludingNaN,"double[] x, double[] y",boolean,12,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,normalizeArray,"double[] values, double normalizedSum",double[],29,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,buildArray,"final Field<T> field, final int length",<T> T[],4,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,buildArray,"final Field<T> field, final int rows, final int columns",<T> T[][],12,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,convolve,"double[] x, double[] h",double[],19,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,natural,int n,int[],1,B
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,sequence,"int size, int start, int stride",int[],5,-
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,verifyValues,"final double[] values, final int begin, final int length",boolean,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,verifyValues,"final double[] values, final int begin, final int length, final boolean allowEmpty",boolean,14,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,verifyValues," final double[] values, final double[] weights, final int begin, final int length",boolean,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,verifyValues,"final double[] values, final double[] weights, final int begin, final int length, final boolean allowEmpty",boolean,31,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,concatenate,double[]... x,double[],13,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/MathArrays.java,unique,double[] data,double[],12,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/Pair.java,create,"K k, V v","<K, V> Pair<K, V>",1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/RealFieldElement.java,max,"final T e1, final T e2",<T extends RealFieldElement<T>> T,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/RealFieldElement.java,min,"final T e1, final T e2",<T extends RealFieldElement<T>> T,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/Dfp.java,compare,"final Dfp a, final Dfp b",int,37,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/Dfp.java,copySign,"final Dfp x, final Dfp y",Dfp,3,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpField.java,computeStringConstants,final int highPrecisionDecimalDigits,void,17,T
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpField.java,computePi,"final Dfp one, final Dfp two, final Dfp three",Dfp,20,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpField.java,computeExp,"final Dfp a, final Dfp one",Dfp,16,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpField.java,computeLn,"final Dfp a, final Dfp one, final Dfp two",Dfp,17,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,split,"final DfpField field, final String a",Dfp[],32,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,split,final Dfp a,Dfp[],5,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,splitMult,"final Dfp[] a, final Dfp[] b",Dfp[],8,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,splitDiv,"final Dfp[] a, final Dfp[] b",Dfp[],6,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,splitPow,"final Dfp[] base, int a",Dfp,34,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,pow,"Dfp base, int a",Dfp,29,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,exp,final Dfp a,Dfp,12,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,expInternal,final Dfp a,Dfp,14,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,log,Dfp a,Dfp,42,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,logInternal,final Dfp[] a,Dfp[],19,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,pow,"Dfp x, final Dfp y",Dfp,119,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,sinInternal,Dfp[] a,Dfp,17,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,cosInternal,Dfp[] a,Dfp,18,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,sin,final Dfp a,Dfp,25,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,cos,Dfp a,Dfp,28,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,tan,final Dfp a,Dfp,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,atanInternal,final Dfp a,Dfp,14,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,atan,final Dfp a,Dfp,41,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,asin,final Dfp a,Dfp,1,P
+commons-math-legacy-core,org/apache/commons/math4/legacy/core/dfp/DfpMath.java,acos,Dfp a,Dfp,8,P

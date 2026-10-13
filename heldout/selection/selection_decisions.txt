@@ -1,0 +1,29 @@
+HoAllSelectionSortSelection                                       SELECTED k=2 states=477
+HoAllShellSortShell                                               SELECTED k=3 states=47
+HoAllKadaneKadaneSum                                              SELECTED k=4 states=71
+HoNumSortingSort                                                  SELECTED k=5 states=1183
+HoNumPartitionCountIndices                                        SELECTED k=5 states=481
+HoJaiLowerBoundLowerBound                                         SELECTED k=5 states=57
+HoRngAliasMethodDiscreteSamplerFillRemainingIndices               SELECTED k=5 states=89
+HoNumSortingSortIndicesInsertionSort                              SELECTED k=6 states=333
+HoNumIndexIntervalsCompressDuplicates                             SELECTED k=6 states=45
+HoAllNumberOfDivisorDigitsGetNumberOfDivisorDigits                below floor (1 non-leaf states)
+HoAllEDISTMin                                                     below floor (4 non-leaf states)
+HoAllLinearSearchSearchForKey                                     below floor (4 non-leaf states)
+HoJaiIntegersPowerOfTwoUsingLoop                                  below floor (4 non-leaf states)
+HoJaiIntegersPowerOfTwoUsingRecursion                             below floor (4 non-leaf states)
+HoJaiUpperBoundUpperBound                                         near-duplicate of selected HoJaiLowerBoundLowerBound
+HoNumIndexSupportCompressDuplicates                               near-duplicate of selected HoNumIndexIntervalsCompressDuplicates
+HoAllCountingSortCountingSort                                     no kept run (no-output)
+HoAllfibonacciFib                                                 no kept run (no-output)
+HoRngPermutationSamplerNatural                                    no kept run (no-output)
+HoJaiExponentiationFastRecursiveExponentiation                    no kept run (timeout)
+HoJaiExponentiationFastRecursiveExponentiationModulo              no kept run (timeout)
+HoJaiExponentiationRecursiveExponentiation                        no kept run (timeout)
+HoAllKadaneMaximumSubArraySum                                     same source class as HoAllKadaneKadaneSum
+HoNumIndexIntervalsIsAscending                                    same source class as HoNumIndexIntervalsCompressDuplicates
+HoNumIndexSupportIsAscending                                      same source class as HoNumIndexSupportCompressDuplicates
+HoNumSortingInsertionSortIndices                                  same source class as HoNumSortingSort
+HoNumSortingCompressDuplicates                                    same source class as HoNumSortingSortIndicesInsertionSort
+HoNumSortingIsAscending                                           same source class as HoNumSortingSortIndicesInsertionSort
+9 selected

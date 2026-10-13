@@ -1,0 +1,69 @@
+held-out programs: 9; scoreable (>= 5 non-leaf states and non-constant work): 9
+main corpus used for fitting: 66 groups, 6567 non-leaf rows; M6 trained on 29 eligible groups
+
+                                          program  states  nonleaf  floor  hindsight  JPF built-in  JPFBar  Kilby WBE  Group C  Knuth 30  M5 linear  M5 RF  M6 linear  M6 RF
+                               AllKadaneKadaneSum      71       35  -0.27       1.00         -0.22   -0.12       0.01     0.68      0.99      -0.02   0.69       0.42  -0.14
+                        AllSelectionSortSelection     477       86  -0.40       1.00         -0.31   -0.29      -0.13     0.05      0.66       0.54  -0.08       0.11   0.40
+                                AllShellSortShell      47       23  -0.40       1.00         -0.32   -0.19       0.19     0.75      0.98       0.89   0.81       0.75   0.75
+                          JaiLowerBoundLowerBound      57       16  -0.37       0.99         -0.35   -0.19       0.41      NaN      0.98       0.60   0.86        NaN    NaN
+              NumIndexIntervalsCompressDuplicates      45       22  -0.53       1.00         -0.77   -0.72      -0.30     1.00      0.99       0.19   0.72       1.00   1.00
+                         NumPartitionCountIndices     481       98  -0.14       0.97         -0.17   -0.14       0.10     0.67      0.69       0.52   0.45       0.86   0.76
+                                   NumSortingSort    1183      245  -0.34       1.00         -0.25   -0.24      -0.10     0.21      0.69      -0.15   0.10       0.18   0.35
+               NumSortingSortIndicesInsertionSort     333      166  -0.17       1.00         -0.28   -0.26      -0.23     0.21      0.99      -0.13   0.44       0.19   0.43
+RngAliasMethodDiscreteSamplerFillRemainingIndices      89       22  -0.78       1.00         -0.01    0.17       0.25      NaN      0.79       0.06   0.38        NaN    NaN
+
+====================================================================================================
+ALL HELD-OUT PROGRAMS (pre-registered set): 9 programs
+Macro rho over the groups where the method is defined (group-bootstrap 95% interval):
+  floor          groups=9   macro rho = -0.378  [-0.500, -0.267]
+  hindsight      groups=9   macro rho = +0.996  [+0.989, +1.000]
+  JPF built-in   groups=9   macro rho = -0.299  [-0.443, -0.185]
+  JPFBar         groups=9   macro rho = -0.222  [-0.376, -0.088]
+  Kilby WBE      groups=9   macro rho = +0.020  [-0.131, +0.173]
+  Group C        groups=7   macro rho = +0.509  [+0.272, +0.746]
+  Knuth 30       groups=9   macro rho = +0.864  [+0.772, +0.957]
+  M5 linear      groups=9   macro rho = +0.276  [+0.059, +0.542]
+  M5 RF          groups=9   macro rho = +0.485  [+0.282, +0.680]
+  M6 linear      groups=7   macro rho = +0.500  [+0.261, +0.759]
+  M6 RF          groups=7   macro rho = +0.508  [+0.230, +0.751]
+Pre-registered hypotheses:
+  H1 floor negative:            macro -0.378 -> holds
+  H2 hindsight >= 0.90:         macro +0.996 -> holds
+  H3 JPF built-in, JPFBar within +-0.30 of 0: -0.299, -0.222 -> holds
+  H4 Group C positive:          macro +0.509 -> holds
+Calibration (log10 error of 1+work; per group the median absolute error, then mean over groups -> factor; frozen models):
+estimator    groups  mean factor    bias  within 2x  within 10x
+M5 linear         9         3.3x   +0.42        39%         93%
+M5 RF             9         3.5x   +0.52        29%         80%
+M6 linear         7         1.7x   +0.15        71%         97%
+M6 RF             7         2.5x   +0.36        41%         99%
+Group C           7         1.6x   +0.09        61%         92%
+constant          9         2.8x   +0.33        37%         95%
+
+====================================================================================================
+SENSITIVITY: without JaiLowerBoundLowerBound (post hoc): 8 programs
+Macro rho over the groups where the method is defined (group-bootstrap 95% interval):
+  floor          groups=8   macro rho = -0.380  [-0.519, -0.247]
+  hindsight      groups=8   macro rho = +0.996  [+0.988, +1.000]
+  JPF built-in   groups=8   macro rho = -0.292  [-0.447, -0.170]
+  JPFBar         groups=8   macro rho = -0.226  [-0.397, -0.078]
+  Kilby WBE      groups=8   macro rho = -0.028  [-0.152, +0.099]
+  Group C        groups=7   macro rho = +0.509  [+0.272, +0.746]
+  Knuth 30       groups=8   macro rho = +0.850  [+0.754, +0.951]
+  M5 linear      groups=8   macro rho = +0.236  [+0.014, +0.518]
+  M5 RF          groups=8   macro rho = +0.438  [+0.245, +0.630]
+  M6 linear      groups=7   macro rho = +0.500  [+0.261, +0.759]
+  M6 RF          groups=7   macro rho = +0.508  [+0.230, +0.751]
+Pre-registered hypotheses:
+  H1 floor negative:            macro -0.380 -> holds
+  H2 hindsight >= 0.90:         macro +0.996 -> holds
+  H3 JPF built-in, JPFBar within +-0.30 of 0: -0.292, -0.226 -> holds
+  H4 Group C positive:          macro +0.509 -> holds
+Calibration (log10 error of 1+work; per group the median absolute error, then mean over groups -> factor; frozen models):
+estimator    groups  mean factor    bias  within 2x  within 10x
+M5 linear         8         3.5x   +0.44        37%         92%
+M5 RF             8         3.9x   +0.57        22%         79%
+M6 linear         7         1.7x   +0.15        71%         97%
+M6 RF             7         2.5x   +0.36        41%         99%
+Group C           7         1.6x   +0.09        61%         92%
+constant          8         2.8x   +0.31        39%         94%

@@ -1,0 +1,17 @@
+Macro Spearman rho of Knuth probing (30 probes per state), population P55, by random seed.
+The seed of the main analysis is 42 
+
+  seed   macro rho  groups
+    42       0.856      55
+     1       0.858      55
+     2       0.847      55
+     3       0.858      55
+     4       0.855      55
+     5       0.855      55
+     6       0.850      55
+     7       0.861      55
+     8       0.862      55
+     9       0.864      55
+    10       0.844      55
+
+Ten other seeds: min 0.844, max 0.864, mean 0.855, standard deviation 0.007

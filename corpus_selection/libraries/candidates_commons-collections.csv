@@ -1,0 +1,752 @@
+library,file,method,signature,returns,loc,failed_stage
+commons-collections,org/apache/commons/collections4/ArrayUtils.java,contains,"final Object[] array, final Object objectToFind",boolean,1,P
+commons-collections,org/apache/commons/collections4/ArrayUtils.java,indexOf,"final Object[] array, final Object objectToFind, int startIndex",int,20,P
+commons-collections,org/apache/commons/collections4/ArrayUtils.java,indexOf,"final T[] array, final Object objectToFind",<T> int,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,collectionBag,final Bag<E> bag,<E> Bag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,emptyBag,,<E> Bag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,emptySortedBag,,<E> SortedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,predicatedBag,"final Bag<E> bag, final Predicate<? super E> predicate",<E> Bag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,predicatedSortedBag,"final SortedBag<E> bag, final Predicate<? super E> predicate",<E> SortedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,synchronizedBag,final Bag<E> bag,<E> Bag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,synchronizedSortedBag,final SortedBag<E> bag,<E> SortedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,transformingBag,"final Bag<E> bag, final Transformer<? super E, ? extends E> transformer",<E> Bag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,transformingSortedBag,"final SortedBag<E> bag, final Transformer<? super E, ? extends E> transformer",<E> SortedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,unmodifiableBag,final Bag<? extends E> bag,<E> Bag<E>,1,P
+commons-collections,org/apache/commons/collections4/BagUtils.java,unmodifiableSortedBag,final SortedBag<E> bag,<E> SortedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,asClosure,"final Transformer<? super E, ?> transformer",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,chainedClosure,final Closure<? super E>... closures,<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,chainedClosure,final Collection<? extends Closure<? super E>> closures,<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,doWhileClosure,"final Closure<? super E> closure, final Predicate<? super E> predicate",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,exceptionClosure,,<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,forClosure,"final int count, final Closure<? super E> closure",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,ifClosure,"final Predicate<? super E> predicate, final Closure<? super E> trueClosure",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,ifClosure,"final Predicate<? super E> predicate, final Closure<? super E> trueClosure, final Closure<? super E> falseClosure",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,invokerClosure,final String methodName,<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,invokerClosure,"final String methodName, final Class<?>[] paramTypes, final Object[] args",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,nopClosure,,<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,switchClosure,"final Map<Predicate<E>, Closure<E>> predicatesAndClosures",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,switchClosure,"final Predicate<? super E>[] predicates, final Closure<? super E>[] closures",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,switchClosure,"final Predicate<? super E>[] predicates, final Closure<? super E>[] closures, final Closure<? super E> defaultClosure",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,switchMapClosure,"final Map<? extends E, Closure<E>> objectsAndClosures",<E> Closure<E>,13,P
+commons-collections,org/apache/commons/collections4/ClosureUtils.java,whileClosure,"final Predicate<? super E> predicate, final Closure<? super E> closure",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,equals,"final Collection<?> a, final Collection<?> b",boolean,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,addAll,"final Collection<C> collection, final C... elements",<C> boolean,7,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,addAll,"final Collection<C> collection, final Enumeration<? extends C> enumeration",<C> boolean,7,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,addAll,"final Collection<C> collection, final Iterable<? extends C> iterable",<C> boolean,6,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,addAll,"final Collection<C> collection, final Iterator<? extends C> iterator",<C> boolean,7,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,addIgnoreNull,"final Collection<T> collection, final T object",<T> boolean,2,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,cardinality,"final O obj, final Iterable<? super O> collection",<O> int,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,checkIndexBounds,final int index,void,3,C
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,collate,"final Iterable<? extends O> a, final Iterable<? extends O> b",<O extends Comparable<? super O>> List<O>,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,collate,"final Iterable<? extends O> a, final Iterable<? extends O> b, final boolean includeDuplicates",<O extends Comparable<? super O>> List<O>,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,collate,"final Iterable<? extends O> a, final Iterable<? extends O> b, final Comparator<? super O> c",<O> List<O>,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,collate,"final Iterable<? extends O> iterableA, final Iterable<? extends O> iterableB, final Comparator<? super O> comparator, final boolean includeDuplicates",<O> List<O>,23,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,collect,"final Iterable<? extends I> inputCollection, final Transformer<? super I, ? extends O> transformer, final R outputCollection","<I, O, R extends Collection<? super O>> R",4,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,collect,"final Iterable<I> inputCollection, final Transformer<? super I, ? extends O> transformer","<I, O> Collection<O>",6,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,collect,"final Iterator<? extends I> inputIterator, final Transformer<? super I, ? extends O> transformer, final R outputCollection","<I, O, R extends Collection<? super O>> R",8,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,collect,"final Iterator<I> inputIterator, final Transformer<? super I, ? extends O> transformer","<I, O> Collection<O>",1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,containsAll,"final Collection<?> coll1, final Collection<?> coll2",boolean,23,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,containsAny,"final Collection<?> coll1, final Collection<?> coll2",boolean,16,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,countMatches,"final Iterable<C> input, final Predicate<? super C> predicate",<C> int,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,disjunction,"final Iterable<? extends O> a, final Iterable<? extends O> b",<O> Collection<O>,7,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,emptyCollection,,<T> Collection<T>,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,emptyIfNull,final Collection<T> collection,<T> Collection<T>,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,exists,"final Iterable<C> input, final Predicate<? super C> predicate",<C> boolean,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,extractSingleton,final Collection<E> collection,<E> E,5,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,filter,"final Iterable<T> collection, final Predicate<? super T> predicate",<T> boolean,10,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,filterInverse,"final Iterable<T> collection, final Predicate<? super T> predicate",<T> boolean,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,find,"final Iterable<T> collection, final Predicate<? super T> predicate",<T> T,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,forAllButLastDo,"final Iterable<T> collection, final C closure","<T, C extends Closure<? super T>> T",1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,forAllButLastDo,"final Iterator<T> iterator, final C closure","<T, C extends Closure<? super T>> T",1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,forAllDo,"final Iterable<T> collection, final C closure","<T, C extends Closure<? super T>> C",4,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,forAllDo,"final Iterator<T> iterator, final C closure","<T, C extends Closure<? super T>> C",4,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,get,"final Iterable<T> iterable, final int index",<T> T,2,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,get,"final Iterator<T> iterator, final int index",<T> T,2,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,get,"final Object object, final int index",Object,32,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,getCardinalityMap,final Iterable<? extends O> coll,"<O> Map<O, Integer>",11,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,hashCode,"final Collection<? extends E> collection, final Equator<? super E> equator",<E> int,9,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,intersection,"final Iterable<? extends O> a, final Iterable<? extends O> b",<O> Collection<O>,7,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,isEmpty,final Collection<?> coll,boolean,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,isEqualCollection,"final Collection<?> a, final Collection<?> b",boolean,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,isEqualCollection,"final Collection<? extends E> a, final Collection<? extends E> b, final Equator<? super E> equator",<E> boolean,9,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,isFull,final Collection<? extends Object> collection,boolean,10,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,isNotEmpty,final Collection<?> coll,boolean,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,isProperSubCollection,"final Collection<?> a, final Collection<?> b",boolean,3,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,isSubCollection,"final Collection<?> a, final Collection<?> b",boolean,9,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,matchesAll,"final Iterable<C> input, final Predicate<? super C> predicate",<C> boolean,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,maxSize,final Collection<? extends Object> collection,int,10,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,permutations,final Collection<E> collection,<E> Collection<List<E>>,7,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,predicatedCollection,"final Collection<C> collection, final Predicate<? super C> predicate",<C> Collection<C>,3,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,removeAll,"final Collection<E> collection, final Collection<?> remove",<E> Collection<E>,1,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,removeAll,"final Iterable<E> collection, final Iterable<? extends E> remove, final Equator<? super E> equator",<E> Collection<E>,12,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,removeCount,"final Collection<E> input, int startIndex, int count",<E> Collection<E>,23,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,removeRange,"final Collection<E> input, final int startIndex, final int endIndex",<E> Collection<E>,8,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,retainAll,"final Collection<C> collection, final Collection<?> retain",<C> Collection<C>,3,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,retainAll,"final Iterable<E> collection, final Iterable<? extends E> retain, final Equator<? super E> equator",<E> Collection<E>,12,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,reverseArray,final Object[] array,void,11,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,select,"final Iterable<? extends O> inputCollection, final Predicate<? super O> predicate",<O> Collection<O>,6,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,select,"final Iterable<? extends O> inputCollection, final Predicate<? super O> predicate, final R outputCollection","<O, R extends Collection<? super O>> R",8,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,select,"final Iterable<? extends O> inputCollection, final Predicate<? super O> predicate, final R outputCollection, final R rejectedCollection","<O, R extends Collection<? super O>> R",10,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,selectRejected,"final Iterable<? extends O> inputCollection, final Predicate<? super O> predicate",<O> Collection<O>,6,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,selectRejected,"final Iterable<? extends O> inputCollection, final Predicate<? super O> predicate, final R outputCollection","<O, R extends Collection<? super O>> R",8,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,size,final Object object,int,28,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,sizeIsEmpty,final Object object,boolean,26,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,subtract,"final Iterable<? extends O> a, final Iterable<? extends O> b",<O> Collection<O>,2,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,subtract,"final Iterable<? extends O> a, final Iterable<? extends O> b, final Predicate<O> p",<O> Collection<O>,16,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,synchronizedCollection,final Collection<C> collection,<C> Collection<C>,2,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,transform,"final Collection<C> collection, final Transformer<? super C, ? extends C> transformer",<C> void,12,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,transformingCollection,"final Collection<E> collection, final Transformer<? super E, ? extends E> transformer",<E> Collection<E>,3,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,union,"final Iterable<? extends O> a, final Iterable<? extends O> b",<O> Collection<O>,7,P
+commons-collections,org/apache/commons/collections4/CollectionUtils.java,unmodifiableCollection,final Collection<? extends C> collection,<C> Collection<C>,2,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,booleanComparator,final boolean trueFirst,Comparator<Boolean>,1,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,chainedComparator,final Collection<Comparator<E>> comparators,<E> Comparator<E>,1,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,chainedComparator,final Comparator<E>... comparators,<E> Comparator<E>,5,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,max,"final E o1, final E o2, Comparator<E> comparator",<E> E,5,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,min,"final E o1, final E o2, Comparator<E> comparator",<E> E,5,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,naturalComparator,,<E extends Comparable<? super E>> Comparator<E>,1,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,nullHighComparator,Comparator<E> comparator,<E> Comparator<E>,4,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,nullLowComparator,Comparator<E> comparator,<E> Comparator<E>,4,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,reversedComparator,final Comparator<E> comparator,<E> Comparator<E>,1,P
+commons-collections,org/apache/commons/collections4/ComparatorUtils.java,transformedComparator,"Comparator<O> comparator, final Transformer<? super I, ? extends O> transformer","<I, O> Comparator<I>",4,P
+commons-collections,org/apache/commons/collections4/EnumerationUtils.java,asIterable,final Enumeration<T> enumeration,<T> Iterable<T>,1,P
+commons-collections,org/apache/commons/collections4/EnumerationUtils.java,get,"final Enumeration<T> enumeration, final int index",<T> T,10,P
+commons-collections,org/apache/commons/collections4/EnumerationUtils.java,toList,final Enumeration<? extends E> enumeration,<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/EnumerationUtils.java,toList,final StringTokenizer stringTokenizer,List<String>,5,P
+commons-collections,org/apache/commons/collections4/EnumerationUtils.java,toSet,final Enumeration<? extends E> enumeration,<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/FactoryUtils.java,constantFactory,final T constantToReturn,<T> Factory<T>,1,P
+commons-collections,org/apache/commons/collections4/FactoryUtils.java,exceptionFactory,,<T> Factory<T>,1,P
+commons-collections,org/apache/commons/collections4/FactoryUtils.java,instantiateFactory,final Class<T> classToInstantiate,<T> Factory<T>,1,P
+commons-collections,org/apache/commons/collections4/FactoryUtils.java,instantiateFactory,"final Class<T> classToInstantiate, final Class<?>[] paramTypes, final Object[] args",<T> Factory<T>,1,P
+commons-collections,org/apache/commons/collections4/FactoryUtils.java,nullFactory,,<T> Factory<T>,1,P
+commons-collections,org/apache/commons/collections4/FactoryUtils.java,prototypeFactory,final T prototype,<T> Factory<T>,1,P
+commons-collections,org/apache/commons/collections4/FluentIterable.java,empty,,<T> FluentIterable<T>,1,P
+commons-collections,org/apache/commons/collections4/FluentIterable.java,of,final Iterable<T> iterable,<T> FluentIterable<T>,5,P
+commons-collections,org/apache/commons/collections4/FluentIterable.java,of,final T singleton,<T> FluentIterable<T>,1,P
+commons-collections,org/apache/commons/collections4/FluentIterable.java,of,final T... elements,<T> FluentIterable<T>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,boundedIterable,"final Iterable<E> iterable, final long maxSize",<E> Iterable<E>,10,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,chainedIterable,final Iterable<? extends E>... iterables,<E> Iterable<E>,15,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,chainedIterable,"final Iterable<? extends E> a, final Iterable<? extends E> b",<E> Iterable<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,chainedIterable,"final Iterable<? extends E> a, final Iterable<? extends E> b, final Iterable<? extends E> c",<E> Iterable<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,chainedIterable,"final Iterable<? extends E> a, final Iterable<? extends E> b, final Iterable<? extends E> c, final Iterable<? extends E> d",<E> Iterable<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,checkNotNull,final Iterable<?>... iterables,void,4,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,collatedIterable,"final Comparator<? super E> comparator, final Iterable<? extends E> a, final Iterable<? extends E> b",<E> Iterable<E>,7,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,collatedIterable,"final Iterable<? extends E> a, final Iterable<? extends E> b",<E> Iterable<E>,7,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,contains,"final Iterable<? extends E> iterable, final E object, final Equator<? super E> equator",<E> boolean,2,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,contains,"final Iterable<E> iterable, final Object object",<E> boolean,4,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,countMatches,"final Iterable<E> input, final Predicate<? super E> predicate",<E> long,2,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,duplicateList,final Iterable<E> iterable,<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,duplicateSequencedSet,final Iterable<E> iterable,<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,duplicateSet,final Iterable<E> iterable,<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,duplicateSet,"final Iterable<E> iterable, final C duplicates","<C extends Collection<E>, E> C",5,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,emptyIfNull,final Iterable<E> iterable,<E> Iterable<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,emptyIterable,,<E> Iterable<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,emptyIteratorIfNull,final Iterable<E> iterable,<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,filteredIterable,"final Iterable<E> iterable, final Predicate<? super E> predicate",<E> Iterable<E>,8,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,find,"final Iterable<E> iterable, final Predicate<? super E> predicate",<E> E,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,first,final Iterable<T> iterable,<T> T,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,forEach,"final Iterable<E> iterable, final Closure<? super E> closure",<E> void,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,forEachButLast,"final Iterable<E> iterable, final Closure<? super E> closure",<E> E,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,frequency,"final Iterable<E> iterable, final T obj","<E, T extends E> int",10,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,get,"final Iterable<T> iterable, final int index",<T> T,5,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,indexOf,"final Iterable<E> iterable, final Predicate<? super E> predicate",<E> int,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,isEmpty,final Iterable<?> iterable,boolean,4,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,loopingIterable,final Iterable<E> iterable,<E> Iterable<E>,15,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,matchesAll,"final Iterable<E> iterable, final Predicate<? super E> predicate",<E> boolean,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,matchesAny,"final Iterable<E> iterable, final Predicate<? super E> predicate",<E> boolean,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,partition,"final Iterable<? extends O> iterable, final Factory<R> partitionFactory, final Predicate<? super O>... predicates","<O, R extends Collection<O>> List<R>",33,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,partition,"final Iterable<? extends O> iterable, final Predicate<? super O> predicate",<O> List<List<O>>,6,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,partition,"final Iterable<? extends O> iterable, final Predicate<? super O>... predicates",<O> List<List<O>>,3,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,reversedIterable,final Iterable<E> iterable,<E> Iterable<E>,8,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,size,final Iterable<?> iterable,int,7,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,skippingIterable,"final Iterable<E> iterable, final long elementsToSkip",<E> Iterable<E>,10,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,sumSizesToInt,final Iterable<? extends Collection<E>> iterable,<E> int,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,sumToInt,"final Iterable<C> iterable, final ToIntFunction<C> toIntFunction",<C extends Collection<?>> int,11,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,toList,final Iterable<E> iterable,<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,toString,final Iterable<E> iterable,<E> String,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,toString,"final Iterable<E> iterable, final Transformer<? super E, String> transformer",<E> String,2,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,toString,"final Iterable<E> iterable, final Transformer<? super E, String> transformer, final String delimiter, final String prefix, final String suffix",<E> String,1,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,transformedIterable,"final Iterable<I> iterable, final Transformer<? super I, ? extends O> transformer","<I, O> Iterable<O>",8,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,uniqueIterable,final Iterable<E> iterable,<E> Iterable<E>,7,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,unmodifiableIterable,final Iterable<E> iterable,<E> Iterable<E>,5,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,zippingIterable,"final Iterable<? extends E> a, final Iterable<? extends E> b",<E> Iterable<E>,8,P
+commons-collections,org/apache/commons/collections4/IterableUtils.java,zippingIterable,"final Iterable<? extends E> first, final Iterable<? extends E>... others",<E> Iterable<E>,14,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,addAll,"final Iterator<? extends E> iterator, final C list","<E, C extends Collection<E>> C",5,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayIterator,final E... array,<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayIterator,"final E[] array, final int start",<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayIterator,"final E[] array, final int start, final int end",<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayIterator,final Object array,<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayIterator,"final Object array, final int start",<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayIterator,"final Object array, final int start, final int end",<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayListIterator,final E... array,<E> ResettableListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayListIterator,"final E[] array, final int start",<E> ResettableListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayListIterator,"final E[] array, final int start, final int end",<E> ResettableListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayListIterator,final Object array,<E> ResettableListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayListIterator,"final Object array, final int start",<E> ResettableListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,arrayListIterator,"final Object array, final int start, final int end",<E> ResettableListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,asEnumeration,final Iterator<? extends E> iterator,<E> Enumeration<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,asIterable,final Iterator<? extends E> iterator,<E> Iterable<E>,2,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,asIterator,final Enumeration<? extends E> enumeration,<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,asIterator,"final Enumeration<? extends E> enumeration, final Collection<? super E> removeCollection",<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,asMultipleUseIterable,final Iterator<? extends E> iterator,<E> Iterable<E>,2,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,boundedIterator,"final Iterator<? extends E> iterator, final long max",<E> BoundedIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,boundedIterator,"final Iterator<? extends E> iterator, final long offset, final long max",<E> BoundedIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,chainedIterator,final Collection<? extends Iterator<? extends E>> iterators,<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,chainedIterator,final Iterator<? extends E>... iterators,<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,chainedIterator,"final Iterator<? extends E> iterator1, final Iterator<? extends E> iterator2",<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,chainedIterator,final Iterator<? extends Iterator<? extends E>> iterators,<E> Iterator<E>,6,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,collatedIterator,"final Comparator<? super E> comparator, final Collection<Iterator<? extends E>> iterators",<E> Iterator<E>,3,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,collatedIterator,"final Comparator<? super E> comparator, final Iterator<? extends E>... iterators",<E> Iterator<E>,3,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,collatedIterator,"final Comparator<? super E> comparator, final Iterator<? extends E> iterator1, final Iterator<? extends E> iterator2",<E> Iterator<E>,3,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,contains,"final Iterator<E> iterator, final Object object",<E> boolean,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,emptyIterator,,<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,emptyListIterator,,<E> ResettableListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,emptyMapIterator,,"<K, V> MapIterator<K, V>",1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,emptyOrderedIterator,,<E> OrderedIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,emptyOrderedMapIterator,,"<K, V> OrderedMapIterator<K, V>",1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,filteredIterator,"final Iterator<? extends E> iterator, final Predicate<? super E> predicate",<E> Iterator<E>,3,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,filteredListIterator,"final ListIterator<? extends E> listIterator, final Predicate<? super E> predicate",<E> ListIterator<E>,3,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,find,"final Iterator<E> iterator, final Predicate<? super E> predicate",<E> E,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,find,"final Iterator<E> iterator, final Predicate<? super E> predicate, final E defaultValue",<E> E,10,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,first,final Iterator<E> iterator,<E> E,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,forEach,"final Iterator<E> iterator, final Closure<? super E> closure",<E> void,6,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,forEachButLast,"final Iterator<E> iterator, final Closure<? super E> closure",<E> E,11,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,get,"final Iterator<E> iterator, final int index",<E> E,3,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,get,"final Iterator<E> iterator, final int index, final IntFunction<E> defaultSupplier",<E> E,10,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,getIterator,final Object obj,Iterator<?>,41,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,indexOf,"final Iterator<E> iterator, final Predicate<? super E> predicate",<E> int,10,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,isEmpty,final Iterator<?> iterator,boolean,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,loopingIterator,final Collection<? extends E> collection,<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,loopingListIterator,final List<E> list,<E> ResettableListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,matchesAll,"final Iterator<E> iterator, final Predicate<? super E> predicate",<E> boolean,10,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,matchesAny,"final Iterator<E> iterator, final Predicate<? super E> predicate",<E> boolean,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,nodeListIterator,final Node node,NodeListIterator,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,nodeListIterator,final NodeList nodeList,NodeListIterator,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,objectGraphIterator,"final E root, final Transformer<? super E, ? extends E> transformer",<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,peekingIterator,final Iterator<? extends E> iterator,<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,pushbackIterator,final Iterator<? extends E> iterator,<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,singletonIterator,final E object,<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,singletonListIterator,final E object,<E> ListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,size,final Iterator<?> iterator,int,8,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,skippingIterator,"final Iterator<E> iterator, final long offset",<E> SkippingIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,stream,final Iterable<E> iterable,<E> Stream<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,stream,final Iterator<E> iterator,<E> Stream<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toArray,final Iterator<?> iterator,Object[],3,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toArray,"final Iterator<? extends E> iterator, final Class<E> arrayClass",<E> E[],6,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toList,final Iterator<? extends E> iterator,<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toList,"final Iterator<? extends E> iterator, final int estimatedSize",<E> List<E>,4,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toListIterator,final Iterator<? extends E> iterator,<E> ListIterator<E>,2,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toSet,final Iterator<? extends E> iterator,<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toSet,"final Iterator<? extends E> iterator, final int estimatedSize",<E> Set<E>,4,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toString,final Iterator<E> iterator,<E> String,2,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toString,"final Iterator<E> iterator, final Transformer<? super E, String> transformer",<E> String,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,toString,"final Iterator<E> iterator, final Transformer<? super E, String> transformer, final String delimiter, final String prefix, final String suffix",<E> String,17,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,transformedIterator,"final Iterator<? extends I> iterator, final Transformer<? super I, ? extends O> transformer","<I, O> Iterator<O>",3,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,unmodifiableIterator,final Iterator<E> iterator,<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,unmodifiableListIterator,final ListIterator<E> listIterator,<E> ListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,unmodifiableMapIterator,"final MapIterator<K, V> mapIterator","<K, V> MapIterator<K, V>",1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,zippingIterator,final Iterator<? extends E>... iterators,<E> ZippingIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,zippingIterator,"final Iterator<? extends E> a, final Iterator<? extends E> b",<E> ZippingIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/IteratorUtils.java,zippingIterator,"final Iterator<? extends E> a, final Iterator<? extends E> b, final Iterator<? extends E> c",<E> ZippingIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,defaultIfNull,"final List<T> list, final List<T> defaultList",<T> List<T>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,emptyIfNull,final List<T> list,<T> List<T>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,fixedSizeList,final List<E> list,<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,getFirst,final List<T> list,<T> T,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,getLast,final List<T> list,<T> T,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,hashCodeForList,final Collection<?> list,int,8,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,indexOf,"final List<E> list, final Predicate<E> predicate",<E> int,9,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,intersection,"final List<? extends E> list1, final List<? extends E> list2",<E> List<E>,15,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,isEqualList,"final Collection<?> list1, final Collection<?> list2",boolean,16,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,lazyList,"final List<E> list, final Factory<? extends E> factory",<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,lazyList,"final List<E> list, final Transformer<Integer, ? extends E> transformer",<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,longestCommonSubsequence,"final CharSequence charSequenceA, final CharSequence charSequenceB",String,8,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,longestCommonSubsequence,"final List<E> a, final List<E> b",<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,longestCommonSubsequence,"final List<E> listA, final List<E> listB, final Equator<? super E> equator",<E> List<E>,8,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,partition,"final List<T> list, final int size",<T> List<List<T>>,5,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,predicatedList,"final List<E> list, final Predicate<E> predicate",<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,removeAll,"final Collection<E> collection, final Collection<?> remove",<E> List<E>,9,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,retainAll,"final Collection<E> collection, final Collection<?> retain",<E> List<E>,7,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,select,"final Collection<? extends E> inputCollection, final Predicate<? super E> predicate",<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,selectRejected,"final Collection<? extends E> inputCollection, final Predicate<? super E> predicate",<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,subtract,"final List<E> list1, final List<? extends E> list2",<E> List<E>,8,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,sum,"final List<? extends E> list1, final List<? extends E> list2",<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,synchronizedList,final List<E> list,<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,transformedList,"final List<E> list, final Transformer<? super E, ? extends E> transformer",<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,union,"final List<? extends E> list1, final List<? extends E> list2",<E> List<E>,4,P
+commons-collections,org/apache/commons/collections4/ListUtils.java,unmodifiableList,final List<? extends E> list,<E> List<E>,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,applyDefaultFunction,"final Map<? super K, ?> map, final K key, final BiFunction<Map<? super K, ?>, K, R> getFunction, final Function<K, R> defaultFunction","<K, R> R",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,applyDefaultFunction,"final Map<? super K, ?> map, final K key, final BiFunction<Map<? super K, ?>, K, R> getFunction, final Function<K, R> defaultFunction, final R defaultValue","<K, R> R",5,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,applyDefaultValue,"final Map<? super K, ?> map, final K key, final BiFunction<Map<? super K, ?>, K, R> getFunction, final R defaultValue","<K, R> R",2,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,calculateHashMapCapacity,final int numMappings,int,1,C
+commons-collections,org/apache/commons/collections4/MapUtils.java,debugPrint,"final PrintStream out, final Object label, final Map<?, ?> map",void,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,emptyIfNull,"final Map<K, V> map","<K, V> Map<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,fixedSizeMap,"final Map<K, V> map","<K, V> IterableMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,fixedSizeSortedMap,"final SortedMap<K, V> map","<K, V> SortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getBoolean,"final Map<? super K, ?> map, final K key",<K> Boolean,16,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getBoolean,"final Map<? super K, ?> map, final K key, final Boolean defaultValue",<K> Boolean,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getBoolean,"final Map<? super K, ?> map, final K key, final Function<K, Boolean> defaultFunction",<K> Boolean,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getBooleanValue,"final Map<? super K, ?> map, final K key",<K> boolean,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getBooleanValue,"final Map<? super K, ?> map, final K key, final boolean defaultValue",<K> boolean,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getBooleanValue,"final Map<? super K, ?> map, final K key, final Function<K, Boolean> defaultFunction",<K> boolean,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getByte,"final Map<? super K, ?> map, final K key",<K> Byte,8,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getByte,"final Map<? super K, ?> map, final K key, final Byte defaultValue",<K> Byte,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getByte,"final Map<? super K, ?> map, final K key, final Function<K, Byte> defaultFunction",<K> Byte,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getByteValue,"final Map<? super K, ?> map, final K key",<K> byte,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getByteValue,"final Map<? super K, ?> map, final K key, final byte defaultValue",<K> byte,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getByteValue,"final Map<? super K, ?> map, final K key, final Function<K, Byte> defaultFunction",<K> byte,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getDouble,"final Map<? super K, ?> map, final K key",<K> Double,8,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getDouble,"final Map<? super K, ?> map, final K key, final Double defaultValue",<K> Double,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getDouble,"final Map<? super K, ?> map, final K key, final Function<K, Double> defaultFunction",<K> Double,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getDoubleValue,"final Map<? super K, ?> map, final K key",<K> double,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getDoubleValue,"final Map<? super K, ?> map, final K key, final double defaultValue",<K> double,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getDoubleValue,"final Map<? super K, ?> map, final K key, final Function<K, Double> defaultFunction",<K> double,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getFloat,"final Map<? super K, ?> map, final K key",<K> Float,8,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getFloat,"final Map<? super K, ?> map, final K key, final Float defaultValue",<K> Float,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getFloat,"final Map<? super K, ?> map, final K key, final Function<K, Float> defaultFunction",<K> Float,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getFloatValue,"final Map<? super K, ?> map, final K key",<K> float,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getFloatValue,"final Map<? super K, ?> map, final K key, final float defaultValue",<K> float,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getFloatValue,"final Map<? super K, ?> map, final K key, final Function<K, Float> defaultFunction",<K> float,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getInteger,"final Map<? super K, ?> map, final K key",<K> Integer,8,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getInteger,"final Map<? super K, ?> map, final K key, final Function<K, Integer> defaultFunction",<K> Integer,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getInteger,"final Map<? super K, ?> map, final K key, final Integer defaultValue",<K> Integer,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getIntValue,"final Map<? super K, ?> map, final K key",<K> int,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getIntValue,"final Map<? super K, ?> map, final K key, final Function<K, Integer> defaultFunction",<K> int,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getIntValue,"final Map<? super K, ?> map, final K key, final int defaultValue",<K> int,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getLong,"final Map<? super K, ?> map, final K key",<K> Long,8,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getLong,"final Map<? super K, ?> map, final K key, final Function<K, Long> defaultFunction",<K> Long,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getLong,"final Map<? super K, ?> map, final K key, final Long defaultValue",<K> Long,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getLongValue,"final Map<? super K, ?> map, final K key",<K> long,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getLongValue,"final Map<? super K, ?> map, final K key, final Function<K, Long> defaultFunction",<K> long,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getLongValue,"final Map<? super K, ?> map, final K key, final long defaultValue",<K> long,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getMap,"final Map<? super K, ?> map, final K key","<K> Map<?, ?>",7,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getMap,"final Map<? super K, ?> map, final K key, final Function<K, Map<?, ?>> defaultFunction","<K> Map<?, ?>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getMap,"final Map<? super K, ?> map, final K key, final Map<?, ?> defaultValue","<K> Map<?, ?>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getNumber,"final Map<? super K, ?> map, final K key",<K> Number,16,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getNumber,"final Map<? super K, ?> map, final K key, final Function<K, Number> defaultFunction",<K> Number,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getNumber,"final Map<? super K, ?> map, final K key, final Number defaultValue",<K> Number,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getObject,"final Map<? super K, V> map, final K key","<K, V> V",4,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getObject,"final Map<K, V> map, final K key, final V defaultValue","<K, V> V",7,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getShort,"final Map<? super K, ?> map, final K key",<K> Short,8,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getShort,"final Map<? super K, ?> map, final K key, final Function<K, Short> defaultFunction",<K> Short,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getShort,"final Map<? super K, ?> map, final K key, final Short defaultValue",<K> Short,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getShortValue,"final Map<? super K, ?> map, final K key",<K> short,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getShortValue,"final Map<? super K, ?> map, final K key, final Function<K, Short> defaultFunction",<K> short,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getShortValue,"final Map<? super K, ?> map, final K key, final short defaultValue",<K> short,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getString,"final Map<? super K, ?> map, final K key",<K> String,7,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getString,"final Map<? super K, ?> map, final K key, final Function<K, String> defaultFunction",<K> String,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,getString,"final Map<? super K, ?> map, final K key, final String defaultValue",<K> String,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,invertMap,"final Map<K, V> map","<K, V> Map<V, K>",6,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,isEmpty,"final Map<?, ?> map",boolean,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,isNotEmpty,"final Map<?, ?> map",boolean,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,iterableMap,"final Map<K, V> map","<K, V> IterableMap<K, V>",3,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,iterableSortedMap,"final SortedMap<K, V> sortedMap","<K, V> IterableSortedMap<K, V>",4,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,lazyMap,"final Map<K, V> map, final Factory<? extends V> factory","<K, V> IterableMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,lazyMap,"final Map<K, V> map, final Transformer<? super K, ? extends V> transformerFactory","<K, V> IterableMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,lazySortedMap,"final SortedMap<K, V> map, final Factory<? extends V> factory","<K, V> SortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,lazySortedMap,"final SortedMap<K, V> map, final Transformer<? super K, ? extends V> transformerFactory","<K, V> SortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,multiValueMap,"final Map<K, ? super Collection<V>> map","<K, V> MultiValueMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,multiValueMap,"final Map<K, C> map, final Class<C> collectionClass","<K, V, C extends Collection<V>> MultiValueMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,multiValueMap,"final Map<K, C> map, final Factory<C> collectionFactory","<K, V, C extends Collection<V>> MultiValueMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,orderedMap,"final Map<K, V> map","<K, V> OrderedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,populateMap,"final Map<K, V> map, final Iterable<? extends E> elements, final Transformer<E, K> keyTransformer, final Transformer<E, V> valueTransformer","<K, V, E> void",3,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,populateMap,"final Map<K, V> map, final Iterable<? extends V> elements, final Transformer<V, K> keyTransformer","<K, V> void",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,populateMap,"final MultiMap<K, V> map, final Iterable<? extends E> elements, final Transformer<E, K> keyTransformer, final Transformer<E, V> valueTransformer","<K, V, E> void",3,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,populateMap,"final MultiMap<K, V> map, final Iterable<? extends V> elements, final Transformer<V, K> keyTransformer","<K, V> void",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,predicatedMap,"final Map<K, V> map, final Predicate<? super K> keyPred, final Predicate<? super V> valuePred","<K, V> IterableMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,predicatedSortedMap,"final SortedMap<K, V> map, final Predicate<? super K> keyPred, final Predicate<? super V> valuePred","<K, V> SortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,printIndent,"final PrintStream out, final int indent",void,3,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,putAll,"final Map<K, V> map, final Object[] array","<K, V> Map<K, V>",29,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,safeAddToMap,"final Map<? super K, Object> map, final K key, final Object value",<K> void,2,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,size,"final Map<?, ?> map",int,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,synchronizedMap,"final Map<K, V> map","<K, V> Map<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,synchronizedSortedMap,"final SortedMap<K, V> map","<K, V> SortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,toMap,final ResourceBundle resourceBundle,"Map<String, Object>",9,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,toProperties,"final Map<K, V> map","<K, V> Properties",10,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,transformedMap,"final Map<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer","<K, V> IterableMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,transformedSortedMap,"final SortedMap<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer","<K, V> SortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,unmodifiableMap,"final Map<? extends K, ? extends V> map","<K, V> Map<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,unmodifiableSortedMap,"final SortedMap<K, ? extends V> map","<K, V> SortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,verbosePrint,"final PrintStream out, final Object label, final Map<?, ?> map",void,1,P
+commons-collections,org/apache/commons/collections4/MapUtils.java,verbosePrintInternal,"final PrintStream out, final Object label, final Map<?, ?> map, final Deque<Map<?, ?>> lineage, final boolean debug",void,44,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,emptyIfNull,"final MultiValuedMap<K, V> map","<K, V> MultiValuedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,emptyMultiValuedMap,,"<K, V> MultiValuedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,getCollection,"final MultiValuedMap<K, V> map, final K key","<K, V> Collection<V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,getValuesAsBag,"final MultiValuedMap<K, V> map, final K key","<K, V> Bag<V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,getValuesAsList,"final MultiValuedMap<K, V> map, final K key","<K, V> List<V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,getValuesAsMultiSet,"final MultiValuedMap<K, V> map, final K key","<K, V> MultiSet<V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,getValuesAsSet,"final MultiValuedMap<K, V> map, final K key","<K, V> Set<V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,invert,"final MultiValuedMap<? extends V, ? extends K> input, final M output","<K, V, M extends MultiValuedMap<K, V>> M",2,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,isEmpty,"final MultiValuedMap<?, ?> map",boolean,1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,newListValuedHashMap,,"<K, V> ListValuedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,newSetValuedHashMap,,"<K, V> SetValuedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,transformedMultiValuedMap,"final MultiValuedMap<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer","<K, V> MultiValuedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MultiMapUtils.java,unmodifiableMultiValuedMap,"final MultiValuedMap<? extends K, ? extends V> map","<K, V> MultiValuedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,containsOccurrences,"final MultiSet<?> superMultiSet, final MultiSet<?> subMultiSet",boolean,8,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,emptyMultiSet,,<E> MultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,emptySortedMultiSet,,<E> SortedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,predicatedMultiSet,"final MultiSet<E> multiset, final Predicate<? super E> predicate",<E> MultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,predicatedSortedMultiSet,"final SortedMultiSet<E> multiset, final Predicate<? super E> predicate",<E> SortedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,removeOccurrences,"final MultiSet<?> multiSetToModify, final MultiSet<?> occurrencesToRemove",boolean,14,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,retainOccurrences,"final MultiSet<E> multiSetToModify, final MultiSet<?> occurrencesToRetain",<E> boolean,11,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,synchronizedMultiSet,final MultiSet<E> multiset,<E> MultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,synchronizedSortedMultiSet,final SortedMultiSet<E> multiset,<E> SortedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,transformingMultiSet,"final MultiSet<E> multiset, final Transformer<? super E, ? extends E> transformer",<E> MultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,transformingSortedMultiSet,"final SortedMultiSet<E> multiset, final Transformer<? super E, ? extends E> transformer",<E> SortedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,unmodifiableMultiSet,final MultiSet<? extends E> multiset,<E> MultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/MultiSetUtils.java,unmodifiableSortedMultiSet,final SortedMultiSet<? extends E> multiset,<E> SortedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,allPredicate,final Collection<? extends Predicate<? super T>> predicates,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,allPredicate,final Predicate<? super T>... predicates,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,andPredicate,"final Predicate<? super T> predicate1, final Predicate<? super T> predicate2",<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,anyPredicate,final Collection<? extends Predicate<? super T>> predicates,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,anyPredicate,final Predicate<? super T>... predicates,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,asPredicate,"final Transformer<? super T, Boolean> transformer",<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,eitherPredicate,"final Predicate<? super T> predicate1, final Predicate<? super T> predicate2",<T> Predicate<T>,3,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,equalPredicate,final T value,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,exceptionPredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,falsePredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,identityPredicate,final T value,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,instanceofPredicate,final Class<?> type,Predicate<Object>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,invokerPredicate,final String methodName,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,invokerPredicate,"final String methodName, final Class<?>[] paramTypes, final Object[] args",<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,neitherPredicate,"final Predicate<? super T> predicate1, final Predicate<? super T> predicate2",<T> Predicate<T>,3,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,nonePredicate,final Collection<? extends Predicate<? super T>> predicates,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,nonePredicate,final Predicate<? super T>... predicates,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,notNullPredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,notPredicate,final Predicate<? super T> predicate,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,nullIsExceptionPredicate,final Predicate<? super T> predicate,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,nullIsFalsePredicate,final Predicate<? super T> predicate,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,nullIsTruePredicate,final Predicate<? super T> predicate,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,nullPredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,onePredicate,final Collection<? extends Predicate<? super T>> predicates,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,onePredicate,final Predicate<? super T>... predicates,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,orPredicate,"final Predicate<? super T> predicate1, final Predicate<? super T> predicate2",<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,transformedPredicate,"final Transformer<? super T, ? extends T> transformer, final Predicate<? super T> predicate",<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,truePredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/PredicateUtils.java,uniquePredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/QueueUtils.java,emptyQueue,,<E> Queue<E>,1,P
+commons-collections,org/apache/commons/collections4/QueueUtils.java,predicatedQueue,"final Queue<E> queue, final Predicate<? super E> predicate",<E> Queue<E>,1,P
+commons-collections,org/apache/commons/collections4/QueueUtils.java,synchronizedQueue,final Queue<E> queue,<E> Queue<E>,1,P
+commons-collections,org/apache/commons/collections4/QueueUtils.java,transformingQueue,"final Queue<E> queue, final Transformer<? super E, ? extends E> transformer",<E> Queue<E>,1,P
+commons-collections,org/apache/commons/collections4/QueueUtils.java,unmodifiableQueue,final Queue<? extends E> queue,<E> Queue<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,difference,"final Set<? extends E> setA, final Set<? extends E> setB",<E> SetView<E>,13,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,disjunction,"final Set<? extends E> setA, final Set<? extends E> setB",<E> SetView<E>,22,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,emptyIfNull,final Set<T> set,<T> Set<T>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,emptySet,,<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,emptySortedSet,,<E> SortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,hashCodeForSet,final Collection<T> set,<T> int,10,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,hashSet,final E... items,<E> HashSet<E>,4,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,intersection,"final Set<? extends E> setA, final Set<? extends E> setB",<E> SetView<E>,12,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,isEqualSet,"final Collection<?> set1, final Collection<?> set2",boolean,7,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,newIdentityHashSet,,<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,orderedSet,final Set<E> set,<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,predicatedNavigableSet,"final NavigableSet<E> set, final Predicate<? super E> predicate",<E> SortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,predicatedSet,"final Set<E> set, final Predicate<? super E> predicate",<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,predicatedSortedSet,"final SortedSet<E> set, final Predicate<? super E> predicate",<E> SortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,synchronizedSet,final Set<E> set,<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,synchronizedSortedSet,final SortedSet<E> set,<E> SortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,transformedNavigableSet,"final NavigableSet<E> set, final Transformer<? super E, ? extends E> transformer",<E> SortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,transformedSet,"final Set<E> set, final Transformer<? super E, ? extends E> transformer",<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,transformedSortedSet,"final SortedSet<E> set, final Transformer<? super E, ? extends E> transformer",<E> SortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,union,"final Set<? extends E> setA, final Set<? extends E> setB",<E> SetView<E>,21,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,unmodifiableNavigableSet,final NavigableSet<E> set,<E> SortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,unmodifiableSet,final E... items,<E> Set<E>,4,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,unmodifiableSet,final Set<? extends E> set,<E> Set<E>,1,P
+commons-collections,org/apache/commons/collections4/SetUtils.java,unmodifiableSortedSet,final SortedSet<E> set,<E> SortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/SplitMapUtils.java,readableMap,"final Get<K, V> get","<K, V> IterableMap<K, V>",7,P
+commons-collections,org/apache/commons/collections4/SplitMapUtils.java,writableMap,"final Put<K, V> put","<K, V> Map<K, V>",5,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,asTransformer,final Closure<? super T> closure,"<T> Transformer<T, T>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,asTransformer,final Factory<? extends O> factory,"<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,asTransformer,final Predicate<? super T> predicate,"<T> Transformer<T, Boolean>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,chainedTransformer," final Collection<? extends Transformer<? super T, ? extends T>> transformers","<T> Transformer<T, T>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,chainedTransformer," final Transformer<? super T, ? extends T>... transformers","<T> Transformer<T, T>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,cloneTransformer,,"<T> Transformer<T, T>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,constantTransformer,final O constantToReturn,"<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,exceptionTransformer,,"<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,ifTransformer,"final Predicate<? super I> predicate, final Transformer<? super I, ? extends O> trueTransformer, final Transformer<? super I, ? extends O> falseTransformer","<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,ifTransformer,"final Predicate<? super T> predicate, final Transformer<? super T, ? extends T> trueTransformer","<T> Transformer<T, T>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,instantiateTransformer,,"<T> Transformer<Class<? extends T>, T>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,instantiateTransformer," final Class<?>[] paramTypes, final Object[] args","<T> Transformer<Class<? extends T>, T>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,invokerTransformer,final String methodName,"<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,invokerTransformer,"final String methodName, final Class<?>[] paramTypes, final Object[] args","<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,mapTransformer,"final Map<? super I, ? extends O> map","<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,nopTransformer,,"<T> Transformer<T, T>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,nullTransformer,,"<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,stringValueTransformer,,"<T> Transformer<T, String>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,switchMapTransformer," final Map<I, Transformer<I, O>> objectsAndTransformers","<I, O> Transformer<I, O>",12,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,switchTransformer," final Map<Predicate<I>, Transformer<I, O>> predicatesAndTransformers","<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,switchTransformer,"final Predicate<? super I> predicate, final Transformer<? super I, ? extends O> trueTransformer, final Transformer<? super I, ? extends O> falseTransformer","<I, O> Transformer<I, O>",2,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,switchTransformer,"final Predicate<? super I>[] predicates, final Transformer<? super I, ? extends O>[] transformers","<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TransformerUtils.java,switchTransformer,"final Predicate<? super I>[] predicates, final Transformer<? super I, ? extends O>[] transformers, final Transformer<? super I, ? extends O> defaultTransformer","<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/TrieUtils.java,unmodifiableTrie,"final Trie<K, ? extends V> trie","<K, V> Trie<K, V>",1,P
+commons-collections,org/apache/commons/collections4/bag/CollectionBag.java,collectionBag,final Bag<E> bag,<E> Bag<E>,1,P
+commons-collections,org/apache/commons/collections4/bag/CollectionSortedBag.java,collectionSortedBag,final SortedBag<E> bag,<E> SortedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/bag/PredicatedBag.java,predicatedBag,"final Bag<E> bag, final Predicate<? super E> predicate",<E> PredicatedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/bag/PredicatedSortedBag.java,predicatedSortedBag,"final SortedBag<E> bag, final Predicate<? super E> predicate",<E> PredicatedSortedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/bag/SynchronizedBag.java,synchronizedBag,final Bag<E> bag,<E> SynchronizedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/bag/SynchronizedSortedBag.java,synchronizedSortedBag,final SortedBag<E> bag,<E> SynchronizedSortedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/bag/TransformedBag.java,transformedBag,"final Bag<E> bag, final Transformer<? super E, ? extends E> transformer",<E> Bag<E>,10,P
+commons-collections,org/apache/commons/collections4/bag/TransformedBag.java,transformingBag,"final Bag<E> bag, final Transformer<? super E, ? extends E> transformer",<E> Bag<E>,1,P
+commons-collections,org/apache/commons/collections4/bag/TransformedSortedBag.java,transformedSortedBag,"final SortedBag<E> bag, final Transformer<? super E, ? extends E> transformer",<E> TransformedSortedBag<E>,10,P
+commons-collections,org/apache/commons/collections4/bag/TransformedSortedBag.java,transformingSortedBag,"final SortedBag<E> bag, final Transformer<? super E, ? extends E> transformer",<E> TransformedSortedBag<E>,1,P
+commons-collections,org/apache/commons/collections4/bag/UnmodifiableBag.java,unmodifiableBag,final Bag<? extends E> bag,<E> Bag<E>,6,P
+commons-collections,org/apache/commons/collections4/bag/UnmodifiableSortedBag.java,unmodifiableSortedBag,final SortedBag<E> bag,<E> SortedBag<E>,4,P
+commons-collections,org/apache/commons/collections4/bidimap/TreeBidiMap.java,checkKey,final Object key,void,1,P
+commons-collections,org/apache/commons/collections4/bidimap/TreeBidiMap.java,checkKeyAndValue,"final Object key, final Object value",void,2,P
+commons-collections,org/apache/commons/collections4/bidimap/TreeBidiMap.java,checkNonNullComparable,"final Object obj, final DataElement dataElement",void,4,P
+commons-collections,org/apache/commons/collections4/bidimap/TreeBidiMap.java,checkValue,final Object value,void,1,P
+commons-collections,org/apache/commons/collections4/bidimap/TreeBidiMap.java,compare,"final T o1, final T o2",<T extends Comparable<T>> int,1,P
+commons-collections,org/apache/commons/collections4/bidimap/TreeBidiMap.java,isBlack,"final Node<?, ?> node, final DataElement dataElement",boolean,1,P
+commons-collections,org/apache/commons/collections4/bidimap/TreeBidiMap.java,isRed,"final Node<?, ?> node, final DataElement dataElement",boolean,1,P
+commons-collections,org/apache/commons/collections4/bidimap/TreeBidiMap.java,makeBlack,"final Node<?, ?> node, final DataElement dataElement",void,3,P
+commons-collections,org/apache/commons/collections4/bidimap/TreeBidiMap.java,makeRed,"final Node<?, ?> node, final DataElement dataElement",void,3,P
+commons-collections,org/apache/commons/collections4/bidimap/UnmodifiableBidiMap.java,unmodifiableBidiMap,"final BidiMap<? extends K, ? extends V> map","<K, V> BidiMap<K, V>",6,P
+commons-collections,org/apache/commons/collections4/bidimap/UnmodifiableOrderedBidiMap.java,unmodifiableOrderedBidiMap," final OrderedBidiMap<? extends K, ? extends V> map","<K, V> OrderedBidiMap<K, V>",6,P
+commons-collections,org/apache/commons/collections4/bidimap/UnmodifiableSortedBidiMap.java,unmodifiableSortedBidiMap,"final SortedBidiMap<K, ? extends V> map","<K, V> SortedBidiMap<K, V>",6,P
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMapExtractor.java,fromBitMapArray,final long... bitMaps,BitMapExtractor,20,P
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMapExtractor.java,fromIndexExtractor,"final IndexExtractor extractor, final int numberOfBits",BitMapExtractor,7,P
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMaps.java,contains,"final long[] bitMaps, final int bitIndex",boolean,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMaps.java,getLongBit,final int bitIndex,long,1,R
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMaps.java,getLongIndex,final int bitIndex,int,1,T
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMaps.java,mod,"final long dividend, final int divisor",int,3,P
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMaps.java,newBitMap,final int numberOfBits,long[],1,R
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMaps.java,newBitMap,final Shape shape,long[],1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMaps.java,numberOfBitMaps,final int numberOfBits,int,1,T
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMaps.java,numberOfBitMaps,final Shape shape,int,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/BitMaps.java,set,"final long[] bitMaps, final int bitIndex",void,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/BloomFilterExtractor.java,fromBloomFilterArray,final BloomFilter<?>... filters,<T extends BloomFilter<T>> BloomFilterExtractor,16,P
+commons-collections,org/apache/commons/collections4/bloomfilter/CellExtractor.java,from,final IndexExtractor indexExtractor,CellExtractor,44,P
+commons-collections,org/apache/commons/collections4/bloomfilter/EnhancedDoubleHasher.java,toLong,"final byte[] byteArray, final int offset, final int len",long,8,P
+commons-collections,org/apache/commons/collections4/bloomfilter/IndexExtractor.java,fromBitMapExtractor,final BitMapExtractor bitMapExtractor,IndexExtractor,20,P
+commons-collections,org/apache/commons/collections4/bloomfilter/IndexExtractor.java,fromIndexArray,final int... values,IndexExtractor,15,P
+commons-collections,org/apache/commons/collections4/bloomfilter/IndexFilter.java,create,"final Shape shape, final IntPredicate consumer",IntPredicate,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/IndexUtils.java,ensureCapacityForAdd,"final int[] array, final int index",int[],4,C
+commons-collections,org/apache/commons/collections4/bloomfilter/LayerManager.java,noCleanup,,<T extends BloomFilter<T>> Consumer<Deque<T>>,2,P
+commons-collections,org/apache/commons/collections4/bloomfilter/LayerManager.java,onMaxSize,final int maxSize,<T extends BloomFilter<T>> Consumer<Deque<T>>,8,R
+commons-collections,org/apache/commons/collections4/bloomfilter/LayerManager.java,removeEmptyTarget,,<T extends BloomFilter<T>> Consumer<Deque<T>>,5,P
+commons-collections,org/apache/commons/collections4/bloomfilter/LayerManager.java,removeIf,final Predicate<? super T> test,<T extends BloomFilter<T>> Consumer<Deque<T>>,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/LayerManager.java,advanceOnCount,final int breakAt,<T extends BloomFilter<T>> Predicate<LayerManager<T>>,14,R
+commons-collections,org/apache/commons/collections4/bloomfilter/LayerManager.java,advanceOnPopulated,,<T extends BloomFilter<T>> Predicate<LayerManager<T>>,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/LayerManager.java,advanceOnSaturation,final double maxN,<T extends BloomFilter<T>> Predicate<LayerManager<T>>,7,P
+commons-collections,org/apache/commons/collections4/bloomfilter/LayerManager.java,neverAdvance,,<T extends BloomFilter<T>> Predicate<LayerManager<T>>,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/LayerManager.java,builder,,<T extends BloomFilter<T>> Builder<T>,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,andCardinality,"final BitMapExtractor first, final BitMapExtractor second",int,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,cardinality,final BitMapExtractor bitMapExtractor,int,6,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,cardinality,"final BitMapExtractor first, final BitMapExtractor second, final LongBinaryOperator op",int,6,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,cosineDistance,"final BitMapExtractor first, final BitMapExtractor second",double,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,cosineSimilarity,"final BitMapExtractor first, final BitMapExtractor second",double,2,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,cosineSimilarity,"final BloomFilter<?> first, final BloomFilter<?> second",double,2,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,hammingDistance,"final BitMapExtractor first, final BitMapExtractor second",int,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,jaccardDistance,"final BitMapExtractor first, final BitMapExtractor second",double,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,jaccardSimilarity,"final BitMapExtractor first, final BitMapExtractor second",double,8,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,orCardinality,"final BitMapExtractor first, final BitMapExtractor second",int,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/SetOperations.java,xorCardinality,"final BitMapExtractor first, final BitMapExtractor second",int,1,P
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,calculateNumberOfHashFunctions,"final int numberOfItems, final int numberOfBits",int,5,T
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,checkCalculatedProbability,final double probability,void,3,P
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,checkNumberOfBits,final int numberOfBits,int,4,C
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,checkNumberOfHashFunctions,final int numberOfHashFunctions,int,4,C
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,checkNumberOfItems,final int numberOfItems,int,4,C
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,checkProbability,final double probability,void,3,P
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,fromKM,"final int numberOfHashFunctions, final int numberOfBits",Shape,1,R
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,fromNM,"final int numberOfItems, final int numberOfBits",Shape,6,R
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,fromNMK,"final int numberOfItems, final int numberOfBits, final int numberOfHashFunctions",Shape,6,R
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,fromNP,"final int numberOfItems, final double probability",Shape,11,P
+commons-collections,org/apache/commons/collections4/bloomfilter/Shape.java,fromPMK,"final double probability, final int numberOfBits, final int numberOfHashFunctions",Shape,7,P
+commons-collections,org/apache/commons/collections4/collection/IndexedCollection.java,nonUniqueIndexedCollection,"final Collection<C> coll, final Transformer<C, K> keyTransformer","<K, C> IndexedCollection<K, C>",1,P
+commons-collections,org/apache/commons/collections4/collection/IndexedCollection.java,uniqueIndexedCollection,"final Collection<C> coll, final Transformer<C, K> keyTransformer","<K, C> IndexedCollection<K, C>",1,P
+commons-collections,org/apache/commons/collections4/collection/PredicatedCollection.java,builder,final Predicate<? super E> predicate,<E> Builder<E>,1,P
+commons-collections,org/apache/commons/collections4/collection/PredicatedCollection.java,notNullBuilder,,<E> Builder<E>,1,P
+commons-collections,org/apache/commons/collections4/collection/PredicatedCollection.java,predicatedCollection,"final Collection<T> coll, final Predicate<? super T> predicate",<T> PredicatedCollection<T>,1,P
+commons-collections,org/apache/commons/collections4/collection/SynchronizedCollection.java,synchronizedCollection,final Collection<T> coll,<T> SynchronizedCollection<T>,1,P
+commons-collections,org/apache/commons/collections4/collection/TransformedCollection.java,transformedCollection,"final Collection<E> collection, final Transformer<? super E, ? extends E> transformer",<E> TransformedCollection<E>,10,P
+commons-collections,org/apache/commons/collections4/collection/TransformedCollection.java,transformingCollection,"final Collection<E> coll, final Transformer<? super E, ? extends E> transformer",<E> TransformedCollection<E>,1,P
+commons-collections,org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java,unmodifiableBoundedCollection,final BoundedCollection<? extends E> coll,<E> BoundedCollection<E>,6,P
+commons-collections,org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java,unmodifiableBoundedCollection,Collection<? extends E> collection,<E> BoundedCollection<E>,15,P
+commons-collections,org/apache/commons/collections4/collection/UnmodifiableCollection.java,unmodifiableCollection,final Collection<? extends T> coll,<T> Collection<T>,6,P
+commons-collections,org/apache/commons/collections4/comparators/BooleanComparator.java,booleanComparator,final boolean trueFirst,BooleanComparator,1,P
+commons-collections,org/apache/commons/collections4/comparators/BooleanComparator.java,getFalseFirstComparator,,BooleanComparator,1,P
+commons-collections,org/apache/commons/collections4/comparators/BooleanComparator.java,getTrueFirstComparator,,BooleanComparator,1,P
+commons-collections,org/apache/commons/collections4/comparators/ComparableComparator.java,comparableComparator,,<E extends Comparable<? super E>> ComparableComparator<E>,1,P
+commons-collections,org/apache/commons/collections4/functors/AllPredicate.java,allPredicate,final Collection<? extends Predicate<? super T>> predicates,<T> Predicate<T>,8,P
+commons-collections,org/apache/commons/collections4/functors/AllPredicate.java,allPredicate,final Predicate<? super T>... predicates,<T> Predicate<T>,8,P
+commons-collections,org/apache/commons/collections4/functors/AndPredicate.java,andPredicate,"final Predicate<? super T> predicate1, final Predicate<? super T> predicate2",<T> Predicate<T>,2,P
+commons-collections,org/apache/commons/collections4/functors/AnyPredicate.java,anyPredicate,final Collection<? extends Predicate<? super T>> predicates,<T> Predicate<T>,8,P
+commons-collections,org/apache/commons/collections4/functors/AnyPredicate.java,anyPredicate,final Predicate<? super T>... predicates,<T> Predicate<T>,8,P
+commons-collections,org/apache/commons/collections4/functors/ChainedClosure.java,chainedClosure,final Closure<? super E>... closures,<E> Closure<E>,5,P
+commons-collections,org/apache/commons/collections4/functors/ChainedClosure.java,chainedClosure,final Collection<? extends Closure<? super E>> closures,<E> Closure<E>,11,P
+commons-collections,org/apache/commons/collections4/functors/ChainedTransformer.java,chainedTransformer," final Collection<? extends Transformer<? super T, ? extends T>> transformers","<T> Transformer<T, T>",7,P
+commons-collections,org/apache/commons/collections4/functors/ChainedTransformer.java,chainedTransformer,"final Transformer<? super T, ? extends T>... transformers","<T> Transformer<T, T>",5,P
+commons-collections,org/apache/commons/collections4/functors/CloneTransformer.java,cloneTransformer,,"<T> Transformer<T, T>",1,P
+commons-collections,org/apache/commons/collections4/functors/ClosureTransformer.java,closureTransformer,final Closure<? super T> closure,"<T> Transformer<T, T>",1,P
+commons-collections,org/apache/commons/collections4/functors/ComparatorPredicate.java,comparatorPredicate,"final T object, final Comparator<T> comparator",<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/ComparatorPredicate.java,comparatorPredicate,"final T object, final Comparator<T> comparator, final Criterion criterion",<T> Predicate<T>,2,P
+commons-collections,org/apache/commons/collections4/functors/ConstantFactory.java,constantFactory,final T constantToReturn,<T> Factory<T>,4,P
+commons-collections,org/apache/commons/collections4/functors/ConstantTransformer.java,constantTransformer,final O constantToReturn,"<I, O> Transformer<I, O>",4,P
+commons-collections,org/apache/commons/collections4/functors/ConstantTransformer.java,nullTransformer,,"<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/functors/DefaultEquator.java,defaultEquator,,<T> DefaultEquator<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/EqualPredicate.java,equalPredicate,final T object,<T> Predicate<T>,4,P
+commons-collections,org/apache/commons/collections4/functors/EqualPredicate.java,equalPredicate,"final T object, final Equator<T> equator",<T> Predicate<T>,4,P
+commons-collections,org/apache/commons/collections4/functors/ExceptionClosure.java,exceptionClosure,,<T> Closure<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/ExceptionFactory.java,exceptionFactory,,<T> Factory<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/ExceptionPredicate.java,exceptionPredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/ExceptionTransformer.java,exceptionTransformer,,"<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/functors/FactoryTransformer.java,factoryTransformer,final Factory<? extends O> factory,"<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/functors/FalsePredicate.java,falsePredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/ForClosure.java,forClosure,"final int count, final Closure<? super E> closure",<E> Closure<E>,7,P
+commons-collections,org/apache/commons/collections4/functors/FunctorUtils.java,clone,final T... array,<T> T[],1,P
+commons-collections,org/apache/commons/collections4/functors/FunctorUtils.java,coerce,final P transformer,"<R extends Function<I, O>, P extends Function<? super I, ? extends O>, I, O> R",1,P
+commons-collections,org/apache/commons/collections4/functors/FunctorUtils.java,copy,final T... consumers,<T extends Consumer<?>> T[],1,P
+commons-collections,org/apache/commons/collections4/functors/FunctorUtils.java,copy,final T... transformers,"<T extends Function<?, ?>> T[]",1,P
+commons-collections,org/apache/commons/collections4/functors/FunctorUtils.java,validate,final Collection<? extends java.util.function.Predicate<? super T>> predicates,<T> Predicate<? super T>[],12,P
+commons-collections,org/apache/commons/collections4/functors/FunctorUtils.java,validate,final Consumer<?>... consumers,void,6,P
+commons-collections,org/apache/commons/collections4/functors/FunctorUtils.java,validate,"final Function<?, ?>... functions",void,6,P
+commons-collections,org/apache/commons/collections4/functors/FunctorUtils.java,validate,final java.util.function.Predicate<?>... predicates,void,6,P
+commons-collections,org/apache/commons/collections4/functors/IdentityPredicate.java,identityPredicate,final T object,<T> Predicate<T>,4,P
+commons-collections,org/apache/commons/collections4/functors/IfClosure.java,ifClosure,"final Predicate<? super E> predicate, final Closure<? super E> trueClosure",<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/functors/IfClosure.java,ifClosure,"final Predicate<? super E> predicate, final Closure<? super E> trueClosure, final Closure<? super E> falseClosure",<E> Closure<E>,3,P
+commons-collections,org/apache/commons/collections4/functors/IfTransformer.java,ifTransformer,"final Predicate<? super I> predicate, final Transformer<? super I, ? extends O> trueTransformer, final Transformer<? super I, ? extends O> falseTransformer","<I, O> Transformer<I, O>",3,P
+commons-collections,org/apache/commons/collections4/functors/IfTransformer.java,ifTransformer," final Predicate<? super T> predicate, final Transformer<? super T, ? extends T> trueTransformer","<T> Transformer<T, T>",2,P
+commons-collections,org/apache/commons/collections4/functors/InstanceofPredicate.java,instanceOfPredicate,final Class<?> type,Predicate<Object>,1,P
+commons-collections,org/apache/commons/collections4/functors/InstantiateFactory.java,instantiateFactory,"final Class<T> classToInstantiate, final Class<?>[] paramTypes, final Object[] args",<T> Factory<T>,10,P
+commons-collections,org/apache/commons/collections4/functors/InstantiateTransformer.java,instantiateTransformer,,"<T> Transformer<Class<? extends T>, T>",1,P
+commons-collections,org/apache/commons/collections4/functors/InstantiateTransformer.java,instantiateTransformer,"final Class<?>[] paramTypes, final Object[] args","<T> Transformer<Class<? extends T>, T>",9,P
+commons-collections,org/apache/commons/collections4/functors/InvokerTransformer.java,invokerTransformer,final String methodName,"<I, O> Transformer<I, O>",1,P
+commons-collections,org/apache/commons/collections4/functors/InvokerTransformer.java,invokerTransformer,"final String methodName, final Class<?>[] paramTypes, final Object[] args","<I, O> Transformer<I, O>",10,P
+commons-collections,org/apache/commons/collections4/functors/MapTransformer.java,mapTransformer,"final Map<? super I, ? extends O> map","<I, O> Transformer<I, O>",4,P
+commons-collections,org/apache/commons/collections4/functors/NonePredicate.java,nonePredicate,final Collection<? extends Predicate<? super T>> predicates,<T> Predicate<T>,5,P
+commons-collections,org/apache/commons/collections4/functors/NonePredicate.java,nonePredicate,final Predicate<? super T>... predicates,<T> Predicate<T>,5,P
+commons-collections,org/apache/commons/collections4/functors/NOPClosure.java,nopClosure,,<E> Closure<E>,1,P
+commons-collections,org/apache/commons/collections4/functors/NOPTransformer.java,nopTransformer,,"<T> Transformer<T, T>",1,P
+commons-collections,org/apache/commons/collections4/functors/NotNullPredicate.java,notNullPredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/NotPredicate.java,notPredicate,final Predicate<? super T> predicate,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/NullIsExceptionPredicate.java,nullIsExceptionPredicate,final Predicate<? super T> predicate,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/NullIsFalsePredicate.java,nullIsFalsePredicate,final Predicate<? super T> predicate,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/NullIsTruePredicate.java,nullIsTruePredicate,final Predicate<? super T> predicate,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/NullPredicate.java,nullPredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/OnePredicate.java,onePredicate,final Collection<? extends Predicate<? super T>> predicates,<T> Predicate<T>,2,P
+commons-collections,org/apache/commons/collections4/functors/OnePredicate.java,onePredicate,final Predicate<? super T>... predicates,<T> Predicate<T>,8,P
+commons-collections,org/apache/commons/collections4/functors/OrPredicate.java,orPredicate,"final Predicate<? super T> predicate1, final Predicate<? super T> predicate2",<T> Predicate<T>,2,P
+commons-collections,org/apache/commons/collections4/functors/PredicateTransformer.java,predicateTransformer,final Predicate<? super T> predicate,"<T> Transformer<T, Boolean>",4,P
+commons-collections,org/apache/commons/collections4/functors/PrototypeFactory.java,prototypeFactory,final T prototype,<T> Factory<T>,20,P
+commons-collections,org/apache/commons/collections4/functors/StringValueTransformer.java,stringValueTransformer,,"<T> Transformer<T, String>",1,P
+commons-collections,org/apache/commons/collections4/functors/SwitchClosure.java,switchClosure,"final Map<Predicate<E>, Closure<E>> predicatesAndClosures",<E> Closure<E>,16,P
+commons-collections,org/apache/commons/collections4/functors/SwitchClosure.java,switchClosure,"final Predicate<? super E>[] predicates, final Closure<? super E>[] closures, final Closure<? super E> defaultClosure",<E> Closure<E>,9,P
+commons-collections,org/apache/commons/collections4/functors/SwitchTransformer.java,switchTransformer," final Map<? extends Predicate<? super I>, ? extends Transformer<? super I, ? extends O>> map","<I, O> Transformer<I, O>",21,P
+commons-collections,org/apache/commons/collections4/functors/SwitchTransformer.java,switchTransformer,"final Predicate<? super I>[] predicates, final Transformer<? super I, ? extends O>[] transformers, final Transformer<? super I, ? extends O> defaultTransformer","<I, O> Transformer<I, O>",10,P
+commons-collections,org/apache/commons/collections4/functors/TransformedPredicate.java,transformedPredicate,"final Transformer<? super T, ? extends T> transformer, final Predicate<? super T> predicate",<T> Predicate<T>,2,P
+commons-collections,org/apache/commons/collections4/functors/TransformerClosure.java,transformerClosure,"final Transformer<? super E, ?> transformer",<E> Closure<E>,4,P
+commons-collections,org/apache/commons/collections4/functors/TransformerPredicate.java,transformerPredicate,"final Transformer<? super T, Boolean> transformer",<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/TruePredicate.java,truePredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/UniquePredicate.java,uniquePredicate,,<T> Predicate<T>,1,P
+commons-collections,org/apache/commons/collections4/functors/WhileClosure.java,whileClosure,"final Predicate<? super E> predicate, final Closure<? super E> closure, final boolean doLoop",<E> Closure<E>,2,P
+commons-collections,org/apache/commons/collections4/iterators/EmptyIterator.java,emptyIterator,,<E> Iterator<E>,1,P
+commons-collections,org/apache/commons/collections4/iterators/EmptyIterator.java,resettableEmptyIterator,,<E> ResettableIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/iterators/EmptyListIterator.java,emptyListIterator,,<E> ListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/iterators/EmptyListIterator.java,resettableEmptyListIterator,,<E> ResettableListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/iterators/EmptyMapIterator.java,emptyMapIterator,,"<K, V> MapIterator<K, V>",1,P
+commons-collections,org/apache/commons/collections4/iterators/EmptyOrderedIterator.java,emptyOrderedIterator,,<E> OrderedIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/iterators/EmptyOrderedMapIterator.java,emptyOrderedMapIterator,,"<K, V> OrderedMapIterator<K, V>",1,P
+commons-collections,org/apache/commons/collections4/iterators/ExtendedIterator.java,create,final Iterator<T> it,<T> ExtendedIterator<T>,1,P
+commons-collections,org/apache/commons/collections4/iterators/ExtendedIterator.java,create,final Stream<T> stream,<T> ExtendedIterator<T>,1,P
+commons-collections,org/apache/commons/collections4/iterators/ExtendedIterator.java,createNoRemove,final Iterator<T> it,<T> ExtendedIterator<T>,1,P
+commons-collections,org/apache/commons/collections4/iterators/ExtendedIterator.java,emptyIterator,,ExtendedIterator<?>,1,P
+commons-collections,org/apache/commons/collections4/iterators/ExtendedIterator.java,flatten,final Iterator<Iterator<T>> iterators,<T> ExtendedIterator<T>,1,P
+commons-collections,org/apache/commons/collections4/iterators/IteratorIterable.java,createTypesafeIterator,final Iterator<? extends E> iterator,<E> Iterator<E>,14,P
+commons-collections,org/apache/commons/collections4/iterators/PeekingIterator.java,peekingIterator,final Iterator<? extends E> iterator,<E> PeekingIterator<E>,7,P
+commons-collections,org/apache/commons/collections4/iterators/PushbackIterator.java,pushbackIterator,final Iterator<? extends E> iterator,<E> PushbackIterator<E>,7,P
+commons-collections,org/apache/commons/collections4/iterators/UnmodifiableIterator.java,unmodifiableIterator,final Iterator<? extends E> iterator,<E> Iterator<E>,7,P
+commons-collections,org/apache/commons/collections4/iterators/UnmodifiableIterator.java,wrap,final T iterator,"<E, T extends Iterator<? extends E>> UnmodifiableIterator<E, T>",1,P
+commons-collections,org/apache/commons/collections4/iterators/UnmodifiableListIterator.java,umodifiableListIterator,final ListIterator<? extends E> iterator,<E> ListIterator<E>,1,P
+commons-collections,org/apache/commons/collections4/iterators/UnmodifiableListIterator.java,unmodifiableListIterator,final ListIterator<? extends E> iterator,<E> ListIterator<E>,7,P
+commons-collections,org/apache/commons/collections4/iterators/UnmodifiableMapIterator.java,unmodifiableMapIterator," final MapIterator<? extends K, ? extends V> iterator","<K, V> MapIterator<K, V>",7,P
+commons-collections,org/apache/commons/collections4/iterators/UnmodifiableOrderedMapIterator.java,unmodifiableOrderedMapIterator," final OrderedMapIterator<K, ? extends V> iterator","<K, V> OrderedMapIterator<K, V>",7,P
+commons-collections,org/apache/commons/collections4/keyvalue/MultiKey.java,getClass,final T value,<T> Class<? extends T>,1,P
+commons-collections,org/apache/commons/collections4/keyvalue/MultiKey.java,getComponentType,final T... values,<T> Class<? extends T>,14,P
+commons-collections,org/apache/commons/collections4/keyvalue/MultiKey.java,newArray,"final T key1, final T key2",<T> T[],5,P
+commons-collections,org/apache/commons/collections4/keyvalue/MultiKey.java,newArray,"final T key1, final T key2, final T key3",<T> T[],6,P
+commons-collections,org/apache/commons/collections4/keyvalue/MultiKey.java,newArray,"final T key1, final T key2, final T key3, final T key4",<T> T[],7,P
+commons-collections,org/apache/commons/collections4/keyvalue/MultiKey.java,newArray,"final T key1, final T key2, final T key3, final T key4, final T key5",<T> T[],8,P
+commons-collections,org/apache/commons/collections4/list/FixedSizeList.java,fixedSizeList,final List<E> list,<E> FixedSizeList<E>,1,P
+commons-collections,org/apache/commons/collections4/list/FixedSizeList.java,unsupportedOperationException,,UnsupportedOperationException,1,P
+commons-collections,org/apache/commons/collections4/list/GrowthList.java,growthList,final List<E> list,<E> GrowthList<E>,1,P
+commons-collections,org/apache/commons/collections4/list/LazyList.java,lazyList,"final List<E> list, final Factory<? extends E> factory",<E> LazyList<E>,1,P
+commons-collections,org/apache/commons/collections4/list/LazyList.java,lazyList,"final List<E> list, final Transformer<Integer, ? extends E> transformer",<E> LazyList<E>,1,P
+commons-collections,org/apache/commons/collections4/list/PredicatedList.java,predicatedList,"final List<T> list, final Predicate<? super T> predicate",<T> PredicatedList<T>,1,P
+commons-collections,org/apache/commons/collections4/list/SetUniqueList.java,setUniqueList,final List<E> list,<E> SetUniqueList<E>,9,P
+commons-collections,org/apache/commons/collections4/list/TransformedList.java,transformedList,"final List<E> list, final Transformer<? super E, ? extends E> transformer",<E> TransformedList<E>,10,P
+commons-collections,org/apache/commons/collections4/list/TransformedList.java,transformingList,"final List<E> list, final Transformer<? super E, ? extends E> transformer",<E> TransformedList<E>,1,P
+commons-collections,org/apache/commons/collections4/list/TreeList.java,checkInterval,"final int index, final int startIndex, final int endIndex, final int size",void,3,C
+commons-collections,org/apache/commons/collections4/list/UnmodifiableList.java,unmodifiableList,final List<? extends E> list,<E> List<E>,6,P
+commons-collections,org/apache/commons/collections4/map/AbstractReferenceMap.java,resolve,final int value,ReferenceStrength,10,R
+commons-collections,org/apache/commons/collections4/map/ConcurrentReferenceHashMap.java,newArray,final int i,"<K, V> HashEntry<K, V>[]",1,R
+commons-collections,org/apache/commons/collections4/map/ConcurrentReferenceHashMap.java,newArray,final int i,"<K, V> Segment<K, V>[]",1,R
+commons-collections,org/apache/commons/collections4/map/ConcurrentReferenceHashMap.java,eq,"final Object o1, final Object o2",boolean,1,P
+commons-collections,org/apache/commons/collections4/map/ConcurrentReferenceHashMap.java,builder,,"<K, V> Builder<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/ConcurrentReferenceHashMap.java,hash,int h,int,6,T
+commons-collections,org/apache/commons/collections4/map/DefaultedMap.java,defaultedMap,"final Map<K, V> map, final Factory<? extends V> factory","<K, V> DefaultedMap<K, V>",2,P
+commons-collections,org/apache/commons/collections4/map/DefaultedMap.java,defaultedMap,"final Map<K, V> map, final Transformer<? super K, ? extends V> transformer","<K, V> Map<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/DefaultedMap.java,defaultedMap,"final Map<K, V> map, final V defaultValue","<K, V> DefaultedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/FixedSizeMap.java,fixedSizeMap,"final Map<K, V> map","<K, V> FixedSizeMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/FixedSizeSortedMap.java,fixedSizeSortedMap,"final SortedMap<K, V> map","<K, V> FixedSizeSortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/LazyMap.java,lazyMap,"final Map<K, V> map, final Factory<? extends V> factory","<K, V> LazyMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/LazyMap.java,lazyMap,"final Map<K, V> map, final Transformer<? super K, ? extends V> factory","<V, K> LazyMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/LazySortedMap.java,lazySortedMap,"final SortedMap<K, V> map, final Factory<? extends V> factory","<K, V> LazySortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/LazySortedMap.java,lazySortedMap,"final SortedMap<K, V> map, final Transformer<? super K, ? extends V> factory","<K, V> LazySortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/ListOrderedMap.java,listOrderedMap,"final Map<K, V> map","<K, V> ListOrderedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/MultiKeyMap.java,multiKeyMap,"final AbstractHashedMap<MultiKey<? extends K>, V> map","<K, V> MultiKeyMap<K, V>",5,P
+commons-collections,org/apache/commons/collections4/map/MultiValueMap.java,multiValueMap,"final Map<K, ? super C> map, final Class<C> collectionClass","<K, V, C extends Collection<V>> MultiValueMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/MultiValueMap.java,multiValueMap,"final Map<K, ? super C> map, final Factory<C> collectionFactory","<K, V, C extends Collection<V>> MultiValueMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/MultiValueMap.java,multiValueMap,"final Map<K, ? super Collection<V>> map","<K, V> MultiValueMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/PassiveExpiringMap.java,validateAndConvertToMillis,"final long timeToLive, final TimeUnit timeUnit",long,2,P
+commons-collections,org/apache/commons/collections4/map/PredicatedMap.java,predicatedMap,"final Map<K, V> map, final Predicate<? super K> keyPredicate, final Predicate<? super V> valuePredicate","<K, V> PredicatedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/PredicatedSortedMap.java,predicatedSortedMap,"final SortedMap<K, V> map, final Predicate<? super K> keyPredicate, final Predicate<? super V> valuePredicate","<K, V> PredicatedSortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/TransformedMap.java,transformedMap,"final Map<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer","<K, V> TransformedMap<K, V>",7,P
+commons-collections,org/apache/commons/collections4/map/TransformedMap.java,transformingMap,"final Map<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer","<K, V> TransformedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/TransformedSortedMap.java,transformedSortedMap,"final SortedMap<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer","<K, V> TransformedSortedMap<K, V>",8,P
+commons-collections,org/apache/commons/collections4/map/TransformedSortedMap.java,transformingSortedMap,"final SortedMap<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer","<K, V> TransformedSortedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/map/UnmodifiableMap.java,unmodifiableMap,"final Map<? extends K, ? extends V> map","<K, V> Map<K, V>",6,P
+commons-collections,org/apache/commons/collections4/map/UnmodifiableOrderedMap.java,unmodifiableOrderedMap,"final OrderedMap<? extends K, ? extends V> map","<K, V> OrderedMap<K, V>",6,P
+commons-collections,org/apache/commons/collections4/map/UnmodifiableSortedMap.java,unmodifiableSortedMap,"final SortedMap<K, ? extends V> map","<K, V> SortedMap<K, V>",6,P
+commons-collections,org/apache/commons/collections4/multimap/TransformedMultiValuedMap.java,transformedMap,"final MultiValuedMap<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer","<K, V> TransformedMultiValuedMap<K, V>",8,P
+commons-collections,org/apache/commons/collections4/multimap/TransformedMultiValuedMap.java,transformingMap,"final MultiValuedMap<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer","<K, V> TransformedMultiValuedMap<K, V>",1,P
+commons-collections,org/apache/commons/collections4/multimap/UnmodifiableMultiValuedMap.java,unmodifiableMultiValuedMap," final MultiValuedMap<? extends K, ? extends V> map","<K, V> UnmodifiableMultiValuedMap<K, V>",4,P
+commons-collections,org/apache/commons/collections4/multiset/PredicatedMultiSet.java,predicatedMultiSet,"final MultiSet<E> multiset, final Predicate<? super E> predicate",<E> PredicatedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/multiset/PredicatedSortedMultiSet.java,predicatedSortedMultiSet,"final SortedMultiSet<E> multiset, final Predicate<? super E> predicate",<E> PredicatedSortedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/multiset/SynchronizedMultiSet.java,synchronizedMultiSet,final MultiSet<E> multiset,<E> SynchronizedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/multiset/SynchronizedSortedMultiSet.java,synchronizedSortedMultiSet,final SortedMultiSet<E> multiset,<E> SynchronizedSortedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/multiset/TransformedMultiSet.java,transformedMultiSet,"final MultiSet<E> multiset, final Transformer<? super E, ? extends E> transformer",<E> TransformedMultiSet<E>,10,P
+commons-collections,org/apache/commons/collections4/multiset/TransformedMultiSet.java,transformingMultiSet,"final MultiSet<E> multiset, final Transformer<? super E, ? extends E> transformer",<E> TransformedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/multiset/TransformedSortedMultiSet.java,transformedSortedMultiSet,"final SortedMultiSet<E> multiset, final Transformer<? super E, ? extends E> transformer",<E> TransformedSortedMultiSet<E>,10,P
+commons-collections,org/apache/commons/collections4/multiset/TransformedSortedMultiSet.java,transformingSortedMultiSet,"final SortedMultiSet<E> multiset, final Transformer<? super E, ? extends E> transformer",<E> TransformedSortedMultiSet<E>,1,P
+commons-collections,org/apache/commons/collections4/multiset/UnmodifiableMultiSet.java,unmodifiableMultiSet,final MultiSet<? extends E> multiset,<E> MultiSet<E>,6,P
+commons-collections,org/apache/commons/collections4/multiset/UnmodifiableSortedMultiSet.java,unmodifiableSortedMultiSet,final SortedMultiSet<? extends E> multiset,<E> SortedMultiSet<E>,6,P
+commons-collections,org/apache/commons/collections4/properties/AbstractPropertiesFactory.java,toPropertyFormat,final String fileName,PropertyFormat,1,P
+commons-collections,org/apache/commons/collections4/queue/PredicatedQueue.java,predicatedQueue,"final Queue<E> Queue, final Predicate<? super E> predicate",<E> PredicatedQueue<E>,1,P
+commons-collections,org/apache/commons/collections4/queue/SynchronizedQueue.java,synchronizedQueue,final Queue<E> queue,<E> SynchronizedQueue<E>,1,P
+commons-collections,org/apache/commons/collections4/queue/TransformedQueue.java,transformedQueue,"final Queue<E> queue, final Transformer<? super E, ? extends E> transformer",<E> TransformedQueue<E>,10,P
+commons-collections,org/apache/commons/collections4/queue/TransformedQueue.java,transformingQueue,"final Queue<E> queue, final Transformer<? super E, ? extends E> transformer",<E> TransformedQueue<E>,1,P
+commons-collections,org/apache/commons/collections4/queue/UnmodifiableQueue.java,unmodifiableQueue,final Queue<? extends E> queue,<E> Queue<E>,6,P
+commons-collections,org/apache/commons/collections4/set/ListOrderedSet.java,listOrderedSet,final List<E> list,<E> ListOrderedSet<E>,4,P
+commons-collections,org/apache/commons/collections4/set/ListOrderedSet.java,listOrderedSet,final Set<E> set,<E> ListOrderedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/set/ListOrderedSet.java,listOrderedSet,"final Set<E> set, final List<E> list",<E> ListOrderedSet<E>,6,P
+commons-collections,org/apache/commons/collections4/set/MapBackedSet.java,mapBackedSet,"final Map<E, ? super V> map","<E, V> MapBackedSet<E, V>",1,P
+commons-collections,org/apache/commons/collections4/set/MapBackedSet.java,mapBackedSet,"final Map<E, ? super V> map, final V dummyValue","<E, V> MapBackedSet<E, V>",1,P
+commons-collections,org/apache/commons/collections4/set/PredicatedNavigableSet.java,predicatedNavigableSet,"final NavigableSet<E> set, final Predicate<? super E> predicate",<E> PredicatedNavigableSet<E>,1,P
+commons-collections,org/apache/commons/collections4/set/PredicatedSet.java,predicatedSet,"final Set<E> set, final Predicate<? super E> predicate",<E> PredicatedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/set/PredicatedSortedSet.java,predicatedSortedSet,"final SortedSet<E> set, final Predicate<? super E> predicate",<E> PredicatedSortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/set/TransformedNavigableSet.java,transformedNavigableSet,"final NavigableSet<E> set, final Transformer<? super E, ? extends E> transformer",<E> TransformedNavigableSet<E>,10,P
+commons-collections,org/apache/commons/collections4/set/TransformedNavigableSet.java,transformingNavigableSet,"final NavigableSet<E> set, final Transformer<? super E, ? extends E> transformer",<E> TransformedNavigableSet<E>,1,P
+commons-collections,org/apache/commons/collections4/set/TransformedSet.java,transformedSet,"final Set<E> set, final Transformer<? super E, ? extends E> transformer",<E> Set<E>,10,P
+commons-collections,org/apache/commons/collections4/set/TransformedSet.java,transformingSet,"final Set<E> set, final Transformer<? super E, ? extends E> transformer",<E> TransformedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/set/TransformedSortedSet.java,transformedSortedSet,"final SortedSet<E> set, final Transformer<? super E, ? extends E> transformer",<E> TransformedSortedSet<E>,10,P
+commons-collections,org/apache/commons/collections4/set/TransformedSortedSet.java,transformingSortedSet,"final SortedSet<E> set, final Transformer<? super E, ? extends E> transformer",<E> TransformedSortedSet<E>,1,P
+commons-collections,org/apache/commons/collections4/set/UnmodifiableNavigableSet.java,unmodifiableNavigableSet,final NavigableSet<E> set,<E> NavigableSet<E>,4,P
+commons-collections,org/apache/commons/collections4/set/UnmodifiableSet.java,unmodifiableSet,final Set<? extends E> set,<E> Set<E>,6,P
+commons-collections,org/apache/commons/collections4/set/UnmodifiableSortedSet.java,unmodifiableSortedSet,final SortedSet<E> set,<E> SortedSet<E>,4,P
+commons-collections,org/apache/commons/collections4/splitmap/TransformedSplitMap.java,transformingMap,"final Map<K, V> map, final Transformer<? super J, ? extends K> keyTransformer, final Transformer<? super U, ? extends V> valueTransformer","<J, K, U, V> TransformedSplitMap<J, K, U, V>",1,P
+commons-collections,org/apache/commons/collections4/trie/AbstractBitwiseTrie.java,compare,"final Object a, final Object b",boolean,1,P
+commons-collections,org/apache/commons/collections4/trie/AbstractPatriciaTrie.java,isValidUplink,"final TrieEntry<?, ?> next, final TrieEntry<?, ?> from",boolean,1,P
+commons-collections,org/apache/commons/collections4/trie/KeyAnalyzer.java,isEqualBitKey,final int bitIndex,boolean,1,B
+commons-collections,org/apache/commons/collections4/trie/KeyAnalyzer.java,isNullBitKey,final int bitIndex,boolean,1,B
+commons-collections,org/apache/commons/collections4/trie/KeyAnalyzer.java,isOutOfBoundsIndex,final int bitIndex,boolean,1,B
+commons-collections,org/apache/commons/collections4/trie/KeyAnalyzer.java,isValidBitIndex,final int bitIndex,boolean,1,B
+commons-collections,org/apache/commons/collections4/trie/UnmodifiableTrie.java,unmodifiableTrie,"final Trie<K, ? extends V> trie","<K, V> Trie<K, V>",6,P
+commons-collections,org/apache/commons/collections4/trie/analyzer/StringKeyAnalyzer.java,mask,final int bit,int,1,T

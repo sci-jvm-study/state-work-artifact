@@ -1,0 +1,14 @@
+1. Fixed part of the search time. Least squares over the nine programs, median search time in condition `none` against number of states:
+   S0 (ms) = 172 + 0.279 * states   (R^2 = 0.954, slope standard error 0.0233, 95% interval 0.224 to 0.334 ms/state)
+
+2. Per-program share of search time (percent of S0), prediction+capping / features / sum:
+   AllKadaneKadaneSum 3.42 / 1.21 / 4.63; AllSelectionSortSelection 8.59 / 3.02 / 11.61; AllShellSortShell 2.22 / 1.14 / 3.36; JaiLowerBoundLowerBound 2.81 / 1.26 / 4.08; NumIndexIntervalsCompressDuplicates 2.77 / 0.86 / 3.63; NumPartitionCountIndices 9.05 / 2.69 / 11.74; NumSortingSort 9.79 / 2.76 / 12.56; NumSortingSortIndicesInsertionSort 3.66 / 2.42 / 6.08; RngAliasMethodDiscreteSamplerFillRemainingIndices 2.86 / 1.26 / 4.12
+   Predeclared H2(a) is on the sum over programs (5.90% against a bar of 5%).
+   Sum of prediction+capping and features: 8.0% (3.4% to 12.6% for single programs).
+
+3. Prediction cost per state: 45 us (largest program) to 231 us (smallest) inside the short JPF runs; about 18 us per prediction in an isolated loop over 2378 real feature rows after JIT warm-up (ForestBench, reps 16.6 to 21.3 us).
+
+Extrapolation (not a measurement of longer searches):
+  slope 0.279 ms/state: prediction+capping as measured 15.2% | at 17.5 us (warm loop) 5.9% | features as measured 4.3%
+  lower end 0.224 ms/state: prediction+capping as measured 18.9% | at 17.5 us (warm loop) 7.3% | features as measured 5.3%
+  upper end 0.334 ms/state: prediction+capping as measured 12.7% | at 17.5 us (warm loop) 4.9% | features as measured 3.6%

@@ -1,0 +1,74 @@
+Recomputing per-group rho for all six baselines...
+
+=== Each baseline's OWN population (as individually reported) ===
+Baseline                  Groups   Macro rho
+1 JPF built-in                51      -0.175
+2 JPFBar                      48       0.013
+3 Knuth probing               55       0.856
+4 Kilby WBE                   48       0.218
+6 State-count floor           55      -0.449
+5 Group C                     29       0.674
+7 M6 Linear                   29       0.683
+8 M6 RandomForest             29       0.656
+
+=== FAIR COMPARISON: same population all six can score (29 groups) ===
+Groups: ['ArithmeticUtilsMulAndCheck', 'ArrayUtilsIsSorted', 'ArrayUtilsReverse', 'BankAccount', 'BellmanFord', 'BinaryTreeInsert', 'BranchTree', 'CombinedWork', 'EuclideanGcd', 'HasDupes', 'HeapWork', 'InsertionSort', 'NumberUtilsMaxArray', 'RbTreeInsert', 'SortedListInsert', 'TaBFPRT', 'TaBoardPath', 'TaBoyerMoore', 'TaKadaneAlgorithm', 'TaLongestSubarrayWithSumLessOrEqualToK', 'TaMaxSumKSizeSubarray', 'TaMemoryManagementAlgorithms', 'TaRandomizedQuickSort', 'TaSumOfSubset', 'TaTrappingRainwater', 'TaTrinomialTriangle', 'Tsp', 'UnequalWork', 'UnevenTree']
+
+Baseline                  Groups   Macro rho          95% CI
+1 JPF built-in                29      -0.088  [-0.176,-0.003]
+2 JPFBar                      29       0.004  [-0.093,0.114]
+3 Knuth probing               29       0.886  [0.830,0.934]
+4 Kilby WBE                   29       0.131  [0.045,0.233]
+6 State-count floor           29      -0.225  [-0.299,-0.159]
+5 Group C                     29       0.674  [0.526,0.797]
+7 M6 Linear                   29       0.683  [0.552,0.787]
+8 M6 RandomForest             29       0.656  [0.523,0.761]
+
+=== Per-group rho, same population, all six side by side ===
+group                       1      2      3      4      6      5      7      8
+ArithmeticUtilsMulAndCheck  -0.10   0.01   0.82  -0.02  -0.15   0.50   0.50   0.53
+ArrayUtilsIsSorted      -0.06  -0.04   0.98   0.03  -0.04   0.99   0.92   0.92
+ArrayUtilsReverse       -0.39  -0.34   0.91  -0.09  -0.20   0.36   0.53   0.52
+BankAccount             -0.05   0.06   1.00   0.12  -0.14   1.00   0.95   0.87
+BellmanFord              0.05   0.08   0.88   0.13  -0.33   0.74   0.79   0.84
+BinaryTreeInsert         0.01   0.02   0.98   0.04   0.05   0.74   0.77   0.65
+BranchTree              -0.07   0.05   1.00   0.13  -0.18   1.00   0.92   0.92
+CombinedWork             0.25   0.56   0.77   0.61  -0.39   0.87   0.84   0.78
+EuclideanGcd            -0.09  -0.08   0.91  -0.07  -0.04   0.30   0.32   0.32
+HasDupes                -0.18  -0.15   0.92  -0.01  -0.12   1.00   0.55   0.68
+HeapWork                 0.43   0.83   0.62   0.86  -0.66   0.74   0.72   0.70
+InsertionSort            0.03   0.04   0.96   0.07   0.02   0.71   0.61   0.64
+NumberUtilsMaxArray      0.04   0.06   1.00   0.07  -0.05   0.99   0.95   0.95
+RbTreeInsert             0.01   0.20   0.94   0.44  -0.27   0.64   0.63   0.56
+SortedListInsert         0.04   0.05   0.95   0.09   0.04   0.71   0.62   0.61
+TaBFPRT                 -0.27  -0.27   0.43  -0.18  -0.39   0.78   0.76   0.74
+TaBoardPath             -0.17  -0.15   0.87   0.04  -0.20   0.05   0.16   0.11
+TaBoyerMoore            -0.35  -0.13   1.00   0.13  -0.46   1.00   1.00   1.00
+TaKadaneAlgorithm       -0.10  -0.07   0.99   0.11  -0.17   0.76   0.66   0.78
+TaLongestSubarrayWithSumLessOrEqualToK  -0.10  -0.05   0.97   0.15  -0.21   0.82   0.88   0.82
+TaMaxSumKSizeSubarray   -0.42  -0.38   0.85  -0.21  -0.39   0.81   0.86   0.86
+TaMemoryManagementAlgorithms  -0.08  -0.08   0.91  -0.02  -0.07   0.69   0.71   0.65
+TaRandomizedQuickSort   -0.34  -0.27   0.97   0.20  -0.31   1.00   0.79   0.79
+TaSumOfSubset           -0.09  -0.06   0.88   0.01  -0.09   0.68   0.85   0.65
+TaTrappingRainwater     -0.11  -0.03   0.99   0.10  -0.24   0.91   0.93   0.93
+TaTrinomialTriangle     -0.34  -0.30   0.65  -0.17  -0.26  -0.65  -0.71  -0.77
+Tsp                      0.06   0.06   0.98   0.09  -0.03   0.85   0.96   0.46
+UnequalWork              0.48   0.83   0.61   0.85  -0.62   0.84   0.83   0.86
+UnevenTree              -0.61  -0.35   0.99   0.33  -0.62  -0.29   0.54   0.68
+
+==============================================================================
+=== TABLE B: gated M6-RF (eligible) + M5-RandomForest fallback (ineligible), ===
+=== its own full scoreable population, other baselines restricted to it ===
+
+Gated model's own scoreable population: 55 groups
+
+Model                      Groups scored   Macro rho          95% CI
+1 JPF built-in                  51/55         -0.175  [-0.287,-0.069]
+2 JPFBar                        48/55          0.013  [-0.127,0.155]
+3 Knuth probing                 55/55          0.856  [0.802,0.902]
+4 Kilby WBE                     48/55          0.218  [0.098,0.333]
+6 State-count floor             55/55         -0.449  [-0.541,-0.361]
+5 Group C                       29/55          0.674  [0.526,0.797]  (structurally capped at its own 29 groups -- NOT averaged over the full 55-group population, shown for context only)
+M5 alone, Linear (no gating)        55/55          0.553  [0.459,0.646]
+M5 alone, RF (no gating)        55/55          0.448  [0.370,0.521]
+Gated M6-RF+M5-RF               55/55          0.578  [0.487,0.663]

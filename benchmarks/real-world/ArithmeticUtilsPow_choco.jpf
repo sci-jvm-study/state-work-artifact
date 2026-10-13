@@ -1,0 +1,8 @@
+target = ArithmeticUtilsPow
+classpath = bin
+sourcepath = .
+symbolic.method = ArithmeticUtilsPow.classify(sym#sym)
+symbolic.min_int = 0
+symbolic.max_int = 6
+symbolic.dp = choco
+listener = gov.nasa.jpf.symbc.StateWorkListener

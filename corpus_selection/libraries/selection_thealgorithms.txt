@@ -1,0 +1,62 @@
+TaBFPRTInsertionSort                                              SELECTED k=2 states=1497
+TaMaximumSumOfNonAdjacentElementsGetMaxSumApproach1               SELECTED k=2 states=15
+TaStockProfitCalculatorMaxProfit                                  SELECTED k=2 states=27
+TaBoyerMooreCountOccurrences                                      SELECTED k=2 states=31
+TaSumOfSubsetSubsetSum                                            SELECTED k=2 states=481
+TaPerfectNumberIsPerfectNumber                                    SELECTED k=20 states=41
+TaClimbingStairsNumberOfWays                                      SELECTED k=20 states=43
+TaLongestSubarrayWithSumLessOrEqualToKLongestSubarrayWithSumLEK   SELECTED k=3 states=113
+TaTrappingRainwaterTrap                                           SELECTED k=3 states=91
+TaRandomizedQuickSortSwap                                         SELECTED k=4 states=177
+TaKadaneAlgorithmMaxSum                                           SELECTED k=5 states=215
+TaLongestIncreasingSubsequenceNLogNLowerBound                     SELECTED k=5 states=57
+TaMemoryManagementAlgorithmsFindBestFit                           SELECTED k=5 states=651
+TaTrinomialTriangleTrinomialValue                                 SELECTED k=6 states=105
+TaMaxSumKSizeSubarrayMaxSumKSizeSubarray                          SELECTED k=6 states=213
+TaBoardPathBpRS                                                   SELECTED k=6 states=863
+TaAbundantNumberSumOfDivisors                                     below floor (0 non-leaf states)
+TaDigitalRootDigitalRoot                                          below floor (0 non-leaf states)
+TaDigitalRootSingle                                               below floor (0 non-leaf states)
+TaAnytoAnyFromDecimal                                             below floor (1 non-leaf states)
+TaGenericRootGenericRoot                                          below floor (1 non-leaf states)
+TaGenericRootSumOfDigits                                          below floor (1 non-leaf states)
+TaHappyNumberIsHappy                                              below floor (1 non-leaf states)
+TaHappyNumberSumOfSquares                                         below floor (1 non-leaf states)
+TaHexToOctDecimalToOctal                                          below floor (1 non-leaf states)
+TaLuckyNumberIsLuckyRecursiveApproach                             below floor (1 non-leaf states)
+TaDecimalToBinaryConvertUsingConventionalAlgorithm                below floor (2 non-leaf states)
+TaSumOfDigitsSumOfDigits                                          below floor (2 non-leaf states)
+TaChineseRemainderTheoremModInverse                               below floor (3 non-leaf states)
+TaLeastCommonMultipleLcm                                          below floor (3 non-leaf states)
+TaMemoryManagementAlgorithmsFindFirstFit                          below floor (4 non-leaf states)
+TaMinSumKSizeSubarrayMinSumKSizeSubarray                          near-duplicate of selected TaMaxSumKSizeSubarrayMaxSumKSizeSubarray
+TaShuffleArraySwap                                                near-duplicate of selected TaRandomizedQuickSortSwap
+TaArrayRightRotationReverseArray                                  near-duplicate of selected TaRandomizedQuickSortSwap
+TaTilingProblemFillBoard                                          no kept run (compile-failed)
+TaCoinChangeChange                                                no kept run (no-output)
+TaCountFriendsPairingCountFriendsPairing                          no kept run (no-output)
+TaCountingSortComputeHistogram                                    no kept run (no-output)
+TaLongestAlternatingSubsequenceAlternatingLength                  no kept run (no-output)
+TaNewManShanksPrimeNthManShanksPrime                              no kept run (no-output)
+TaSubsetCountGetCount                                             no kept run (no-output)
+TaSubsetCountGetCountSO                                           no kept run (no-output)
+TaSubsetSumSpaceOptimizedIsSubsetSum                              no kept run (no-output)
+TaSubsetSumSubsetSum                                              no kept run (no-output)
+TaRadixSortCountDigits                                            no kept run (over-cap)
+TaAmicableNumberSumOfDividers                                     no kept run (timeout)
+TaAnytoAnyToDecimal                                               no kept run (timeout)
+TaBinomialCoefficientBinomialCoefficient                          no kept run (timeout)
+TaHowManyTimesRotatedRotated                                      no kept run (timeout)
+TaNumberOfDigitsNumberOfDigits                                    no kept run (timeout)
+TaPalindromePrimeReverse                                          no kept run (timeout)
+TaWineProblemWpRecursion                                          no kept run (timeout)
+TaBoardPathBpIS                                                   same source class as TaBoardPathBpRS
+TaBoardPathBpR                                                    same source class as TaBoardPathBpRS
+TaBoyerMooreFindCandidate                                         same source class as TaBoyerMooreCountOccurrences
+TaLongestIncreasingSubsequenceNLogNLengthOfLIS                    same source class as TaLongestIncreasingSubsequenceNLogNLowerBound
+TaMaximumSumOfNonAdjacentElementsGetMaxSumApproach2               same source class as TaMaximumSumOfNonAdjacentElementsGetMaxSumApproach1
+TaMemoryManagementAlgorithmsFindWorstFit                          same source class as TaMemoryManagementAlgorithmsFindBestFit
+TaMemoryManagementAlgorithmsFindMaxElement                        same source class as TaMemoryManagementAlgorithmsFindBestFit
+TaPronicNumberIsPronic                                            tree-isomorphic to TaClimbingStairsNumberOfWays
+TaTribonacciCompute                                               tree-isomorphic to TaClimbingStairsNumberOfWays
+16 selected

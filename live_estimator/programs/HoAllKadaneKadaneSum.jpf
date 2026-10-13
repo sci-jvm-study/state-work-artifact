@@ -1,0 +1,7 @@
+target = HoAllKadaneKadaneSum
+classpath = bin
+sourcepath = .
+symbolic.method = HoAllKadaneKadaneSum.classify(sym#sym#sym#sym)
+symbolic.min_int = -4
+symbolic.max_int = 4
+symbolic.dp = z3

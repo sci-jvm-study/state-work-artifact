@@ -1,0 +1,8 @@
+target = HasDupes
+classpath = bin
+sourcepath = .
+symbolic.method = HasDupes.classify(sym)
+symbolic.min_int = 0
+symbolic.max_int = 99
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

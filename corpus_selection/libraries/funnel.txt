@@ -1,0 +1,40 @@
+commons-lang: 2245 static methods
+  after P: 94
+  after R: 46
+  after T: 38
+  after C: 17
+  after K: 16
+  after B: 4
+candidates: 4
+commons-collections: 751 static methods
+  after P: 26
+  after R: 16
+  after T: 11
+  after C: 4
+  after K: 4
+  after B: 0
+candidates: 0
+commons-math-legacy-core: 75 static methods
+  after P: 5
+  after R: 3
+  after T: 2
+  after C: 2
+  after K: 2
+  after B: 1
+candidates: 1
+commons-math-core: 180 static methods
+  after P: 21
+  after R: 21
+  after T: 16
+  after C: 2
+  after K: 2
+  after B: 0
+candidates: 0
+thealgorithms-java: 1281 static methods
+  after P: 372
+  after R: 285
+  after T: 185
+  after C: 85
+  after K: 80
+  after B: 61
+candidates: 61

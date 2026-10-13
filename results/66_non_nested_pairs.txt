@@ -1,0 +1,14 @@
+=== all non-end states ===
+estimator           non-nested pairs    nested pairs
+live count              +0.042 (42)     -1.000 (55)
+-depth                  +0.539 (42)     +1.000 (55)
+M5-RF raw               +0.338 (42)     +0.523 (55)
+M5-RF capped            +0.418 (40)     +1.000 (53)
+
+=== zero-work childless states left out ===
+estimator           non-nested pairs    nested pairs
+live count              +0.042 (42)     -1.000 (55)
+-depth                  +0.539 (42)     +1.000 (55)
+M5-RF raw               +0.338 (42)     +0.523 (55)
+M5-RF capped            +0.418 (40)     +1.000 (53)
+

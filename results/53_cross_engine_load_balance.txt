@@ -1,0 +1,90 @@
+69 programs with JPF's node count on COASTAL (depth-first)
+
+====================================================================================================
+JPF, on the COASTAL programs
+K = 4: 13 configurations in 10 program groups have a level with >= 16 non-leaf states
+weights                                 macro run time / ideal    vs count: better / worse   p, rank-biserial r
+count                                                    1.186
+M3 RF                                                    1.156                       3 / 3   p = 0.438, r = -0.43
+M5 RF                                                    1.165                       3 / 3   p = 0.688, r = -0.24
+Knuth 30, not charged                                    1.107                       3 / 0   p = 0.25, r = -1.00
+Knuth 30, charged (spread over K)                       22.698                      0 / 10   p = 0.00195, r = +1.00
+hindsight size                                           1.079                       3 / 0   p = 0.25, r = -1.00
+true work                                                1.008                       6 / 0   p = 0.0312, r = -1.00
+
+K = 8: 5 configurations in 5 program groups have a level with >= 32 non-leaf states
+weights                                 macro run time / ideal    vs count: better / worse   p, rank-biserial r
+count                                                    1.351
+M3 RF                                                    1.247                       2 / 1   p = 0.5, r = -0.67
+M5 RF                                                    1.223                       2 / 1   p = 0.5, r = -0.67
+Knuth 30, not charged                                    1.083                       3 / 0   p = 0.25, r = -1.00
+Knuth 30, charged (spread over K)                       18.042                       0 / 5   p = 0.0625, r = +1.00
+hindsight size                                           1.032                       3 / 0   p = 0.25, r = -1.00
+true work                                                1.007                       3 / 0   p = 0.25, r = -1.00
+
+====================================================================================================
+COASTAL (depth-first)
+K = 4: 13 configurations in 10 program groups have a level with >= 16 non-leaf states
+weights                                 macro run time / ideal    vs count: better / worse   p, rank-biserial r
+count                                                    1.248
+M3 RF                                                    1.203                       5 / 3   p = 0.547, r = -0.28
+M5 RF                                                    1.207                       5 / 2   p = 0.469, r = -0.36
+Knuth 30, not charged                                    1.141                       3 / 0   p = 0.25, r = -1.00
+Knuth 30, charged (spread over K)                       16.535                      0 / 10   p = 0.00195, r = +1.00
+hindsight size                                           1.102                       3 / 0   p = 0.25, r = -1.00
+true work                                                1.007                       8 / 0   p = 0.00781, r = -1.00
+
+K = 8: 5 configurations in 5 program groups have a level with >= 32 non-leaf states
+weights                                 macro run time / ideal    vs count: better / worse   p, rank-biserial r
+count                                                    1.357
+M3 RF                                                    1.416                       1 / 3   p = 0.375, r = +0.60
+M5 RF                                                    1.304                       2 / 1   p = 0.5, r = -0.67
+Knuth 30, not charged                                    1.225                       3 / 0   p = 0.25, r = -1.00
+Knuth 30, charged (spread over K)                       16.798                       0 / 5   p = 0.0625, r = +1.00
+hindsight size                                           1.113                       3 / 0   p = 0.25, r = -1.00
+true work                                                1.009                       4 / 0   p = 0.125, r = -1.00
+
+65 programs with JPF's node count on GDart
+
+====================================================================================================
+JPF, on the GDart programs
+K = 4: 9 configurations in 6 program groups have a level with >= 16 non-leaf states
+weights                                 macro run time / ideal    vs count: better / worse   p, rank-biserial r
+count                                                    1.057
+M3 RF                                                    1.142                       0 / 3   p = 0.25, r = +1.00
+M5 RF                                                    1.114                       0 / 3   p = 0.25, r = +1.00
+Knuth 30, not charged                                    1.062                       1 / 1   p = 1, r = +0.33
+Knuth 30, charged (spread over K)                       23.382                       0 / 6   p = 0.0312, r = +1.00
+hindsight size                                           1.055                       1 / 0   p = 1, r = -1.00
+true work                                                1.005                       3 / 0   p = 0.25, r = -1.00
+
+K = 8: 4 configurations in 3 program groups have a level with >= 32 non-leaf states
+weights                                 macro run time / ideal    vs count: better / worse   p, rank-biserial r
+count                                                    1.013
+M3 RF                                                    1.013                       0 / 0   p = nan, r = +nan
+M5 RF                                                    1.013                       0 / 0   p = nan, r = +nan
+Knuth 30, not charged                                    1.009                       1 / 0   p = 1, r = -1.00
+Knuth 30, charged (spread over K)                       25.709                       0 / 3   p = 0.25, r = +1.00
+hindsight size                                           1.009                       1 / 0   p = 1, r = -1.00
+true work                                                1.009                       1 / 0   p = 1, r = -1.00
+
+====================================================================================================
+GDart (work = full run; M3 only)
+K = 4: 9 configurations in 6 program groups have a level with >= 16 non-leaf states
+weights                                 macro run time / ideal    vs count: better / worse   p, rank-biserial r
+count                                                    1.064
+M3 RF                                                    1.169                       0 / 4   p = 0.125, r = +1.00
+Knuth 30, not charged                                    1.066                       1 / 1   p = 1, r = +0.33
+Knuth 30, charged (spread over K)                       11.122                       0 / 6   p = 0.0312, r = +1.00
+hindsight size                                           1.061                       2 / 0   p = 0.5, r = -1.00
+true work                                                1.005                       5 / 0   p = 0.0625, r = -1.00
+
+K = 8: 4 configurations in 3 program groups have a level with >= 32 non-leaf states
+weights                                 macro run time / ideal    vs count: better / worse   p, rank-biserial r
+count                                                    1.036
+M3 RF                                                    1.055                       0 / 1   p = 1, r = +1.00
+Knuth 30, not charged                                    1.036                       1 / 0   p = 1, r = -1.00
+Knuth 30, charged (spread over K)                       12.639                       0 / 3   p = 0.25, r = +1.00
+hindsight size                                           1.034                       1 / 0   p = 1, r = -1.00
+true work                                                1.014                       2 / 0   p = 0.5, r = -1.00
+

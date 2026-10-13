@@ -1,0 +1,19 @@
+58 programs with JPF's node count on COASTAL (both orders) and on GDart
+
+--- JPF ---
+Knuth  1 probe(s): macro rho +0.639 [+0.536, +0.743] over 23 groups; over the 845 of 845 states with non-zero work: median live cost 61% of the state's own subtree work, 0.0% of them cost more than exploring them fully
+Knuth 30 probe(s): macro rho +0.865 [+0.801, +0.922] over 23 groups; over the 845 of 845 states with non-zero work: median live cost 1811% of the state's own subtree work, 99.9% of them cost more than exploring them fully
+M3 RF: raw macro rho +0.517 over 23 groups, capped +0.681 over 23; on the 23 groups both score: raw +0.517 -> capped +0.681; better by > 0.05 in 17, worse by > 0.05 in 0
+M5 RF: raw macro rho +0.598 over 23 groups, capped +0.757 over 22; on the 22 groups both score: raw +0.603 -> capped +0.757; better by > 0.05 in 12, worse by > 0.05 in 0
+
+--- COASTAL (depth-first) ---
+Knuth  1 probe(s): macro rho +0.522 [+0.406, +0.637] over 23 groups; over the 845 of 845 states with non-zero work: median live cost 50% of the state's own subtree work, 0.0% of them cost more than exploring them fully
+Knuth 30 probe(s): macro rho +0.867 [+0.805, +0.922] over 23 groups; over the 845 of 845 states with non-zero work: median live cost 1550% of the state's own subtree work, 100.0% of them cost more than exploring them fully
+M3 RF: raw macro rho +0.460 over 23 groups, capped +0.692 over 23; on the 23 groups both score: raw +0.460 -> capped +0.692; better by > 0.05 in 16, worse by > 0.05 in 0
+M5 RF: raw macro rho +0.575 over 23 groups, capped +0.737 over 23; on the 23 groups both score: raw +0.575 -> capped +0.737; better by > 0.05 in 13, worse by > 0.05 in 0
+
+--- GDart (work = full run; no static features, so M3 only) ---
+Knuth  1 probe(s): macro rho +0.555 [+0.428, +0.668] over 22 groups; over the 845 of 845 states with non-zero work: median live cost 26% of the state's own subtree work, 0.0% of them cost more than exploring them fully
+Knuth 30 probe(s): macro rho +0.821 [+0.748, +0.887] over 23 groups; over the 845 of 845 states with non-zero work: median live cost 750% of the state's own subtree work, 96.1% of them cost more than exploring them fully
+M3 RF: raw macro rho +0.105 over 23 groups, capped +0.576 over 23; on the 23 groups both score: raw +0.105 -> capped +0.576; better by > 0.05 in 17, worse by > 0.05 in 1
+

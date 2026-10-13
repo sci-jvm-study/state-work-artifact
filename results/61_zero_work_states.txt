@@ -1,0 +1,22 @@
+States: 16762; not end states when entered: 10621
+  with a recorded child: 6567 (min work 6)
+  without a recorded child: 4054 (38.2%)
+
+Childless states: work values [np.int64(0)]; entry == exit instruction count in 100%
+Path-condition size at entry: {0: 4054}
+Choice generator types: {'PCChoiceGenerator': 4054}
+Choice generator totals (number of choices): {6: 2420, 12: 1033, 8: 362, 7: 200, 3: 32, 2: 7}
+For comparison, states with children: totals {2: 5828, 6: 405, 1: 116, 12: 101}, median path-condition size 7.0
+
+Data files containing such states (count, share of that file's not-end states):
+  TaBFPRT                                 1177   81.0%
+  HasDupes                                1033   90.2%
+  TaBoardPath                              640   78.7%
+  ArrayUtilsShift                          362   86.8%
+  TaSumOfSubset                            303   72.0%
+  ArrayUtilsReverse                        200   82.3%
+  TaMaxSumKSizeSubarray                    149   76.4%
+  TaRandomizedQuickSort                    124   80.5%
+  ArithmeticUtilsMulAndCheck                39   56.5%
+  TaLongestIncreasingSubsequenceNLogN       27   62.8%
+Data files (configurations) with any: 10 of 116

@@ -1,0 +1,8 @@
+target = HeapWork5
+classpath = bin
+sourcepath = .
+symbolic.method = HeapWork5.classify(sym#sym#sym#sym#sym)
+symbolic.min_int = -100
+symbolic.max_int = 100
+symbolic.dp = z3
+listener = gov.nasa.jpf.symbc.StateWorkListener

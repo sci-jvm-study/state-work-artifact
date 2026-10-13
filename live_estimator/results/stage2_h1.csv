@@ -1,0 +1,10 @@
+program,states,max_rel_builtin,nan_pattern_builtin,max_rel_jpfbar,nan_pattern_jpfbar,max_rel_Rcap,nan_pattern_Rcap,max_rel_Rraw,nan_pattern_Rraw
+AllKadaneKadaneSum,71,0.0,True,0.0,True,1.3361823970081694e-16,True,3.272867402295662e-16,True
+AllSelectionSortSelection,477,6.369904603786877e-15,True,6.4935520785394205e-15,True,3.991713555002908e-16,True,4.676535796190092e-16,True
+AllShellSortShell,47,0.0,True,0.0,True,1.6563800024717374e-16,True,2.0943335557033968e-16,True
+JaiLowerBoundLowerBound,57,1.4988010832439637e-15,True,1.4988010832439637e-15,True,4.326488756345698e-16,True,4.416969374532309e-16,True
+NumIndexIntervalsCompressDuplicates,45,0.0,True,0.0,True,2.5700092805654493e-16,True,2.39043903102198e-16,True
+NumPartitionCountIndices,481,1.4988010832439637e-15,True,1.4988010832439637e-15,True,3.063032151695189e-16,True,4.4182045014444917e-16,True
+NumSortingSort,1183,6.369904603786877e-15,True,7.117922454125396e-15,True,4.1146599813414846e-16,True,4.2488288364265574e-16,True
+NumSortingSortIndicesInsertionSort,333,0.0,True,0.0,True,5.868835291976159e-16,True,3.1683433150495336e-16,True
+RngAliasMethodDiscreteSamplerFillRemainingIndices,89,9.466112104698792e-15,True,6.866193721753932e-15,True,3.904211232387816e-16,True,4.779314095372157e-16,True

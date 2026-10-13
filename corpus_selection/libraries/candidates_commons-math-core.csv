@@ -1,0 +1,181 @@
+library,file,method,signature,returns,loc,failed_stage
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,doubleHighPart,double d,double,6,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,cosh,double x,double,43,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,sinh,double x,double,82,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,tanh,double x,double,72,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,acosh,final double a,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,asinh,double a,double,21,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,atanh,double a,double,21,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,signum,final double a,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,signum,final float a,float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,nextUp,final double a,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,nextUp,final float a,float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,nextDown,final double a,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,nextDown,final float a,float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,exp,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,exp,"double x, double extra, double[] hiPrec",double,65,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,expm1,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,expm1,"double x, double[] hiPrecOut",double,91,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,log,final double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,log,"final double x, final double[] hiPrec",double,131,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,log1p,final double x,double,22,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,log10,final double x,double,11,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,log,"double base, double x",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,pow,"final double x, final double y",double,80,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,pow,"double d, int e",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,pow,"double d, long e",double,7,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,polySine,final double x,double,7,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,polyCosine,double x,double,7,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,sinQ,"double xa, double xb",double,39,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,cosQ,"double xa, double xb",double,6,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,tanQ,"double xa, double xb, boolean cotanFlag",double,68,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,reducePayneHanek,"double x, double[] result",void,134,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,sin,double x,double,46,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,cos,double x,double,33,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,tan,double x,double,51,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,atan,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,atan,"double xa, double xb, boolean leftPlane",double,93,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,atan2,"double y, double x",double,59,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,asin,double x,double,44,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,acos,double x,double,47,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,cbrt,double x,double,47,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,toRadians,double x,double,12,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,toDegrees,double x,double,8,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,abs,final int x,int,2,T
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,abs,final long x,long,2,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,abs,final float x,float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,abs,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,ulp,double x,double,4,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,ulp,float x,float,4,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,scalb,"final double d, final int n",double,50,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,scalb,"final float f, final int n",float,50,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,nextAfter,"double d, double direction",double,16,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,nextAfter,"final float f, final double direction",float,16,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,floor,double x,double,15,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,ceil,double x,double,13,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,rint,double x,double,13,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,round,double x,long,12,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,round,final float x,int,12,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,min,"final int a, final int b",int,1,B
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,min,"final long a, final long b",long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,min,"final float a, final float b",float,14,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,min,"final double a, final double b",double,14,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,max,"final int a, final int b",int,1,B
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,max,"final long a, final long b",long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,max,"final float a, final float b",float,14,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,max,"final double a, final double b",double,14,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,hypot,"final double x, final double y",double,19,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,IEEEremainder,"final double dividend, final double divisor",double,11,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,toIntExact,final long n,int,5,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,incrementExact,final int n,int,4,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,incrementExact,final long n,long,4,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,decrementExact,final int n,int,4,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,decrementExact,final long n,long,4,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,addExact,"final int a, final int b",int,6,T
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,addExact,"final long a, final long b",long,6,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,subtractExact,"final int a, final int b",int,6,T
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,subtractExact,"final long a, final long b",long,6,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,multiplyExact,"final int a, final int b",int,11,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,multiplyExact,"final long a, final long b",long,11,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,floorDiv,"final int a, final int b",int,9,T
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,floorDiv,"final long a, final long b",long,9,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,floorMod,"final int a, final int b",int,9,T
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,floorMod,"final long a, final long b",long,9,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,copySign,"double magnitude, double sign",double,6,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,copySign,"float magnitude, float sign",float,6,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,getExponent,final double d,int,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMath.java,getExponent,final float f,int,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,buildSinCosTables,"double[] SINE_TABLE_A, double[] SINE_TABLE_B, double[] COSINE_TABLE_A, double[] COSINE_TABLE_B, int SINE_TABLE_LEN, double[] TANGENT_TABLE_A, double[] TANGENT_TABLE_B",void,67,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,slowCos,"final double x, final double[] result",double,27,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,slowSin,"final double x, final double[] result",double,27,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,slowexp,"final double x, final double[] result",double,21,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,split,"final double d, final double[] split",void,9,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,resplit,final double[] a,void,11,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,splitMult,"double[] a, double[] b, double[] ans",void,3,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,splitAdd,"final double[] a, final double[] b, final double[] ans",void,3,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,splitReciprocal,"final double[] in, final double[] result",void,18,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,quadMult,"final double[] a, final double[] b, final double[] result",void,34,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,expint,"int p, final double[] result",double,21,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,slowLog,double xi,double[],28,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathCalc.java,printarray,"PrintStream out, String name, int expectedLen, double[][] array2d",void,11,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathLiteralArrays.java,loadExpIntA,,double[],1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathLiteralArrays.java,loadExpIntB,,double[],1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathLiteralArrays.java,loadExpFracA,,double[],1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathLiteralArrays.java,loadExpFracB,,double[],1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/AccurateMathLiteralArrays.java,loadLnMant,,double[][],1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,abs,int x,int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,abs,long x,long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,abs,float x,float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,abs,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,acos,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,acosh,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,addExact,"int x, int y",int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,addExact,"long x, long y",long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,asin,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,asinh,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,atan,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,atan2,"double y, double x",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,atanh,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,cbrt,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,ceil,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,copySign,"float x, float y",float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,copySign,"double x, double y",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,cos,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,cosh,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,decrementExact,int x,int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,decrementExact,long x,long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,exp,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,expm1,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,floor,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,floorDiv,"int x, int y",int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,floorDiv,"long x, long y",long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,floorMod,"int x, int y",int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,floorMod,"long x, long y",long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,getExponent,float x,int,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,getExponent,double x,int,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,hypot,"double x, double y",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,IEEEremainder,"double x, double y",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,incrementExact,int x,int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,incrementExact,long x,long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,log,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,log10,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,log1p,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,max,"int x, int y",int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,max,"long x, long y",long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,max,"float x, float y",float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,max,"double x, double y",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,min,"int x, int y",int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,min,"long x, long y",long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,min,"float x, float y",float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,min,"double x, double y",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,multiplyExact,"int x, int y",int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,multiplyExact,"long x, long y",long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,negateExact,int x,int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,negateExact,long x,long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,nextAfter,"double x, double y",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,nextAfter,"float x, double y",float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,nextDown,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,nextDown,float x,float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,nextUp,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,nextUp,float x,float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,pow,"double x, double y",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,random,,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,rint,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,round,float x,int,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,round,double x,long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,scalb,"double x, int y",double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,scalb,"float x, int y",float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,signum,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,signum,float x,float,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,sin,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,sinh,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,sqrt,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,subtractExact,"int x, int y",int,1,C
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,subtractExact,"long x, long y",long,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,tan,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,tanh,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,toDegrees,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,toIntExact,long x,int,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,toRadians,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,ulp,double x,double,1,P
+commons-math-core,org/apache/commons/math4/core/jdkmath/JdkMath.java,ulp,float x,float,1,P

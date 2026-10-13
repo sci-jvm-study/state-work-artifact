@@ -1,0 +1,18 @@
+large set: 2 programs with at least 5000 states: ['EuclideanGcd', 'TaSumOfSubset']
+
+=== EuclideanGcd: 12177 states, 6088 non-leaf states, max depth 152
+  live count (state id)            rho = -0.011
+  final subtree size N(s)          rho = +0.985
+  depth rule (-depth, post hoc)    rho = -0.032
+  sibling mean (Group C)           rho = +0.350  on 1019 states
+  Knuth probing, 30 probes         rho = +0.888
+  30-probe cost / work of the state: median 9.28x, share of states where probing costs more than exploring 89.1%  (6088 states with work > 0)
+
+=== TaSumOfSubset: 14999 states, 3259 non-leaf states, max depth 41
+  live count (state id)            rho = +0.014
+  final subtree size N(s)          rho = +0.956
+  depth rule (-depth, post hoc)    rho = +0.336
+  sibling mean (Group C)           rho = +0.797  on 869 states
+  Knuth probing, 30 probes         rho = +0.879
+  30-probe cost / work of the state: median 8.08x, share of states where probing costs more than exploring 89.1%  (3259 states with work > 0)
+

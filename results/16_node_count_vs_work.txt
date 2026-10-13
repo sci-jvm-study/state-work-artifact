@@ -1,0 +1,77 @@
+Non-leaf states: 6567 across 66 program groups.
+
+Sanity check: 0 of 10195 leaf states have nodeCount != 1 (expected 0).
+
+True N(s) (subtree node count, from stateId/parentId) vs W_engine(s) (actualSubtreeWork):
+  Pooled rho = 0.702   Macro rho = 0.952 [0.924,0.978]  groups=55
+
+For comparison, visitation-order rank (stateId(s)) vs W_engine(s), same population:
+  Pooled rho = -0.043   Macro rho = -0.449 [-0.541,-0.361]  groups=55
+
+=== Per-program-group rho for N(s), blank = < 5 rows ===
+Ackermann                  n=6      rho=0.941
+ApplyHanoi                 n=2      rho=--
+ArithmeticUtilsCheck       n=14     rho=1.000
+ArithmeticUtilsMulAndCheck n=30     rho=0.785
+ArrayUtilsIndexOf          n=36     rho=1.000
+ArrayUtilsIsSorted         n=329    rho=1.000
+ArrayUtilsLastIndexOf      n=24     rho=1.000
+ArrayUtilsReverse          n=43     rho=0.985
+ArrayUtilsShift            n=55     rho=0.947
+BankAccount                n=77     rho=0.999
+BellmanFord                n=82     rho=0.886
+BinaryTreeInsert           n=700    rho=0.987
+BinomialCoefficient        n=16     rho=0.996
+BranchTree                 n=116    rho=1.000
+CombinedWork               n=56     rho=0.771
+DelimSearch                n=27     rho=1.000
+EuclideanGcd               n=460    rho=0.989
+EvenOdd                    n=15     rho=1.000
+ExSymExe15                 n=1      rho=--
+ExSymExe20                 n=2      rho=--
+ExSymExe25                 n=3      rho=--
+ExSymExeResearch           n=1      rho=--
+ExSymExeSimple             n=2      rho=--
+ExSymExeSuzette            n=2      rho=--
+Fibonacci                  n=5      rho=1.000
+HanoiSteps                 n=7      rho=1.000
+HasDupes                   n=112    rho=1.000
+HeapWork                   n=56     rho=0.618
+InsertionSort              n=884    rho=1.000
+Learn                      n=5      rho=1.000
+LinkedListFind             n=8      rho=1.000
+Mccarthy91                 n=11     rho=1.000
+MultCommutative            n=13     rho=0.994
+MutableIntOps              n=4      rho=--
+NumberUtilsMax3            n=6      rho=1.000
+NumberUtilsMaxArray        n=636    rho=0.999
+PassCheck                  n=15     rho=0.670
+PrecisionCompare           n=7      rho=1.000
+PrecisionRoundUnscaled     n=4      rho=--
+Primes                     n=10     rho=0.988
+RbTreeInsert               n=34     rho=0.957
+RecursiveAddition          n=10     rho=1.000
+RecursiveAddition_choco    n=83     rho=1.000
+SortedListInsert           n=843    rho=0.996
+StringSearchReplace        n=3      rho=--
+StringUtilsLeft            n=2      rho=--
+TaBFPRT                    n=276    rho=1.000
+TaBoardPath                n=173    rho=0.978
+TaBoyerMoore               n=15     rho=1.000
+TaClimbingStairs           n=21     rho=1.000
+TaKadaneAlgorithm          n=107    rho=0.998
+TaLongestIncreasingSubsequenceNLogN n=16     rho=0.995
+TaLongestSubarrayWithSumLessOrEqualToK n=56     rho=0.967
+TaMaxSumKSizeSubarray      n=46     rho=0.966
+TaMaximumSumOfNonAdjacentElements n=7      rho=1.000
+TaMemoryManagementAlgorithms n=325    rho=0.915
+TaPerfectNumber            n=20     rho=0.882
+TaRandomizedQuickSort      n=30     rho=1.000
+TaStockProfitCalculator    n=13     rho=0.979
+TaSumOfSubset              n=118    rho=0.932
+TaTrappingRainwater        n=45     rho=1.000
+TaTrinomialTriangle        n=52     rho=0.639
+Tsp                        n=303    rho=0.998
+UnequalWork                n=56     rho=0.605
+UnevenTree                 n=23     rho=1.000
+ValidateInclusiveBetween   n=8      rho=1.000

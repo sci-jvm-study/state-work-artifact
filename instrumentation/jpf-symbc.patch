@@ -1,0 +1,37 @@
+diff --git a/jpf.properties b/jpf.properties
+index dd93853..62b8544 100644
+--- a/jpf.properties
++++ b/jpf.properties
+@@ -40,6 +40,12 @@ jpf-symbc.Windows.amd64.native_libraries=\
+   ${jpf-symbc}/lib/libz3java.dll;\
+   ${jpf-symbc}/lib/libz3.dll;
+ 
++# os.name on modern Windows includes the version (e.g. "Windows 11"), so the
++# generic "Windows" key above never matches Config's <os.name>.<os.arch> lookup.
++jpf-symbc.Windows\ 11.amd64.native_libraries=\
++  ${jpf-symbc}/lib/libz3java.dll;\
++  ${jpf-symbc}/lib/libz3.dll;
++
+ jpf-symbc.classpath=\
+   ${jpf-symbc}/build/jpf-symbc-classes.jar
+ 
+diff --git a/src/main/gov/nasa/jpf/symbc/numeric/SymbolicConstraintsGeneral.java b/src/main/gov/nasa/jpf/symbc/numeric/SymbolicConstraintsGeneral.java
+index e0522e1..f4028e6 100644
+--- a/src/main/gov/nasa/jpf/symbc/numeric/SymbolicConstraintsGeneral.java
++++ b/src/main/gov/nasa/jpf/symbc/numeric/SymbolicConstraintsGeneral.java
+@@ -140,7 +140,15 @@ public class SymbolicConstraintsGeneral {
+                 }
+             }
+ 
++            // W_solver instrumentation --
++            // this is THE single dispatch point every decision-procedure backend
++            // goes through (see the dp-selection switch above), so counting/timing
++            // exactly here captures every real solver invocation regardless of
++            // which backend (z3, choco, ...) is configured.
++            long __solverStart = System.nanoTime();
+             result = pb.solve();
++            SolverStats.cumulativeSolveNanos += (System.nanoTime() - __solverStart);
++            SolverStats.invocationCount++;
+         }
+ 
+         if (SymbolicInstructionFactory.debugMode)

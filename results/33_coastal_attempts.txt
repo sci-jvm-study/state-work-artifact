@@ -1,0 +1,16 @@
+failed: ArithmeticUtilsCheck           java.lang.NullPointerException
+failed: ArithmeticUtilsMulAndCheck     unimplemented instruction POP2
+failed: BinaryTreeInsert               java.lang.AssertionError
+failed: BinaryTreeInsert4              java.lang.AssertionError
+failed: BinaryTreeInsert5              java.lang.AssertionError
+failed: BinaryTreeInsertSearch         java.lang.AssertionError
+failed: BinomialCoefficient            unimplemented instruction POP2
+failed: HasDupes                       java.lang.AssertionError
+failed: PassCheck                      java.lang.AssertionError
+failed: RbTreeInsert                   java.lang.AssertionError
+failed: RbTreeInsert2                  java.lang.AssertionError
+failed: Tsp                            unimplemented instruction MULTIANEWARRAY
+failed: Tsp4                           unimplemented instruction MULTIANEWARRAY
+
+attempted 102, completed 89, failed 13: {'java.lang.NullPointerException': 1, 'unimplemented instruction POP2': 2, 'java.lang.AssertionError': 8, 'unimplemented instruction MULTIANEWARRAY': 2}
+completed programs: 89; tree with exactly JPF's node count: 69; single-path tree: 9; other size: 11

@@ -1,0 +1,24 @@
+funnel (cumulative):
+   1033  all Java tasks
+    846  D domain: general-purpose software / tool regression tests
+    231  I inputs: only Verifier.nondetInt()
+    146  T tooling: no bitwise ops, String/float/double/long/char, threads, IO
+     54  V verdict: all expected verdicts true
+     54  U unique program sources
+
+tasks per source folder (all -> passed all stages):
+  autostub                    244 ->   0
+  jbmc-regression             177 ->  13
+  securibench                 113 ->   0
+  jpf-regression              104 ->  15
+  float-nonlinear-calculation   87 ->   0
+  argv-tasks                   70 ->   1
+  MinePump                     64 ->   0
+  java-ranger-regression       41 ->   0
+  algorithms                   40 ->  11
+  float_unboundedloop          30 ->   0
+  jayhorn-recursive            23 ->  13
+  jdart-regression             16 ->   1
+  objects                      14 ->   0
+  juliet-java                   9 ->   0
+  rtems-lock-model              1 ->   0

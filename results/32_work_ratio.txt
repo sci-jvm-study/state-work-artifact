@@ -1,0 +1,2 @@
+engine work: 498 (program, depth) pairs with >= 2 states; ratio > 10 in 121 (24.3%); median 3.16x, 90th percentile 26.4x, maximum 5521.1x (TaTrinomialTriangle, depth 3)
+solver calls: 437 (program, depth) pairs with >= 2 states; ratio > 10 in 113 (25.9%); median 3.27x, 90th percentile 28.6x, maximum 18225.0x (TaTrinomialTriangle, depth 3)

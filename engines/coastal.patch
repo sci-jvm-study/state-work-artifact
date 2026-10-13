@@ -1,0 +1,210 @@
+diff --git a/src/main/java/za/ac/sun/cs/coastal/diver/SymbolicState.java b/src/main/java/za/ac/sun/cs/coastal/diver/SymbolicState.java
+index 7beee61..67e3fb9 100644
+--- a/src/main/java/za/ac/sun/cs/coastal/diver/SymbolicState.java
++++ b/src/main/java/za/ac/sun/cs/coastal/diver/SymbolicState.java
+@@ -273,12 +273,51 @@ public final class SymbolicState extends State {
+ 		mayContinue = false;
+ 	}
+ 
++
++	// WORKPATCH: per-run instruction and branch logging
++	private static final Object RUNLOG_LOCK = new Object();
++	private static long runCounter = 0;
++	private long insnCount = 0;
++
++	private final java.util.ArrayList<String> branchIds = new java.util.ArrayList<>();
++	private final java.util.ArrayList<Long> branchInsn = new java.util.ArrayList<>();
++	private final java.util.ArrayList<Integer> branchInstrId = new java.util.ArrayList<>();
++	private int curInstr = -1; // WORKPATCH
++
++	private void logBranch(String id) {
++		branchIds.add(id);
++		branchInsn.add(insnCount);
++		branchInstrId.add(curInstr);
++	}
++
++	private void flipLastBranchLog(long newAlternative) {
++		if (!branchIds.isEmpty()) {
++			String id = branchIds.get(branchIds.size() - 1);
++			branchIds.set(branchIds.size() - 1, id.substring(0, id.lastIndexOf('#') + 1) + newAlternative);
++		}
++	}
++
++	private void dumpRunLog() {
++		synchronized (RUNLOG_LOCK) {
++			try (java.io.FileWriter fw = new java.io.FileWriter(System.getProperty("coastal.runlog", "coastal_runs.csv"), true)) {
++				StringBuilder sb = new StringBuilder();
++				for (int i = 0; i < branchIds.size(); i++) {
++					sb.append(branchIds.get(i)).append('@').append(branchInsn.get(i)).append('@').append(branchInstrId.get(i)).append('\t');
++				}
++				fw.write((runCounter++) + "," + insnCount + "," + sb + "\n");
++			} catch (java.io.IOException e) {
++				// logging is best-effort
++			}
++		}
++	}
++
+ 	/**
+ 	 * Return the result of the execution.
+ 	 * 
+ 	 * @return result of the execution
+ 	 */
+ 	public Execution getExecution() {
++		dumpRunLog();
+ 		Execution result = new Execution(path, input);
+ 		result.setPayload("lines", lines);
+ 		return result;
+@@ -983,6 +1022,7 @@ public final class SymbolicState extends State {
+ 		if (!SegmentedPC.isConstant(conjunct) || !constantElimination) {
+ 			Branch branch = new SegmentedPC.Binary(conjunct, pendingExtraCondition);
+ 			path = new Path(path, new Choice(branch, truthValue ? 1 : 0));
++			logBranch(conjunct.toString() + "#" + (truthValue ? 1 : 0)); // WORKPATCH
+ 			pendingExtraCondition = null;
+ 			log.trace("    adding conjunct: {}", conjunct.toString());
+ 			log.trace("    path is now: {}", path.getPathCondition().toString());
+@@ -1030,6 +1070,7 @@ public final class SymbolicState extends State {
+ 			}
+ 			Branch branch = new SegmentedPC.Nary(expression, min, max, pendingExtraCondition);
+ 			path = new Path(path, new Choice(branch, cur - min));
++			logBranch(expression.toString() + "#" + (cur - min)); // WORKPATCH
+ 			pendingExtraCondition = null;
+ 			log.trace("    adding (switch) conjunct: {}", conjunct.toString());
+ 			log.trace("    path is now: {}", path.getPathCondition().toString());
+@@ -1065,6 +1106,7 @@ public final class SymbolicState extends State {
+ 			}
+ 			Branch branch = new SegmentedPC.Kary(expression, keys, pendingExtraCondition);
+ 			path = new Path(path, new Choice(branch, choice));
++			logBranch(expression.toString() + "#" + choice); // WORKPATCH
+ 			pendingExtraCondition = null;
+ 			log.trace("    adding (lookup switch) conjunct: {}", conjunct.toString());
+ 			log.trace("    path is now: {}", path.getPathCondition().toString());
+@@ -2241,6 +2283,7 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void insn(int instr, int opcode) throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -2560,6 +2603,7 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void intInsn(int instr, int opcode, int operand) throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -2635,6 +2679,7 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void varInsn(int instr, int opcode, int var) throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -2670,6 +2715,7 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void typeInsn(int instr, int opcode, String type) throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -2710,6 +2756,7 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void fieldInsn(int instr, int opcode, String owner, String name, String descriptor) throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -2751,6 +2798,7 @@ public final class SymbolicState extends State {
+ 	@Override
+ 	public void methodInsn(int instr, int opcode, String owner, String name, String descriptor)
+ 			throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -2807,6 +2855,7 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void invokeDynamicInsn(int instr, int opcode) throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -2859,6 +2908,8 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void jumpInsn(int instr, int opcode) throws COASTALException {
++		insnCount++; // WORKPATCH
++		curInstr = instr; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -2997,6 +3048,7 @@ public final class SymbolicState extends State {
+ 				assert lastBranch instanceof SegmentedPC.Binary;
+ 				long otherAlternative = 1 - lastChoice.getAlternative();
+ 				path = new Path(path.getParent(), new Choice(lastBranch, otherAlternative));
++				flipLastBranchLog(otherAlternative); // WORKPATCH
+ 				checkLimitConjuncts();
+ 				log.trace("    path is now: {}", path.getPathCondition().toString());
+ 			}
+@@ -3018,6 +3070,7 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void ldcInsn(int instr, int opcode, Object value) throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -3062,6 +3115,7 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void iincInsn(int instr, int var, int increment) throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		final int opcode = 132;
+ 		if (!getTrackingMode()) {
+ 			return;
+@@ -3082,6 +3136,8 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void tableSwitchInsn(int instr, int opcode) throws COASTALException {
++		insnCount++; // WORKPATCH
++		curInstr = instr; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -3119,6 +3175,8 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void lookupSwitchInsn(int instr, int opcode) throws COASTALException {
++		insnCount++; // WORKPATCH
++		curInstr = instr; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+@@ -3165,6 +3223,7 @@ public final class SymbolicState extends State {
+ 	 */
+ 	@Override
+ 	public void multiANewArrayInsn(int instr, int opcode) throws COASTALException {
++		insnCount++; // WORKPATCH
+ 		if (!getTrackingMode()) {
+ 			return;
+ 		}
+diff --git a/src/main/java/za/ac/sun/cs/coastal/solver/SolverZ3.java b/src/main/java/za/ac/sun/cs/coastal/solver/SolverZ3.java
+index ca2d7fc..a57634f 100644
+--- a/src/main/java/za/ac/sun/cs/coastal/solver/SolverZ3.java
++++ b/src/main/java/za/ac/sun/cs/coastal/solver/SolverZ3.java
+@@ -666,7 +666,9 @@ public class SolverZ3 extends Solver {
+ 	// ======================================================================
+ 
+ 	private Input retrieveModel(String output, Map<String, Variable> variables) {
+-		output = output.replaceAll("^\\s*\\(model\\s+(.*)\\s*\\)\\s*$", "$1@");
++		// PATCH: Z3 >= 4.8.8 prints "( (define-fun ...) )" without the "model" keyword; the
++		// original regex only matched "(model ...)", so the LAST assignment of every model was silently dropped.
++		output = output.replaceAll("^\\s*\\((?:model)?\\s*(.*)\\s*\\)\\s*$", "$1@");
+ 		output = output.replaceAll("\\)\\s*\\(define-fun", ")@(define-fun");
+ 		output = output.replaceAll(
+ 				"\\(define-fun\\s+([$!\\w-]+)\\s*\\(\\)\\s*((\\w+)|(\\([^)]+\\)))\\s+([^@]+)\\s*\\)@", "$1 == $5 ;; ");
